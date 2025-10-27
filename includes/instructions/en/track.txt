@@ -1,0 +1,4 @@
+<h1>Tracking Task</h1>
+<p>Use the joystick to correct the drift of a cursor. The goal is to keep the device within a tolerance
+zone represented by a circle.
+</p>

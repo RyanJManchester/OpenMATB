@@ -1,0 +1,4 @@
+<h1>Scheduler & Automation</h1>
+<p>At the top right of the screen, a scheduler shows—by task (labeled with a capital letter and a timeline)—
+the periods during which each task is active. An automation system can share workload; when automation is active
+for a task, the scheduler indicates it. This helps you manage effort and allocate resources.</p>

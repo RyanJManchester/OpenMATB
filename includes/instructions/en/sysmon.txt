@@ -1,0 +1,6 @@
+<h1>System Monitoring (SysMon) Task</h1>
+<p>You oversee a set of six gauges. Correct the system when needed:
+- when the green light turns off
+- when the red light turns on
+- or when one of the moving arrows reaches the end of any of the four scales.
+</p>

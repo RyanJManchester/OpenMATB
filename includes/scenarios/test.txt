@@ -1,0 +1,55 @@
+# --- PRE QUESTIONNAIRES (via genericscales) ---
+# NASATLX
+0:00:00;genericscales;filename;nasatlx_en.txt
+0:00:00;genericscales;start
+
+# VAS-F page 1
+# 0:00:01;genericscales;stop
+0:00:01;genericscales;filename;en/vasf_4pp_part1.txt
+0:00:01;genericscales;start
+
+# VAS-F page 2
+# 0:00:02;genericscales;stop
+0:00:02;genericscales;filename;en/vasf_4pp_part2.txt
+0:00:02;genericscales;start
+
+# VAS-F page 3
+# 0:00:03;genericscales;stop
+0:00:03;genericscales;filename;en/vasf_4pp_part3.txt
+0:00:03;genericscales;start
+
+# VAS-F page 4
+# 0:00:04;genericscales;stop
+0:00:04;genericscales;filename;en/vasf_4pp_part4.txt
+0:00:04;genericscales;start
+
+# VAS-F page 5
+# 0:00:05;genericscales;stop
+0:00:05;genericscales;filename;en/vasf_4pp_part5.txt
+0:00:05;genericscales;start
+
+
+
+
+# # --- 30-MIN OPENMATB RUN ---
+# 0:02:35;sysmon;start
+# 0:02:35;track;start
+# 0:02:35;scheduling;start
+# 0:02:35;resman;start
+# 0:02:35;communications;start
+# 
+# # (Optional) schedule in-run events here...
+# 
+# 0:36:35;sysmon;stop
+# 0:36:35;track;stop
+# 0:36:35;communications;stop
+# 0:36:35;resman;stop
+# 0:36:35;scheduling;stop
+# 
+# # --- POST QUESTIONNAIRES (via genericscales) ---
+# 0:36:40;genericscales;filename;en/post_genericscales.txt
+# 0:36:40;genericscales;start
+# 
+# # (Optional) end screen
+# # 0:43:40;instructions;filename;en/thank_you.txt
+# # 0:43:40;instructions;start

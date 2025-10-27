@@ -1,0 +1,4 @@
+<h1>Communications Task</h1>
+<p>In the communications task, you respond to spoken instructions about radio frequencies.
+Some messages are addressed to you (your own call sign); messages addressed to a different call sign must be ignored.
+</p>
