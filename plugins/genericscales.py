@@ -10,6 +10,7 @@ from re import match as regex_match
 class Genericscales(BlockingPlugin):
     def __init__(self):
         super().__init__()
+        
 
         self.folder = P['QUESTIONNAIRES']
         new_par = dict(filename=None, pointsize=0, maxdurationsec=0,
@@ -21,13 +22,52 @@ class Genericscales(BlockingPlugin):
         self.ignore_empty_lines = True
 
         self.regex_scale_pattern = r'(.*);(.*)/(.*);(\d*)/(\d*)/(\d*)'
+       # self.regex_scale_pattern = r'^(.*);(.*);(.*)/(.*);(\d+)/(\d+)/(\d+)$'
+
+        self._clear_previous_page()
         self.question_height_ratio = 0.1  # question + response slider
-        self.question_interspace = 0.05  # Space to leave between two questions
+        self.question_interspace = 0.08  # Space to leave between two questions
         self.top_to_top = self.question_interspace + self.question_height_ratio
+
+    def _clear_previous_page(self):
+        # Clear our own registry
+        self.sliders.clear()
+
+        # Remove previously created label_* and slider_* widgets if tracked
+        # Framework-agnostic: try common teardown methods if present.
+        if hasattr(self, 'widgets'):
+            to_remove = [k for k in list(self.widgets.keys())
+                        if k.startswith('label_') or k.startswith('slider_')]
+            for k in to_remove:
+                w = self.widgets.pop(k, None)
+                if w is not None:
+                    for method in ('destroy', 'dispose', 'kill', 'close'):
+                        if hasattr(w, method):
+                            try:
+                                getattr(w, method)()
+                            except Exception:
+                                pass
+                            break
+
+        # If your container/layer supports clearing children, do it too.
+        if hasattr(self, 'container') and hasattr(self.container, 'clear'):
+            try:
+                self.container.clear()
+            except Exception:
+                pass
+
 
 
     def make_slide_graphs(self):
+        
+        # IMPORTANT: clear previous page so questions don't accumulate
+        self._clear_previous_page()
+
         super().make_slide_graphs()
+
+        # IMPORTANT: clear previous page so questions don't accumulate
+        self._clear_previous_page()
+        
 
         scales = self.current_slide.split('\n')
         scale_list = [s.strip() for s in scales if len(s.strip()) > 0]
@@ -66,6 +106,7 @@ class Genericscales(BlockingPlugin):
         # Useful for replay mode (refresh groove positions)
         if not super().refresh_widgets():
             return
+        
 
         for slider_name, slider in self.sliders.items():
             slider.update()

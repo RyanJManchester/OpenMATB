@@ -1,2 +1,10 @@
 I have a desire to close my eyes;Rate your desire to close your eyes;Absolutely no desire/A tremendous desire;1/7/4
+#
 I have a desire to lie down;Rate your desire to lie down;Absolutely no desire/A tremendous desire;1/7/4
+#
+Queryn;Please rate this Question as 0 if you have been paying attention;Nothing At all/A tremendous desire;0/7/4
+#
+Stanford Sleepiness Scale (SSS); This single-item scale measures your current level of sleepiness. Choose the ONE level (1–7) that fits best.\n 1 = Feeling active and vital, alert, wide awake\n 2 = Functioning at a high level, able to concentrate\n 3 = Relaxed, awake, responsive, not fully alert\n 4 = A little foggy, let down\n 5 = Fogginess, slowed down, losing interest in staying awake\n 6 = Sleepy, woozy, prefer to lie down, fighting sleep\n 7 = Almost in reverie, sleep onset soon, lost struggle to remain awake; Alert/Sleep onset soon;1/7/4
+
+
+

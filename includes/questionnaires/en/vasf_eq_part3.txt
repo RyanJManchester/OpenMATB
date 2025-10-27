@@ -1,0 +1,3 @@
+I feel active;Rate how active you feel right now;Not at all active/Extremely active;1/7/4
+I feel vigorous;Rate how vigorous you feel right now;Not at all vigorous/Extremely vigorous;1/7/4
+I feel efficient;Rate how efficient you feel right now;Not at all efficient/Extremely efficient;1/7/4

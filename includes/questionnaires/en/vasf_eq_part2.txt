@@ -1,0 +1,3 @@
+I feel fatigued;Rate how fatigued you feel right now;Not at all fatigued/Extremely fatigued;1/7/4
+I feel worn out;Rate how worn out you feel right now;Not at all worn out/Extremely worn out;1/7/4
+I feel energetic;Rate how energetic you feel right now;Not at all energetic/Extremely energetic;1/7/4

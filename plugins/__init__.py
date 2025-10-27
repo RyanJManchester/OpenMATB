@@ -14,3 +14,7 @@ from .labstreaminglayer import Labstreaminglayer
 from .parallelport import Parallelport
 from .performance import Performance
 from .generictrigger import Generictrigger
+from .link import *
+# plugins/__init__.py
+from .pvt import Pvt
+__all__ = [*globals().get("__all__", []), "Pvt"]

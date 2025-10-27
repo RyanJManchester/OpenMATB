@@ -1,0 +1,3 @@
+Keeping my eyes open is...;Rate the effort of keeping your eyes open;No effort at all/A tremendous chore;1/7/4
+Moving my body is...;Rate the effort of moving your body;No effort at all/A tremendous chore;1/7/4
+Concentrating is...;Rate the effort of concentrating;No effort at all/A tremendous chore;1/7/4
