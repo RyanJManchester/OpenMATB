@@ -1,1 +1,5 @@
 <h1>pre task questions</h1>
+
+<p> If you have any questions on how to control the flight simulator, ask now.</p>
+
+<p>We'll otherwise run through some subjective questions, these should be quick</p>.
