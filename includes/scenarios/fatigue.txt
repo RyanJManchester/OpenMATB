@@ -87,7 +87,9 @@
 0:02:30;resman;stop
 0:02:30;scheduling;stop
 
-
+# --- PreTask QUestionnares
+0:02:30;instructions;filename;en/pre_task_instructions.txt
+0:02:30;instructions;start
 
 
 # --- 30-MIN OPENMATB RUN ---
