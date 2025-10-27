@@ -89,11 +89,6 @@
 
 
 
-# --- PRE QUESTIONNAIRES (via genericscales) ---
-0:02:35;genericscales;filename;en/pre_genericscales.txt
-0:02:35;genericscales;start
-
-
 
 # --- 30-MIN OPENMATB RUN ---
 0:06:35;sysmon;start
@@ -109,11 +104,3 @@
 0:36:35;communications;stop
 0:36:35;resman;stop
 0:36:35;scheduling;stop
-
-# --- POST QUESTIONNAIRES (via genericscales) ---
-0:36:40;genericscales;filename;en/post.txt
-0:36:40;genericscales;start
-
-# (Optional) end screen
-# 0:43:40;instructions;filename;en/thank_you.txt
-# 0:43:40;instructions;start
