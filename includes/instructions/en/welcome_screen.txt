@@ -3,3 +3,9 @@
 Because it requires participants to control several tasks at the same time, it enables a detailed
 understanding of the mental processes involved in managing complex, dynamic situations.
 </p>
+
+<h2>We Will run through a demo where you learn how to control each section</h2>
+
+<h2>Next, We'll Set up some sensors and perform a 5 minute rest to get a baseline for our data.</h2>
+
+<h2>Then, we will run through some questionares - these should not take long</h2>

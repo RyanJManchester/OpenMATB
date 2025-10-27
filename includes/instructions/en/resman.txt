@@ -2,3 +2,8 @@
 <p>Reduce leakage from the two main tanks (A and B) by using a set of backup tanks and pumps,
 each with its own power level. Turn the numbered pumps on or off to bring tanks A and B as close
 as possible to their normal levels. Note: pumps may sometimes fail (red).</p>
+
+<p>Controls:</p>
+
+<p>Press the numbers on the keypad corresponding to the pump number to turn it off
+
