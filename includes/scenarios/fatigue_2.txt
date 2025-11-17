@@ -1,5 +1,6 @@
 # OpenMATB Demonstration Scenario
-
+0:00:00;communications;voicegender;male
+0:00:00;communications;voiceidiom;english
 0:00:00;sysmon;stop
 0:00:00;track;stop
 0:00:00;communications;stop
@@ -104,16 +105,21 @@
 0:02:30;genericscales;start
 0:02:30;genericscales;filename;en/vasf_eq_part6.txt
 0:02:30;genericscales;start
-0:02:30;genericscales;filename;nasatlxshort_en_1.txt
-0:02:30;genericscales;start
-0:02:30;genericscales;filename;nasatlxshort_en_2.txt
-0:02:30;genericscales;start
+# 0:02:30;genericscales;filename;nasatlxshort_en_1.txt
+# 0:02:30;genericscales;start
+# 0:02:30;genericscales;filename;nasatlxshort_en_2.txt
+# 0:02:30;genericscales;start
 0:02:30;instructions;filename;en/pvt_instructions.txt
 0:02:30;instructions;start
 
 
 
 # --- 30-MIN OPENMATB RUN ---
+0:02:30;sysmon;show
+0:02:30;track;show
+0:02:30;scheduling;show
+0:02:30;resman;show
+0:02:30;communications;show
 0:02:30;sysmon;start
 0:02:30;track;start
 0:02:30;scheduling;start
@@ -124,6 +130,10 @@
 0:02:30;scheduling;show
 0:02:30;resman;show
 0:02:30;communications;show
+0:02:30;track;start
+0:02:30;scheduling;start
+0:02:30;resman;start
+0:02:30;communications;start
 # # Failures during simulation
 0:03:00;communications;radioprompt;other
 0:04:04;sysmon;lights-2-failure;true
@@ -188,7 +198,7 @@
 0:32:35;genericscales;filename;en/vasf_eq_part3.txt
 0:32:35;genericscales;start
 0:32:35;genericscales;filename;en/vasf_eq_part4.txt
-0:32:35;genericscales;start
+0:32:35;genericscales;start 
 0:32:35;genericscales;filename;en/vasf_eq_part5.txt
 0:32:35;genericscales;start
 0:32:35;genericscales;filename;en/vasf_eq_part6.txt
