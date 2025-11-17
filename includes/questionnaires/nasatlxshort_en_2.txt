@@ -1,0 +1,3 @@
+Performance;Performance;Good/Poor;0/10/5
+Effort;Effort;Low/High;0/10/5
+Frustration;Frustration;Low/High;0/10/5

@@ -1,4 +1,8 @@
 <h1>Communications Task</h1>
 <p>In the communications task, you respond to spoken instructions about radio frequencies.
-Some messages are addressed to you (your own call sign); messages addressed to a different call sign must be ignored.
+Some messages are addressed to you (your own call sign displayed); messages addressed to a different call sign must be ignored.
 </p>
+
+<p>Controls:</p>
+<p>Press the up and down keys to select the channel</p>
+<p>Press the left and right keys to change the radio frequency to the requested number.</p>
