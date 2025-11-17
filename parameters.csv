@@ -74,8 +74,8 @@ communications,airbandminMhz,"Minimum radio frequency, in Mhz",(positive float),
 communications,airbandmaxMhz,"Maximum radio frequency, in Mhz",(positive float),137.0
 communications,airbandminvariationMhz,Minimum frequency variation of the target radio,(positive integer),5
 communications,airbandmaxvariationMhz,Maximum frequency variation of the target radio,(positive integer),6
-communications,voiceidiom,Voice idiom. The corresponding folder must be present in the Sound directory,`english` or `french`,french
-communications,voicegender,Voice gender. The corresponding folder must be present in the selected idiom directory,`male` or `female`,female
+communications,voiceidiom,Voice idiom. The corresponding folder must be present in the Sound directory,`english` or `french`,"english"
+communications,voicegender,Voice gender. The corresponding folder must be present in the selected idiom directory,`male` or `female`,"male"
 communications,radioprompt,Use it to trigger either a target (own) or a distractor (other) prompt [own or other]. Initially empty. Will be emptied at the end of the prompt,`own` or `other`,(empty)
 communications,promptlist,"List of radio labels, in their order of appearance. Each corresponding file must be available in the sound folder. This list is used both for target and distractors radio lists.",(list of string),"[NAV1, NAV2, COM1, COM2]"
 communications,maxresponsedelay,Maximum response delay (ms),(positive integer),20000
