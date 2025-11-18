@@ -1,0 +1,32 @@
+logtime,scenario_time,type,module,address,value
+1.059935,0,version,,,1.4.1
+1.060603,0,scenario_path,,,includes\scenarios\fatigue_2.txt
+1.062142,0,seed_value,communications,,
+1.062183,0,seed_output,communications,,EOL923
+1.062347,0,seed_value,communications,,
+1.062374,0,seed_output,communications,,QOK886
+1.062482,0,seed_value,communications,,
+1.062496,0,seed_output,communications,,EYP842
+1.062583,0,seed_value,communications,,
+1.062595,0,seed_output,communications,,XJY070
+1.062674,0,seed_value,communications,,
+1.062685,0,seed_output,communications,,GWT153
+1.062777,0,seed_value,communications,,
+1.062796,0,seed_output,communications,,EXG814
+1.062888,0,seed_value,communications,,
+1.062901,0,seed_output,communications,,CYT425
+1.062982,0,seed_value,communications,,
+1.062995,0,seed_output,communications,,CSF267
+1.063028,0,seed_value,communications,,
+1.063037,0,seed_output,communications,,131.174346
+1.063062,0,seed_value,communications,,
+1.063078,0,seed_output,communications,,131.619866
+1.063108,0,seed_value,communications,,
+1.063117,0,seed_output,communications,,112.214749
+1.06314,0,seed_value,communications,,
+1.063149,0,seed_output,communications,,115.873242
+5.988458,0,dialog,,,OpenMATB end
+6.008527,0.017587,event,sysmon,self,stop
+7.138108,0.017587,dialog,,,Warning end
+7.13828,0.034508,event,track,self,stop
+7.138303,0.034508,manual,,,end

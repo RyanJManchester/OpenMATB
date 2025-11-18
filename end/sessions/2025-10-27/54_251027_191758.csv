@@ -1,0 +1,676 @@
+logtime,scenario_time,type,module,address,value
+0.723055,0,version,,,1.4.1
+0.723592,0,scenario_path,,,includes\scenarios\fatigue.txt
+0.724284,0,seed_value,communications,,
+0.724312,0,seed_output,communications,,RAP848
+0.724407,0,seed_value,communications,,
+0.724419,0,seed_output,communications,,BLS903
+0.724506,0,seed_value,communications,,
+0.724518,0,seed_output,communications,,HCU702
+0.724603,0,seed_value,communications,,
+0.724613,0,seed_output,communications,,PFR354
+0.7247,0,seed_value,communications,,
+0.724711,0,seed_output,communications,,OOJ471
+0.724789,0,seed_value,communications,,
+0.724799,0,seed_output,communications,,PDU968
+0.724881,0,seed_value,communications,,
+0.724891,0,seed_output,communications,,CJN374
+0.724974,0,seed_value,communications,,
+0.724986,0,seed_output,communications,,XOW819
+0.725018,0,seed_value,communications,,
+0.725027,0,seed_output,communications,,134.495646
+0.725052,0,seed_value,communications,,
+0.725062,0,seed_output,communications,,110.619856
+0.725086,0,seed_value,communications,,
+0.725094,0,seed_output,communications,,136.011656
+0.725115,0,seed_value,communications,,
+0.725124,0,seed_output,communications,,109.234406
+3.930884,0,dialog,,,OpenMATB end
+3.931106,0.01685,input,joystick,x,-0.007828
+3.931138,0.01685,input,joystick,y,0.076493
+3.931225,0.01685,event,instructions,filename,en/welcome_screen.txt
+3.948104,0.033469,aoi,instructions,background,"(0, 1080, 1920, 0)"
+3.94873,0.033469,parameter,instructions,title,
+3.948764,0.033469,parameter,instructions,taskplacement,fullscreen
+3.94878,0.033469,parameter,instructions,taskupdatetime,15
+3.948797,0.033469,parameter,instructions,taskfeedback-overdue-active,0
+3.948812,0.033469,parameter,instructions,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+3.948826,0.033469,parameter,instructions,taskfeedback-overdue-delayms,2000
+3.948838,0.033469,parameter,instructions,taskfeedback-overdue-blinkdurationms,1000
+3.94885,0.033469,parameter,instructions,taskfeedback-overdue-_nexttoggletime,0
+3.948861,0.033469,parameter,instructions,taskfeedback-overdue-_is_visible,0
+3.948873,0.033469,parameter,instructions,boldtitle,0
+3.948884,0.033469,parameter,instructions,filename,en/welcome_screen.txt
+3.948895,0.033469,parameter,instructions,pointsize,0
+3.948905,0.033469,parameter,instructions,maxdurationsec,0
+3.948917,0.033469,parameter,instructions,response-text,Press SPACE to continue
+3.948928,0.033469,parameter,instructions,response-key,SPACE
+3.94894,0.033469,parameter,instructions,allowkeypress,1
+3.95161,0.033469,state,instructions,"background, visibility",1
+3.951639,0.033469,event,instructions,self,start
+3.964291,0.049811,state,instructions,"background, visibility",0
+3.969879,0.049811,aoi,instructions,title,"(0, 1080, 1920, 0)"
+3.97401,0.049811,aoi,instructions,press_space,"(0, 1080, 1920, 0)"
+3.982093,0.049811,aoi,instructions,instructions,"(0, 1080, 1920, 0)"
+3.98221,0.049811,state,instructions,"background, visibility",1
+4.364521,0.049811,input,keyboard,SPACE,press
+4.501461,0.049811,input,keyboard,SPACE,release
+4.502161,0.049811,state,instructions,"background, visibility",0
+4.513972,0.061852,event,genericscales,filename,en/vasf_4pp_part1.txt
+4.531202,0.078554,aoi,genericscales,background,"(0, 1080, 1920, 0)"
+4.531827,0.078554,parameter,genericscales,title,
+4.531861,0.078554,parameter,genericscales,taskplacement,fullscreen
+4.531875,0.078554,parameter,genericscales,taskupdatetime,15
+4.531893,0.078554,parameter,genericscales,taskfeedback-overdue-active,0
+4.531907,0.078554,parameter,genericscales,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+4.531924,0.078554,parameter,genericscales,taskfeedback-overdue-delayms,2000
+4.531936,0.078554,parameter,genericscales,taskfeedback-overdue-blinkdurationms,1000
+4.53195,0.078554,parameter,genericscales,taskfeedback-overdue-_nexttoggletime,0
+4.531962,0.078554,parameter,genericscales,taskfeedback-overdue-_is_visible,0
+4.531974,0.078554,parameter,genericscales,boldtitle,0
+4.531986,0.078554,parameter,genericscales,filename,en/vasf_4pp_part1.txt
+4.531997,0.078554,parameter,genericscales,pointsize,0
+4.532008,0.078554,parameter,genericscales,maxdurationsec,0
+4.53202,0.078554,parameter,genericscales,response-text,Press SPACE to validate
+4.532032,0.078554,parameter,genericscales,response-key,SPACE
+4.532044,0.078554,parameter,genericscales,allowkeypress,1
+4.532223,0.078554,state,genericscales,"background, visibility",1
+4.532249,0.078554,event,genericscales,self,start
+4.547474,0.095262,state,genericscales,"background, visibility",0
+4.550318,0.095262,aoi,genericscales,press_space,"(0, 1080, 1920, 0)"
+4.558188,0.095262,aoi,genericscales,label_1,"(0.0, 928.8000000000002, 1920.0, 885.6000000000001)"
+4.563475,0.095262,aoi,genericscales,slider_1,"(0.0, 885.6000000000001, 1920.0, 820.8000000000001)"
+4.566012,0.095262,aoi,genericscales,label_2,"(0.0, 761.4000000000001, 1920.0, 718.2)"
+4.569617,0.095262,aoi,genericscales,slider_2,"(0.0, 718.2, 1920.0, 653.4000000000001)"
+4.571127,0.095262,aoi,genericscales,label_3,"(0.0, 594.0, 1920.0, 550.8)"
+4.574254,0.095262,aoi,genericscales,slider_3,"(0.0, 550.8, 1920.0, 486.0)"
+4.575403,0.095262,aoi,genericscales,label_4,"(0.0, 426.6, 1920.0, 383.40000000000003)"
+4.57887,0.095262,aoi,genericscales,slider_4,"(0.0, 383.40000000000003, 1920.0, 318.6)"
+4.578955,0.095262,state,genericscales,"background, visibility",1
+4.83157,0.095262,input,keyboard,SPACE,press
+4.980819,0.095262,input,keyboard,SPACE,release
+4.981183,0.095262,performance,genericscales,I feel tired,4
+4.981219,0.095262,performance,genericscales,I feel sleepy,4
+4.981231,0.095262,performance,genericscales,I feel drowsy,4
+4.981239,0.095262,performance,genericscales,I feel fatigued,4
+4.981269,0.095262,state,genericscales,"background, visibility",0
+4.997628,0.111771,event,genericscales,filename,en/vasf_4pp_part2.txt
+5.014641,0.128464,aoi,genericscales,background,"(0, 1080, 1920, 0)"
+5.015598,0.128464,parameter,genericscales,title,
+5.015653,0.128464,parameter,genericscales,taskplacement,fullscreen
+5.015678,0.128464,parameter,genericscales,taskupdatetime,15
+5.015704,0.128464,parameter,genericscales,taskfeedback-overdue-active,0
+5.015726,0.128464,parameter,genericscales,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+5.01575,0.128464,parameter,genericscales,taskfeedback-overdue-delayms,2000
+5.015769,0.128464,parameter,genericscales,taskfeedback-overdue-blinkdurationms,1000
+5.015789,0.128464,parameter,genericscales,taskfeedback-overdue-_nexttoggletime,0
+5.015808,0.128464,parameter,genericscales,taskfeedback-overdue-_is_visible,0
+5.015829,0.128464,parameter,genericscales,boldtitle,0
+5.015847,0.128464,parameter,genericscales,filename,en/vasf_4pp_part2.txt
+5.015866,0.128464,parameter,genericscales,pointsize,0
+5.015884,0.128464,parameter,genericscales,maxdurationsec,0
+5.015904,0.128464,parameter,genericscales,response-text,Press SPACE to validate
+5.015922,0.128464,parameter,genericscales,response-key,SPACE
+5.015939,0.128464,parameter,genericscales,allowkeypress,1
+5.016191,0.128464,state,genericscales,"background, visibility",1
+5.020819,0.128464,event,genericscales,self,start
+5.031396,0.144967,state,genericscales,"background, visibility",0
+5.039401,0.144967,aoi,genericscales,press_space,"(0, 1080, 1920, 0)"
+5.04038,0.144967,aoi,genericscales,label_1,"(0.0, 928.8000000000002, 1920.0, 885.6000000000001)"
+5.042624,0.144967,aoi,genericscales,slider_1,"(0.0, 885.6000000000001, 1920.0, 820.8000000000001)"
+5.044297,0.144967,aoi,genericscales,label_2,"(0.0, 761.4000000000001, 1920.0, 718.2)"
+5.046837,0.144967,aoi,genericscales,slider_2,"(0.0, 718.2, 1920.0, 653.4000000000001)"
+5.048979,0.144967,aoi,genericscales,label_3,"(0.0, 594.0, 1920.0, 550.8)"
+5.052108,0.144967,aoi,genericscales,slider_3,"(0.0, 550.8, 1920.0, 486.0)"
+5.053134,0.144967,aoi,genericscales,label_4,"(0.0, 426.6, 1920.0, 383.40000000000003)"
+5.056587,0.144967,aoi,genericscales,slider_4,"(0.0, 383.40000000000003, 1920.0, 318.6)"
+5.056679,0.144967,state,genericscales,"background, visibility",1
+5.814943,0.144967,input,keyboard,SPACE,press
+5.964226,0.144967,input,keyboard,SPACE,release
+5.964745,0.144967,performance,genericscales,I feel worn out,4
+5.9648,0.144967,performance,genericscales,I feel energetic,4
+5.964814,0.144967,performance,genericscales,I feel active,4
+5.964823,0.144967,performance,genericscales,I feel vigorous,4
+5.964857,0.144967,state,genericscales,"background, visibility",0
+5.980877,0.161375,event,genericscales,filename,en/vasf_4pp_part3.txt
+5.997739,0.177782,aoi,genericscales,background,"(0, 1080, 1920, 0)"
+5.998712,0.177782,parameter,genericscales,title,
+5.998767,0.177782,parameter,genericscales,taskplacement,fullscreen
+5.998792,0.177782,parameter,genericscales,taskupdatetime,15
+5.99882,0.177782,parameter,genericscales,taskfeedback-overdue-active,0
+5.998843,0.177782,parameter,genericscales,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+5.998867,0.177782,parameter,genericscales,taskfeedback-overdue-delayms,2000
+5.998888,0.177782,parameter,genericscales,taskfeedback-overdue-blinkdurationms,1000
+5.998908,0.177782,parameter,genericscales,taskfeedback-overdue-_nexttoggletime,0
+5.998928,0.177782,parameter,genericscales,taskfeedback-overdue-_is_visible,0
+5.998948,0.177782,parameter,genericscales,boldtitle,0
+5.998966,0.177782,parameter,genericscales,filename,en/vasf_4pp_part3.txt
+5.998984,0.177782,parameter,genericscales,pointsize,0
+5.999005,0.177782,parameter,genericscales,maxdurationsec,0
+5.999026,0.177782,parameter,genericscales,response-text,Press SPACE to validate
+5.999046,0.177782,parameter,genericscales,response-key,SPACE
+5.999064,0.177782,parameter,genericscales,allowkeypress,1
+5.999327,0.177782,state,genericscales,"background, visibility",1
+6.004137,0.177782,event,genericscales,self,start
+6.014189,0.194412,state,genericscales,"background, visibility",0
+6.021092,0.194412,aoi,genericscales,press_space,"(0, 1080, 1920, 0)"
+6.022144,0.194412,aoi,genericscales,label_1,"(0.0, 928.8000000000002, 1920.0, 885.6000000000001)"
+6.024718,0.194412,aoi,genericscales,slider_1,"(0.0, 885.6000000000001, 1920.0, 820.8000000000001)"
+6.025746,0.194412,aoi,genericscales,label_2,"(0.0, 761.4000000000001, 1920.0, 718.2)"
+6.028016,0.194412,aoi,genericscales,slider_2,"(0.0, 718.2, 1920.0, 653.4000000000001)"
+6.029685,0.194412,aoi,genericscales,label_3,"(0.0, 594.0, 1920.0, 550.8)"
+6.03341,0.194412,aoi,genericscales,slider_3,"(0.0, 550.8, 1920.0, 486.0)"
+6.034518,0.194412,aoi,genericscales,label_4,"(0.0, 426.6, 1920.0, 383.40000000000003)"
+6.036868,0.194412,aoi,genericscales,slider_4,"(0.0, 383.40000000000003, 1920.0, 318.6)"
+6.036956,0.194412,state,genericscales,"background, visibility",1
+6.430719,0.194412,input,keyboard,SPACE,press
+6.547861,0.194412,input,keyboard,SPACE,release
+6.549277,0.194412,performance,genericscales,I feel efficient,4
+6.549346,0.194412,performance,genericscales,I feel lively,4
+6.549368,0.194412,performance,genericscales,I feel bushed,4
+6.549386,0.194412,performance,genericscales,I feel exhausted,4
+6.549443,0.194412,state,genericscales,"background, visibility",0
+6.565104,0.210874,event,genericscales,filename,en/vasf_4pp_part4.txt
+6.581435,0.226647,aoi,genericscales,background,"(0, 1080, 1920, 0)"
+6.582513,0.226647,parameter,genericscales,title,
+6.582593,0.226647,parameter,genericscales,taskplacement,fullscreen
+6.582631,0.226647,parameter,genericscales,taskupdatetime,15
+6.58267,0.226647,parameter,genericscales,taskfeedback-overdue-active,0
+6.582707,0.226647,parameter,genericscales,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+6.582744,0.226647,parameter,genericscales,taskfeedback-overdue-delayms,2000
+6.582776,0.226647,parameter,genericscales,taskfeedback-overdue-blinkdurationms,1000
+6.582807,0.226647,parameter,genericscales,taskfeedback-overdue-_nexttoggletime,0
+6.58284,0.226647,parameter,genericscales,taskfeedback-overdue-_is_visible,0
+6.582872,0.226647,parameter,genericscales,boldtitle,0
+6.582901,0.226647,parameter,genericscales,filename,en/vasf_4pp_part4.txt
+6.58293,0.226647,parameter,genericscales,pointsize,0
+6.582957,0.226647,parameter,genericscales,maxdurationsec,0
+6.582987,0.226647,parameter,genericscales,response-text,Press SPACE to validate
+6.583016,0.226647,parameter,genericscales,response-key,SPACE
+6.583045,0.226647,parameter,genericscales,allowkeypress,1
+6.583445,0.226647,state,genericscales,"background, visibility",1
+6.587906,0.226647,event,genericscales,self,start
+6.597683,0.243129,state,genericscales,"background, visibility",0
+6.605257,0.243129,aoi,genericscales,press_space,"(0, 1080, 1920, 0)"
+6.606986,0.243129,aoi,genericscales,label_1,"(0.0, 928.8000000000002, 1920.0, 885.6000000000001)"
+6.610014,0.243129,aoi,genericscales,slider_1,"(0.0, 885.6000000000001, 1920.0, 820.8000000000001)"
+6.61097,0.243129,aoi,genericscales,label_2,"(0.0, 761.4000000000001, 1920.0, 718.2)"
+6.613827,0.243129,aoi,genericscales,slider_2,"(0.0, 718.2, 1920.0, 653.4000000000001)"
+6.614985,0.243129,aoi,genericscales,label_3,"(0.0, 594.0, 1920.0, 550.8)"
+6.617466,0.243129,aoi,genericscales,slider_3,"(0.0, 550.8, 1920.0, 486.0)"
+6.618467,0.243129,aoi,genericscales,label_4,"(0.0, 426.6, 1920.0, 383.40000000000003)"
+6.620662,0.243129,aoi,genericscales,slider_4,"(0.0, 383.40000000000003, 1920.0, 318.6)"
+6.620745,0.243129,state,genericscales,"background, visibility",1
+6.981263,0.243129,input,keyboard,SPACE,press
+7.114491,0.243129,input,keyboard,SPACE,release
+7.115736,0.243129,performance,genericscales,Keeping my eyes open is...,4
+7.115822,0.243129,performance,genericscales,Moving my body is...,4
+7.115854,0.243129,performance,genericscales,Concentrating is...,4
+7.115882,0.243129,performance,genericscales,Carrying on a conversation is...,4
+7.115967,0.243129,state,genericscales,"background, visibility",0
+7.130763,0.258834,aoi,genericscales,background,"(0, 1080, 1920, 0)"
+7.131138,0.258834,parameter,genericscales,title,
+7.131162,0.258834,parameter,genericscales,taskplacement,fullscreen
+7.131172,0.258834,parameter,genericscales,taskupdatetime,15
+7.131184,0.258834,parameter,genericscales,taskfeedback-overdue-active,0
+7.131193,0.258834,parameter,genericscales,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+7.131202,0.258834,parameter,genericscales,taskfeedback-overdue-delayms,2000
+7.131212,0.258834,parameter,genericscales,taskfeedback-overdue-blinkdurationms,1000
+7.13122,0.258834,parameter,genericscales,taskfeedback-overdue-_nexttoggletime,0
+7.131228,0.258834,parameter,genericscales,taskfeedback-overdue-_is_visible,0
+7.131237,0.258834,parameter,genericscales,boldtitle,0
+7.131244,0.258834,parameter,genericscales,filename,en/vasf_4pp_part4.txt
+7.131253,0.258834,parameter,genericscales,pointsize,0
+7.13126,0.258834,parameter,genericscales,maxdurationsec,0
+7.131268,0.258834,parameter,genericscales,response-text,Press SPACE to validate
+7.131277,0.258834,parameter,genericscales,response-key,SPACE
+7.131284,0.258834,parameter,genericscales,allowkeypress,1
+7.131455,0.258834,state,genericscales,"background, visibility",1
+7.13719,0.258834,event,genericscales,self,start
+7.147712,0.275545,state,genericscales,"background, visibility",0
+7.153793,0.275545,aoi,genericscales,press_space,"(0, 1080, 1920, 0)"
+7.154873,0.275545,aoi,genericscales,label_1,"(0.0, 928.8000000000002, 1920.0, 885.6000000000001)"
+7.157661,0.275545,aoi,genericscales,slider_1,"(0.0, 885.6000000000001, 1920.0, 820.8000000000001)"
+7.160582,0.275545,aoi,genericscales,label_2,"(0.0, 761.4000000000001, 1920.0, 718.2)"
+7.163298,0.275545,aoi,genericscales,slider_2,"(0.0, 718.2, 1920.0, 653.4000000000001)"
+7.164419,0.275545,aoi,genericscales,label_3,"(0.0, 594.0, 1920.0, 550.8)"
+7.166938,0.275545,aoi,genericscales,slider_3,"(0.0, 550.8, 1920.0, 486.0)"
+7.167952,0.275545,aoi,genericscales,label_4,"(0.0, 426.6, 1920.0, 383.40000000000003)"
+7.170055,0.275545,aoi,genericscales,slider_4,"(0.0, 383.40000000000003, 1920.0, 318.6)"
+7.170135,0.275545,state,genericscales,"background, visibility",1
+7.914446,0.275545,input,keyboard,SPACE,press
+8.048119,0.275545,input,keyboard,SPACE,release
+8.048486,0.275545,performance,genericscales,Keeping my eyes open is...,4
+8.048517,0.275545,performance,genericscales,Moving my body is...,4
+8.048526,0.275545,performance,genericscales,Concentrating is...,4
+8.04868,0.275545,performance,genericscales,Carrying on a conversation is...,4
+8.048726,0.275545,state,genericscales,"background, visibility",0
+8.064055,0.291307,event,genericscales,filename,en/vasf_4pp_part5.txt
+8.080777,0.307872,aoi,genericscales,background,"(0, 1080, 1920, 0)"
+8.081169,0.307872,parameter,genericscales,title,
+8.081194,0.307872,parameter,genericscales,taskplacement,fullscreen
+8.081204,0.307872,parameter,genericscales,taskupdatetime,15
+8.081217,0.307872,parameter,genericscales,taskfeedback-overdue-active,0
+8.081226,0.307872,parameter,genericscales,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+8.081237,0.307872,parameter,genericscales,taskfeedback-overdue-delayms,2000
+8.081245,0.307872,parameter,genericscales,taskfeedback-overdue-blinkdurationms,1000
+8.081254,0.307872,parameter,genericscales,taskfeedback-overdue-_nexttoggletime,0
+8.081262,0.307872,parameter,genericscales,taskfeedback-overdue-_is_visible,0
+8.081271,0.307872,parameter,genericscales,boldtitle,0
+8.081279,0.307872,parameter,genericscales,filename,en/vasf_4pp_part5.txt
+8.081288,0.307872,parameter,genericscales,pointsize,0
+8.081296,0.307872,parameter,genericscales,maxdurationsec,0
+8.081305,0.307872,parameter,genericscales,response-text,Press SPACE to validate
+8.081314,0.307872,parameter,genericscales,response-key,SPACE
+8.081322,0.307872,parameter,genericscales,allowkeypress,1
+8.081451,0.307872,state,genericscales,"background, visibility",1
+8.085338,0.307872,event,genericscales,self,start
+8.097596,0.324483,state,genericscales,"background, visibility",0
+8.10459,0.324483,aoi,genericscales,press_space,"(0, 1080, 1920, 0)"
+8.105688,0.324483,aoi,genericscales,label_1,"(0.0, 928.8000000000002, 1920.0, 885.6000000000001)"
+8.108367,0.324483,aoi,genericscales,slider_1,"(0.0, 885.6000000000001, 1920.0, 820.8000000000001)"
+8.109349,0.324483,aoi,genericscales,label_2,"(0.0, 761.4000000000001, 1920.0, 718.2)"
+8.11154,0.324483,aoi,genericscales,slider_2,"(0.0, 718.2, 1920.0, 653.4000000000001)"
+8.114646,0.324483,aoi,genericscales,label_3,"(0.0, 594.0, 1920.0, 550.8)"
+8.118082,0.324483,aoi,genericscales,slider_3,"(0.0, 550.8, 1920.0, 486.0)"
+8.129925,0.324483,aoi,genericscales,label_4,"(0.0, 426.6, 1920.0, 383.40000000000003)"
+8.132908,0.324483,aoi,genericscales,slider_4,"(0.0, 383.40000000000003, 1920.0, 318.6)"
+8.133001,0.324483,state,genericscales,"background, visibility",1
+26.015238,0.324483,state,genericscales,"slider_4, value",4
+26.131073,0.324483,state,genericscales,"slider_4, value",4
+26.147358,0.324483,state,genericscales,"slider_4, value",4
+26.165148,0.324483,state,genericscales,"slider_4, value",4
+26.180759,0.324483,state,genericscales,"slider_4, value",4
+26.198152,0.324483,state,genericscales,"slider_4, value",4
+26.215432,0.324483,state,genericscales,"slider_4, value",4
+26.216398,0.324483,state,genericscales,"slider_4, value",4
+26.230722,0.324483,state,genericscales,"slider_4, value",4
+26.263942,0.324483,state,genericscales,"slider_4, value",4
+26.280665,0.324483,state,genericscales,"slider_4, value",4
+26.297687,0.324483,state,genericscales,"slider_4, value",4
+26.314,0.324483,state,genericscales,"slider_4, value",4
+26.330872,0.324483,state,genericscales,"slider_4, value",4
+26.348833,0.324483,state,genericscales,"slider_4, value",4
+26.364217,0.324483,state,genericscales,"slider_4, value",4
+26.380668,0.324483,state,genericscales,"slider_4, value",3
+26.397372,0.324483,state,genericscales,"slider_4, value",3
+26.414074,0.324483,state,genericscales,"slider_4, value",3
+26.430701,0.324483,state,genericscales,"slider_4, value",3
+26.431235,0.324483,state,genericscales,"slider_4, value",3
+26.44716,0.324483,state,genericscales,"slider_4, value",3
+26.46393,0.324483,state,genericscales,"slider_4, value",3
+26.480537,0.324483,state,genericscales,"slider_4, value",3
+26.497335,0.324483,state,genericscales,"slider_4, value",3
+26.514739,0.324483,state,genericscales,"slider_4, value",3
+26.530668,0.324483,state,genericscales,"slider_4, value",3
+26.547325,0.324483,state,genericscales,"slider_4, value",2
+26.56402,0.324483,state,genericscales,"slider_4, value",2
+26.580885,0.324483,state,genericscales,"slider_4, value",2
+26.597564,0.324483,state,genericscales,"slider_4, value",2
+26.614093,0.324483,state,genericscales,"slider_4, value",2
+26.630728,0.324483,state,genericscales,"slider_4, value",2
+26.647758,0.324483,state,genericscales,"slider_4, value",2
+26.648218,0.324483,state,genericscales,"slider_4, value",2
+26.664357,0.324483,state,genericscales,"slider_4, value",1
+26.681345,0.324483,state,genericscales,"slider_4, value",1
+26.697273,0.324483,state,genericscales,"slider_4, value",1
+26.714109,0.324483,state,genericscales,"slider_4, value",1
+27.247272,0.324483,state,genericscales,"slider_4, value",1
+27.263959,0.324483,state,genericscales,"slider_4, value",1
+27.280631,0.324483,state,genericscales,"slider_4, value",1
+27.29723,0.324483,state,genericscales,"slider_4, value",1
+27.314714,0.324483,state,genericscales,"slider_4, value",1
+27.330618,0.324483,state,genericscales,"slider_4, value",1
+27.34732,0.324483,state,genericscales,"slider_4, value",1
+27.364187,0.324483,state,genericscales,"slider_4, value",1
+27.380968,0.324483,state,genericscales,"slider_4, value",1
+27.398208,0.324483,state,genericscales,"slider_4, value",1
+27.414097,0.324483,state,genericscales,"slider_4, value",1
+27.430921,0.324483,state,genericscales,"slider_4, value",1
+27.43125,0.324483,state,genericscales,"slider_4, value",1
+27.447222,0.324483,state,genericscales,"slider_4, value",2
+27.464926,0.324483,state,genericscales,"slider_4, value",2
+27.480528,0.324483,state,genericscales,"slider_4, value",2
+27.497358,0.324483,state,genericscales,"slider_4, value",2
+27.514052,0.324483,state,genericscales,"slider_4, value",2
+27.530615,0.324483,state,genericscales,"slider_4, value",2
+27.548126,0.324483,state,genericscales,"slider_4, value",2
+27.564057,0.324483,state,genericscales,"slider_4, value",2
+27.58074,0.324483,state,genericscales,"slider_4, value",2
+27.597163,0.324483,state,genericscales,"slider_4, value",2
+27.613987,0.324483,state,genericscales,"slider_4, value",2
+27.631838,0.324483,state,genericscales,"slider_4, value",2
+27.632272,0.324483,state,genericscales,"slider_4, value",2
+27.64725,0.324483,state,genericscales,"slider_4, value",2
+27.664257,0.324483,state,genericscales,"slider_4, value",2
+27.69739,0.324483,state,genericscales,"slider_4, value",2
+27.713996,0.324483,state,genericscales,"slider_4, value",2
+27.747527,0.324483,state,genericscales,"slider_4, value",2
+28.230871,0.324483,state,genericscales,"slider_4, value",2
+28.247643,0.324483,state,genericscales,"slider_4, value",2
+28.264177,0.324483,state,genericscales,"slider_4, value",2
+28.280904,0.324483,state,genericscales,"slider_4, value",3
+28.297375,0.324483,state,genericscales,"slider_4, value",3
+28.313968,0.324483,state,genericscales,"slider_4, value",3
+28.331602,0.324483,state,genericscales,"slider_4, value",3
+28.347633,0.324483,state,genericscales,"slider_4, value",3
+28.36418,0.324483,state,genericscales,"slider_4, value",3
+28.380804,0.324483,state,genericscales,"slider_4, value",3
+28.397353,0.324483,state,genericscales,"slider_4, value",3
+28.41397,0.324483,state,genericscales,"slider_4, value",3
+28.431847,0.324483,state,genericscales,"slider_4, value",3
+28.432293,0.324483,state,genericscales,"slider_4, value",3
+28.447606,0.324483,state,genericscales,"slider_4, value",3
+28.463911,0.324483,state,genericscales,"slider_4, value",3
+28.48059,0.324483,state,genericscales,"slider_4, value",4
+28.497398,0.324483,state,genericscales,"slider_4, value",4
+28.513891,0.324483,state,genericscales,"slider_4, value",4
+28.53054,0.324483,state,genericscales,"slider_4, value",4
+28.547317,0.324483,state,genericscales,"slider_4, value",4
+28.563934,0.324483,state,genericscales,"slider_4, value",4
+28.580613,0.324483,state,genericscales,"slider_4, value",4
+28.647487,0.324483,state,genericscales,"slider_4, value",4
+28.664138,0.324483,state,genericscales,"slider_4, value",4
+28.68066,0.324483,state,genericscales,"slider_4, value",4
+28.697765,0.324483,state,genericscales,"slider_4, value",4
+28.714067,0.324483,state,genericscales,"slider_4, value",4
+28.73066,0.324483,state,genericscales,"slider_4, value",4
+28.747621,0.324483,state,genericscales,"slider_4, value",4
+28.764026,0.324483,state,genericscales,"slider_4, value",4
+29.064194,0.324483,state,genericscales,"slider_4, value",4
+29.080752,0.324483,state,genericscales,"slider_4, value",4
+29.097459,0.324483,state,genericscales,"slider_4, value",4
+29.113963,0.324483,state,genericscales,"slider_4, value",4
+29.130824,0.324483,state,genericscales,"slider_4, value",4
+29.147393,0.324483,state,genericscales,"slider_4, value",4
+29.1644,0.324483,state,genericscales,"slider_4, value",5
+29.180961,0.324483,state,genericscales,"slider_4, value",5
+29.197413,0.324483,state,genericscales,"slider_4, value",5
+29.214884,0.324483,state,genericscales,"slider_4, value",5
+29.215453,0.324483,state,genericscales,"slider_4, value",5
+29.23135,0.324483,state,genericscales,"slider_4, value",5
+29.2318,0.324483,state,genericscales,"slider_4, value",5
+29.247669,0.324483,state,genericscales,"slider_4, value",5
+29.263906,0.324483,state,genericscales,"slider_4, value",5
+29.280677,0.324483,state,genericscales,"slider_4, value",5
+29.297319,0.324483,state,genericscales,"slider_4, value",5
+29.313991,0.324483,state,genericscales,"slider_4, value",5
+29.330726,0.324483,state,genericscales,"slider_4, value",5
+29.347352,0.324483,state,genericscales,"slider_4, value",6
+29.364089,0.324483,state,genericscales,"slider_4, value",6
+29.38068,0.324483,state,genericscales,"slider_4, value",6
+29.397336,0.324483,state,genericscales,"slider_4, value",6
+29.414144,0.324483,state,genericscales,"slider_4, value",6
+29.430653,0.324483,state,genericscales,"slider_4, value",6
+29.431254,0.324483,state,genericscales,"slider_4, value",6
+29.44741,0.324483,state,genericscales,"slider_4, value",6
+29.46405,0.324483,state,genericscales,"slider_4, value",6
+29.481043,0.324483,state,genericscales,"slider_4, value",6
+29.64772,0.324483,state,genericscales,"slider_4, value",6
+29.664036,0.324483,state,genericscales,"slider_4, value",6
+29.68061,0.324483,state,genericscales,"slider_4, value",6
+29.697329,0.324483,state,genericscales,"slider_4, value",6
+29.714213,0.324483,state,genericscales,"slider_4, value",6
+29.731931,0.324483,state,genericscales,"slider_4, value",6
+29.747258,0.324483,state,genericscales,"slider_4, value",6
+29.764078,0.324483,state,genericscales,"slider_4, value",6
+29.780682,0.324483,state,genericscales,"slider_4, value",6
+29.797274,0.324483,state,genericscales,"slider_4, value",6
+29.81385,0.324483,state,genericscales,"slider_4, value",6
+29.831014,0.324483,state,genericscales,"slider_4, value",6
+29.831383,0.324483,state,genericscales,"slider_4, value",6
+29.847907,0.324483,state,genericscales,"slider_4, value",6
+29.848366,0.324483,state,genericscales,"slider_4, value",6
+29.864053,0.324483,state,genericscales,"slider_4, value",6
+29.880635,0.324483,state,genericscales,"slider_4, value",6
+29.897327,0.324483,state,genericscales,"slider_4, value",6
+29.914826,0.324483,state,genericscales,"slider_4, value",6
+29.930633,0.324483,state,genericscales,"slider_4, value",6
+29.947264,0.324483,state,genericscales,"slider_4, value",6
+29.964003,0.324483,state,genericscales,"slider_4, value",6
+29.980677,0.324483,state,genericscales,"slider_4, value",6
+29.997418,0.324483,state,genericscales,"slider_4, value",6
+30.015212,0.324483,state,genericscales,"slider_4, value",7
+30.015582,0.324483,state,genericscales,"slider_4, value",7
+30.031018,0.324483,state,genericscales,"slider_4, value",7
+30.03159,0.324483,state,genericscales,"slider_4, value",7
+30.048651,0.324483,state,genericscales,"slider_4, value",7
+30.049072,0.324483,state,genericscales,"slider_4, value",7
+30.063925,0.324483,state,genericscales,"slider_4, value",7
+30.080703,0.324483,state,genericscales,"slider_4, value",7
+30.097439,0.324483,state,genericscales,"slider_4, value",7
+30.114108,0.324483,state,genericscales,"slider_4, value",7
+30.130926,0.324483,state,genericscales,"slider_4, value",7
+30.914069,0.324483,state,genericscales,"slider_4, value",7
+30.931546,0.324483,state,genericscales,"slider_4, value",7
+30.947305,0.324483,state,genericscales,"slider_4, value",7
+30.964137,0.324483,state,genericscales,"slider_4, value",7
+30.981636,0.324483,state,genericscales,"slider_4, value",7
+30.998495,0.324483,state,genericscales,"slider_4, value",7
+31.01413,0.324483,state,genericscales,"slider_4, value",7
+31.030881,0.324483,state,genericscales,"slider_4, value",6
+31.031687,0.324483,state,genericscales,"slider_4, value",6
+31.047551,0.324483,state,genericscales,"slider_4, value",6
+31.04799,0.324483,state,genericscales,"slider_4, value",6
+31.063934,0.324483,state,genericscales,"slider_4, value",6
+31.080638,0.324483,state,genericscales,"slider_4, value",6
+31.097415,0.324483,state,genericscales,"slider_4, value",6
+31.114131,0.324483,state,genericscales,"slider_4, value",6
+31.130684,0.324483,state,genericscales,"slider_4, value",6
+31.147399,0.324483,state,genericscales,"slider_4, value",6
+31.164199,0.324483,state,genericscales,"slider_4, value",5
+31.181983,0.324483,state,genericscales,"slider_4, value",5
+31.197349,0.324483,state,genericscales,"slider_4, value",5
+31.214329,0.324483,state,genericscales,"slider_4, value",5
+31.215611,0.324483,state,genericscales,"slider_4, value",5
+31.230563,0.324483,state,genericscales,"slider_4, value",5
+31.231471,0.324483,state,genericscales,"slider_4, value",5
+31.247398,0.324483,state,genericscales,"slider_4, value",5
+31.263997,0.324483,state,genericscales,"slider_4, value",5
+31.280944,0.324483,state,genericscales,"slider_4, value",4
+31.297485,0.324483,state,genericscales,"slider_4, value",4
+31.314806,0.324483,state,genericscales,"slider_4, value",4
+31.330941,0.324483,state,genericscales,"slider_4, value",3
+31.347413,0.324483,state,genericscales,"slider_4, value",3
+31.363867,0.324483,state,genericscales,"slider_4, value",2
+31.380591,0.324483,state,genericscales,"slider_4, value",2
+31.397321,0.324483,state,genericscales,"slider_4, value",2
+31.414002,0.324483,state,genericscales,"slider_4, value",1
+31.43166,0.324483,state,genericscales,"slider_4, value",1
+31.432157,0.324483,state,genericscales,"slider_4, value",1
+31.447379,0.324483,state,genericscales,"slider_4, value",1
+31.464062,0.324483,state,genericscales,"slider_4, value",1
+31.830906,0.324483,state,genericscales,"slider_4, value",1
+31.832506,0.324483,state,genericscales,"slider_4, value",1
+31.847522,0.324483,state,genericscales,"slider_4, value",1
+31.863952,0.324483,state,genericscales,"slider_4, value",1
+31.880594,0.324483,state,genericscales,"slider_4, value",2
+31.897315,0.324483,state,genericscales,"slider_4, value",2
+31.913853,0.324483,state,genericscales,"slider_4, value",2
+31.930533,0.324483,state,genericscales,"slider_4, value",2
+31.948041,0.324483,state,genericscales,"slider_4, value",2
+31.964689,0.324483,state,genericscales,"slider_4, value",2
+31.980585,0.324483,state,genericscales,"slider_4, value",2
+31.997565,0.324483,state,genericscales,"slider_4, value",2
+32.013986,0.324483,state,genericscales,"slider_4, value",2
+32.030589,0.324483,state,genericscales,"slider_4, value",2
+32.031101,0.324483,state,genericscales,"slider_4, value",2
+32.048224,0.324483,state,genericscales,"slider_4, value",2
+32.063933,0.324483,state,genericscales,"slider_4, value",2
+32.080785,0.324483,state,genericscales,"slider_4, value",2
+32.097452,0.324483,state,genericscales,"slider_4, value",2
+32.113929,0.324483,state,genericscales,"slider_4, value",2
+32.13093,0.324483,state,genericscales,"slider_4, value",2
+32.147222,0.324483,state,genericscales,"slider_4, value",2
+32.164091,0.324483,state,genericscales,"slider_4, value",2
+32.181437,0.324483,state,genericscales,"slider_4, value",3
+32.197339,0.324483,state,genericscales,"slider_4, value",3
+32.214186,0.324483,state,genericscales,"slider_4, value",3
+32.464105,0.324483,state,genericscales,"slider_4, value",3
+32.480591,0.324483,state,genericscales,"slider_4, value",3
+32.497258,0.324483,state,genericscales,"slider_4, value",3
+32.514216,0.324483,state,genericscales,"slider_4, value",3
+32.531138,0.324483,state,genericscales,"slider_4, value",4
+32.547491,0.324483,state,genericscales,"slider_4, value",4
+32.564341,0.324483,state,genericscales,"slider_4, value",5
+32.581586,0.324483,state,genericscales,"slider_4, value",5
+32.597722,0.324483,state,genericscales,"slider_4, value",5
+32.614282,0.324483,state,genericscales,"slider_4, value",6
+32.631603,0.324483,state,genericscales,"slider_4, value",6
+32.632059,0.324483,state,genericscales,"slider_4, value",6
+32.647571,0.324483,state,genericscales,"slider_4, value",6
+32.663952,0.324483,state,genericscales,"slider_4, value",6
+32.681433,0.324483,state,genericscales,"slider_4, value",6
+32.814439,0.324483,state,genericscales,"slider_4, value",6
+32.997401,0.324483,state,genericscales,"slider_4, value",6
+33.014071,0.324483,state,genericscales,"slider_4, value",6
+33.030522,0.324483,state,genericscales,"slider_4, value",6
+33.031038,0.324483,state,genericscales,"slider_4, value",6
+33.047216,0.324483,state,genericscales,"slider_4, value",6
+33.064918,0.324483,state,genericscales,"slider_4, value",6
+33.080626,0.324483,state,genericscales,"slider_4, value",6
+33.097314,0.324483,state,genericscales,"slider_4, value",6
+33.113909,0.324483,state,genericscales,"slider_4, value",6
+33.13064,0.324483,state,genericscales,"slider_4, value",6
+33.147312,0.324483,state,genericscales,"slider_4, value",6
+33.163975,0.324483,state,genericscales,"slider_4, value",6
+33.180736,0.324483,state,genericscales,"slider_4, value",6
+33.214092,0.324483,state,genericscales,"slider_4, value",6
+33.230743,0.324483,state,genericscales,"slider_4, value",6
+33.248424,0.324483,state,genericscales,"slider_4, value",6
+33.281466,0.324483,state,genericscales,"slider_4, value",6
+33.314092,0.324483,state,genericscales,"slider_4, value",6
+33.330683,0.324483,state,genericscales,"slider_4, value",6
+33.36406,0.324483,state,genericscales,"slider_4, value",6
+33.41405,0.324483,state,genericscales,"slider_4, value",6
+33.447447,0.324483,state,genericscales,"slider_4, value",6
+33.481435,0.324483,state,genericscales,"slider_4, value",6
+33.514127,0.324483,state,genericscales,"slider_4, value",6
+33.547355,0.324483,state,genericscales,"slider_4, value",6
+33.563998,0.324483,state,genericscales,"slider_4, value",6
+33.580809,0.324483,state,genericscales,"slider_4, value",6
+33.597308,0.324483,state,genericscales,"slider_4, value",6
+33.614044,0.324483,state,genericscales,"slider_4, value",6
+33.630712,0.324483,state,genericscales,"slider_4, value",6
+33.680671,0.324483,state,genericscales,"slider_4, value",6
+33.714014,0.324483,state,genericscales,"slider_4, value",6
+33.730666,0.324483,state,genericscales,"slider_4, value",6
+33.747384,0.324483,state,genericscales,"slider_4, value",6
+33.781466,0.324483,state,genericscales,"slider_4, value",6
+33.797443,0.324483,state,genericscales,"slider_4, value",6
+33.830718,0.324483,state,genericscales,"slider_4, value",6
+33.847403,0.324483,state,genericscales,"slider_4, value",6
+33.864009,0.324483,state,genericscales,"slider_4, value",6
+33.880641,0.324483,state,genericscales,"slider_4, value",6
+33.89888,0.324483,state,genericscales,"slider_4, value",6
+33.914066,0.324483,state,genericscales,"slider_4, value",6
+33.930665,0.324483,state,genericscales,"slider_4, value",6
+33.947359,0.324483,state,genericscales,"slider_4, value",6
+33.964356,0.324483,state,genericscales,"slider_4, value",6
+33.980724,0.324483,state,genericscales,"slider_4, value",6
+33.997449,0.324483,state,genericscales,"slider_4, value",6
+34.015284,0.324483,state,genericscales,"slider_4, value",6
+34.015664,0.324483,state,genericscales,"slider_4, value",6
+34.030574,0.324483,state,genericscales,"slider_4, value",6
+34.030956,0.324483,state,genericscales,"slider_4, value",6
+34.31409,0.324483,state,genericscales,"slider_4, value",6
+34.330715,0.324483,state,genericscales,"slider_4, value",6
+34.347616,0.324483,state,genericscales,"slider_4, value",6
+34.364205,0.324483,state,genericscales,"slider_4, value",6
+34.380906,0.324483,state,genericscales,"slider_4, value",6
+34.39817,0.324483,state,genericscales,"slider_4, value",6
+34.413939,0.324483,state,genericscales,"slider_4, value",6
+34.430655,0.324483,state,genericscales,"slider_4, value",6
+34.447807,0.324483,state,genericscales,"slider_4, value",6
+34.46389,0.324483,state,genericscales,"slider_4, value",6
+34.480693,0.324483,state,genericscales,"slider_4, value",6
+34.497703,0.324483,state,genericscales,"slider_4, value",6
+34.514018,0.324483,state,genericscales,"slider_4, value",6
+34.53147,0.324483,state,genericscales,"slider_4, value",6
+34.547665,0.324483,state,genericscales,"slider_4, value",6
+34.564373,0.324483,state,genericscales,"slider_4, value",6
+34.580666,0.324483,state,genericscales,"slider_4, value",6
+34.597665,0.324483,state,genericscales,"slider_4, value",6
+34.730771,0.324483,state,genericscales,"slider_4, value",6
+34.814154,0.324483,state,genericscales,"slider_4, value",6
+34.847402,0.324483,state,genericscales,"slider_4, value",6
+34.881923,0.324483,state,genericscales,"slider_4, value",6
+34.915069,0.324483,state,genericscales,"slider_4, value",6
+34.947308,0.324483,state,genericscales,"slider_4, value",6
+34.964026,0.324483,state,genericscales,"slider_4, value",6
+35.013945,0.324483,state,genericscales,"slider_4, value",6
+35.297757,0.324483,state,genericscales,"slider_4, value",6
+35.380662,0.324483,state,genericscales,"slider_4, value",6
+35.497374,0.324483,state,genericscales,"slider_4, value",6
+35.580739,0.324483,state,genericscales,"slider_4, value",6
+35.614061,0.324483,state,genericscales,"slider_4, value",6
+35.664044,0.324483,state,genericscales,"slider_4, value",6
+35.69758,0.324483,state,genericscales,"slider_4, value",6
+35.73148,0.324483,state,genericscales,"slider_4, value",6
+35.764055,0.324483,state,genericscales,"slider_4, value",6
+35.780679,0.324483,state,genericscales,"slider_4, value",6
+35.831136,0.324483,state,genericscales,"slider_4, value",6
+35.847579,0.324483,state,genericscales,"slider_4, value",6
+35.881685,0.324483,state,genericscales,"slider_4, value",6
+35.89766,0.324483,state,genericscales,"slider_4, value",6
+35.964193,0.324483,state,genericscales,"slider_4, value",6
+35.99756,0.324483,state,genericscales,"slider_4, value",6
+36.032,0.324483,state,genericscales,"slider_4, value",6
+36.080832,0.324483,state,genericscales,"slider_4, value",6
+36.130737,0.324483,state,genericscales,"slider_4, value",6
+36.247685,0.324483,state,genericscales,"slider_4, value",6
+36.381043,0.324483,state,genericscales,"slider_4, value",6
+36.914196,0.324483,state,genericscales,"slider_4, value",6
+37.097432,0.324483,state,genericscales,"slider_4, value",6
+38.41404,0.324483,state,genericscales,"slider_4, value",6
+39.198741,0.324483,state,genericscales,"slider_4, value",6
+39.264286,0.324483,state,genericscales,"slider_4, value",6
+39.314243,0.324483,state,genericscales,"slider_4, value",6
+39.364265,0.324483,state,genericscales,"slider_4, value",6
+39.397506,0.324483,state,genericscales,"slider_4, value",6
+39.430676,0.324483,state,genericscales,"slider_4, value",6
+39.447603,0.324483,state,genericscales,"slider_4, value",6
+39.464141,0.324483,state,genericscales,"slider_4, value",6
+39.498191,0.324483,state,genericscales,"slider_4, value",6
+39.514021,0.324483,state,genericscales,"slider_4, value",6
+39.530651,0.324483,state,genericscales,"slider_4, value",6
+39.564192,0.324483,state,genericscales,"slider_4, value",6
+39.58142,0.324483,state,genericscales,"slider_4, value",6
+39.597523,0.324483,state,genericscales,"slider_4, value",6
+39.613994,0.324483,state,genericscales,"slider_4, value",6
+39.630684,0.324483,state,genericscales,"slider_4, value",6
+39.631413,0.324483,state,genericscales,"slider_4, value",6
+39.647961,0.324483,state,genericscales,"slider_4, value",6
+39.66398,0.324483,state,genericscales,"slider_4, value",6
+39.697488,0.324483,state,genericscales,"slider_4, value",6
+39.714096,0.324483,state,genericscales,"slider_4, value",6
+39.730661,0.324483,state,genericscales,"slider_4, value",6
+39.747387,0.324483,state,genericscales,"slider_4, value",6
+39.764871,0.324483,state,genericscales,"slider_4, value",6
+39.781377,0.324483,state,genericscales,"slider_4, value",6
+39.797401,0.324483,state,genericscales,"slider_4, value",6
+39.814044,0.324483,state,genericscales,"slider_4, value",6
+39.830822,0.324483,state,genericscales,"slider_4, value",6
+39.848223,0.324483,state,genericscales,"slider_4, value",6
+39.864184,0.324483,state,genericscales,"slider_4, value",6
+39.880756,0.324483,state,genericscales,"slider_4, value",6
+39.898466,0.324483,state,genericscales,"slider_4, value",6
+39.914007,0.324483,state,genericscales,"slider_4, value",6
+39.930722,0.324483,state,genericscales,"slider_4, value",7
+39.947258,0.324483,state,genericscales,"slider_4, value",7
+39.963901,0.324483,state,genericscales,"slider_4, value",7
+39.980672,0.324483,state,genericscales,"slider_4, value",7
+40.014332,0.324483,state,genericscales,"slider_4, value",7
+40.047658,0.324483,state,genericscales,"slider_4, value",7
+40.647792,0.324483,state,genericscales,"slider_4, value",7
+40.664341,0.324483,state,genericscales,"slider_4, value",7
+40.698029,0.324483,state,genericscales,"slider_4, value",7
+125.164209,0.324483,input,keyboard,ESCAPE,press
+125.714527,0.324483,dialog,,,Exit OpenMATB? end
+125.714993,0.324483,performance,genericscales,I have a desire to close my eyes,4
+125.715019,0.324483,performance,genericscales,I have a desire to lie down,4
+125.715031,0.324483,performance,genericscales,Queryn,4
+125.715041,0.324483,performance,genericscales,Stanford Sleepiness Scale (SSS),6.563657
+125.715079,0.324483,state,genericscales,"background, visibility",0
+125.740719,0.324483,event,genericscales,self,stop
+125.740757,0.324483,manual,,,end

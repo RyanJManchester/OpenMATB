@@ -1,0 +1,152 @@
+logtime,scenario_time,type,module,address,value
+0.707821,0,version,,,1.4.1
+0.708201,0,scenario_path,,,includes\scenarios\fatigue_2.txt
+0.708937,0,seed_value,communications,,
+0.708959,0,seed_output,communications,,LKV631
+0.709052,0,seed_value,communications,,
+0.709063,0,seed_output,communications,,LSB560
+0.709143,0,seed_value,communications,,
+0.709152,0,seed_output,communications,,EOO265
+0.70922,0,seed_value,communications,,
+0.709231,0,seed_output,communications,,SGR570
+0.709294,0,seed_value,communications,,
+0.709301,0,seed_output,communications,,WOX319
+0.709367,0,seed_value,communications,,
+0.709375,0,seed_output,communications,,SLS104
+0.709441,0,seed_value,communications,,
+0.709452,0,seed_output,communications,,WPA887
+0.709516,0,seed_value,communications,,
+0.709525,0,seed_output,communications,,HTS674
+0.709592,0,seed_value,communications,,
+0.709601,0,seed_output,communications,,IHO780
+0.709628,0,seed_value,communications,,
+0.709636,0,seed_output,communications,,123.857245
+0.709656,0,seed_value,communications,,
+0.709663,0,seed_output,communications,,130.044683
+0.709681,0,seed_value,communications,,
+0.709687,0,seed_output,communications,,118.747235
+0.709704,0,seed_value,communications,,
+0.709711,0,seed_output,communications,,113.64158
+4.718263,0,dialog,,,OpenMATB end
+4.725558,0.017041,event,communications,voicegender,male
+5.834888,0.017041,dialog,,,Warning end
+5.835092,0.034039,event,communications,voiceidiom,english
+5.851464,0.05039,event,sysmon,self,show
+5.867943,0.066869,event,track,self,show
+5.88459,0.083517,event,scheduling,self,show
+5.901443,0.100326,event,resman,self,show
+5.917959,0.1169,event,communications,self,show
+5.934986,0.133656,aoi,sysmon,foreground,"(0, 1026.0, 672, 540.0)"
+5.935064,0.133656,aoi,sysmon,overdue,"(0, 1026.0, 672, 540.0)"
+5.944992,0.133656,aoi,sysmon,task_title,"(0, 1080.0, 672, 1026.0)"
+5.945169,0.133656,aoi,sysmon,automode,"(285.6, 592.65, 386.40000000000003, 565.65)"
+5.947345,0.133656,aoi,sysmon,scale1,"(50.4, 855.9, 117.6, 612.9)"
+5.948569,0.133656,aoi,sysmon,scale2,"(218.4, 855.9, 285.6, 612.9)"
+5.949871,0.133656,aoi,sysmon,scale3,"(386.4, 855.9, 453.59999999999997, 612.9)"
+5.951131,0.133656,aoi,sysmon,scale4,"(554.4, 855.9, 621.6, 612.9)"
+5.95247,0.133656,aoi,sysmon,light1,"(33.599999999999994, 977.4, 302.4, 904.5)"
+5.953982,0.133656,aoi,sysmon,light2,"(369.6, 977.4, 638.4000000000001, 904.5)"
+5.954015,0.133656,parameter,sysmon,title,System monitoring
+5.954026,0.133656,parameter,sysmon,taskplacement,topleft
+5.954041,0.133656,parameter,sysmon,taskupdatetime,200
+5.954054,0.133656,parameter,sysmon,taskfeedback-overdue-active,0
+5.954064,0.133656,parameter,sysmon,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+5.954081,0.133656,parameter,sysmon,taskfeedback-overdue-delayms,2000
+5.954093,0.133656,parameter,sysmon,taskfeedback-overdue-blinkdurationms,1000
+5.954101,0.133656,parameter,sysmon,taskfeedback-overdue-_nexttoggletime,0
+5.954111,0.133656,parameter,sysmon,taskfeedback-overdue-_is_visible,0
+5.954119,0.133656,parameter,sysmon,taskfeedback-overdue-widget,<core.widgets.frame.Frame object at 0x000001BFBCF899D0>
+5.954129,0.133656,parameter,sysmon,alerttimeout,10000
+5.954136,0.133656,parameter,sysmon,automaticsolver,0
+5.954144,0.133656,parameter,sysmon,automaticsolverdelay,1000
+5.954151,0.133656,parameter,sysmon,displayautomationstate,1
+5.954159,0.133656,parameter,sysmon,allowanykey,0
+5.954165,0.133656,parameter,sysmon,feedbackduration,1500
+5.954174,0.133656,parameter,sysmon,feedbacks-positive-active,1
+5.954181,0.133656,parameter,sysmon,feedbacks-positive-color,"(142, 219, 176, 255)"
+5.95419,0.133656,parameter,sysmon,feedbacks-negative-active,1
+5.954197,0.133656,parameter,sysmon,feedbacks-negative-color,"(241, 100, 100, 255)"
+5.954206,0.133656,parameter,sysmon,lights-1-name,F5
+5.954213,0.133656,parameter,sysmon,lights-1-failure,0
+5.954221,0.133656,parameter,sysmon,lights-1-default,on
+5.95423,0.133656,parameter,sysmon,lights-1-oncolor,"(142, 219, 176, 255)"
+5.954236,0.133656,parameter,sysmon,lights-1-key,F5
+5.954243,0.133656,parameter,sysmon,lights-1-on,1
+5.954252,0.133656,parameter,sysmon,lights-1-_failuretimer,
+5.954259,0.133656,parameter,sysmon,lights-1-_onfailure,0
+5.954265,0.133656,parameter,sysmon,lights-1-_milliresponsetime,0
+5.954273,0.133656,parameter,sysmon,lights-1-_freezetimer,
+5.95428,0.133656,parameter,sysmon,lights-1-widget,<core.widgets.light.Light object at 0x000001BFBFF442B0>
+5.954288,0.133656,parameter,sysmon,lights-2-name,F6
+5.954295,0.133656,parameter,sysmon,lights-2-failure,0
+5.954302,0.133656,parameter,sysmon,lights-2-default,off
+5.954308,0.133656,parameter,sysmon,lights-2-oncolor,"(241, 100, 100, 255)"
+5.954315,0.133656,parameter,sysmon,lights-2-key,F6
+5.954323,0.133656,parameter,sysmon,lights-2-on,0
+5.954329,0.133656,parameter,sysmon,lights-2-_failuretimer,
+5.954334,0.133656,parameter,sysmon,lights-2-_onfailure,0
+5.95434,0.133656,parameter,sysmon,lights-2-_milliresponsetime,0
+5.954346,0.133656,parameter,sysmon,lights-2-_freezetimer,
+5.954353,0.133656,parameter,sysmon,lights-2-widget,<core.widgets.light.Light object at 0x000001BFBFF4AF10>
+5.954362,0.133656,parameter,sysmon,scales-1-name,F1
+5.954369,0.133656,parameter,sysmon,scales-1-failure,0
+5.954376,0.133656,parameter,sysmon,scales-1-side,0
+5.954384,0.133656,parameter,sysmon,scales-1-key,F1
+5.95439,0.133656,parameter,sysmon,scales-1-_failuretimer,
+5.954397,0.133656,parameter,sysmon,scales-1-_onfailure,0
+5.954405,0.133656,parameter,sysmon,scales-1-_milliresponsetime,0
+5.954412,0.133656,parameter,sysmon,scales-1-_freezetimer,
+5.954419,0.133656,parameter,sysmon,scales-1-_pos,5
+5.954427,0.133656,parameter,sysmon,scales-1-_zone,0
+5.954435,0.133656,parameter,sysmon,scales-1-_feedbacktimer,
+5.954442,0.133656,parameter,sysmon,scales-1-_feedbacktype,
+5.954449,0.133656,parameter,sysmon,scales-1-widget,<core.widgets.scale.Scale object at 0x000001BFC0010850>
+5.954466,0.133656,parameter,sysmon,scales-2-name,F2
+5.954472,0.133656,parameter,sysmon,scales-2-failure,0
+5.954479,0.133656,parameter,sysmon,scales-2-side,0
+5.954486,0.133656,parameter,sysmon,scales-2-key,F2
+5.954493,0.133656,parameter,sysmon,scales-2-_failuretimer,
+5.9545,0.133656,parameter,sysmon,scales-2-_onfailure,0
+5.954508,0.133656,parameter,sysmon,scales-2-_milliresponsetime,0
+5.954515,0.133656,parameter,sysmon,scales-2-_freezetimer,
+5.954522,0.133656,parameter,sysmon,scales-2-_pos,5
+5.954529,0.133656,parameter,sysmon,scales-2-_zone,0
+5.954536,0.133656,parameter,sysmon,scales-2-_feedbacktimer,
+5.954542,0.133656,parameter,sysmon,scales-2-_feedbacktype,
+5.954549,0.133656,parameter,sysmon,scales-2-widget,<core.widgets.scale.Scale object at 0x000001BFC00108E0>
+5.954558,0.133656,parameter,sysmon,scales-3-name,F3
+5.954565,0.133656,parameter,sysmon,scales-3-failure,0
+5.954572,0.133656,parameter,sysmon,scales-3-side,0
+5.954578,0.133656,parameter,sysmon,scales-3-key,F3
+5.954585,0.133656,parameter,sysmon,scales-3-_failuretimer,
+5.954592,0.133656,parameter,sysmon,scales-3-_onfailure,0
+5.954599,0.133656,parameter,sysmon,scales-3-_milliresponsetime,0
+5.954606,0.133656,parameter,sysmon,scales-3-_freezetimer,
+5.954612,0.133656,parameter,sysmon,scales-3-_pos,5
+5.95462,0.133656,parameter,sysmon,scales-3-_zone,0
+5.954628,0.133656,parameter,sysmon,scales-3-_feedbacktimer,
+5.954636,0.133656,parameter,sysmon,scales-3-_feedbacktype,
+5.954644,0.133656,parameter,sysmon,scales-3-widget,<core.widgets.scale.Scale object at 0x000001BFC0030700>
+5.954655,0.133656,parameter,sysmon,scales-4-name,F4
+5.954663,0.133656,parameter,sysmon,scales-4-failure,0
+5.954671,0.133656,parameter,sysmon,scales-4-side,0
+5.954679,0.133656,parameter,sysmon,scales-4-key,F4
+5.954687,0.133656,parameter,sysmon,scales-4-_failuretimer,
+5.954695,0.133656,parameter,sysmon,scales-4-_onfailure,0
+5.954703,0.133656,parameter,sysmon,scales-4-_milliresponsetime,0
+5.954711,0.133656,parameter,sysmon,scales-4-_freezetimer,
+5.954719,0.133656,parameter,sysmon,scales-4-_pos,5
+5.954727,0.133656,parameter,sysmon,scales-4-_zone,0
+5.954735,0.133656,parameter,sysmon,scales-4-_feedbacktimer,
+5.954743,0.133656,parameter,sysmon,scales-4-_feedbacktype,
+5.954898,0.133656,parameter,sysmon,scales-4-widget,<core.widgets.scale.Scale object at 0x000001BFC0038E50>
+5.954921,0.133656,event,sysmon,self,start
+5.955506,0.154403,seed_value,sysmon,,
+5.955523,0.154403,seed_output,sysmon,,-1
+5.955546,0.154403,seed_value,sysmon,,
+5.955554,0.154403,seed_output,sysmon,,1
+5.955572,0.154403,seed_value,sysmon,,
+5.955579,0.154403,seed_output,sysmon,,1
+5.955596,0.154403,seed_value,sysmon,,
+5.955602,0.154403,seed_output,sysmon,,-1
+5.95666,0.154403,state,sysmon,"automode, text",MANUAL

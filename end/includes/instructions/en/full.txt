@@ -1,0 +1,3 @@
+<h1>All Tasks Simultaneously</h1>
+
+<p>Your challenge is to carry out all of these tasks at the same time.</p>

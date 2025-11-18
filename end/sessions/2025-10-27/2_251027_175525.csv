@@ -1,0 +1,48 @@
+logtime,scenario_time,type,module,address,value
+0.750796,0,version,,,1.4.1
+0.751317,0,scenario_path,,,includes\scenarios\fatigue.txt
+0.752021,0,seed_value,communications,,
+0.752043,0,seed_output,communications,,HJD672
+0.752128,0,seed_value,communications,,
+0.75214,0,seed_output,communications,,ZSC740
+0.752214,0,seed_value,communications,,
+0.752224,0,seed_output,communications,,HLM230
+0.752298,0,seed_value,communications,,
+0.752308,0,seed_output,communications,,SBN790
+0.752382,0,seed_value,communications,,
+0.752395,0,seed_output,communications,,PIV852
+0.75248,0,seed_value,communications,,
+0.75249,0,seed_output,communications,,DTW834
+0.75253,0,seed_value,communications,,
+0.75254,0,seed_output,communications,,135.724994
+0.752568,0,seed_value,communications,,
+0.752578,0,seed_output,communications,,114.900974
+0.752602,0,seed_value,communications,,
+0.752614,0,seed_output,communications,,114.845395
+0.752637,0,seed_value,communications,,
+0.752645,0,seed_output,communications,,126.064149
+4.977027,0,dialog,,,OpenMATB end
+4.98581,0.01756,event,instructions,filename,en/welcome_screen.txt
+7.54401,0.01756,dialog,,,Erreur(s) end
+7.54542,0.034761,aoi,instructions,background,"(0, 1080, 1920, 0)"
+7.546715,0.034761,parameter,instructions,title,
+7.546792,0.034761,parameter,instructions,taskplacement,fullscreen
+7.546825,0.034761,parameter,instructions,taskupdatetime,15
+7.546862,0.034761,parameter,instructions,taskfeedback-overdue-active,0
+7.546895,0.034761,parameter,instructions,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+7.546929,0.034761,parameter,instructions,taskfeedback-overdue-delayms,2000
+7.546955,0.034761,parameter,instructions,taskfeedback-overdue-blinkdurationms,1000
+7.54698,0.034761,parameter,instructions,taskfeedback-overdue-_nexttoggletime,0
+7.547004,0.034761,parameter,instructions,taskfeedback-overdue-_is_visible,0
+7.54703,0.034761,parameter,instructions,boldtitle,0
+7.547052,0.034761,parameter,instructions,filename,en/welcome_screen.txt
+7.547075,0.034761,parameter,instructions,pointsize,0
+7.547097,0.034761,parameter,instructions,maxdurationsec,0
+7.547121,0.034761,parameter,instructions,response-text,Appuyez sur ESPACE pour continuer
+7.547146,0.034761,parameter,instructions,response-key,SPACE
+7.547169,0.034761,parameter,instructions,allowkeypress,1
+7.55125,0.034761,state,instructions,"background, visibility",1
+7.551294,0.034761,event,instructions,self,start
+7.551352,0.034761,state,instructions,"background, visibility",0
+7.551367,0.034761,event,instructions,self,stop
+7.551378,0.034761,manual,,,end

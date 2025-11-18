@@ -1,0 +1,3 @@
+I feel tired;Rate how tired you feel right now;Not at all tired/Extremely tired;1/7/4
+I feel sleepy;Rate how sleepy you feel right now;Not at all sleepy/Extremely sleepy;1/7/4
+I feel drowsy;Rate how drowsy you feel right now;Not at all drowsy/Extremely drowsy;1/7/4

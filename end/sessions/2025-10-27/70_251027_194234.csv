@@ -1,0 +1,36 @@
+logtime,scenario_time,type,module,address,value
+0.795669,0,version,,,1.4.1
+0.796257,0,scenario_path,,,includes\scenarios\fatigue.txt
+0.797143,0,seed_value,communications,,
+0.797173,0,seed_output,communications,,CZT258
+0.797277,0,seed_value,communications,,
+0.797289,0,seed_output,communications,,TQD514
+0.797383,0,seed_value,communications,,
+0.797396,0,seed_output,communications,,LOM340
+0.797485,0,seed_value,communications,,
+0.797497,0,seed_output,communications,,GDJ460
+0.797584,0,seed_value,communications,,
+0.797596,0,seed_output,communications,,IMR655
+0.797665,0,seed_value,communications,,
+0.797674,0,seed_output,communications,,QOK886
+0.797765,0,seed_value,communications,,
+0.797777,0,seed_output,communications,,EYP842
+0.797858,0,seed_value,communications,,
+0.797868,0,seed_output,communications,,XJY070
+0.797945,0,seed_value,communications,,
+0.797962,0,seed_output,communications,,GWT153
+0.797994,0,seed_value,communications,,
+0.798004,0,seed_output,communications,,134.383308
+0.798031,0,seed_value,communications,,
+0.798041,0,seed_output,communications,,117.388847
+0.798116,0,seed_value,communications,,
+0.798127,0,seed_output,communications,,110.129373
+0.798151,0,seed_value,communications,,
+0.798159,0,seed_output,communications,,116.114649
+4.132093,0,dialog,,,OpenMATB end
+4.147292,0.017383,input,joystick,x,-0.007828
+4.147328,0.017383,input,joystick,y,0.076493
+4.147384,0.017383,event,link,url,https://your-site-or-instrument-url
+6.032925,0.017383,dialog,,,Error(s) end
+6.034743,0.036913,event,link,browser,firefox
+6.034822,0.036913,manual,,,end

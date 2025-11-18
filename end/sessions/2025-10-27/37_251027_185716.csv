@@ -1,0 +1,66 @@
+logtime,scenario_time,type,module,address,value
+0.793903,0,version,,,1.4.1
+0.794433,0,scenario_path,,,includes\scenarios\fatigue.txt
+0.795178,0,seed_value,communications,,
+0.795211,0,seed_output,communications,,GIM033
+0.795322,0,seed_value,communications,,
+0.795338,0,seed_output,communications,,OSQ034
+0.795444,0,seed_value,communications,,
+0.795459,0,seed_output,communications,,UDA433
+0.795544,0,seed_value,communications,,
+0.795557,0,seed_output,communications,,BJW275
+0.795644,0,seed_value,communications,,
+0.795656,0,seed_output,communications,,INP414
+0.795735,0,seed_value,communications,,
+0.795747,0,seed_output,communications,,CMB993
+0.795828,0,seed_value,communications,,
+0.79584,0,seed_output,communications,,LCN879
+0.795934,0,seed_value,communications,,
+0.795945,0,seed_output,communications,,CLN158
+0.796044,0,seed_value,communications,,
+0.796056,0,seed_output,communications,,HQR233
+0.796137,0,seed_value,communications,,
+0.796149,0,seed_output,communications,,IBX875
+0.796234,0,seed_value,communications,,
+0.796246,0,seed_output,communications,,EOR477
+0.796331,0,seed_value,communications,,
+0.796345,0,seed_output,communications,,CGE412
+0.79638,0,seed_value,communications,,
+0.796391,0,seed_output,communications,,127.778132
+0.796418,0,seed_value,communications,,
+0.796427,0,seed_output,communications,,126.544737
+0.796456,0,seed_value,communications,,
+0.796465,0,seed_output,communications,,114.085686
+0.796489,0,seed_value,communications,,
+0.796497,0,seed_output,communications,,121.299595
+12.584822,0,dialog,,,OpenMATB end
+12.585527,0.017805,event,instructions,filename,en/welcome_screen.txt
+12.600219,0.032026,aoi,instructions,background,"(0, 1080, 1920, 0)"
+12.601538,0.032026,parameter,instructions,title,
+12.601621,0.032026,parameter,instructions,taskplacement,fullscreen
+12.601659,0.032026,parameter,instructions,taskupdatetime,15
+12.601702,0.032026,parameter,instructions,taskfeedback-overdue-active,0
+12.601738,0.032026,parameter,instructions,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+12.601773,0.032026,parameter,instructions,taskfeedback-overdue-delayms,2000
+12.601802,0.032026,parameter,instructions,taskfeedback-overdue-blinkdurationms,1000
+12.601832,0.032026,parameter,instructions,taskfeedback-overdue-_nexttoggletime,0
+12.601861,0.032026,parameter,instructions,taskfeedback-overdue-_is_visible,0
+12.601891,0.032026,parameter,instructions,boldtitle,0
+12.601918,0.032026,parameter,instructions,filename,en/welcome_screen.txt
+12.601946,0.032026,parameter,instructions,pointsize,0
+12.601974,0.032026,parameter,instructions,maxdurationsec,0
+12.602003,0.032026,parameter,instructions,response-text,Press SPACE to continue
+12.602032,0.032026,parameter,instructions,response-key,SPACE
+12.602059,0.032026,parameter,instructions,allowkeypress,1
+12.606706,0.032026,state,instructions,"background, visibility",1
+12.606738,0.032026,event,instructions,self,start
+12.616239,0.048535,state,instructions,"background, visibility",0
+12.623981,0.048535,aoi,instructions,title,"(0, 1080, 1920, 0)"
+12.629639,0.048535,aoi,instructions,press_space,"(0, 1080, 1920, 0)"
+12.639117,0.048535,aoi,instructions,instructions,"(0, 1080, 1920, 0)"
+12.639242,0.048535,state,instructions,"background, visibility",1
+13.180636,0.048535,input,keyboard,ESCAPE,press
+15.049406,0.048535,dialog,,,Exit OpenMATB? end
+15.04973,0.048535,state,instructions,"background, visibility",0
+15.062754,0.048535,event,instructions,self,stop
+15.0628,0.048535,manual,,,end

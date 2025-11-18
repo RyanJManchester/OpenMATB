@@ -1,0 +1,32 @@
+logtime,scenario_time,type,module,address,value
+0.825564,0,version,,,1.4.1
+0.826025,0,scenario_path,,,includes\scenarios\fatigue.txt
+0.826728,0,seed_value,communications,,
+0.826753,0,seed_output,communications,,PDU968
+0.826845,0,seed_value,communications,,
+0.826857,0,seed_output,communications,,CJN374
+0.82694,0,seed_value,communications,,
+0.826957,0,seed_output,communications,,XOW819
+0.827045,0,seed_value,communications,,
+0.827056,0,seed_output,communications,,DJW772
+0.827135,0,seed_value,communications,,
+0.827146,0,seed_output,communications,,KQT042
+0.827233,0,seed_value,communications,,
+0.827244,0,seed_output,communications,,IDQ792
+0.827332,0,seed_value,communications,,
+0.827345,0,seed_output,communications,,OSN708
+0.827379,0,seed_value,communications,,
+0.827389,0,seed_output,communications,,134.911755
+0.827416,0,seed_value,communications,,
+0.827426,0,seed_output,communications,,120.909038
+0.827452,0,seed_value,communications,,
+0.827464,0,seed_output,communications,,121.80859
+0.827488,0,seed_value,communications,,
+0.827497,0,seed_output,communications,,120.027576
+4.345035,0,dialog,,,OpenMATB end
+4.357752,0.018057,input,joystick,x,-0.007828
+4.357776,0.018057,input,joystick,y,0.076493
+4.357822,0.018057,event,pvt,duration_s,180
+6.626642,0.018057,dialog,,,Error(s) end
+6.627104,0.034792,event,pvt,iti_min_ms,2000
+6.627224,0.034792,manual,,,end

@@ -1,0 +1,4 @@
+I feel efficient;Rate how efficient you feel right now;Not at all efficient/Extremely efficient;1/7/4
+I feel lively;Rate how lively you feel right now;Not at all lively/Extremely lively;1/7/4
+I feel bushed;Rate how bushed you feel right now;Not at all bushed/Totally bushed;1/7/4
+I feel exhausted;Rate how exhausted you feel right now;Not at all exhausted/Totally exhausted;1/7/4

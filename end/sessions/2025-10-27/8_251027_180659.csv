@@ -1,0 +1,2506 @@
+logtime,scenario_time,type,module,address,value
+1.253963,0,version,,,1.4.1
+1.254369,0,scenario_path,,,includes\scenarios\fatigue.txt
+1.254996,0,seed_value,communications,,
+1.255016,0,seed_output,communications,,SBN790
+1.25509,0,seed_value,communications,,
+1.2551,0,seed_output,communications,,PIV852
+1.255161,0,seed_value,communications,,
+1.255169,0,seed_output,communications,,DTW834
+1.255228,0,seed_value,communications,,
+1.255236,0,seed_output,communications,,LPP463
+1.255311,0,seed_value,communications,,
+1.25532,0,seed_output,communications,,QNZ454
+1.255381,0,seed_value,communications,,
+1.255409,0,seed_output,communications,,FDV753
+1.255494,0,seed_value,communications,,
+1.255504,0,seed_output,communications,,XVZ241
+1.255586,0,seed_value,communications,,
+1.255596,0,seed_output,communications,,EHA972
+1.255632,0,seed_value,communications,,
+1.255643,0,seed_output,communications,,114.57447
+1.255665,0,seed_value,communications,,
+1.255673,0,seed_output,communications,,121.427213
+1.255694,0,seed_value,communications,,
+1.255702,0,seed_output,communications,,124.570675
+1.255722,0,seed_value,communications,,
+1.25573,0,seed_output,communications,,121.119007
+5.273518,0,dialog,,,OpenMATB end
+5.273709,0.017446,input,joystick,x,-0.007828
+5.273734,0.017446,input,joystick,y,-0.007828
+5.273806,0.017446,event,instructions,filename,en/welcome_screen.txt
+5.290321,0.033463,aoi,instructions,background,"(0, 1080, 1920, 0)"
+5.291417,0.033463,parameter,instructions,title,
+5.291487,0.033463,parameter,instructions,taskplacement,fullscreen
+5.291518,0.033463,parameter,instructions,taskupdatetime,15
+5.291558,0.033463,parameter,instructions,taskfeedback-overdue-active,0
+5.291585,0.033463,parameter,instructions,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+5.291615,0.033463,parameter,instructions,taskfeedback-overdue-delayms,2000
+5.29164,0.033463,parameter,instructions,taskfeedback-overdue-blinkdurationms,1000
+5.291667,0.033463,parameter,instructions,taskfeedback-overdue-_nexttoggletime,0
+5.291693,0.033463,parameter,instructions,taskfeedback-overdue-_is_visible,0
+5.291719,0.033463,parameter,instructions,boldtitle,0
+5.291742,0.033463,parameter,instructions,filename,en/welcome_screen.txt
+5.291764,0.033463,parameter,instructions,pointsize,0
+5.291787,0.033463,parameter,instructions,maxdurationsec,0
+5.291811,0.033463,parameter,instructions,response-text,Press SPACE to continue
+5.291835,0.033463,parameter,instructions,response-key,SPACE
+5.291856,0.033463,parameter,instructions,allowkeypress,1
+5.296632,0.033463,state,instructions,"background, visibility",1
+5.296662,0.033463,event,instructions,self,start
+5.306365,0.050025,state,instructions,"background, visibility",0
+5.31492,0.050025,aoi,instructions,title,"(0, 1080, 1920, 0)"
+5.320653,0.050025,aoi,instructions,press_space,"(0, 1080, 1920, 0)"
+5.330726,0.050025,aoi,instructions,instructions,"(0, 1080, 1920, 0)"
+5.330859,0.050025,state,instructions,"background, visibility",1
+5.33643,0.050025,input,joystick,y,-0.031266
+5.35623,0.050025,input,joystick,y,-0.007828
+5.60653,0.050025,input,joystick,y,-0.013687
+5.623179,0.050025,input,joystick,y,-0.007828
+5.673342,0.050025,input,joystick,y,-0.013687
+5.69037,0.050025,input,joystick,y,-0.007828
+5.773296,0.050025,input,joystick,y,-0.013687
+5.789593,0.050025,input,joystick,y,-0.019547
+5.806292,0.050025,input,joystick,y,-0.007828
+5.856802,0.050025,input,keyboard,SPACE,press
+5.906346,0.050025,input,joystick,y,-0.031266
+5.922958,0.050025,input,joystick,y,-0.013687
+5.939828,0.050025,input,joystick,y,-0.007828
+5.956827,0.050025,input,keyboard,SPACE,release
+5.957752,0.050025,state,instructions,"background, visibility",0
+5.974879,0.067002,aoi,sysmon,foreground,"(0, 1026.0, 672, 540.0)"
+5.974969,0.067002,aoi,sysmon,overdue,"(0, 1026.0, 672, 540.0)"
+5.981325,0.067002,aoi,sysmon,task_title,"(0, 1080.0, 672, 1026.0)"
+5.981463,0.067002,aoi,sysmon,automode,"(285.6, 592.65, 386.40000000000003, 565.65)"
+5.982908,0.067002,aoi,sysmon,scale1,"(50.4, 855.9, 117.6, 612.9)"
+5.983961,0.067002,aoi,sysmon,scale2,"(218.4, 855.9, 285.6, 612.9)"
+5.985167,0.067002,aoi,sysmon,scale3,"(386.4, 855.9, 453.59999999999997, 612.9)"
+5.986289,0.067002,aoi,sysmon,scale4,"(554.4, 855.9, 621.6, 612.9)"
+5.987764,0.067002,aoi,sysmon,light1,"(33.599999999999994, 977.4, 302.4, 904.5)"
+5.989815,0.067002,aoi,sysmon,light2,"(369.6, 977.4, 638.4000000000001, 904.5)"
+5.989844,0.067002,parameter,sysmon,title,System monitoring
+5.989855,0.067002,parameter,sysmon,taskplacement,topleft
+5.989863,0.067002,parameter,sysmon,taskupdatetime,200
+5.989873,0.067002,parameter,sysmon,taskfeedback-overdue-active,0
+5.989881,0.067002,parameter,sysmon,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+5.989889,0.067002,parameter,sysmon,taskfeedback-overdue-delayms,2000
+5.989897,0.067002,parameter,sysmon,taskfeedback-overdue-blinkdurationms,1000
+5.989904,0.067002,parameter,sysmon,taskfeedback-overdue-_nexttoggletime,0
+5.989911,0.067002,parameter,sysmon,taskfeedback-overdue-_is_visible,0
+5.989918,0.067002,parameter,sysmon,taskfeedback-overdue-widget,<core.widgets.frame.Frame object at 0x000001BEEAAFD7F0>
+5.989929,0.067002,parameter,sysmon,alerttimeout,10000
+5.989935,0.067002,parameter,sysmon,automaticsolver,0
+5.989942,0.067002,parameter,sysmon,automaticsolverdelay,1000
+5.989949,0.067002,parameter,sysmon,displayautomationstate,1
+5.989956,0.067002,parameter,sysmon,allowanykey,0
+5.989963,0.067002,parameter,sysmon,feedbackduration,1500
+5.989971,0.067002,parameter,sysmon,feedbacks-positive-active,1
+5.989977,0.067002,parameter,sysmon,feedbacks-positive-color,"(142, 219, 176, 255)"
+5.989986,0.067002,parameter,sysmon,feedbacks-negative-active,1
+5.989992,0.067002,parameter,sysmon,feedbacks-negative-color,"(241, 100, 100, 255)"
+5.990001,0.067002,parameter,sysmon,lights-1-name,F5
+5.990008,0.067002,parameter,sysmon,lights-1-failure,0
+5.990015,0.067002,parameter,sysmon,lights-1-default,on
+5.990021,0.067002,parameter,sysmon,lights-1-oncolor,"(142, 219, 176, 255)"
+5.990029,0.067002,parameter,sysmon,lights-1-key,F5
+5.990035,0.067002,parameter,sysmon,lights-1-on,1
+5.990043,0.067002,parameter,sysmon,lights-1-_failuretimer,
+5.990049,0.067002,parameter,sysmon,lights-1-_onfailure,0
+5.990056,0.067002,parameter,sysmon,lights-1-_milliresponsetime,0
+5.990068,0.067002,parameter,sysmon,lights-1-_freezetimer,
+5.990075,0.067002,parameter,sysmon,lights-1-widget,<core.widgets.light.Light object at 0x000001BEEA6CC3A0>
+5.990085,0.067002,parameter,sysmon,lights-2-name,F6
+5.990092,0.067002,parameter,sysmon,lights-2-failure,0
+5.990099,0.067002,parameter,sysmon,lights-2-default,off
+5.990106,0.067002,parameter,sysmon,lights-2-oncolor,"(241, 100, 100, 255)"
+5.990114,0.067002,parameter,sysmon,lights-2-key,F6
+5.990121,0.067002,parameter,sysmon,lights-2-on,0
+5.990128,0.067002,parameter,sysmon,lights-2-_failuretimer,
+5.990135,0.067002,parameter,sysmon,lights-2-_onfailure,0
+5.990142,0.067002,parameter,sysmon,lights-2-_milliresponsetime,0
+5.990149,0.067002,parameter,sysmon,lights-2-_freezetimer,
+5.990156,0.067002,parameter,sysmon,lights-2-widget,<core.widgets.light.Light object at 0x000001BEEA6D6490>
+5.990165,0.067002,parameter,sysmon,scales-1-name,F1
+5.990173,0.067002,parameter,sysmon,scales-1-failure,0
+5.990181,0.067002,parameter,sysmon,scales-1-side,0
+5.990188,0.067002,parameter,sysmon,scales-1-key,F1
+5.990196,0.067002,parameter,sysmon,scales-1-_failuretimer,
+5.990203,0.067002,parameter,sysmon,scales-1-_onfailure,0
+5.99021,0.067002,parameter,sysmon,scales-1-_milliresponsetime,0
+5.990219,0.067002,parameter,sysmon,scales-1-_freezetimer,
+5.990226,0.067002,parameter,sysmon,scales-1-_pos,5
+5.990234,0.067002,parameter,sysmon,scales-1-_zone,0
+5.990242,0.067002,parameter,sysmon,scales-1-_feedbacktimer,
+5.990249,0.067002,parameter,sysmon,scales-1-_feedbacktype,
+5.990257,0.067002,parameter,sysmon,scales-1-widget,<core.widgets.scale.Scale object at 0x000001BEEA6B3520>
+5.990266,0.067002,parameter,sysmon,scales-2-name,F2
+5.990273,0.067002,parameter,sysmon,scales-2-failure,0
+5.990281,0.067002,parameter,sysmon,scales-2-side,0
+5.990288,0.067002,parameter,sysmon,scales-2-key,F2
+5.990304,0.067002,parameter,sysmon,scales-2-_failuretimer,
+5.990312,0.067002,parameter,sysmon,scales-2-_onfailure,0
+5.990319,0.067002,parameter,sysmon,scales-2-_milliresponsetime,0
+5.990326,0.067002,parameter,sysmon,scales-2-_freezetimer,
+5.990333,0.067002,parameter,sysmon,scales-2-_pos,5
+5.990342,0.067002,parameter,sysmon,scales-2-_zone,0
+5.990349,0.067002,parameter,sysmon,scales-2-_feedbacktimer,
+5.990354,0.067002,parameter,sysmon,scales-2-_feedbacktype,
+5.990361,0.067002,parameter,sysmon,scales-2-widget,<core.widgets.scale.Scale object at 0x000001BEEA6B3700>
+5.990368,0.067002,parameter,sysmon,scales-3-name,F3
+5.990374,0.067002,parameter,sysmon,scales-3-failure,0
+5.990381,0.067002,parameter,sysmon,scales-3-side,0
+5.990386,0.067002,parameter,sysmon,scales-3-key,F3
+5.990392,0.067002,parameter,sysmon,scales-3-_failuretimer,
+5.990398,0.067002,parameter,sysmon,scales-3-_onfailure,0
+5.990404,0.067002,parameter,sysmon,scales-3-_milliresponsetime,0
+5.99041,0.067002,parameter,sysmon,scales-3-_freezetimer,
+5.990416,0.067002,parameter,sysmon,scales-3-_pos,5
+5.990422,0.067002,parameter,sysmon,scales-3-_zone,0
+5.990428,0.067002,parameter,sysmon,scales-3-_feedbacktimer,
+5.990434,0.067002,parameter,sysmon,scales-3-_feedbacktype,
+5.99044,0.067002,parameter,sysmon,scales-3-widget,<core.widgets.scale.Scale object at 0x000001BEEA6B9B50>
+5.990447,0.067002,parameter,sysmon,scales-4-name,F4
+5.990452,0.067002,parameter,sysmon,scales-4-failure,0
+5.990458,0.067002,parameter,sysmon,scales-4-side,0
+5.990464,0.067002,parameter,sysmon,scales-4-key,F4
+5.99047,0.067002,parameter,sysmon,scales-4-_failuretimer,
+5.990476,0.067002,parameter,sysmon,scales-4-_onfailure,0
+5.990482,0.067002,parameter,sysmon,scales-4-_milliresponsetime,0
+5.990488,0.067002,parameter,sysmon,scales-4-_freezetimer,
+5.990494,0.067002,parameter,sysmon,scales-4-_pos,5
+5.9905,0.067002,parameter,sysmon,scales-4-_zone,0
+5.990505,0.067002,parameter,sysmon,scales-4-_feedbacktimer,
+5.990511,0.067002,parameter,sysmon,scales-4-_feedbacktype,
+5.990517,0.067002,parameter,sysmon,scales-4-widget,<core.widgets.scale.Scale object at 0x000001BEEA6C1F70>
+5.990753,0.067002,state,sysmon,"foreground, visibility",1
+5.990908,0.067002,state,sysmon,"overdue, visibility",1
+5.994109,0.067002,event,sysmon,self,start
+5.998792,0.091192,seed_value,sysmon,,
+5.998815,0.091192,seed_output,sysmon,,1
+5.998839,0.091192,seed_value,sysmon,,
+5.998849,0.091192,seed_output,sysmon,,1
+5.998867,0.091192,seed_value,sysmon,,
+5.998874,0.091192,seed_output,sysmon,,1
+5.998891,0.091192,seed_value,sysmon,,
+5.998897,0.091192,seed_output,sysmon,,-1
+5.998927,0.091192,state,sysmon,"foreground, visibility",0
+5.99977,0.091192,state,sysmon,"automode, text",MANUAL
+5.999804,0.091192,state,sysmon,"overdue, visibility",0
+5.999835,0.091192,state,sysmon,"scale1, arrow",6
+5.999851,0.091192,state,sysmon,"scale2, arrow",6
+5.999863,0.091192,state,sysmon,"scale3, arrow",6
+5.999875,0.091192,state,sysmon,"scale4, arrow",4
+6.000039,0.091192,aoi,track,foreground,"(672, 1026.0, 1632, 540.0)"
+6.000071,0.091192,aoi,track,overdue,"(672, 1026.0, 1632, 540.0)"
+6.001626,0.091192,aoi,track,task_title,"(672, 1080.0, 1632, 1026.0)"
+6.001768,0.091192,aoi,track,automode,"(957.5999999999999, 618.3, 1101.6, 591.3)"
+6.001913,0.091192,aoi,track,reticle,"(957.6, 977.4000000000001, 1346.4, 588.6)"
+6.001937,0.091192,parameter,track,title,Tracking
+6.001947,0.091192,parameter,track,taskplacement,topmid
+6.001954,0.091192,parameter,track,taskupdatetime,20
+6.001964,0.091192,parameter,track,taskfeedback-overdue-active,0
+6.001972,0.091192,parameter,track,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+6.001981,0.091192,parameter,track,taskfeedback-overdue-delayms,2000
+6.001988,0.091192,parameter,track,taskfeedback-overdue-blinkdurationms,1000
+6.001996,0.091192,parameter,track,taskfeedback-overdue-_nexttoggletime,0
+6.002003,0.091192,parameter,track,taskfeedback-overdue-_is_visible,0
+6.00201,0.091192,parameter,track,taskfeedback-overdue-widget,<core.widgets.frame.Frame object at 0x000001BEEA6D6730>
+6.00202,0.091192,parameter,track,cursorcolor,"(50, 50, 50, 255)"
+6.002028,0.091192,parameter,track,cursorcoloroutside,"(241, 100, 100, 255)"
+6.002035,0.091192,parameter,track,automaticsolver,0
+6.002043,0.091192,parameter,track,displayautomationstate,1
+6.00205,0.091192,parameter,track,targetproportion,0.25
+6.002058,0.091192,parameter,track,joystickforce,1
+6.002065,0.091192,parameter,track,inverseaxis,0
+6.002197,0.091192,state,track,"foreground, visibility",1
+6.002272,0.091192,state,track,"overdue, visibility",1
+6.002946,0.091192,event,track,self,start
+6.006522,0.098875,performance,track,cursor_in_target,1
+6.006556,0.098875,performance,track,center_deviation,0.0
+6.006593,0.098875,state,track,"foreground, visibility",0
+6.007059,0.098875,state,track,"automode, text",MANUAL
+6.007103,0.098875,state,track,"overdue, visibility",0
+6.007196,0.098875,state,track,"reticle, cursor_relative","(1.5473462018965944, 1.8740230887954907)"
+6.007221,0.098875,state,track,"reticle, cursor_proportional","(0.003979799901997413, 0.00482001823249869)"
+6.007425,0.098875,aoi,scheduling,foreground,"(1632, 1026.0, 1920, 540.0)"
+6.00746,0.098875,aoi,scheduling,overdue,"(1632, 1026.0, 1920, 540.0)"
+6.009585,0.098875,aoi,scheduling,task_title,"(1632, 1080.0, 1920, 1026.0)"
+6.020977,0.098875,aoi,scheduling,timeline,"(1660.8, 977.4000000000001, 1709.76, 637.2)"
+6.024985,0.098875,aoi,scheduling,elapsed_time,"(1632, 1026.0, 1920, 540.0)"
+6.026364,0.098875,aoi,scheduling,sysmon,"(1718.4, 977.4000000000001, 1767.3600000000001, 637.2)"
+6.027327,0.098875,aoi,scheduling,track,"(1761.6, 977.4000000000001, 1810.56, 637.2)"
+6.027911,0.098875,aoi,scheduling,communications,"(1804.8, 977.4000000000001, 1853.76, 637.2)"
+6.028584,0.098875,aoi,scheduling,resman,"(1848.0, 977.4000000000001, 1896.96, 637.2)"
+6.028609,0.098875,parameter,scheduling,title,Scheduling
+6.02862,0.098875,parameter,scheduling,taskplacement,topright
+6.028628,0.098875,parameter,scheduling,taskupdatetime,1000
+6.028638,0.098875,parameter,scheduling,taskfeedback-overdue-active,0
+6.028647,0.098875,parameter,scheduling,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+6.028655,0.098875,parameter,scheduling,taskfeedback-overdue-delayms,2000
+6.028662,0.098875,parameter,scheduling,taskfeedback-overdue-blinkdurationms,1000
+6.02867,0.098875,parameter,scheduling,taskfeedback-overdue-_nexttoggletime,0
+6.028677,0.098875,parameter,scheduling,taskfeedback-overdue-_is_visible,0
+6.028684,0.098875,parameter,scheduling,taskfeedback-overdue-widget,<core.widgets.frame.Frame object at 0x000001BEEAAFD850>
+6.028694,0.098875,parameter,scheduling,minduration,8
+6.028701,0.098875,parameter,scheduling,displaychronometer,1
+6.028708,0.098875,parameter,scheduling,reversechronometer,0
+6.028715,0.098875,parameter,scheduling,displayedplugins,"['sysmon', 'track', 'communications', 'resman']"
+6.028725,0.098875,parameter,scheduling,labels,"['S', 'T', 'C', 'R']"
+6.028852,0.098875,state,scheduling,"foreground, visibility",1
+6.028901,0.098875,state,scheduling,"overdue, visibility",1
+6.033985,0.098875,event,scheduling,self,start
+6.04068,0.133038,performance,track,cursor_in_target,1
+6.040722,0.133038,performance,track,center_deviation,2.430276
+6.040823,0.133038,state,track,"reticle, cursor_relative","(2.317056764518134, 2.814864593474872)"
+6.04084,0.133038,state,track,"reticle, cursor_proportional","(0.005959508139192732, 0.007239878069637016)"
+6.040881,0.133038,state,scheduling,"foreground, visibility",0
+6.040905,0.133038,state,scheduling,"overdue, visibility",0
+6.041079,0.133038,state,scheduling,"sysmon, top_bound_color","(142, 219, 176, 255)"
+6.041292,0.133038,state,scheduling,"track, top_bound_color","(142, 219, 176, 255)"
+6.041487,0.133038,state,scheduling,"communications, top_bound_color","(142, 219, 176, 255)"
+6.041628,0.133038,state,scheduling,"resman, top_bound_color","(142, 219, 176, 255)"
+6.041905,0.133038,aoi,resman,foreground,"(576, 486.0, 1632, 0.0)"
+6.041945,0.133038,aoi,resman,overdue,"(576, 486.0, 1632, 0.0)"
+6.043259,0.133038,aoi,resman,task_title,"(576, 540.0, 1632, 486.0)"
+6.043406,0.133038,aoi,resman,automode,"(1006.848, 309.15000000000003, 1165.248, 282.15000000000003)"
+6.043714,0.133038,aoi,resman,status_foreground,"(1632, 486.0, 1920, 0.0)"
+6.045884,0.133038,aoi,resman,status_title,"(1632, 540.0, 1920, 486.0)"
+6.046751,0.133038,aoi,resman,pump_1_flow,"(1632, 486.0, 1920, 432.0)"
+6.047511,0.133038,aoi,resman,pump_2_flow,"(1632, 432.00000000000006, 1920, 378.00000000000006)"
+6.048177,0.133038,aoi,resman,pump_3_flow,"(1632, 378.00000000000006, 1920, 324.00000000000006)"
+6.048817,0.133038,aoi,resman,pump_4_flow,"(1632, 324.0, 1920, 270.0)"
+6.049446,0.133038,aoi,resman,pump_5_flow,"(1632, 270.0, 1920, 216.0)"
+6.05012,0.133038,aoi,resman,pump_6_flow,"(1632, 216.00000000000003, 1920, 162.00000000000003)"
+6.050741,0.133038,aoi,resman,pump_7_flow,"(1632, 161.99999999999997, 1920, 107.99999999999997)"
+6.051412,0.133038,aoi,resman,pump_8_flow,"(1632, 107.99999999999999, 1920, 53.999999999999986)"
+6.052345,0.133038,aoi,resman,tank_a,"(723.84, 437.4, 882.24, 267.3)"
+6.05355,0.133038,aoi,resman,tank_b,"(1251.8400000000001, 437.4, 1410.2400000000002, 267.3)"
+6.054562,0.133038,aoi,resman,tank_c,"(628.8, 243.0, 734.4, 72.89999999999999)"
+6.055447,0.133038,aoi,resman,tank_d,"(1156.8000000000002, 243.0, 1262.4, 72.89999999999999)"
+6.055944,0.133038,aoi,resman,tank_e,"(892.8, 243.0, 1019.52, 72.89999999999999)"
+6.056442,0.133038,aoi,resman,tank_f,"(1420.8000000000002, 243.0, 1547.5200000000002, 72.89999999999999)"
+6.060354,0.133038,parameter,resman,title,Resources management
+6.060374,0.133038,parameter,resman,taskplacement,bottommid
+6.060384,0.133038,parameter,resman,taskupdatetime,2000
+6.060395,0.133038,parameter,resman,taskfeedback-overdue-active,0
+6.060403,0.133038,parameter,resman,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+6.060413,0.133038,parameter,resman,taskfeedback-overdue-delayms,2000
+6.060421,0.133038,parameter,resman,taskfeedback-overdue-blinkdurationms,1000
+6.060428,0.133038,parameter,resman,taskfeedback-overdue-_nexttoggletime,0
+6.060435,0.133038,parameter,resman,taskfeedback-overdue-_is_visible,0
+6.060443,0.133038,parameter,resman,taskfeedback-overdue-widget,<core.widgets.frame.Frame object at 0x000001BEEABED400>
+6.060453,0.133038,parameter,resman,automaticsolver,0
+6.06046,0.133038,parameter,resman,displayautomationstate,1
+6.060468,0.133038,parameter,resman,pumpcoloroff,"(255, 255, 255, 255)"
+6.060475,0.133038,parameter,resman,pumpcoloron,"(142, 219, 176, 255)"
+6.060483,0.133038,parameter,resman,pumpcolorfailure,"(241, 100, 100, 255)"
+6.060491,0.133038,parameter,resman,toleranceradius,250
+6.060498,0.133038,parameter,resman,statuslocation,bottomright
+6.060505,0.133038,parameter,resman,displaystatus,1
+6.060512,0.133038,parameter,resman,tolerancecolor,"(50, 50, 50, 255)"
+6.06052,0.133038,parameter,resman,tolerancecoloroutside,"(50, 50, 50, 255)"
+6.060528,0.133038,parameter,resman,tank-a-level,2500
+6.060535,0.133038,parameter,resman,tank-a-max,4000
+6.060542,0.133038,parameter,resman,tank-a-target,2500
+6.060549,0.133038,parameter,resman,tank-a-depletable,1
+6.060556,0.133038,parameter,resman,tank-a-lossperminute,800
+6.060563,0.133038,parameter,resman,tank-a-_infoside,left
+6.060569,0.133038,parameter,resman,tank-a-_response_time,0
+6.060577,0.133038,parameter,resman,tank-a-_is_in_tolerance,
+6.060584,0.133038,parameter,resman,tank-a-_tolerance_color,"(50, 50, 50, 255)"
+6.060591,0.133038,parameter,resman,tank-a-widget,<core.widgets.tank.Tank object at 0x000001BEEAC1D490>
+6.0606,0.133038,parameter,resman,tank-b-level,2500
+6.060607,0.133038,parameter,resman,tank-b-max,4000
+6.060614,0.133038,parameter,resman,tank-b-target,2500
+6.060621,0.133038,parameter,resman,tank-b-depletable,1
+6.060628,0.133038,parameter,resman,tank-b-lossperminute,800
+6.060634,0.133038,parameter,resman,tank-b-_infoside,right
+6.060642,0.133038,parameter,resman,tank-b-_response_time,0
+6.060649,0.133038,parameter,resman,tank-b-_is_in_tolerance,
+6.060655,0.133038,parameter,resman,tank-b-_tolerance_color,"(50, 50, 50, 255)"
+6.060663,0.133038,parameter,resman,tank-b-widget,<core.widgets.tank.Tank object at 0x000001BEEAD6CEE0>
+6.060671,0.133038,parameter,resman,tank-c-level,1000
+6.060678,0.133038,parameter,resman,tank-c-max,2000
+6.060685,0.133038,parameter,resman,tank-c-target,
+6.060692,0.133038,parameter,resman,tank-c-depletable,1
+6.060699,0.133038,parameter,resman,tank-c-lossperminute,0
+6.060706,0.133038,parameter,resman,tank-c-_infoside,left
+6.060713,0.133038,parameter,resman,tank-c-widget,<core.widgets.tank.Tank object at 0x000001BEEAD78AC0>
+6.060722,0.133038,parameter,resman,tank-d-level,1000
+6.060729,0.133038,parameter,resman,tank-d-max,2000
+6.060736,0.133038,parameter,resman,tank-d-target,
+6.060743,0.133038,parameter,resman,tank-d-depletable,1
+6.06075,0.133038,parameter,resman,tank-d-lossperminute,0
+6.060757,0.133038,parameter,resman,tank-d-_infoside,left
+6.060764,0.133038,parameter,resman,tank-d-widget,<core.widgets.tank.Tank object at 0x000001BEEAD86670>
+6.060772,0.133038,parameter,resman,tank-e-level,3000
+6.06078,0.133038,parameter,resman,tank-e-max,4000
+6.060786,0.133038,parameter,resman,tank-e-target,
+6.060793,0.133038,parameter,resman,tank-e-depletable,0
+6.0608,0.133038,parameter,resman,tank-e-lossperminute,0
+6.060806,0.133038,parameter,resman,tank-e-_infoside,right
+6.060814,0.133038,parameter,resman,tank-e-widget,<core.widgets.tank.Tank object at 0x000001BEEAD8AF40>
+6.060822,0.133038,parameter,resman,tank-f-level,3000
+6.060829,0.133038,parameter,resman,tank-f-max,4000
+6.060836,0.133038,parameter,resman,tank-f-target,
+6.060842,0.133038,parameter,resman,tank-f-depletable,0
+6.06085,0.133038,parameter,resman,tank-f-lossperminute,0
+6.060856,0.133038,parameter,resman,tank-f-_infoside,right
+6.060863,0.133038,parameter,resman,tank-f-widget,<core.widgets.tank.Tank object at 0x000001BEEAD957F0>
+6.060871,0.133038,parameter,resman,pump-1-flow,800
+6.060879,0.133038,parameter,resman,pump-1-state,off
+6.060886,0.133038,parameter,resman,pump-1-key,NUM_1
+6.060892,0.133038,parameter,resman,pump-1-_fromtank,c
+6.060899,0.133038,parameter,resman,pump-1-_totank,a
+6.060906,0.133038,parameter,resman,pump-1-statuswidget,<core.widgets.pumpflow.PumpFlow object at 0x000001BEEAC47F70>
+6.060914,0.133038,parameter,resman,pump-1-widget,<core.widgets.pump.Pump object at 0x000001BEEAD9DE50>
+6.060923,0.133038,parameter,resman,pump-2-flow,600
+6.06093,0.133038,parameter,resman,pump-2-state,off
+6.060937,0.133038,parameter,resman,pump-2-key,NUM_2
+6.060944,0.133038,parameter,resman,pump-2-_fromtank,e
+6.06095,0.133038,parameter,resman,pump-2-_totank,a
+6.060957,0.133038,parameter,resman,pump-2-statuswidget,<core.widgets.pumpflow.PumpFlow object at 0x000001BEEABF1AC0>
+6.060965,0.133038,parameter,resman,pump-2-widget,<core.widgets.pump.Pump object at 0x000001BEEADA2E50>
+6.060973,0.133038,parameter,resman,pump-3-flow,800
+6.06098,0.133038,parameter,resman,pump-3-state,off
+6.060987,0.133038,parameter,resman,pump-3-key,NUM_3
+6.060993,0.133038,parameter,resman,pump-3-_fromtank,d
+6.061,0.133038,parameter,resman,pump-3-_totank,b
+6.061007,0.133038,parameter,resman,pump-3-statuswidget,<core.widgets.pumpflow.PumpFlow object at 0x000001BEEAC061C0>
+6.061015,0.133038,parameter,resman,pump-3-widget,<core.widgets.pump.Pump object at 0x000001BEEADA9E50>
+6.061023,0.133038,parameter,resman,pump-4-flow,600
+6.06103,0.133038,parameter,resman,pump-4-state,off
+6.061037,0.133038,parameter,resman,pump-4-key,NUM_4
+6.061044,0.133038,parameter,resman,pump-4-_fromtank,f
+6.061051,0.133038,parameter,resman,pump-4-_totank,b
+6.061058,0.133038,parameter,resman,pump-4-statuswidget,<core.widgets.pumpflow.PumpFlow object at 0x000001BEEAC06F70>
+6.061066,0.133038,parameter,resman,pump-4-widget,<core.widgets.pump.Pump object at 0x000001BEEADAFE50>
+6.061074,0.133038,parameter,resman,pump-5-flow,600
+6.061081,0.133038,parameter,resman,pump-5-state,off
+6.061087,0.133038,parameter,resman,pump-5-key,NUM_5
+6.061094,0.133038,parameter,resman,pump-5-_fromtank,e
+6.061101,0.133038,parameter,resman,pump-5-_totank,c
+6.061107,0.133038,parameter,resman,pump-5-statuswidget,<core.widgets.pumpflow.PumpFlow object at 0x000001BEEAC0AC70>
+6.061186,0.133038,parameter,resman,pump-5-widget,<core.widgets.pump.Pump object at 0x000001BEEADB6E50>
+6.061196,0.133038,parameter,resman,pump-6-flow,600
+6.061204,0.133038,parameter,resman,pump-6-state,off
+6.061211,0.133038,parameter,resman,pump-6-key,NUM_6
+6.061218,0.133038,parameter,resman,pump-6-_fromtank,f
+6.061225,0.133038,parameter,resman,pump-6-_totank,d
+6.061232,0.133038,parameter,resman,pump-6-statuswidget,<core.widgets.pumpflow.PumpFlow object at 0x000001BEEAC12BE0>
+6.06124,0.133038,parameter,resman,pump-6-widget,<core.widgets.pump.Pump object at 0x000001BEEADBAD60>
+6.061248,0.133038,parameter,resman,pump-7-flow,400
+6.061256,0.133038,parameter,resman,pump-7-state,off
+6.061263,0.133038,parameter,resman,pump-7-key,NUM_7
+6.061269,0.133038,parameter,resman,pump-7-_fromtank,a
+6.061276,0.133038,parameter,resman,pump-7-_totank,b
+6.061283,0.133038,parameter,resman,pump-7-statuswidget,<core.widgets.pumpflow.PumpFlow object at 0x000001BEEAC19940>
+6.061291,0.133038,parameter,resman,pump-7-widget,<core.widgets.pump.Pump object at 0x000001BEEADBEC70>
+6.0613,0.133038,parameter,resman,pump-8-flow,400
+6.061307,0.133038,parameter,resman,pump-8-state,off
+6.061313,0.133038,parameter,resman,pump-8-key,NUM_8
+6.06132,0.133038,parameter,resman,pump-8-_fromtank,b
+6.061328,0.133038,parameter,resman,pump-8-_totank,a
+6.061335,0.133038,parameter,resman,pump-8-statuswidget,<core.widgets.pumpflow.PumpFlow object at 0x000001BEEAC1D340>
+6.061343,0.133038,parameter,resman,pump-8-widget,<core.widgets.pump.Pump object at 0x000001BEEADC5B80>
+6.061444,0.133038,state,resman,"foreground, visibility",1
+6.061528,0.133038,state,resman,"overdue, visibility",1
+6.062496,0.133038,state,resman,"status_foreground, visibility",1
+6.069815,0.133038,state,resman,"status_foreground, visibility",0
+6.069837,0.133038,event,resman,self,start
+6.076199,0.168602,performance,track,cursor_in_target,1
+6.076226,0.168602,performance,track,center_deviation,3.645849
+6.076293,0.168602,state,track,"reticle, cursor_relative","(3.0867090094481453, 3.755605326938435)"
+6.076309,0.168602,state,track,"reticle, cursor_proportional","(0.007939066382325477, 0.009659478721549472)"
+6.076826,0.168602,performance,resman,a_in_tolerance,1
+6.076847,0.168602,performance,resman,a_deviation,0
+6.076862,0.168602,performance,resman,b_in_tolerance,1
+6.076875,0.168602,performance,resman,b_deviation,0
+6.076903,0.168602,state,resman,"foreground, visibility",0
+6.077372,0.168602,state,resman,"automode, text",MANUAL
+6.077396,0.168602,state,resman,"overdue, visibility",0
+6.077601,0.168602,aoi,communications,foreground,"(0, 486.0, 576, 0.0)"
+6.077631,0.168602,aoi,communications,overdue,"(0, 486.0, 576, 0.0)"
+6.078418,0.168602,aoi,communications,task_title,"(0, 540.0, 576, 486.0)"
+6.078542,0.168602,aoi,communications,automode,"(244.8, 129.60000000000002, 331.2, 102.60000000000001)"
+6.079779,0.168602,aoi,communications,callsign,"(0, 486.0, 576, 0.0)"
+6.079817,0.168602,seed_value,communications,,
+6.079827,0.168602,seed_output,communications,,1
+6.080972,0.168602,aoi,communications,radio_NAV_1,"(0, 388.8, 576, 340.2)"
+6.081703,0.168602,state,communications,"radio_NAV_2, selected",1
+6.081722,0.168602,aoi,communications,radio_NAV_2,"(0, 325.62, 576, 277.02)"
+6.08242,0.168602,aoi,communications,radio_COM_1,"(0, 262.44, 576, 213.83999999999997)"
+6.083061,0.168602,aoi,communications,radio_COM_2,"(0, 199.25999999999996, 576, 150.65999999999997)"
+6.083082,0.168602,parameter,communications,title,Communications
+6.083092,0.168602,parameter,communications,taskplacement,bottomleft
+6.083099,0.168602,parameter,communications,taskupdatetime,80
+6.083107,0.168602,parameter,communications,taskfeedback-overdue-active,0
+6.083113,0.168602,parameter,communications,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+6.083121,0.168602,parameter,communications,taskfeedback-overdue-delayms,2000
+6.083127,0.168602,parameter,communications,taskfeedback-overdue-blinkdurationms,1000
+6.083134,0.168602,parameter,communications,taskfeedback-overdue-_nexttoggletime,0
+6.08314,0.168602,parameter,communications,taskfeedback-overdue-_is_visible,0
+6.083147,0.168602,parameter,communications,taskfeedback-overdue-widget,<core.widgets.frame.Frame object at 0x000001BEEADC5070>
+6.083155,0.168602,parameter,communications,callsignregex,[A-Z][A-Z][A-Z]\d\d\d
+6.083161,0.168602,parameter,communications,owncallsign,SBN790
+6.083167,0.168602,parameter,communications,othercallsign,"['PIV852', 'DTW834', 'FDV753', 'XVZ241', 'EHA972']"
+6.083176,0.168602,parameter,communications,othercallsignnumber,5
+6.083182,0.168602,parameter,communications,airbandminMhz,108.0
+6.083189,0.168602,parameter,communications,airbandmaxMhz,137.0
+6.083195,0.168602,parameter,communications,airbandminvariationMhz,5
+6.083201,0.168602,parameter,communications,airbandmaxvariationMhz,6
+6.083207,0.168602,parameter,communications,voicegender,female
+6.083213,0.168602,parameter,communications,voiceidiom,french
+6.083219,0.168602,parameter,communications,radioprompt,
+6.083224,0.168602,parameter,communications,maxresponsedelay,20000
+6.08323,0.168602,parameter,communications,promptlist,"['NAV_1', 'NAV_2', 'COM_1', 'COM_2']"
+6.083237,0.168602,parameter,communications,automaticsolver,0
+6.083244,0.168602,parameter,communications,displayautomationstate,1
+6.08325,0.168602,parameter,communications,feedbackduration,1500
+6.083257,0.168602,parameter,communications,feedbacks-positive-active,0
+6.083263,0.168602,parameter,communications,feedbacks-positive-color,"(142, 219, 176, 255)"
+6.083271,0.168602,parameter,communications,feedbacks-negative-active,0
+6.083277,0.168602,parameter,communications,feedbacks-negative-color,"(241, 100, 100, 255)"
+6.083284,0.168602,parameter,communications,keys-selectradioup,UP
+6.08329,0.168602,parameter,communications,keys-selectradiodown,DOWN
+6.083296,0.168602,parameter,communications,keys-tunefrequencyup,RIGHT
+6.083301,0.168602,parameter,communications,keys-tunefrequencydown,LEFT
+6.083307,0.168602,parameter,communications,keys-validateresponse,ENTER
+6.083314,0.168602,parameter,communications,radios-0-name,NAV_1
+6.08332,0.168602,parameter,communications,radios-0-currentfreq,114.6
+6.083327,0.168602,parameter,communications,radios-0-targetfreq,
+6.083333,0.168602,parameter,communications,radios-0-pos,0
+6.083339,0.168602,parameter,communications,radios-0-response_time,0
+6.083345,0.168602,parameter,communications,radios-0-is_active,0
+6.08335,0.168602,parameter,communications,radios-0-is_prompting,0
+6.083357,0.168602,parameter,communications,radios-0-_feedbacktimer,
+6.083362,0.168602,parameter,communications,radios-0-_feedbacktype,
+6.083368,0.168602,parameter,communications,radios-0-widget,<core.widgets.radio.Radio object at 0x000001BEEADCAE80>
+6.083376,0.168602,parameter,communications,radios-1-name,NAV_2
+6.083382,0.168602,parameter,communications,radios-1-currentfreq,121.4
+6.083388,0.168602,parameter,communications,radios-1-targetfreq,
+6.083394,0.168602,parameter,communications,radios-1-pos,1
+6.083401,0.168602,parameter,communications,radios-1-response_time,0
+6.083407,0.168602,parameter,communications,radios-1-is_active,1
+6.083413,0.168602,parameter,communications,radios-1-is_prompting,0
+6.083419,0.168602,parameter,communications,radios-1-_feedbacktimer,
+6.083425,0.168602,parameter,communications,radios-1-_feedbacktype,
+6.083431,0.168602,parameter,communications,radios-1-widget,<core.widgets.radio.Radio object at 0x000001BEEADF8C70>
+6.083438,0.168602,parameter,communications,radios-2-name,COM_1
+6.083444,0.168602,parameter,communications,radios-2-currentfreq,124.6
+6.08345,0.168602,parameter,communications,radios-2-targetfreq,
+6.083456,0.168602,parameter,communications,radios-2-pos,2
+6.083462,0.168602,parameter,communications,radios-2-response_time,0
+6.083469,0.168602,parameter,communications,radios-2-is_active,0
+6.083475,0.168602,parameter,communications,radios-2-is_prompting,0
+6.083481,0.168602,parameter,communications,radios-2-_feedbacktimer,
+6.083486,0.168602,parameter,communications,radios-2-_feedbacktype,
+6.083575,0.168602,parameter,communications,radios-2-widget,<core.widgets.radio.Radio object at 0x000001BEEAE01FA0>
+6.083586,0.168602,parameter,communications,radios-3-name,COM_2
+6.083593,0.168602,parameter,communications,radios-3-currentfreq,121.1
+6.0836,0.168602,parameter,communications,radios-3-targetfreq,
+6.083606,0.168602,parameter,communications,radios-3-pos,3
+6.083612,0.168602,parameter,communications,radios-3-response_time,0
+6.083618,0.168602,parameter,communications,radios-3-is_active,0
+6.083625,0.168602,parameter,communications,radios-3-is_prompting,0
+6.083631,0.168602,parameter,communications,radios-3-_feedbacktimer,
+6.083637,0.168602,parameter,communications,radios-3-_feedbacktype,
+6.083643,0.168602,parameter,communications,radios-3-widget,<core.widgets.radio.Radio object at 0x000001BEEAE0D100>
+6.083756,0.168602,state,communications,"foreground, visibility",1
+6.083795,0.168602,state,communications,"overdue, visibility",1
+6.084417,0.168602,state,communications,"radio_NAV_2, selected",1
+6.084436,0.168602,event,communications,self,start
+6.087342,0.179726,state,communications,"foreground, visibility",0
+6.087699,0.179726,state,communications,"automode, text",MANUAL
+6.087722,0.179726,state,communications,"overdue, visibility",0
+6.087866,0.179726,state,communications,"callsign, text",SBN790
+6.106914,0.199365,performance,track,cursor_in_target,1
+6.106938,0.199365,performance,track,center_deviation,4.861311
+6.106987,0.199365,state,track,"reticle, cursor_relative","(3.856283499724041, 4.6962117044241465)"
+6.107004,0.199365,state,track,"reticle, cursor_proportional","(0.009918424639207925, 0.012078733807675273)"
+6.140046,0.23228,performance,track,cursor_in_target,1
+6.140134,0.23228,performance,track,center_deviation,6.076621
+6.140318,0.23228,state,track,"reticle, cursor_relative","(4.625760800327099, 5.636650146006772)"
+6.14037,0.23228,state,track,"reticle, cursor_proportional","(0.011897532922652004, 0.014497556959893961)"
+6.173354,0.265541,performance,track,cursor_in_target,1
+6.173456,0.265541,performance,track,center_deviation,7.291741
+6.173632,0.265541,state,track,"reticle, cursor_relative","(5.395121478668334, 6.576887077806754)"
+6.173677,0.265541,state,track,"reticle, cursor_proportional","(0.013876341251718965, 0.016915861825634655)"
+6.206574,0.298806,seed_value,sysmon,,
+6.206682,0.298806,seed_output,sysmon,,-1
+6.206774,0.298806,seed_value,sysmon,,
+6.206793,0.298806,seed_output,sysmon,,1
+6.20684,0.298806,seed_value,sysmon,,
+6.206856,0.298806,seed_output,sysmon,,1
+6.206896,0.298806,seed_value,sysmon,,
+6.20691,0.298806,seed_output,sysmon,,-1
+6.206988,0.298806,state,sysmon,"scale1, arrow",5
+6.207018,0.298806,state,sysmon,"scale2, arrow",7
+6.207041,0.298806,state,sysmon,"scale3, arrow",7
+6.207063,0.298806,state,sysmon,"scale4, arrow",3
+6.207139,0.298806,performance,track,cursor_in_target,1
+6.207164,0.298806,performance,track,center_deviation,8.506631
+6.207284,0.298806,state,track,"reticle, cursor_relative","(6.1643461050743085, 7.516888933198865)"
+6.207317,0.298806,state,track,"reticle, cursor_proportional","(0.0158547996529689, 0.019333562070984734)"
+6.239978,0.332233,performance,track,cursor_in_target,1
+6.240059,0.332233,performance,track,center_deviation,9.721254
+6.24023,0.332233,state,track,"reticle, cursor_relative","(6.933415253272878, 8.456622154020598)"
+6.240249,0.332233,state,track,"reticle, cursor_proportional","(0.017832858161710076, 0.021750571383797834)"
+6.272942,0.365296,performance,track,cursor_in_target,1
+6.272983,0.365296,performance,track,center_deviation,10.935571
+6.273056,0.365296,state,track,"reticle, cursor_relative","(7.7023095008788465, 9.39605319178027)"
+6.273073,0.365296,state,track,"reticle, cursor_proportional","(0.019810466823248062, 0.024166803476801106)"
+6.306446,0.39875,performance,track,cursor_in_target,1
+6.306505,0.39875,performance,track,center_deviation,12.149543
+6.30662,0.39875,state,track,"reticle, cursor_relative","(8.47100942987952, 10.33514850886475)"
+6.306649,0.39875,state,track,"reticle, cursor_proportional","(0.02178757569413457, 0.026582172090701517)"
+6.339682,0.432088,performance,track,cursor_in_target,1
+6.339716,0.432088,performance,track,center_deviation,13.363132
+6.339777,0.432088,state,track,"reticle, cursor_relative","(9.239495627120165, 11.273874579746813)"
+6.339791,0.432088,state,track,"reticle, cursor_proportional","(0.023764134843416062, 0.028996590997291186)"
+6.356568,0.449048,input,joystick,y,-0.019547
+6.372957,0.46546,input,joystick,y,-0.007828
+6.373155,0.46546,performance,track,cursor_in_target,1
+6.373186,0.46546,performance,track,center_deviation,14.5763
+6.373415,0.46546,state,track,"reticle, cursor_relative","(10.007748684789325, 12.212197892192068)"
+6.373445,0.46546,state,track,"reticle, cursor_proportional","(0.02574009435388201, 0.03140997400255161)"
+6.406555,0.498862,seed_value,sysmon,,
+6.406625,0.498862,seed_output,sysmon,,-1
+6.406697,0.498862,seed_value,sysmon,,
+6.406722,0.498862,seed_output,sysmon,,-1
+6.406776,0.498862,seed_value,sysmon,,
+6.406796,0.498862,seed_output,sysmon,,-1
+6.406847,0.498862,seed_value,sysmon,,
+6.40687,0.498862,seed_output,sysmon,,-1
+6.407037,0.498862,state,sysmon,"scale1, arrow",4
+6.407124,0.498862,state,sysmon,"scale2, arrow",6
+6.407162,0.498862,state,sysmon,"scale3, arrow",6
+6.40719,0.498862,state,sysmon,"scale4, arrow",4
+6.407286,0.498862,performance,track,cursor_in_target,1
+6.407318,0.498862,performance,track,center_deviation,15.789009
+6.407459,0.498862,state,track,"reticle, cursor_relative","(10.775749200904027, 13.150084948465368)"
+6.407499,0.498862,state,track,"reticle, cursor_proportional","(0.027715404323312827, 0.033822234949756606)"
+6.439987,0.532167,performance,track,cursor_in_target,1
+6.440089,0.532167,performance,track,center_deviation,17.001221
+6.44028,0.532167,state,track,"reticle, cursor_relative","(11.543477779794816, 14.087502266536754)"
+6.44032,0.532167,state,track,"reticle, cursor_proportional","(0.029690014865727407, 0.036233287722573955)"
+6.456409,0.54891,input,joystick,y,-0.013687
+6.473029,0.565531,input,joystick,y,-0.025406
+6.473244,0.565531,performance,track,cursor_in_target,1
+6.473282,0.565531,performance,track,center_deviation,18.212897
+6.473435,0.565531,state,track,"reticle, cursor_relative","(12.31091503259066, 15.041994774511782)"
+6.473468,0.565531,state,track,"reticle, cursor_proportional","(0.0316638761126303, 0.03868825816489656)"
+6.489859,0.582343,input,joystick,y,-0.007828
+6.506769,0.599003,performance,track,cursor_in_target,1
+6.506856,0.599003,performance,track,center_deviation,19.437599
+6.507151,0.599003,state,track,"reticle, cursor_relative","(13.078041577703658, 15.978372238936288)"
+6.507248,0.599003,state,track,"reticle, cursor_proportional","(0.03363693821425838, 0.0410966364170172)"
+6.539757,0.632253,input,joystick,y,-0.019547
+6.540026,0.632253,performance,track,cursor_in_target,1
+6.54007,0.632253,performance,track,center_deviation,20.648088
+6.540222,0.632253,state,track,"reticle, cursor_relative","(13.844838041313592, 16.925898554167112)"
+6.540257,0.632253,state,track,"reticle, cursor_proportional","(0.035609151340827136, 0.043533689696931874)"
+6.556583,0.649064,input,joystick,y,-0.007828
+6.573366,0.665554,performance,track,cursor_in_target,1
+6.573461,0.665554,performance,track,center_deviation,21.866998
+6.573579,0.665554,state,track,"reticle, cursor_relative","(14.61128505785226, 17.86110245540885)"
+6.57361,0.665554,state,track,"reticle, cursor_proportional","(0.03758046568377639, 0.04593904952522852)"
+6.606278,0.698784,input,joystick,y,-0.013687
+6.606472,0.698784,performance,track,cursor_in_target,1
+6.606503,0.698784,performance,track,center_deviation,23.076149
+6.606615,0.698784,state,track,"reticle, cursor_relative","(15.377363270487619, 18.801528950449836)"
+6.606643,0.698784,state,track,"reticle, cursor_proportional","(0.03955083145701548, 0.04835784195074546)"
+6.623104,0.715594,input,joystick,y,-0.007828
+6.623368,0.715594,seed_value,sysmon,,
+6.623409,0.715594,seed_output,sysmon,,1
+6.623487,0.715594,seed_value,sysmon,,
+6.623811,0.715594,seed_output,sysmon,,1
+6.623904,0.715594,seed_value,sysmon,,
+6.62393,0.715594,seed_output,sysmon,,1
+6.623996,0.715594,seed_value,sysmon,,
+6.624019,0.715594,seed_output,sysmon,,-1
+6.624133,0.715594,state,sysmon,"scale1, arrow",5
+6.624179,0.715594,state,sysmon,"scale2, arrow",7
+6.624214,0.715594,state,sysmon,"scale3, arrow",7
+6.624248,0.715594,state,sysmon,"scale4, arrow",3
+6.640192,0.732461,performance,track,cursor_in_target,1
+6.640261,0.732461,performance,track,center_deviation,24.289109
+6.640394,0.732461,state,track,"reticle, cursor_relative","(16.143053331607703, 19.73542574796399)"
+6.640427,0.732461,state,track,"reticle, cursor_proportional","(0.04152019889816796, 0.050759839886738656)"
+6.657271,0.749473,input,joystick,y,-0.031266
+6.673677,0.766148,input,joystick,y,-0.013687
+6.673959,0.766148,performance,track,cursor_in_target,1
+6.673997,0.766148,performance,track,center_deviation,25.496768
+6.674136,0.766148,state,track,"reticle, cursor_relative","(16.908335903304323, 20.674478438386913)"
+6.674169,0.766148,state,track,"reticle, cursor_proportional","(0.043488518269815646, 0.05317509886416387)"
+6.689705,0.782201,input,joystick,y,-0.007828
+6.706851,0.798963,performance,track,cursor_in_target,1
+6.706912,0.798963,performance,track,center_deviation,26.708161
+6.707062,0.798963,state,track,"reticle, cursor_relative","(17.67319165785649, 21.606934779849357)"
+6.707101,0.798963,state,track,"reticle, cursor_proportional","(0.045455739860741994, 0.055573391923480854)"
+6.739993,0.832178,performance,track,cursor_in_target,1
+6.740095,0.832178,performance,track,center_deviation,27.914178
+6.740272,0.832178,state,track,"reticle, cursor_relative","(18.437601278213627, 22.538620950234833)"
+6.740313,0.832178,state,track,"reticle, cursor_proportional","(0.04742181398717497, 0.057969704090110166)"
+6.773617,0.86579,performance,track,cursor_in_target,1
+6.773711,0.86579,performance,track,center_deviation,29.119316
+6.773855,0.86579,state,track,"reticle, cursor_relative","(19.201545458478492, 23.469503690744606)"
+6.773893,0.86579,state,track,"reticle, cursor_proportional","(0.049386690994029044, 0.060363949821873986)"
+6.806565,0.898846,performance,track,cursor_in_target,1
+6.80664,0.898846,performance,track,center_deviation,30.323538
+6.806776,0.898846,state,track,"reticle, cursor_relative","(19.96500490438982, 24.399549771503317)"
+6.806813,0.898846,state,track,"reticle, cursor_proportional","(0.05135032125614665, 0.0627560436509859)"
+6.839822,0.932109,seed_value,sysmon,,
+6.839899,0.932109,seed_output,sysmon,,1
+6.839977,0.932109,seed_value,sysmon,,
+6.840002,0.932109,seed_output,sysmon,,-1
+6.840064,0.932109,seed_value,sysmon,,
+6.840087,0.932109,seed_output,sysmon,,-1
+6.840211,0.932109,seed_value,sysmon,,
+6.84025,0.932109,seed_output,sysmon,,1
+6.840397,0.932109,state,sysmon,"scale1, arrow",6
+6.840447,0.932109,state,sysmon,"scale2, arrow",6
+6.840477,0.932109,state,sysmon,"scale3, arrow",6
+6.840505,0.932109,state,sysmon,"scale4, arrow",4
+6.840609,0.932109,performance,track,cursor_in_target,1
+6.840646,0.932109,performance,track,center_deviation,31.526805
+6.840791,0.932109,state,track,"reticle, cursor_relative","(20.727960333804678, 25.328725992755277)"
+6.840829,0.932109,state,track,"reticle, cursor_proportional","(0.05331265517953878, 0.06514590018712776)"
+6.874019,0.966135,performance,track,cursor_in_target,1
+6.874111,0.966135,performance,track,center_deviation,32.72908
+6.874252,0.966135,state,track,"reticle, cursor_relative","(21.490392477180524, 26.256999186059648)"
+6.874288,0.966135,state,track,"reticle, cursor_proportional","(0.0552736432026248, 0.06753343412052379)"
+6.907177,0.999285,performance,track,cursor_in_target,1
+6.907289,0.999285,performance,track,center_deviation,33.930325
+6.907522,0.999285,state,track,"reticle, cursor_relative","(22.25228207805693, 27.184336215484485)"
+6.907587,0.999285,state,track,"reticle, cursor_proportional","(0.05723323579747153, 0.06991856022501153)"
+6.924362,1.01561,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:01
+6.940593,1.032831,performance,track,cursor_in_target,1
+6.940666,1.032831,performance,track,center_deviation,35.130502
+6.940827,1.032831,state,track,"reticle, cursor_relative","(23.01360989353701, 28.110703978799663)"
+6.940869,1.032831,state,track,"reticle, cursor_proportional","(0.0591913834710314, 0.07230119336111024)"
+6.974106,1.066253,performance,track,cursor_in_target,1
+6.974199,1.066253,performance,track,center_deviation,36.329574
+6.974396,1.066253,state,track,"reticle, cursor_relative","(23.774356694768475, 29.036069408668514)"
+6.974444,1.066253,state,track,"reticle, cursor_proportional","(0.061148036766379824, 0.07468124847908568)"
+7.006669,1.098845,performance,track,cursor_in_target,1
+7.006771,1.098845,performance,track,center_deviation,37.527501
+7.006977,1.098845,state,track,"reticle, cursor_relative","(24.534503267424384, 29.960399473838272)"
+7.007032,1.098845,state,track,"reticle, cursor_proportional","(0.06310314626395161, 0.07705864062201201)"
+7.039991,1.132266,seed_value,sysmon,,
+7.040075,1.132266,seed_output,sysmon,,-1
+7.040159,1.132266,seed_value,sysmon,,
+7.04019,1.132266,seed_output,sysmon,,-1
+7.040258,1.132266,seed_value,sysmon,,
+7.040281,1.132266,seed_output,sysmon,,1
+7.040561,1.132266,seed_value,sysmon,,
+7.040636,1.132266,seed_output,sysmon,,1
+7.040881,1.132266,state,sysmon,"scale1, arrow",5
+7.041013,1.132266,state,sysmon,"scale2, arrow",5
+7.041067,1.132266,state,sysmon,"scale3, arrow",7
+7.041109,1.132266,state,sysmon,"scale4, arrow",5
+7.041285,1.132266,performance,track,cursor_in_target,1
+7.041336,1.132266,performance,track,center_deviation,38.724248
+7.04156,1.132266,state,track,"reticle, cursor_relative","(25.294030412183446, 30.883661180329195)"
+7.041622,1.132266,state,track,"reticle, cursor_proportional","(0.06505666258277636, 0.07943328492883023)"
+7.073301,1.165575,performance,track,cursor_in_target,1
+7.073376,1.165575,performance,track,center_deviation,39.919776
+7.073579,1.165575,state,track,"reticle, cursor_relative","(26.05291894521006, 31.80582157262233)"
+7.07362,1.165575,state,track,"reticle, cursor_proportional","(0.06700853638171311, 0.08180509663740311)"
+7.106801,1.198965,performance,track,cursor_in_target,1
+7.10685,1.198965,performance,track,center_deviation,41.114047
+7.106958,1.198965,state,track,"reticle, cursor_relative","(26.81114969863388, 32.72684773484592)"
+7.106989,1.198965,state,track,"reticle, cursor_proportional","(0.06895871836068385, 0.08417399108756667)"
+7.13981,1.232134,performance,track,cursor_in_target,1
+7.139875,1.232134,performance,track,center_deviation,42.307024
+7.140013,1.232134,state,track,"reticle, cursor_relative","(27.568703521029008, 33.64670679196037)"
+7.140051,1.232134,state,track,"reticle, cursor_proportional","(0.07090715926190588, 0.0865398837241779)"
+7.173182,1.265523,performance,track,cursor_in_target,1
+7.173239,1.265523,performance,track,center_deviation,43.49867
+7.173359,1.265523,state,track,"reticle, cursor_relative","(28.325561277892795, 34.56536591094172)"
+7.173392,1.265523,state,track,"reticle, cursor_proportional","(0.07285380987112344, 0.08890269010015875)"
+7.189722,1.282216,input,joystick,y,-0.025406
+7.206452,1.298951,input,joystick,y,-0.007828
+7.206695,1.298951,performance,track,cursor_in_target,1
+7.206733,1.298951,performance,track,center_deviation,44.688947
+7.206877,1.298951,state,track,"reticle, cursor_relative","(29.08170385212419, 35.482792301963705)"
+7.206913,1.298951,state,track,"reticle, cursor_proportional","(0.07479862101883793, 0.09126232587953628)"
+7.239809,1.33212,performance,track,cursor_in_target,1
+7.239873,1.33212,performance,track,center_deviation,45.877817
+7.24,1.33212,state,track,"reticle, cursor_relative","(29.837112144501674, 36.39895321957807)"
+7.240033,1.33212,state,track,"reticle, cursor_proportional","(0.07674154358153723, 0.09361870684047857)"
+7.256371,1.348732,seed_value,sysmon,,
+7.256428,1.348732,seed_output,sysmon,,1
+7.256477,1.348732,seed_value,sysmon,,
+7.256492,1.348732,seed_output,sysmon,,-1
+7.25653,1.348732,seed_value,sysmon,,
+7.256608,1.348732,seed_output,sysmon,,1
+7.256644,1.348732,seed_value,sysmon,,
+7.256657,1.348732,seed_output,sysmon,,-1
+7.256732,1.348732,state,sysmon,"scale1, arrow",6
+7.256761,1.348732,state,sysmon,"scale2, arrow",4
+7.256782,1.348732,state,sysmon,"scale3, arrow",6
+7.256803,1.348732,state,sysmon,"scale4, arrow",4
+7.273237,1.365713,input,joystick,y,-0.013687
+7.273664,1.365713,performance,track,cursor_in_target,1
+7.273732,1.365713,performance,track,center_deviation,47.065243
+7.274288,1.365713,state,track,"reticle, cursor_relative","(30.59176707416073, 37.31967542830185)"
+7.274414,1.365713,state,track,"reticle, cursor_proportional","(0.07868252848292369, 0.09598681951723727)"
+7.289997,1.382484,input,joystick,y,-0.007828
+7.30652,1.3988,performance,track,cursor_in_target,1
+7.30659,1.3988,performance,track,center_deviation,48.255719
+7.306747,1.3988,state,track,"reticle, cursor_relative","(31.34564957907088, 38.23320734616115)"
+7.306788,1.3988,state,track,"reticle, cursor_proportional","(0.08062152669514115, 0.09833643864753382)"
+7.323304,1.415797,input,joystick,y,-0.019547
+7.339711,1.432211,input,joystick,y,-0.013687
+7.33994,1.432211,performance,track,cursor_in_target,0
+7.339975,1.432211,performance,track,center_deviation,49.440145
+7.340101,1.432211,state,track,"reticle, cursor_relative","(32.0987406165122, 39.151235296725034)"
+7.340133,1.432211,state,track,"reticle, cursor_proportional","(0.08255848924000052, 0.10069762164795533)"
+7.340229,1.432211,state,track,"reticle, cursor_color","(241, 100, 100, 255)"
+7.356305,1.448816,input,joystick,y,-0.007828
+7.373109,1.465409,performance,track,cursor_in_target,0
+7.373174,1.465409,performance,track,center_deviation,50.627546
+7.37332,1.465409,state,track,"reticle, cursor_relative","(32.851021163551465, 40.062007795012605)"
+7.373359,1.465409,state,track,"reticle, cursor_proportional","(0.08449336719020438, 0.10304014350569085)"
+7.407338,1.499464,performance,track,cursor_in_target,0
+7.407447,1.499464,performance,track,center_deviation,51.808822
+7.407764,1.499464,state,track,"reticle, cursor_relative","(33.60247221751759, 40.97135179952341)"
+7.407814,1.499464,state,track,"reticle, cursor_proportional","(0.08642611167056992, 0.10537899125391824)"
+7.440947,1.533416,input,joystick,y,-0.013687
+7.441347,1.533416,performance,track,cursor_in_target,0
+7.441414,1.533416,performance,track,center_deviation,52.988469
+7.441572,1.533416,state,track,"reticle, cursor_relative","(34.35307479647684, 41.88509432018258)"
+7.441608,1.533416,state,track,"reticle, cursor_proportional","(0.08835667385925113, 0.10772915205808277)"
+7.456518,1.549,input,joystick,y,-0.007828
+7.456771,1.549,seed_value,sysmon,,
+7.456805,1.549,seed_output,sysmon,,1
+7.456864,1.549,seed_value,sysmon,,
+7.456884,1.549,seed_output,sysmon,,1
+7.45693,1.549,seed_value,sysmon,,
+7.456947,1.549,seed_output,sysmon,,-1
+7.456987,1.549,seed_value,sysmon,,
+7.457002,1.549,seed_output,sysmon,,-1
+7.457099,1.549,state,sysmon,"scale1, arrow",7
+7.457132,1.549,state,sysmon,"scale2, arrow",5
+7.457158,1.549,state,sysmon,"scale3, arrow",5
+7.457182,1.549,state,sysmon,"scale4, arrow",3
+7.473194,1.565541,performance,track,cursor_in_target,0
+7.473245,1.565541,performance,track,center_deviation,54.170978
+7.473361,1.565541,state,track,"reticle, cursor_relative","(35.102809939707285, 42.79148402628427)"
+7.473392,1.565541,state,track,"reticle, cursor_proportional","(0.09028500498895907, 0.11006040130217148)"
+7.506666,1.598922,performance,track,cursor_in_target,0
+7.506744,1.598922,performance,track,center_deviation,55.347253
+7.506914,1.598922,state,track,"reticle, cursor_relative","(35.85165870817284, 43.69634803410804)"
+7.506958,1.598922,state,track,"reticle, cursor_proportional","(0.09221105634818118, 0.112387726425175)"
+7.540532,1.632641,performance,track,cursor_in_target,0
+7.540645,1.632641,performance,track,center_deviation,56.521786
+7.540833,1.632641,state,track,"reticle, cursor_relative","(36.59960218499674, 44.599654050450106)"
+7.540876,1.632641,state,track,"reticle, cursor_proportional","(0.09413477928239902, 0.11471104436844162)"
+7.573874,1.666356,input,joystick,y,-0.013687
+7.574226,1.666356,performance,track,cursor_in_target,0
+7.574269,1.666356,performance,track,center_deviation,57.694541
+7.574436,1.666356,state,track,"reticle, cursor_relative","(37.3466214759345, 45.507229302602525)"
+7.574477,1.666356,state,track,"reticle, cursor_proportional","(0.09605612519530478, 0.11704534285648797)"
+7.590555,1.683025,input,joystick,y,-0.031266
+7.606691,1.699164,input,joystick,y,-0.007828
+7.606957,1.699164,performance,track,cursor_in_target,0
+7.606979,1.699164,performance,track,center_deviation,58.87001
+7.607068,1.699164,state,track,"reticle, cursor_relative","(38.09269770984616, 46.40732268188046)"
+7.607087,1.699164,state,track,"reticle, cursor_proportional","(0.09797504555001585, 0.11936039784434274)"
+7.639901,1.732161,performance,track,cursor_in_target,0
+7.639974,1.732161,performance,track,center_deviation,60.039097
+7.640132,1.732161,state,track,"reticle, cursor_relative","(38.837812039168234, 47.30576153123055)"
+7.640174,1.732161,state,track,"reticle, cursor_proportional","(0.09989149187028866, 0.12167119735398804)"
+7.656997,1.749272,seed_value,sysmon,,
+7.657076,1.749272,seed_output,sysmon,,1
+7.657143,1.749272,seed_value,sysmon,,
+7.657164,1.749272,seed_output,sysmon,,1
+7.657215,1.749272,seed_value,sysmon,,
+7.657233,1.749272,seed_output,sysmon,,-1
+7.657281,1.749272,seed_value,sysmon,,
+7.657298,1.749272,seed_output,sysmon,,1
+7.657405,1.749272,state,sysmon,"scale1, arrow",6
+7.657441,1.749272,state,sysmon,"scale2, arrow",6
+7.657468,1.749272,state,sysmon,"scale3, arrow",4
+7.657493,1.749272,state,sysmon,"scale4, arrow",4
+7.673433,1.765915,input,joystick,y,-0.019547
+7.673769,1.765915,performance,track,cursor_in_target,0
+7.673818,1.765915,performance,track,center_deviation,61.206296
+7.674063,1.765915,state,track,"reticle, cursor_relative","(39.58194564038472, 48.214232717570695)"
+7.674109,1.765915,state,track,"reticle, cursor_proportional","(0.10180541574173024, 0.1240078001995131)"
+7.690275,1.782752,input,joystick,y,-0.007828
+7.706478,1.798811,performance,track,cursor_in_target,0
+7.706535,1.798811,performance,track,center_deviation,62.380627
+7.706663,1.798811,state,track,"reticle, cursor_relative","(40.32507971449778, 49.1092663820859)"
+7.706696,1.798811,state,track,"reticle, cursor_proportional","(0.1037167688130087, 0.12630984151771063)"
+7.740456,1.832694,performance,track,cursor_in_target,0
+7.740531,1.832694,performance,track,center_deviation,63.543938
+7.740681,1.832694,state,track,"reticle, cursor_relative","(41.067195487497756, 50.00254951428036)"
+7.740717,1.832694,state,track,"reticle, cursor_proportional","(0.10562550279706212, 0.12860738043796388)"
+7.75736,1.849825,input,joystick,y,-0.013687
+7.773306,1.8658,input,joystick,y,-0.007828
+7.773552,1.8658,performance,track,cursor_in_target,0
+7.773582,1.8658,performance,track,center_deviation,64.705251
+7.7737,1.8658,state,track,"reticle, cursor_relative","(41.80827421083241, 50.89405023786055)"
+7.773729,1.8658,state,track,"reticle, cursor_proportional","(0.10753156947230558, 0.13090033497392115)"
+7.80695,1.899039,performance,track,cursor_in_target,0
+7.807018,1.899039,performance,track,center_deviation,65.864529
+7.807194,1.899039,state,track,"reticle, cursor_relative","(42.54829716187571, 51.783736740699474)"
+7.807229,1.899039,state,track,"reticle, cursor_proportional","(0.1094349206838367, 0.1331886233042682)"
+7.840502,1.932673,performance,track,cursor_in_target,0
+7.840578,1.932673,performance,track,center_deviation,67.021735
+7.840664,1.932673,state,track,"reticle, cursor_relative","(43.28724564439586, 52.671577275981896)"
+7.840685,1.932673,state,track,"reticle, cursor_proportional","(0.11133550834463955, 0.1354721637756736)"
+7.873319,1.965533,seed_value,sysmon,,
+7.873426,1.965533,seed_output,sysmon,,1
+7.873532,1.965533,seed_value,sysmon,,
+7.873566,1.965533,seed_output,sysmon,,-1
+7.873649,1.965533,seed_value,sysmon,,
+7.87368,1.965533,seed_output,sysmon,,1
+7.873755,1.965533,seed_value,sysmon,,
+7.873893,1.965533,seed_output,sysmon,,-1
+7.874049,1.965533,state,sysmon,"scale1, arrow",7
+7.874103,1.965533,state,sysmon,"scale2, arrow",5
+7.874147,1.965533,state,sysmon,"scale3, arrow",5
+7.874189,1.965533,state,sysmon,"scale4, arrow",3
+7.874328,1.965533,performance,track,cursor_in_target,0
+7.874373,1.965533,performance,track,center_deviation,68.176834
+7.874595,1.965533,state,track,"reticle, cursor_relative","(44.02510098902275, 53.55754016334719)"
+7.874648,1.965533,state,track,"reticle, cursor_proportional","(0.1132332844367869, 0.13775087490572838)"
+7.906473,1.998735,performance,track,cursor_in_target,0
+7.906555,1.998735,performance,track,center_deviation,69.329789
+7.906732,1.998735,state,track,"reticle, cursor_relative","(44.761844553714646, 54.441593790029884)"
+7.90678,1.998735,state,track,"reticle, cursor_proportional","(0.11512820101264054, 0.14002467538587932)"
+7.924717,2.015359,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:02
+7.940243,2.032479,performance,track,cursor_in_target,0
+7.940318,2.032479,performance,track,center_deviation,70.480564
+7.940465,2.032479,state,track,"reticle, cursor_relative","(45.49745772422425, 55.32370661199765)"
+7.940501,2.032479,state,track,"reticle, cursor_proportional","(0.11702021019605001, 0.1422934840843561)"
+7.973446,2.06556,performance,track,cursor_in_target,0
+7.973572,2.06556,performance,track,center_deviation,71.629122
+7.973748,2.06556,state,track,"reticle, cursor_relative","(46.23192191456407, 56.20384715508693)"
+7.973944,2.06556,state,track,"reticle, cursor_proportional","(0.11890926418354955, 0.1445572200490919)"
+8.006162,2.098674,input,joystick,y,-0.013687
+8.006299,2.098674,performance,track,cursor_in_target,0
+8.006321,2.098674,performance,track,center_deviation,72.775429
+8.006398,2.098674,state,track,"reticle, cursor_relative","(46.96521856747104, 57.087843480544365)"
+8.006416,2.098674,state,track,"reticle, cursor_proportional","(0.12079531524555309, 0.14683087314954826)"
+8.040064,2.132451,performance,track,cursor_in_target,0
+8.040108,2.132451,performance,track,center_deviation,73.923972
+8.04018,2.132451,state,track,"reticle, cursor_relative","(47.6973291548705, 57.969804792932194)"
+8.040198,2.132451,state,track,"reticle, cursor_proportional","(0.12267831572754759, 0.14909929216289144)"
+8.073143,2.165559,seed_value,sysmon,,
+8.073183,2.165559,seed_output,sysmon,,-1
+8.073218,2.165559,seed_value,sysmon,,
+8.073229,2.165559,seed_output,sysmon,,-1
+8.073255,2.165559,seed_value,sysmon,,
+8.073264,2.165559,seed_output,sysmon,,-1
+8.073288,2.165559,seed_value,sysmon,,
+8.073297,2.165559,seed_output,sysmon,,-1
+8.07335,2.165559,state,sysmon,"scale1, arrow",6
+8.07337,2.165559,state,sysmon,"scale2, arrow",4
+8.073385,2.165559,state,sysmon,"scale3, arrow",4
+8.073398,2.165559,state,sysmon,"scale4, arrow",4
+8.073442,2.165559,performance,track,cursor_in_target,0
+8.073455,2.165559,performance,track,center_deviation,75.07019
+8.073512,2.165559,state,track,"reticle, cursor_relative","(48.428235178339335, 58.84969983448131)"
+8.073526,2.165559,state,track,"reticle, cursor_proportional","(0.1245582180512843, 0.15136239669362475)"
+8.091725,2.183351,performance,resman,a_in_tolerance,1
+8.091766,2.183351,performance,resman,a_deviation,-26
+8.091789,2.183351,performance,resman,b_in_tolerance,1
+8.091801,2.183351,performance,resman,b_deviation,-26
+8.091882,2.183351,state,resman,"tank_a, fluid_level",2474
+8.092187,2.183351,state,resman,"tank_a, fluid_label",2474
+8.092236,2.183351,state,resman,"tank_b, fluid_level",2474
+8.092447,2.183351,state,resman,"tank_b, fluid_label",2474
+8.10725,2.199592,performance,track,cursor_in_target,0
+8.107306,2.199592,performance,track,center_deviation,76.214048
+8.107422,2.199592,state,track,"reticle, cursor_relative","(49.15791816956848, 59.727497421808074)"
+8.107454,2.199592,state,track,"reticle, cursor_proportional","(0.12643497471596832, 0.15362010653757222)"
+8.140553,2.232497,performance,track,cursor_in_target,0
+8.140668,2.232497,performance,track,center_deviation,77.35551
+8.140899,2.232497,state,track,"reticle, cursor_relative","(49.88635969082462, 60.603166447037026)"
+8.140962,2.232497,state,track,"reticle, cursor_proportional","(0.12830853829944602, 0.15587234168476602)"
+8.173832,2.266059,performance,track,cursor_in_target,0
+8.173922,2.266059,performance,track,center_deviation,78.494539
+8.174108,2.266059,state,track,"reticle, cursor_relative","(50.61354133541109, 61.47667587892068)"
+8.174157,2.266059,state,track,"reticle, cursor_proportional","(0.13017886145939067, 0.15811902232232686)"
+8.207216,2.299529,performance,track,cursor_in_target,0
+8.207288,2.299529,performance,track,center_deviation,79.631101
+8.207436,2.299529,state,track,"reticle, cursor_relative","(51.33944472812813, 62.34799476395668)"
+8.207476,2.299529,state,track,"reticle, cursor_proportional","(0.13204589693448593, 0.16036006883733714)"
+8.240774,2.333002,performance,track,cursor_in_target,0
+8.240847,2.333002,performance,track,center_deviation,80.76516
+8.24099,2.333002,state,track,"reticle, cursor_relative","(52.064051525732175, 63.21709222750212)"
+8.241027,2.333002,state,track,"reticle, cursor_proportional","(0.13390959754560744, 0.1625954018197071)"
+8.273209,2.365587,seed_value,sysmon,,
+8.273264,2.365587,seed_output,sysmon,,-1
+8.273314,2.365587,seed_value,sysmon,,
+8.273331,2.365587,seed_output,sysmon,,-1
+8.27337,2.365587,seed_value,sysmon,,
+8.273385,2.365587,seed_output,sysmon,,-1
+8.273421,2.365587,seed_value,sysmon,,
+8.273435,2.365587,seed_output,sysmon,,1
+8.273514,2.365587,state,sysmon,"scale1, arrow",5
+8.273542,2.365587,state,sysmon,"scale2, arrow",3
+8.273563,2.365587,state,sysmon,"scale3, arrow",3
+8.273585,2.365587,state,sysmon,"scale4, arrow",5
+8.273711,2.365587,performance,track,cursor_in_target,0
+8.273748,2.365587,performance,track,center_deviation,81.89668
+8.27387,2.365587,state,track,"reticle, cursor_relative","(52.78734341739447, 64.08393747488505)"
+8.273901,2.365587,state,track,"reticle, cursor_proportional","(0.13576991619700224, 0.16482494206503356)"
+8.306522,2.398913,performance,track,cursor_in_target,0
+8.306569,2.398913,performance,track,center_deviation,83.025627
+8.306689,2.398913,state,track,"reticle, cursor_relative","(53.50930212515884, 64.94849979251302)"
+8.306743,2.398913,state,track,"reticle, cursor_proportional","(0.13762680587746615, 0.16704861057745118)"
+8.339937,2.432301,performance,track,cursor_in_target,0
+8.339985,2.432301,performance,track,center_deviation,84.151964
+8.340078,2.432301,state,track,"reticle, cursor_relative","(54.229909404398654, 65.81074854897884)"
+8.340144,2.432301,state,track,"reticle, cursor_proportional","(0.13948021966151916, 0.16926632857247642)"
+8.373251,2.46562,performance,track,cursor_in_target,0
+8.373295,2.46562,performance,track,center_deviation,85.275657
+8.373406,2.46562,state,track,"reticle, cursor_relative","(54.94914704427292, 66.67065319616324)"
+8.373426,2.46562,state,track,"reticle, cursor_proportional","(0.1413301107105785, 0.17147801747984373)"
+8.406339,2.498845,input,joystick,y,-0.007828
+8.406523,2.498845,performance,track,cursor_in_target,0
+8.406548,2.498845,performance,track,center_deviation,86.396671
+8.406652,2.498845,state,track,"reticle, cursor_relative","(55.66699686818154, 67.52232380592633)"
+8.406684,2.498845,state,track,"reticle, cursor_proportional","(0.1431764322741295, 0.1736685283074237)"
+8.439704,2.532131,performance,track,cursor_in_target,0
+8.439737,2.532131,performance,track,center_deviation,87.510449
+8.4398,2.532131,state,track,"reticle, cursor_relative","(56.38344073421977, 68.37158946442925)"
+8.439816,2.532131,state,track,"reticle, cursor_proportional","(0.14501913769089447, 0.17585285356077482)"
+8.472968,2.565475,input,joystick,y,-0.031266
+8.473145,2.565475,performance,track,cursor_in_target,0
+8.473174,2.565475,performance,track,center_deviation,88.62148
+8.47328,2.565475,state,track,"reticle, cursor_relative","(57.098460535631716, 69.24185773763608)"
+8.47331,2.565475,state,track,"reticle, cursor_proportional","(0.14685818038999926, 0.17809119788486646)"
+8.48969,2.582186,input,joystick,y,-0.007828
+8.49,2.582186,seed_value,sysmon,,
+8.490038,2.582186,seed_output,sysmon,,1
+8.490099,2.582186,seed_value,sysmon,,
+8.490123,2.582186,seed_output,sysmon,,-1
+8.490172,2.582186,seed_value,sysmon,,
+8.49019,2.582186,seed_output,sysmon,,1
+8.490237,2.582186,seed_value,sysmon,,
+8.490255,2.582186,seed_output,sysmon,,1
+8.490431,2.582186,state,sysmon,"scale1, arrow",6
+8.490515,2.582186,state,sysmon,"scale2, arrow",4
+8.490546,2.582186,state,sysmon,"scale3, arrow",4
+8.490572,2.582186,state,sysmon,"scale4, arrow",6
+8.506455,2.598747,performance,track,cursor_in_target,0
+8.506517,2.598747,performance,track,center_deviation,89.747808
+8.506674,2.598747,state,track,"reticle, cursor_relative","(57.81203820126302, 70.08622270627946)"
+8.506719,2.598747,state,track,"reticle, cursor_proportional","(0.1486935138921374, 0.18026291848322906)"
+8.540712,2.632813,performance,track,cursor_in_target,0
+8.540826,2.632813,performance,track,center_deviation,90.853235
+8.541202,2.632813,state,track,"reticle, cursor_relative","(58.5241556960127, 70.9280921127478)"
+8.541272,2.632813,state,track,"reticle, cursor_proportional","(0.15052509181073223, 0.18242822045459825)"
+8.573181,2.665487,performance,track,cursor_in_target,0
+8.573241,2.665487,performance,track,center_deviation,91.95581
+8.57336,2.665487,state,track,"reticle, cursor_relative","(59.234795021283894, 71.76743593163617)"
+8.57339,2.665487,state,track,"reticle, cursor_proportional","(0.15235286785309643, 0.1845870265731383)"
+8.606571,2.698866,performance,track,cursor_in_target,0
+8.606642,2.698866,performance,track,center_deviation,93.055499
+8.60679,2.698866,state,track,"reticle, cursor_relative","(59.94393821543396, 72.6042242284605)"
+8.606834,2.698866,state,track,"reticle, cursor_proportional","(0.15417679582158939, 0.1867392598468634)"
+8.622978,2.715482,input,joystick,y,-0.019547
+8.639678,2.732181,input,joystick,y,-0.007828
+8.639878,2.732181,performance,track,cursor_in_target,0
+8.63991,2.732181,performance,track,center_deviation,94.152266
+8.640028,2.732181,state,track,"reticle, cursor_relative","(60.651567354223396, 73.43842716073523)"
+8.640058,2.732181,state,track,"reticle, cursor_proportional","(0.1559968296147721, 0.18888484352040955)"
+8.674474,2.766644,performance,track,cursor_in_target,0
+8.674575,2.766644,performance,track,center_deviation,95.246077
+8.674767,2.766644,state,track,"reticle, cursor_relative","(61.357664551264065, 74.2700149790477)"
+8.674817,2.766644,state,track,"reticle, cursor_proportional","(0.15781292322855983, 0.1910237010777976)"
+8.690642,2.783008,seed_value,sysmon,,
+8.690692,2.783008,seed_output,sysmon,,1
+8.690741,2.783008,seed_value,sysmon,,
+8.690758,2.783008,seed_output,sysmon,,-1
+8.690798,2.783008,seed_value,sysmon,,
+8.690814,2.783008,seed_output,sysmon,,-1
+8.690852,2.783008,seed_value,sysmon,,
+8.690867,2.783008,seed_output,sysmon,,1
+8.690945,2.783008,state,sysmon,"scale1, arrow",7
+8.690972,2.783008,state,sysmon,"scale2, arrow",3
+8.690994,2.783008,state,sysmon,"scale3, arrow",3
+8.691014,2.783008,state,sysmon,"scale4, arrow",7
+8.706431,2.79883,performance,track,cursor_in_target,0
+8.706467,2.79883,performance,track,center_deviation,96.336899
+8.706538,2.79883,state,track,"reticle, cursor_relative","(62.06221195846627, 75.09895802812903)"
+8.706556,2.79883,state,track,"reticle, cursor_proportional","(0.15962503075737208, 0.19315575624518783)"
+8.740196,2.832536,performance,track,cursor_in_target,0
+8.740249,2.832536,performance,track,center_deviation,97.424697
+8.740356,2.832536,state,track,"reticle, cursor_relative","(62.76519176648496, 75.92522674792171)"
+8.740383,2.832536,state,track,"reticle, cursor_proportional","(0.16143310639528025, 0.1952809329936258)"
+8.774126,2.866449,performance,track,cursor_in_target,0
+8.774188,2.866449,performance,track,center_deviation,98.509438
+8.774319,2.866449,state,track,"reticle, cursor_relative","(63.46658620516503, 76.74879167464388)"
+8.774426,2.866449,state,track,"reticle, cursor_proportional","(0.16323710443715284, 0.19739915554177953)"
+8.806862,2.899139,performance,track,cursor_in_target,0
+8.806934,2.899139,performance,track,center_deviation,99.591087
+8.807157,2.899139,state,track,"reticle, cursor_relative","(64.16637754398546, 77.56962344184986)"
+8.807231,2.899139,state,track,"reticle, cursor_proportional","(0.165036979279798, 0.19951034835866732)"
+8.841738,2.934009,performance,track,cursor_in_target,0
+8.84181,2.934009,performance,track,center_deviation,100.669611
+8.84196,2.934009,state,track,"reticle, cursor_relative","(64.8645480925027, 78.38769278148747)"
+8.841999,2.934009,state,track,"reticle, cursor_proportional","(0.16683268542310364, 0.20161443616637725)"
+8.873993,2.966383,performance,track,cursor_in_target,0
+8.874036,2.966383,performance,track,center_deviation,101.744975
+8.874126,2.966383,state,track,"reticle, cursor_relative","(65.56108020079284, 79.20297052495161)"
+8.874149,2.966383,state,track,"reticle, cursor_proportional","(0.168624177471175, 0.20371134394277676)"
+8.906403,2.998841,seed_value,sysmon,,
+8.906434,2.998841,seed_output,sysmon,,-1
+8.906462,2.998841,seed_value,sysmon,,
+8.906471,2.998841,seed_output,sysmon,,-1
+8.906491,2.998841,seed_value,sysmon,,
+8.906498,2.998841,seed_output,sysmon,,1
+8.906517,2.998841,seed_value,sysmon,,
+8.906524,2.998841,seed_output,sysmon,,-1
+8.906579,2.998841,state,sysmon,"scale1, arrow",6
+8.906644,2.998841,state,sysmon,"scale2, arrow",4
+8.90666,2.998841,state,sysmon,"scale3, arrow",4
+8.906673,2.998841,state,sysmon,"scale4, arrow",6
+8.906722,2.998841,performance,track,cursor_in_target,0
+8.906736,2.998841,performance,track,center_deviation,102.817147
+8.906806,2.998841,state,track,"reticle, cursor_relative","(66.25595625989293, 80.01542760413433)"
+8.906821,2.998841,state,track,"reticle, cursor_proportional","(0.17041141013346944, 0.2058009969242138)"
+8.923968,3.015751,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:03
+8.939995,3.032148,performance,track,cursor_in_target,0
+8.940039,3.032148,performance,track,center_deviation,103.886093
+8.940118,3.032148,state,track,"reticle, cursor_relative","(66.9491587022411, 80.82503505247128)"
+8.940138,3.032148,state,track,"reticle, cursor_proportional","(0.17219433822592878, 0.20788332060820802)"
+8.973506,3.065619,performance,track,cursor_in_target,0
+8.973572,3.065619,performance,track,center_deviation,104.95178
+8.973736,3.065619,state,track,"reticle, cursor_relative","(67.64067000211585, 81.63176400598456)"
+8.973779,3.065619,state,track,"reticle, cursor_proportional","(0.17397291667210868, 0.20995824075613315)"
+8.989846,3.082321,input,joystick,y,-0.013687
+9.006187,3.098693,input,joystick,y,-0.019547
+9.006347,3.098693,performance,track,cursor_in_target,0
+9.006369,3.098693,performance,track,center_deviation,106.014174
+9.006448,3.098693,state,track,"reticle, cursor_relative","(68.3304726760742, 82.44730463313836)"
+9.006465,3.098693,state,track,"reticle, cursor_proportional","(0.17574710050430606, 0.21205582467370976)"
+9.023408,3.115886,input,joystick,y,-0.013687
+9.039689,3.132192,input,joystick,y,-0.007828
+9.039894,3.132192,performance,track,cursor_in_target,0
+9.03993,3.132192,performance,track,center_deviation,107.082265
+9.040044,3.132192,state,track,"reticle, cursor_relative","(69.01854928338862, 83.24819042060786)"
+9.040185,3.132192,state,track,"reticle, cursor_proportional","(0.17751684486468267, 0.21411571610238644)"
+9.056848,3.149349,input,joystick,y,-0.019547
+9.07306,3.16557,input,joystick,y,-0.007828
+9.073234,3.16557,performance,track,cursor_in_target,0
+9.073276,3.16557,performance,track,center_deviation,108.137974
+9.073368,3.16557,state,track,"reticle, cursor_relative","(69.70488242648327, 84.04611174721055)"
+9.073389,3.16557,state,track,"reticle, cursor_proportional","(0.179282105006387, 0.216167982888916)"
+9.106507,3.198888,seed_value,sysmon,,
+9.106552,3.198888,seed_output,sysmon,,-1
+9.106586,3.198888,seed_value,sysmon,,
+9.106596,3.198888,seed_output,sysmon,,1
+9.106621,3.198888,seed_value,sysmon,,
+9.10663,3.198888,seed_output,sysmon,,1
+9.106654,3.198888,seed_value,sysmon,,
+9.106663,3.198888,seed_output,sysmon,,1
+9.106787,3.198888,state,sysmon,"scale1, arrow",5
+9.10681,3.198888,state,sysmon,"scale2, arrow",5
+9.106827,3.198888,state,sysmon,"scale3, arrow",5
+9.106842,3.198888,state,sysmon,"scale4, arrow",7
+9.106901,3.198888,performance,track,cursor_in_target,0
+9.106917,3.198888,performance,track,center_deviation,109.19029
+9.107006,3.198888,state,track,"reticle, cursor_relative","(70.3894547513687, 84.84104016966772)"
+9.107038,3.198888,state,track,"reticle, cursor_proportional","(0.18104283629467258, 0.21821255187671737)"
+9.139892,3.232398,input,joystick,y,-0.013687
+9.140057,3.232398,performance,track,cursor_in_target,0
+9.140078,3.232398,performance,track,center_deviation,110.239183
+9.140153,3.232398,state,track,"reticle, cursor_relative","(71.07224894807597, 85.63880681685306)"
+9.140173,3.232398,state,track,"reticle, cursor_proportional","(0.18279899420801432, 0.22026442082523934)"
+9.156734,3.249236,input,joystick,y,-0.007828
+9.173823,3.266152,performance,track,cursor_in_target,0
+9.173872,3.266152,performance,track,center_deviation,111.289127
+9.173961,3.266152,state,track,"reticle, cursor_relative","(71.75324775108913, 86.42766453317962)"
+9.173981,3.266152,state,track,"reticle, cursor_proportional","(0.18455053433922103, 0.22229337585694348)"
+9.206394,3.298776,performance,track,cursor_in_target,0
+9.206431,3.298776,performance,track,center_deviation,112.331072
+9.206501,3.298776,state,track,"reticle, cursor_relative","(72.43243393977704, 87.21344466606593)"
+9.206518,3.298776,state,track,"reticle, cursor_proportional","(0.18629741239654588, 0.22431441529337942)"
+9.23972,3.332095,performance,track,cursor_in_target,0
+9.239763,3.332095,performance,track,center_deviation,113.369495
+9.239841,3.332095,state,track,"reticle, cursor_relative","(73.10979033882381, 87.99611920931486)"
+9.239859,3.332095,state,track,"reticle, cursor_proportional","(0.18803958420479375, 0.22632746710214727)"
+9.27381,3.36614,performance,track,cursor_in_target,0
+9.273862,3.36614,performance,track,center_deviation,114.404364
+9.273978,3.36614,state,track,"reticle, cursor_relative","(73.78529981865817, 88.77566026853009)"
+9.274011,3.36614,state,track,"reticle, cursor_proportional","(0.18977700570642533, 0.22833245953840042)"
+9.306316,3.398682,performance,track,cursor_in_target,0
+9.306361,3.398682,performance,track,center_deviation,115.435646
+9.306447,3.398682,state,track,"reticle, cursor_relative","(74.4589452958818, 89.5520400621205)"
+9.306468,3.398682,state,track,"reticle, cursor_proportional","(0.19150963296265897, 0.23032932114742927)"
+9.322988,3.415405,seed_value,sysmon,,
+9.323024,3.415405,seed_output,sysmon,,-1
+9.323051,3.415405,seed_value,sysmon,,
+9.323059,3.415405,seed_output,sysmon,,-1
+9.32308,3.415405,seed_value,sysmon,,
+9.323088,3.415405,seed_output,sysmon,,1
+9.323108,3.415405,seed_value,sysmon,,
+9.323115,3.415405,seed_output,sysmon,,1
+9.323167,3.415405,state,sysmon,"scale1, arrow",4
+9.323183,3.415405,state,sysmon,"scale2, arrow",4
+9.323195,3.415405,state,sysmon,"scale3, arrow",6
+9.323206,3.415405,state,sysmon,"scale4, arrow",6
+9.339663,3.432167,input,joystick,y,-0.031266
+9.33984,3.432167,performance,track,cursor_in_target,0
+9.339863,3.432167,performance,track,center_deviation,116.463309
+9.33995,3.432167,state,track,"reticle, cursor_relative","(75.1307097336963, 90.34866877993345)"
+9.339973,3.432167,state,track,"reticle, cursor_proportional","(0.19323742215456868, 0.2323782633228741)"
+9.35633,3.448836,input,joystick,y,-0.007828
+9.373166,3.465648,input,joystick,y,-0.013687
+9.373513,3.465648,performance,track,cursor_in_target,0
+9.373563,3.465648,performance,track,center_deviation,117.505342
+9.373742,3.465648,state,track,"reticle, cursor_relative","(75.80057614232913, 91.12450261812594)"
+9.373788,3.465648,state,track,"reticle, cursor_proportional","(0.19496032958417986, 0.23437372072563256)"
+9.389721,3.482227,input,joystick,y,-0.007828
+9.406453,3.498808,performance,track,cursor_in_target,0
+9.4065,3.498808,performance,track,center_deviation,118.530175
+9.406591,3.498808,state,track,"reticle, cursor_relative","(76.46852757945844, 91.8912330683231)"
+9.406613,3.498808,state,track,"reticle, cursor_proportional","(0.19667831167556182, 0.23634576406461702)"
+9.439725,3.532061,performance,track,cursor_in_target,0
+9.43978,3.532061,performance,track,center_deviation,119.546788
+9.43989,3.532061,state,track,"reticle, cursor_relative","(77.13454715063655, 92.65469227452262)"
+9.439918,3.532061,state,track,"reticle, cursor_proportional","(0.19839132497591705, 0.2383093937101919)"
+9.472933,3.565293,performance,track,cursor_in_target,0
+9.472979,3.565293,performance,track,center_deviation,120.559655
+9.473069,3.565293,state,track,"reticle, cursor_relative","(77.79861800971231, 93.41485303407832)"
+9.473093,3.565293,state,track,"reticle, cursor_proportional","(0.20009932615666748, 0.2402645396967035)"
+9.506264,3.598774,input,joystick,y,-0.013687
+9.506408,3.598774,performance,track,cursor_in_target,0
+9.506427,3.598774,performance,track,center_deviation,121.568745
+9.506498,3.598774,state,track,"reticle, cursor_relative","(78.46072335925226, 94.17754772749605)"
+9.506514,3.598774,state,track,"reticle, cursor_proportional","(0.20180227201453768, 0.24222620300281905)"
+9.52299,3.615426,seed_value,sysmon,,
+9.523023,3.615426,seed_output,sysmon,,-1
+9.523052,3.615426,seed_value,sysmon,,
+9.523062,3.615426,seed_output,sysmon,,1
+9.523085,3.615426,seed_value,sysmon,,
+9.523093,3.615426,seed_output,sysmon,,1
+9.523113,3.615426,seed_value,sysmon,,
+9.52312,3.615426,seed_output,sysmon,,-1
+9.523168,3.615426,state,sysmon,"scale1, arrow",3
+9.523185,3.615426,state,sysmon,"scale2, arrow",5
+9.523197,3.615426,state,sysmon,"scale3, arrow",7
+9.523209,3.615426,state,sysmon,"scale4, arrow",5
+9.53948,3.631993,input,joystick,y,-0.007828
+9.539599,3.631993,performance,track,cursor_in_target,0
+9.539627,3.631993,performance,track,center_deviation,122.578528
+9.539691,3.631993,state,track,"reticle, cursor_relative","(79.12084645096064, 94.93103046177539)"
+9.539706,3.631993,state,track,"reticle, cursor_proportional","(0.20350011947263538, 0.2441641729983935)"
+9.573021,3.665426,performance,track,cursor_in_target,0
+9.573053,3.665426,performance,track,center_deviation,123.57997
+9.573177,3.665426,state,track,"reticle, cursor_relative","(79.77897058609797, 95.68113385783042)"
+9.5732,3.665426,state,track,"reticle, cursor_proportional","(0.20519282558152768, 0.24609345128042803)"
+9.606385,3.698789,performance,track,cursor_in_target,0
+9.60642,3.698789,performance,track,center_deviation,124.57754
+9.606507,3.698789,state,track,"reticle, cursor_relative","(80.43507911589859, 96.42783119382264)"
+9.606528,3.698789,state,track,"reticle, cursor_proportional","(0.20688034752031528, 0.2480139691199142)"
+9.63556,3.727858,performance,track,cursor_in_target,0
+9.635608,3.727858,performance,track,center_deviation,125.571209
+9.635684,3.727858,state,track,"reticle, cursor_relative","(81.08915544198692, 97.1710958705314)"
+9.635702,3.727858,state,track,"reticle, cursor_proportional","(0.20856264259770296, 0.24992565810321862)"
+9.656426,3.748816,performance,track,cursor_in_target,0
+9.656468,3.748816,performance,track,center_deviation,126.560946
+9.656548,3.748816,state,track,"reticle, cursor_relative","(81.74118301679226, 97.91090141231133)"
+9.656567,3.748816,state,track,"reticle, cursor_proportional","(0.2102396682530665, 0.2518284501345456)"
+9.672927,3.765431,input,joystick,y,-0.013687
+9.689863,3.78215,performance,track,cursor_in_target,0
+9.689934,3.78215,performance,track,center_deviation,127.546719
+9.690084,3.78215,state,track,"reticle, cursor_relative","(82.3911453439627, 98.65308093245396)"
+9.690119,3.78215,state,track,"reticle, cursor_proportional","(0.21191138205751725, 0.25373734807729925)"
+9.706278,3.798779,input,joystick,y,-0.007828
+9.723287,3.815674,seed_value,sysmon,,
+9.723333,3.815674,seed_output,sysmon,,-1
+9.723376,3.815674,seed_value,sysmon,,
+9.723389,3.815674,seed_output,sysmon,,-1
+9.72342,3.815674,seed_value,sysmon,,
+9.72343,3.815674,seed_output,sysmon,,1
+9.723456,3.815674,seed_value,sysmon,,
+9.723584,3.815674,seed_output,sysmon,,-1
+9.723662,3.815674,state,sysmon,"scale1, arrow",4
+9.723686,3.815674,state,sysmon,"scale2, arrow",4
+9.723702,3.815674,state,sysmon,"scale3, arrow",6
+9.723718,3.815674,state,sysmon,"scale4, arrow",4
+9.723783,3.815674,performance,track,cursor_in_target,0
+9.723801,3.815674,performance,track,center_deviation,128.532997
+9.723902,3.815674,state,track,"reticle, cursor_relative","(83.03902597877736, 99.38588927650291)"
+9.723932,3.815674,state,track,"reticle, cursor_proportional","(0.21357774171496233, 0.25562214320088195)"
+9.756702,3.848934,performance,track,cursor_in_target,0
+9.75678,3.848934,performance,track,center_deviation,129.510752
+9.756904,3.848934,state,track,"reticle, cursor_relative","(83.68480852855757, 100.11515980964805)"
+9.756928,3.848934,state,track,"reticle, cursor_proportional","(0.21523870506316245, 0.25749783901658446)"
+9.773115,3.865604,input,joystick,y,-0.013687
+9.789927,3.882402,input,joystick,y,-0.007828
+9.790251,3.882402,performance,track,cursor_in_target,0
+9.790285,3.882402,performance,track,center_deviation,130.484453
+9.790406,3.882402,state,track,"reticle, cursor_relative","(84.32847665307662, 100.8408665600317)"
+9.790436,3.882402,state,track,"reticle, cursor_proportional","(0.21689423007478553, 0.25936436872436136)"
+9.824286,3.916644,performance,track,cursor_in_target,0
+9.824329,3.916644,performance,track,center_deviation,131.454069
+9.82441,3.916644,state,track,"reticle, cursor_relative","(84.97001406496844, 101.56298368409199)"
+9.824429,3.916644,state,track,"reticle, cursor_proportional","(0.2185442748584579, 0.2612216658541461)"
+9.840365,3.932842,input,joystick,y,-0.025406
+9.856611,3.949096,input,joystick,y,-0.007828
+9.856957,3.949096,performance,track,cursor_in_target,0
+9.856996,3.949096,performance,track,center_deviation,132.419572
+9.857138,3.949096,state,track,"reticle, cursor_relative","(85.60940453013458, 102.28148546749323)"
+9.857171,3.949096,state,track,"reticle, cursor_proportional","(0.22018879765981117, 0.2630696642682439)"
+9.890406,3.982121,performance,track,cursor_in_target,0
+9.890492,3.982121,performance,track,center_deviation,133.38093
+9.890665,3.982121,state,track,"reticle, cursor_relative","(86.24663186815016, 102.99634632605161)"
+9.890708,3.982121,state,track,"reticle, cursor_proportional","(0.22182775686252612, 0.264908298163713)"
+9.92346,4.015604,performance,track,cursor_in_target,0
+9.923528,4.015604,performance,track,center_deviation,134.338114
+9.923669,4.015604,state,track,"reticle, cursor_relative","(86.88167995266834, 103.70754080665613)"
+9.923732,4.015604,state,track,"reticle, cursor_proportional","(0.2234611109893733, 0.26673750207473285)"
+9.924782,4.015604,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:04
+9.939687,4.032187,input,joystick,y,-0.019547
+9.93982,4.032187,seed_value,sysmon,,
+9.939836,4.032187,seed_output,sysmon,,-1
+9.939863,4.032187,seed_value,sysmon,,
+9.939873,4.032187,seed_output,sysmon,,1
+9.939895,4.032187,seed_value,sysmon,,
+9.939903,4.032187,seed_output,sysmon,,1
+9.939924,4.032187,seed_value,sysmon,,
+9.939932,4.032187,seed_output,sysmon,,-1
+9.93999,4.032187,state,sysmon,"scale1, arrow",3
+9.940008,4.032187,state,sysmon,"scale2, arrow",5
+9.940022,4.032187,state,sysmon,"scale3, arrow",7
+9.940034,4.032187,state,sysmon,"scale4, arrow",3
+9.956252,4.048758,input,joystick,y,-0.013687
+9.956409,4.048758,performance,track,cursor_in_target,0
+9.956427,4.048758,performance,track,center_deviation,135.291095
+9.956501,4.048758,state,track,"reticle, cursor_relative","(87.51453271182356, 104.42090305259343)"
+9.956518,4.048758,state,track,"reticle, cursor_proportional","(0.2250888187032499, 0.26857228151387197)"
+9.989648,4.082159,input,joystick,y,-0.007828
+9.989791,4.082159,performance,track,cursor_in_target,0
+9.989811,4.082159,performance,track,center_deviation,136.244334
+9.989885,4.082159,state,track,"reticle, cursor_relative","(88.14517412863327, 105.12468894682594)"
+9.989902,4.082159,state,track,"reticle, cursor_proportional","(0.22671083880821313, 0.270382430418791)"
+10.023003,4.115422,performance,track,cursor_in_target,0
+10.023037,4.115422,performance,track,center_deviation,137.188819
+10.023103,4.115422,state,track,"reticle, cursor_relative","(88.77358824139833, 105.82473289934852)"
+10.023119,4.115422,state,track,"reticle, cursor_proportional","(0.2283271302505101, 0.2721829549880363)"
+10.056532,4.148911,performance,track,cursor_in_target,0
+10.05658,4.148911,performance,track,center_deviation,138.129012
+10.056674,4.148911,state,track,"reticle, cursor_relative","(89.39975914410209, 106.52100999045729)"
+10.056699,4.148911,state,track,"reticle, cursor_proportional","(0.22993765211960412, 0.27397379112771936)"
+10.089809,4.18214,performance,track,cursor_in_target,0
+10.089866,4.18214,performance,track,center_deviation,139.064886
+10.089977,4.18214,state,track,"reticle, cursor_relative","(90.02367098680809, 107.2134954360549)"
+10.090004,4.18214,state,track,"reticle, cursor_proportional","(0.23154236364919775, 0.2757548750927338)"
+10.107278,4.198803,performance,resman,a_in_tolerance,1
+10.107316,4.198803,performance,resman,a_deviation,-52
+10.107327,4.198803,performance,resman,b_in_tolerance,1
+10.107336,4.198803,performance,resman,b_deviation,-52
+10.107399,4.198803,state,resman,"tank_a, fluid_level",2448
+10.107606,4.198803,state,resman,"tank_a, fluid_label",2448
+10.107635,4.198803,state,resman,"tank_b, fluid_level",2448
+10.107754,4.198803,state,resman,"tank_b, fluid_label",2448
+10.123453,4.21557,performance,track,cursor_in_target,0
+10.123489,4.21557,performance,track,center_deviation,139.99641
+10.123557,4.21557,state,track,"reticle, cursor_relative","(90.64530797605616, 107.90216458854292)"
+10.123575,4.21557,state,track,"reticle, cursor_proportional","(0.23314122421825142, 0.2775261434890507)"
+10.139969,4.232216,seed_value,sysmon,,
+10.14006,4.232216,seed_output,sysmon,,-1
+10.140154,4.232216,seed_value,sysmon,,
+10.140171,4.232216,seed_output,sysmon,,1
+10.140203,4.232216,seed_value,sysmon,,
+10.140214,4.232216,seed_output,sysmon,,-1
+10.140243,4.232216,seed_value,sysmon,,
+10.140256,4.232216,seed_output,sysmon,,1
+10.140322,4.232216,state,sysmon,"scale1, arrow",4
+10.140409,4.232216,state,sysmon,"scale2, arrow",6
+10.140427,4.232216,state,sysmon,"scale3, arrow",6
+10.140444,4.232216,state,sysmon,"scale4, arrow",4
+10.156625,4.248817,performance,track,cursor_in_target,0
+10.156719,4.248817,performance,track,center_deviation,140.923557
+10.156918,4.248817,state,track,"reticle, cursor_relative","(91.26465437525741, 108.58699293770896)"
+10.156971,4.248817,state,track,"reticle, cursor_proportional","(0.2347341933519995, 0.27928753327600037)"
+10.190156,4.282312,performance,track,cursor_in_target,0
+10.190219,4.282312,performance,track,center_deviation,141.846298
+10.19057,4.282312,state,track,"reticle, cursor_relative","(91.88169450508761, 109.26795611160921)"
+10.190644,4.282312,state,track,"reticle, cursor_proportional","(0.23632123072296196, 0.2810389817685422)"
+10.206297,4.298798,input,joystick,y,-0.019547
+10.223817,4.316293,input,joystick,y,-0.013687
+10.224467,4.316293,performance,track,cursor_in_target,0
+10.224653,4.316293,performance,track,center_deviation,142.764604
+10.22494,4.316293,state,track,"reticle, cursor_relative","(92.49641274387906, 109.95088934185404)"
+10.225007,4.316293,state,track,"reticle, cursor_proportional","(0.23790229615195232, 0.2827954972784312)"
+10.240297,4.332741,input,joystick,y,-0.007828
+10.256804,4.349074,performance,track,cursor_in_target,0
+10.256846,4.349074,performance,track,center_deviation,143.68293
+10.256927,4.349074,state,track,"reticle, cursor_relative","(93.10879352801128, 110.62404960684712)"
+10.256946,4.349074,state,track,"reticle, cursor_proportional","(0.23947734960908248, 0.28452687656082076)"
+10.289658,4.382166,input,joystick,y,-0.019547
+10.289817,4.382166,performance,track,cursor_in_target,0
+10.289838,4.382166,performance,track,center_deviation,144.592281
+10.289916,4.382166,state,track,"reticle, cursor_relative","(93.71882135229998, 111.3049913479194)"
+10.289935,4.382166,state,track,"reticle, cursor_proportional","(0.2410463512147633, 0.2862782699277762)"
+10.30649,4.398972,input,joystick,y,-0.007828
+10.323002,4.415505,input,joystick,y,-0.013687
+10.323193,4.415505,performance,track,cursor_in_target,0
+10.323221,4.415505,performance,track,center_deviation,145.506077
+10.323323,4.415505,state,track,"reticle, cursor_relative","(94.32648077038479, 111.97611236169963)"
+10.323348,4.415505,state,track,"reticle, cursor_proportional","(0.24260926124070162, 0.28800440422247847)"
+10.339691,4.4322,input,joystick,y,-0.007828
+10.356233,4.448657,seed_value,sysmon,,
+10.356267,4.448657,seed_output,sysmon,,1
+10.356294,4.448657,seed_value,sysmon,,
+10.356302,4.448657,seed_output,sysmon,,-1
+10.356322,4.448657,seed_value,sysmon,,
+10.356329,4.448657,seed_output,sysmon,,-1
+10.356347,4.448657,seed_value,sysmon,,
+10.356355,4.448657,seed_output,sysmon,,-1
+10.356402,4.448657,state,sysmon,"scale1, arrow",5
+10.356418,4.448657,state,sysmon,"scale2, arrow",5
+10.35643,4.448657,state,sysmon,"scale3, arrow",5
+10.356441,4.448657,state,sysmon,"scale4, arrow",3
+10.356487,4.448657,performance,track,cursor_in_target,0
+10.3565,4.448657,performance,track,center_deviation,146.410842
+10.356567,4.448657,state,track,"reticle, cursor_relative","(94.9317563951154, 112.63738898064672)"
+10.356583,4.448657,state,track,"reticle, cursor_proportional","(0.24416604011089352, 0.28970521857162224)"
+10.389762,4.482074,performance,track,cursor_in_target,0
+10.389827,4.482074,performance,track,center_deviation,147.30655
+10.389957,4.482074,state,track,"reticle, cursor_relative","(95.53463289893614, 113.29465714508486)"
+10.389992,4.482074,state,track,"reticle, cursor_proportional","(0.2457166484026135, 0.2913957231097861)"
+10.40635,4.498849,input,joystick,y,-0.013687
+10.423394,4.515872,input,joystick,y,-0.019547
+10.423838,4.515872,performance,track,cursor_in_target,0
+10.423902,4.515872,performance,track,center_deviation,148.197657
+10.424075,4.515872,state,track,"reticle, cursor_relative","(96.13509501426924, 113.95961240405059)"
+10.424113,4.515872,state,track,"reticle, cursor_proportional","(0.2472610468474003, 0.2931059989816116)"
+10.439876,4.532368,input,joystick,y,-0.007828
+10.456452,4.548825,performance,track,cursor_in_target,0
+10.456494,4.548825,performance,track,center_deviation,149.093091
+10.456572,4.548825,state,track,"reticle, cursor_relative","(96.73312753389658, 114.60879366527597)"
+10.456591,4.548825,state,track,"reticle, cursor_proportional","(0.2487991963320385, 0.2947757038715946)"
+10.489907,4.582273,performance,track,cursor_in_target,0
+10.489949,4.582273,performance,track,center_deviation,149.97491
+10.490019,4.582273,state,track,"reticle, cursor_relative","(97.32871531133976, 115.25389676892517)"
+10.490035,4.582273,state,track,"reticle, cursor_proportional","(0.2503310578995364, 0.29643491967316143)"
+10.522906,4.615408,input,joystick,y,-0.031266
+10.523096,4.615408,performance,track,cursor_in_target,0
+10.523121,4.615408,performance,track,center_deviation,150.852045
+10.523213,4.615408,state,track,"reticle, cursor_relative","(97.9218432612388, 115.91833663079224)"
+10.523235,4.615408,state,track,"reticle, cursor_proportional","(0.2518565927500998, 0.29814386993516523)"
+10.53962,4.63213,input,joystick,y,-0.007828
+10.556458,4.648813,seed_value,sysmon,,
+10.556513,4.648813,seed_output,sysmon,,1
+10.556572,4.648813,seed_value,sysmon,,
+10.556592,4.648813,seed_output,sysmon,,-1
+10.556642,4.648813,seed_value,sysmon,,
+10.556659,4.648813,seed_output,sysmon,,1
+10.556705,4.648813,seed_value,sysmon,,
+10.556721,4.648813,seed_output,sysmon,,1
+10.556802,4.648813,state,sysmon,"scale1, arrow",6
+10.556832,4.648813,state,sysmon,"scale2, arrow",4
+10.556856,4.648813,state,sysmon,"scale3, arrow",6
+10.556879,4.648813,state,sysmon,"scale4, arrow",4
+10.556957,4.648813,performance,track,cursor_in_target,0
+10.556984,4.648813,performance,track,center_deviation,151.742374
+10.557113,4.648813,state,track,"reticle, cursor_relative","(98.51249635972931, 116.55521474141037)"
+10.557146,4.648813,state,track,"reticle, cursor_proportional","(0.2533757622421021, 0.29978193091926536)"
+10.589792,4.681966,performance,track,cursor_in_target,0
+10.589894,4.681966,performance,track,center_deviation,152.610059
+10.590097,4.681966,state,track,"reticle, cursor_relative","(99.10065964481805, 117.18794631267242)"
+10.590149,4.681966,state,track,"reticle, cursor_proportional","(0.25488852789305055, 0.30140932693588585)"
+10.606558,4.699044,input,joystick,y,-0.019547
+10.623216,4.7157,input,joystick,y,-0.007828
+10.62359,4.7157,performance,track,cursor_in_target,0
+10.623683,4.7157,performance,track,center_deviation,153.47298
+10.623957,4.7157,state,track,"reticle, cursor_relative","(99.68631821675697, 117.81650884811295)"
+10.624103,4.7157,state,track,"reticle, cursor_proportional","(0.25639485138054774, 0.30302600012374725)"
+10.656604,4.748943,performance,track,cursor_in_target,0
+10.656663,4.748943,performance,track,center_deviation,154.331111
+10.656799,4.748943,state,track,"reticle, cursor_relative","(100.26945723841571, 118.44088000135137)"
+10.656826,4.748943,state,track,"reticle, cursor_proportional","(0.25789469454325026, 0.30463189300759097)"
+10.68994,4.782438,input,joystick,y,-0.013687
+10.69016,4.782438,performance,track,cursor_in_target,0
+10.690195,4.782438,performance,track,center_deviation,155.184426
+10.690323,4.782438,state,track,"reticle, cursor_relative","(100.85006193565258, 119.06689704130467)"
+10.690357,4.782438,state,track,"reticle, cursor_proportional","(0.2593880193818225, 0.3062420191391581)"
+10.70629,4.798796,input,joystick,y,-0.007828
+10.722962,4.81535,performance,track,cursor_in_target,0
+10.722998,4.81535,performance,track,center_deviation,156.03737
+10.723072,4.81535,state,track,"reticle, cursor_relative","(101.42811759768382, 119.68281899535322)"
+10.723091,4.81535,state,track,"reticle, cursor_proportional","(0.26087478805988634, 0.30782618054360394)"
+10.756477,4.848954,input,joystick,y,-0.025406
+10.756792,4.848954,seed_value,sysmon,,
+10.756848,4.848954,seed_output,sysmon,,-1
+10.756927,4.848954,seed_value,sysmon,,
+10.756956,4.848954,seed_output,sysmon,,-1
+10.757021,4.848954,seed_value,sysmon,,
+10.757044,4.848954,seed_output,sysmon,,1
+10.757106,4.848954,seed_value,sysmon,,
+10.757128,4.848954,seed_output,sysmon,,1
+10.757293,4.848954,state,sysmon,"scale1, arrow",5
+10.757393,4.848954,state,sysmon,"scale2, arrow",3
+10.757437,4.848954,state,sysmon,"scale3, arrow",7
+10.757471,4.848954,state,sysmon,"scale4, arrow",5
+10.757588,4.848954,performance,track,cursor_in_target,0
+10.757628,4.848954,performance,track,center_deviation,156.880975
+10.757941,4.848954,state,track,"reticle, cursor_relative","(102.00360957745146, 120.31206182980928)"
+10.758053,4.848954,state,track,"reticle, cursor_proportional","(0.26235496290496774, 0.3094446034717317)"
+10.77304,4.865546,input,joystick,y,-0.013687
+10.78965,4.882078,performance,track,cursor_in_target,0
+10.789678,4.882078,performance,track,center_deviation,157.733093
+10.789741,4.882078,state,track,"reticle, cursor_relative","(102.5765232919894, 120.92530648458015)"
+10.789756,4.882078,state,track,"reticle, cursor_proportional","(0.2638285064094378, 0.31102187881836457)"
+10.806337,4.898839,input,joystick,y,-0.007828
+10.823462,4.91559,performance,track,cursor_in_target,0
+10.823554,4.91559,performance,track,center_deviation,158.571349
+10.823774,4.91559,state,track,"reticle, cursor_relative","(103.1468442227881, 121.52839084007569)"
+10.823829,4.91559,state,track,"reticle, cursor_proportional","(0.26529538123145086, 0.3125730217080136)"
+10.856461,4.948944,input,joystick,y,-0.013687
+10.856841,4.948944,performance,track,cursor_in_target,0
+10.85701,4.948944,performance,track,center_deviation,159.400192
+10.857216,4.948944,state,track,"reticle, cursor_relative","(103.71455791615742, 122.13301239594364)"
+10.857267,4.948944,state,track,"reticle, cursor_proportional","(0.2667555501958781, 0.3141281183023242)"
+10.874522,4.967024,input,joystick,y,-0.007828
+10.889843,4.982079,performance,track,cursor_in_target,0
+10.889927,4.982079,performance,track,center_deviation,160.228531
+10.890205,4.982079,state,track,"reticle, cursor_relative","(104.27964998358806, 122.72743094979951)"
+10.890257,4.982079,state,track,"reticle, cursor_proportional","(0.26820897629523677, 0.315656972607509)"
+10.923314,5.01563,performance,track,cursor_in_target,0
+10.923374,5.01563,performance,track,center_deviation,161.047408
+10.923537,5.01563,state,track,"reticle, cursor_relative","(104.84210610211122, 123.31748484885064)"
+10.923898,5.01563,state,track,"reticle, cursor_proportional","(0.26965562269061527, 0.31717460094868993)"
+10.925031,5.01563,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:05
+10.956789,5.048936,performance,track,cursor_in_target,0
+10.956851,5.048936,performance,track,center_deviation,161.861266
+10.956976,5.048936,state,track,"reticle, cursor_relative","(105.40191201465666, 123.90315313302318)"
+10.957012,5.048936,state,track,"reticle, cursor_proportional","(0.2710954527125943, 0.3186809494162119)"
+10.973034,5.065406,seed_value,sysmon,,
+10.973084,5.065406,seed_output,sysmon,,1
+10.97313,5.065406,seed_value,sysmon,,
+10.973146,5.065406,seed_output,sysmon,,-1
+10.973182,5.065406,seed_value,sysmon,,
+10.973196,5.065406,seed_output,sysmon,,-1
+10.973229,5.065406,seed_value,sysmon,,
+10.973242,5.065406,seed_output,sysmon,,1
+10.973312,5.065406,state,sysmon,"scale1, arrow",6
+10.973338,5.065406,state,sysmon,"scale2, arrow",4
+10.973358,5.065406,state,sysmon,"scale3, arrow",6
+10.973382,5.065406,state,sysmon,"scale4, arrow",6
+10.990632,5.082888,performance,track,cursor_in_target,0
+10.99071,5.082888,performance,track,center_deviation,162.670078
+10.990863,5.082888,state,track,"reticle, cursor_relative","(105.95905353040922, 124.48441500012488)"
+10.990903,5.082888,state,track,"reticle, cursor_proportional","(0.27252842986216363, 0.32017596450649405)"
+11.022967,5.115345,performance,track,cursor_in_target,0
+11.02301,5.115345,performance,track,center_deviation,163.473822
+11.023095,5.115345,state,track,"reticle, cursor_relative","(106.51351652516344, 125.06124980659413)"
+11.023116,5.115345,state,track,"reticle, cursor_proportional","(0.2739545178116344, 0.3216595931239561)"
+11.056202,5.148596,performance,track,cursor_in_target,0
+11.056241,5.148596,performance,track,center_deviation,164.272473
+11.05632,5.148596,state,track,"reticle, cursor_relative","(107.06528694167679, 125.63363706824293)"
+11.056339,5.148596,state,track,"reticle, cursor_proportional","(0.27537368040554727, 0.32313178258292935)"
+11.089542,5.182046,input,joystick,y,-0.019547
+11.089703,5.182046,performance,track,cursor_in_target,0
+11.089725,5.182046,performance,track,center_deviation,165.066006
+11.089806,5.182046,state,track,"reticle, cursor_relative","(107.61435079002104, 126.21327538981113)"
+11.089825,5.182046,state,track,"reticle, cursor_proportional","(0.27678588166157675, 0.3246226218873743)"
+11.106202,5.198708,input,joystick,y,-0.007828
+11.122888,5.215397,input,joystick,y,-0.031266
+11.123033,5.215397,performance,track,cursor_in_target,0
+11.123052,5.215397,performance,track,center_deviation,165.863315
+11.123124,5.215397,state,track,"reticle, cursor_relative","(108.16069414793205, 126.80014460806468)"
+11.123141,5.215397,state,track,"reticle, cursor_proportional","(0.27819108577143015, 0.32613205917712107)"
+11.139513,5.232021,input,joystick,y,-0.013687
+11.156314,5.248822,input,joystick,y,-0.007828
+11.156462,5.248822,performance,track,cursor_in_target,0
+11.156481,5.248822,performance,track,center_deviation,166.664371
+11.15655,5.248822,state,track,"reticle, cursor_relative","(108.70430316115775, 127.35906793488824)"
+11.156566,5.248822,state,track,"reticle, cursor_proportional","(0.2795892571017432, 0.3275696191740953)"
+11.172992,5.265499,input,joystick,y,-0.013687
+11.173122,5.265499,seed_value,sysmon,,
+11.17314,5.265499,seed_output,sysmon,,1
+11.173171,5.265499,seed_value,sysmon,,
+11.173182,5.265499,seed_output,sysmon,,-1
+11.173208,5.265499,seed_value,sysmon,,
+11.173217,5.265499,seed_output,sysmon,,-1
+11.173242,5.265499,seed_value,sysmon,,
+11.173251,5.265499,seed_output,sysmon,,1
+11.173304,5.265499,state,sysmon,"scale1, arrow",7
+11.173321,5.265499,state,sysmon,"scale2, arrow",3
+11.173335,5.265499,state,sysmon,"scale3, arrow",5
+11.17335,5.265499,state,sysmon,"scale4, arrow",7
+11.189967,5.282402,performance,track,cursor_in_target,0
+11.189995,5.282402,performance,track,center_deviation,167.442401
+11.190054,5.282402,state,track,"reticle, cursor_relative","(109.24516404380462, 127.91932285294685)"
+11.190069,5.282402,state,track,"reticle, cursor_proportional","(0.28098036019497075, 0.3290106040456452)"
+11.20635,5.298854,input,joystick,y,-0.019547
+11.222931,5.315431,input,joystick,y,-0.007828
+11.22315,5.315431,performance,track,cursor_in_target,0
+11.223182,5.315431,performance,track,center_deviation,168.219675
+11.223293,5.315431,state,track,"reticle, cursor_relative","(109.78326307868215, 128.4691707570501)"
+11.223321,5.315431,state,track,"reticle, cursor_proportional","(0.282364359770273, 0.3304248219059931)"
+11.256413,5.348711,performance,track,cursor_in_target,0
+11.256463,5.348711,performance,track,center_deviation,168.987256
+11.25655,5.348711,state,track,"reticle, cursor_relative","(110.318586617646, 129.01445159894402)"
+11.256603,5.348711,state,track,"reticle, cursor_proportional","(0.28374122072439817, 0.33182729320716053)"
+11.289496,5.382005,input,joystick,y,-0.019547
+11.289653,5.382005,performance,track,cursor_in_target,0
+11.289675,5.382005,performance,track,center_deviation,169.749578
+11.289756,5.382005,state,track,"reticle, cursor_relative","(110.85112108193904, 129.5668649591966)"
+11.289787,5.382005,state,track,"reticle, cursor_proportional","(0.28511090813255924, 0.33324810946295425)"
+11.306164,5.398673,input,joystick,y,-0.013687
+11.322834,5.415343,input,joystick,y,-0.007828
+11.322976,5.415343,performance,track,cursor_in_target,0
+11.322994,5.415343,performance,track,center_deviation,170.515523
+11.323066,5.415343,state,track,"reticle, cursor_relative","(111.3808529625308, 130.1029537970361)"
+11.323083,5.415343,state,track,"reticle, cursor_proportional","(0.2864733872493076, 0.334626938778385)"
+11.339466,5.431976,input,joystick,y,-0.013687
+11.356177,5.448683,input,joystick,y,-0.019547
+11.356338,5.448683,performance,track,cursor_in_target,0
+11.356396,5.448683,performance,track,center_deviation,171.267256
+11.356494,5.448683,state,track,"reticle, cursor_relative","(111.90776882045532, 130.64613695275835)"
+11.356514,5.448683,state,track,"reticle, cursor_proportional","(0.2878286235094015, 0.33602401479618915)"
+11.372813,5.465321,input,joystick,y,-0.007828
+11.390327,5.481939,seed_value,sysmon,,
+11.390371,5.481939,seed_output,sysmon,,-1
+11.39041,5.481939,seed_value,sysmon,,
+11.390422,5.481939,seed_output,sysmon,,-1
+11.390449,5.481939,seed_value,sysmon,,
+11.390458,5.481939,seed_output,sysmon,,-1
+11.390482,5.481939,seed_value,sysmon,,
+11.39049,5.481939,seed_output,sysmon,,-1
+11.390549,5.481939,state,sysmon,"scale1, arrow",6
+11.390567,5.481939,state,sysmon,"scale2, arrow",4
+11.390581,5.481939,state,sysmon,"scale3, arrow",4
+11.390598,5.481939,state,sysmon,"scale4, arrow",6
+11.39065,5.481939,performance,track,cursor_in_target,0
+11.390663,5.481939,performance,track,center_deviation,172.022562
+11.39074,5.481939,state,track,"reticle, cursor_relative","(112.43185528714706, 131.1729577178781)"
+11.390759,5.481939,state,track,"reticle, cursor_proportional","(0.2891765825286704, 0.33737900647602387)"
+11.422803,5.515314,input,joystick,y,-0.019547
+11.422948,5.515314,performance,track,cursor_in_target,0
+11.422968,5.515314,performance,track,center_deviation,172.763616
+11.423041,5.515314,state,track,"reticle, cursor_relative","(112.95309906477512, 131.70683526634076)"
+11.423059,5.515314,state,track,"reticle, cursor_proportional","(0.29051723010487424, 0.33875214831877765)"
+11.439498,5.532006,input,joystick,y,-0.007828
+11.456326,5.548715,performance,track,cursor_in_target,0
+11.456366,5.548715,performance,track,center_deviation,173.508193
+11.456442,5.548715,state,track,"reticle, cursor_relative","(113.47148692657562, 132.22431322466184)"
+11.456495,5.548715,state,track,"reticle, cursor_proportional","(0.29185053221855867, 0.34008311014573517)"
+11.489576,5.58208,input,joystick,y,-0.019547
+11.489753,5.58208,performance,track,cursor_in_target,0
+11.489777,5.58208,performance,track,center_deviation,174.238478
+11.489871,5.58208,state,track,"reticle, cursor_relative","(113.98700571718248, 132.74881110312683)"
+11.489892,5.58208,state,track,"reticle, cursor_proportional","(0.29317645503390555, 0.34143212732285705)"
+11.506179,5.598685,input,joystick,y,-0.007828
+11.52302,5.615396,performance,track,cursor_in_target,0
+11.523061,5.615396,performance,track,center_deviation,174.972239
+11.523149,5.615396,state,track,"reticle, cursor_relative","(114.49964235295624, 133.25687286591838)"
+11.523169,5.615396,state,track,"reticle, cursor_proportional","(0.2944949648995788, 0.34273887053991353)"
+11.539485,5.631993,input,joystick,y,-0.013687
+11.556165,5.648673,input,joystick,y,-0.007828
+11.556317,5.648673,performance,track,cursor_in_target,0
+11.556339,5.648673,performance,track,center_deviation,175.691668
+11.556418,5.648673,state,track,"reticle, cursor_relative","(115.00938382231116, 133.76019943348734)"
+11.556437,5.648673,state,track,"reticle, cursor_proportional","(0.29580602834956576, 0.3440334347569119)"
+11.572845,5.665352,input,joystick,y,-0.013687
+11.589463,5.681972,input,joystick,y,-0.007828
+11.589574,5.681972,seed_value,sysmon,,
+11.589587,5.681972,seed_output,sysmon,,1
+11.589612,5.681972,seed_value,sysmon,,
+11.58962,5.681972,seed_output,sysmon,,-1
+11.58964,5.681972,seed_value,sysmon,,
+11.589647,5.681972,seed_output,sysmon,,-1
+11.589666,5.681972,seed_value,sysmon,,
+11.589673,5.681972,seed_output,sysmon,,-1
+11.589719,5.681972,state,sysmon,"scale1, arrow",7
+11.589734,5.681972,state,sysmon,"scale2, arrow",3
+11.589746,5.681972,state,sysmon,"scale3, arrow",3
+11.589757,5.681972,state,sysmon,"scale4, arrow",5
+11.5898,5.681972,performance,track,cursor_in_target,0
+11.589815,5.681972,performance,track,center_deviation,176.405639
+11.589881,5.681972,state,track,"reticle, cursor_relative","(115.51621718604052, 134.2587729679344)"
+11.589896,5.681972,state,track,"reticle, cursor_proportional","(0.29710961210401365, 0.34531577409448144)"
+11.622948,5.715334,performance,track,cursor_in_target,0
+11.62299,5.715334,performance,track,center_deviation,177.114129
+11.623074,5.715334,state,track,"reticle, cursor_relative","(116.02012957764003, 134.75257580246893)"
+11.623094,5.715334,state,track,"reticle, cursor_proportional","(0.2984056830700618, 0.346585843113346)"
+11.656185,5.748583,performance,track,cursor_in_target,0
+11.656226,5.748583,performance,track,center_deviation,177.817117
+11.656307,5.748583,state,track,"reticle, cursor_relative","(116.52110820362965, 135.24159044204498)"
+11.656326,5.748583,state,track,"reticle, cursor_proportional","(0.29969420834266886, 0.3478435968159593)"
+11.689647,5.781982,performance,track,cursor_in_target,0
+11.689697,5.781982,performance,track,center_deviation,178.514583
+11.689796,5.781982,state,track,"reticle, cursor_relative","(117.01914034387326, 135.7257995639912)"
+11.689819,5.781982,state,track,"reticle, cursor_proportional","(0.30097515520543533, 0.3490889906481255)"
+11.72309,5.815592,input,joystick,y,-0.013687
+11.723269,5.815592,performance,track,cursor_in_target,0
+11.72329,5.815592,performance,track,center_deviation,179.206506
+11.723369,5.815592,state,track,"reticle, cursor_relative","(117.51421335189673, 136.21104548304248)"
+11.723386,5.815592,state,track,"reticle, cursor_proportional","(0.3022484911314216, 0.3503370511395125)"
+11.739597,5.832099,input,joystick,y,-0.007828
+11.756427,5.848753,performance,track,cursor_in_target,0
+11.756475,5.848753,performance,track,center_deviation,179.897302
+11.756569,5.848753,state,track,"reticle, cursor_relative","(118.00631465520411, 136.68559229432435)"
+11.756591,5.848753,state,track,"reticle, cursor_proportional","(0.30351418378396117, 0.3515575933495997)"
+11.789687,5.882079,seed_value,sysmon,,
+11.78973,5.882079,seed_output,sysmon,,-1
+11.789764,5.882079,seed_value,sysmon,,
+11.789775,5.882079,seed_output,sysmon,,1
+11.789802,5.882079,seed_value,sysmon,,
+11.789812,5.882079,seed_output,sysmon,,1
+11.789836,5.882079,seed_value,sysmon,,
+11.789845,5.882079,seed_output,sysmon,,1
+11.789907,5.882079,state,sysmon,"scale1, arrow",6
+11.789929,5.882079,state,sysmon,"scale2, arrow",4
+11.789944,5.882079,state,sysmon,"scale3, arrow",4
+11.789958,5.882079,state,sysmon,"scale4, arrow",6
+11.790013,5.882079,performance,track,cursor_in_target,0
+11.790029,5.882079,performance,track,center_deviation,180.578076
+11.790109,5.882079,state,track,"reticle, cursor_relative","(118.49543175559187, 137.155282660414)"
+11.790143,5.882079,state,track,"reticle, cursor_proportional","(0.30477220101746877, 0.3527656447027109)"
+11.823381,5.915524,performance,track,cursor_in_target,0
+11.823474,5.915524,performance,track,center_deviation,181.253245
+11.823678,5.915524,state,track,"reticle, cursor_relative","(118.98155222946146, 137.62009995431174)"
+11.823734,5.915524,state,track,"reticle, cursor_proportional","(0.3060225108782445, 0.3539611624339294)"
+11.839516,5.932024,input,joystick,y,-0.013687
+11.856514,5.948994,input,joystick,y,-0.007828
+11.856878,5.948994,performance,track,cursor_in_target,0
+11.856904,5.948994,performance,track,center_deviation,181.92279
+11.856998,5.948994,state,track,"reticle, cursor_relative","(119.46466372812979, 138.08002772444794)"
+11.85702,5.948994,state,track,"reticle, cursor_proportional","(0.3072650816052721, 0.3551441042295472)"
+11.889755,5.982036,performance,track,cursor_in_target,0
+11.889826,5.982036,performance,track,center_deviation,182.586692
+11.889972,5.982036,state,track,"reticle, cursor_relative","(119.94475397813804, 138.53504969527532)"
+11.89001,5.982036,state,track,"reticle, cursor_proportional","(0.30849988163101344, 0.3563144282285888)"
+11.923246,6.015716,input,joystick,y,-0.013687
+11.923725,6.015716,performance,track,cursor_in_target,0
+11.92376,6.015716,performance,track,center_deviation,183.244929
+11.923943,6.015716,state,track,"reticle, cursor_relative","(120.42181078155836, 138.99100923226322)"
+11.924008,6.015716,state,track,"reticle, cursor_proportional","(0.3097268795821974, 0.35748716366322847)"
+11.925743,6.015716,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:06
+11.939767,6.032256,input,joystick,y,-0.007828
+11.956326,6.048678,performance,track,cursor_in_target,0
+11.956371,6.048678,performance,track,center_deviation,183.901912
+11.956464,6.048678,state,track,"reticle, cursor_relative","(120.895822016299, 139.43617148484373)"
+11.956487,6.048678,state,track,"reticle, cursor_proportional","(0.3109460442806044, 0.3586321283046392)"
+11.989785,6.082059,performance,track,cursor_in_target,0
+11.989857,6.082059,performance,track,center_deviation,184.548762
+11.990005,6.082059,state,track,"reticle, cursor_relative","(121.36677563640721, 139.87638017343488)"
+11.990043,6.082059,state,track,"reticle, cursor_proportional","(0.3121573447438457, 0.3597643522979292)"
+12.006353,6.09867,seed_value,sysmon,,
+12.006424,6.09867,seed_output,sysmon,,1
+12.006487,6.09867,seed_value,sysmon,,
+12.006509,6.09867,seed_output,sysmon,,1
+12.006561,6.09867,seed_value,sysmon,,
+12.006579,6.09867,seed_output,sysmon,,1
+12.006628,6.09867,seed_value,sysmon,,
+12.006645,6.09867,seed_output,sysmon,,1
+12.006735,6.09867,state,sysmon,"scale1, arrow",7
+12.006751,6.09867,state,sysmon,"scale2, arrow",5
+12.006764,6.09867,state,sysmon,"scale3, arrow",5
+12.006776,6.09867,state,sysmon,"scale4, arrow",7
+12.023125,6.115619,input,joystick,y,-0.013687
+12.023346,6.115619,performance,track,cursor_in_target,0
+12.023376,6.115619,performance,track,center_deviation,185.189892
+12.023486,6.115619,state,track,"reticle, cursor_relative","(121.83465967237049, 140.31747919678256)"
+12.023513,6.115619,state,track,"reticle, cursor_proportional","(0.31336075018613807, 0.36089886624686873)"
+12.040095,6.132587,input,joystick,y,-0.007828
+12.056262,6.148642,performance,track,cursor_in_target,0
+12.056354,6.148642,performance,track,center_deviation,185.829705
+12.056444,6.148642,state,track,"reticle, cursor_relative","(122.29946223141576, 140.74773423929577)"
+12.056466,6.148642,state,track,"reticle, cursor_proportional","(0.31455623001907346, 0.3620054892986002)"
+12.09014,6.182251,performance,track,cursor_in_target,0
+12.090249,6.182251,performance,track,center_deviation,186.459334
+12.090424,6.182251,state,track,"reticle, cursor_relative","(122.76117149780669, 141.17298955805055)"
+12.090468,6.182251,state,track,"reticle, cursor_proportional","(0.31574375385238346, 0.3630992529785251)"
+12.123217,6.2157,input,joystick,y,-0.019547
+12.124019,6.2157,performance,track,cursor_in_target,0
+12.124129,6.2157,performance,track,center_deviation,187.083185
+12.124376,6.2157,state,track,"reticle, cursor_relative","(123.21977573313913, 141.6049490545208)"
+12.124438,6.2157,state,track,"reticle, cursor_proportional","(0.3169232914946994, 0.36421025991389094)"
+12.12592,6.2157,performance,resman,a_in_tolerance,1
+12.125974,6.2157,performance,resman,a_deviation,-78
+12.126011,6.2157,performance,resman,b_in_tolerance,1
+12.12604,6.2157,performance,resman,b_deviation,-78
+12.126212,6.2157,state,resman,"tank_a, fluid_level",2422
+12.126871,6.2157,state,resman,"tank_a, fluid_label",2422
+12.126964,6.2157,state,resman,"tank_b, fluid_level",2422
+12.127395,6.2157,state,resman,"tank_b, fluid_label",2422
+12.139709,6.232206,input,joystick,y,-0.007828
+12.156715,6.249193,input,joystick,y,-0.031266
+12.156997,6.249193,performance,track,cursor_in_target,0
+12.157037,6.249193,performance,track,center_deviation,187.710082
+12.157183,6.249193,state,track,"reticle, cursor_relative","(123.67526327663452, 142.0435978818942)"
+12.157219,6.249193,state,track,"reticle, cursor_proportional","(0.3180948129543069, 0.3653384719184521)"
+12.173466,6.265954,input,joystick,y,-0.007828
+12.190079,6.282285,performance,track,cursor_in_target,0
+12.190168,6.282285,performance,track,center_deviation,188.339997
+12.190304,6.282285,state,track,"reticle, cursor_relative","(124.12762254543146, 142.4537645879735)"
+12.190339,6.282285,state,track,"reticle, cursor_proportional","(0.31925828843989573, 0.3663934274382034)"
+12.206712,6.29896,seed_value,sysmon,,
+12.206802,6.29896,seed_output,sysmon,,-1
+12.206885,6.29896,seed_value,sysmon,,
+12.206903,6.29896,seed_output,sysmon,,-1
+12.206944,6.29896,seed_value,sysmon,,
+12.206977,6.29896,seed_output,sysmon,,-1
+12.2071,6.29896,seed_value,sysmon,,
+12.207132,6.29896,seed_output,sysmon,,-1
+12.207223,6.29896,state,sysmon,"scale1, arrow",6
+12.207258,6.29896,state,sysmon,"scale2, arrow",4
+12.207283,6.29896,state,sysmon,"scale3, arrow",4
+12.207306,6.29896,state,sysmon,"scale4, arrow",6
+12.223235,6.31553,performance,track,cursor_in_target,0
+12.2233,6.31553,performance,track,center_deviation,188.946399
+12.223446,6.31553,state,track,"reticle, cursor_relative","(124.57684203487524, 142.85887254623768)"
+12.223486,6.31553,state,track,"reticle, cursor_proportional","(0.3204136883613046, 0.36743537177530267)"
+12.256629,6.348815,performance,track,cursor_in_target,0
+12.256726,6.348815,performance,track,center_deviation,189.546952
+12.256936,6.348815,state,track,"reticle, cursor_relative","(125.0229103188055, 143.25890745464673)"
+12.256972,6.348815,state,track,"reticle, cursor_proportional","(0.32156098333026106, 0.3684642681446675)"
+12.273036,6.36554,input,joystick,y,-0.025406
+12.289862,6.382347,input,joystick,y,-0.007828
+12.290212,6.382347,performance,track,cursor_in_target,0
+12.290263,6.382347,performance,track,center_deviation,190.141638
+12.290442,6.382347,state,track,"reticle, cursor_relative","(125.46581604984178, 143.65385519378995)"
+12.290489,6.382347,state,track,"reticle, cursor_proportional","(0.3227001441611157, 0.3694800802309412)"
+12.323558,6.415665,performance,track,cursor_in_target,0
+12.323633,6.415665,performance,track,center_deviation,190.730441
+12.323795,6.415665,state,track,"reticle, cursor_relative","(125.90554795966732, 144.04370182739413)"
+12.32383,6.415665,state,track,"reticle, cursor_proportional","(0.3238311418715723, 0.3704827721897997)"
+12.358022,6.450509,input,joystick,y,-0.019547
+12.358307,6.450509,performance,track,cursor_in_target,0
+12.358344,6.450509,performance,track,center_deviation,191.313343
+12.358483,6.450509,state,track,"reticle, cursor_relative","(126.34209485931078, 144.44015253164204)"
+12.358515,6.450509,state,track,"reticle, cursor_proportional","(0.32495394768341246, 0.37150244992706283)"
+12.373918,6.46641,input,joystick,y,-0.007828
+12.389946,6.482137,performance,track,cursor_in_target,0
+12.39004,6.482137,performance,track,center_deviation,191.899147
+12.390255,6.482137,state,track,"reticle, cursor_relative","(126.77544563942581, 144.81975588040072)"
+12.390302,6.482137,state,track,"reticle, cursor_proportional","(0.32606853302321454, 0.372478795988685)"
+12.423206,6.515459,seed_value,sysmon,,
+12.423298,6.515459,seed_output,sysmon,,-1
+12.423395,6.515459,seed_value,sysmon,,
+12.423428,6.515459,seed_output,sysmon,,1
+12.423503,6.515459,seed_value,sysmon,,
+12.423529,6.515459,seed_output,sysmon,,-1
+12.423586,6.515459,seed_value,sysmon,,
+12.423606,6.515459,seed_output,sysmon,,1
+12.423715,6.515459,state,sysmon,"scale1, arrow",5
+12.423756,6.515459,state,sysmon,"scale2, arrow",5
+12.423847,6.515459,state,sysmon,"scale3, arrow",3
+12.423992,6.515459,state,sysmon,"scale4, arrow",7
+12.424144,6.515459,performance,track,cursor_in_target,0
+12.424181,6.515459,performance,track,center_deviation,192.470193
+12.424407,6.515459,state,track,"reticle, cursor_relative","(127.20558927056896, 145.19421741861007)"
+12.424459,6.515459,state,track,"reticle, cursor_proportional","(0.3271748695230683, 0.3734419172289353)"
+12.456585,6.549064,input,joystick,y,-0.019547
+12.456945,6.549064,performance,track,cursor_in_target,0
+12.456996,6.549064,performance,track,center_deviation,193.035289
+12.457163,6.549064,state,track,"reticle, cursor_relative","(127.6325148034753, 145.57524287631455)"
+12.457204,6.549064,state,track,"reticle, cursor_proportional","(0.3282729290212842, 0.3744219209781753)"
+12.472951,6.565453,input,joystick,y,-0.007828
+12.49021,6.582316,performance,track,cursor_in_target,0
+12.490265,6.582316,performance,track,center_deviation,193.603229
+12.490412,6.582316,state,track,"reticle, cursor_relative","(128.05621136933217, 145.93938138268854)"
+12.490451,6.582316,state,track,"reticle, cursor_proportional","(0.32936268356309717, 0.37535849121061865)"
+12.523299,6.615482,performance,track,cursor_in_target,0
+12.523402,6.615482,performance,track,center_deviation,194.156371
+12.523569,6.615482,state,track,"reticle, cursor_relative","(128.47666818005098, 146.29833903940448)"
+12.523604,6.615482,state,track,"reticle, cursor_proportional","(0.33044410540136565, 0.3762817362124601)"
+12.539782,6.632286,input,joystick,y,-0.013687
+12.556239,6.648742,input,joystick,y,-0.007828
+12.556427,6.648742,performance,track,cursor_in_target,0
+12.556451,6.648742,performance,track,center_deviation,194.703514
+12.556542,6.648742,state,track,"reticle, cursor_relative","(128.8938745285368, 146.6521032058283)"
+12.556563,6.648742,state,track,"reticle, cursor_proportional","(0.3315171669972654, 0.3771916234717806)"
+12.589621,6.681984,performance,track,cursor_in_target,0
+12.589668,6.681984,performance,track,center_deviation,195.244642
+12.589749,6.681984,state,track,"reticle, cursor_relative","(129.30781978895607, 147.00066142829098)"
+12.589769,6.681984,state,track,"reticle, cursor_proportional","(0.33258184102097754, 0.3780881209575385)"
+12.62285,6.715353,input,joystick,y,-0.013687
+12.623011,6.715353,performance,track,cursor_in_target,0
+12.623035,6.715353,performance,track,center_deviation,195.77974
+12.623117,6.715353,state,track,"reticle, cursor_relative","(129.71849341700235, 147.34986090494527)"
+12.623137,6.715353,state,track,"reticle, cursor_proportional","(0.3336381003523723, 0.3789862677596329)"
+12.639918,6.732394,input,joystick,y,-0.019547
+12.640181,6.732394,seed_value,sysmon,,
+12.640194,6.732394,seed_output,sysmon,,1
+12.640217,6.732394,seed_value,sysmon,,
+12.640265,6.732394,seed_output,sysmon,,-1
+12.640289,6.732394,seed_value,sysmon,,
+12.640297,6.732394,seed_output,sysmon,,-1
+12.640318,6.732394,seed_value,sysmon,,
+12.640326,6.732394,seed_output,sysmon,,1
+12.640378,6.732394,state,sysmon,"scale1, arrow",6
+12.640393,6.732394,state,sysmon,"scale2, arrow",4
+12.640406,6.732394,state,sysmon,"scale3, arrow",4
+12.640418,6.732394,state,sysmon,"scale4, arrow",6
+12.656376,6.748866,input,joystick,y,-0.007828
+12.656685,6.748866,performance,track,cursor_in_target,0
+12.656741,6.748866,performance,track,center_deviation,196.313191
+12.656843,6.748866,state,track,"reticle, cursor_relative","(130.12588495015973, 147.6879706285739)"
+12.656891,6.748866,state,track,"reticle, cursor_proportional","(0.3346859180816865, 0.3798558915343979)"
+12.689731,6.782047,performance,track,cursor_in_target,0
+12.689794,6.782047,performance,track,center_deviation,196.836182
+12.689928,6.782047,state,track,"reticle, cursor_relative","(130.52998400796454, 148.02083817347446)"
+12.689962,6.782047,state,track,"reticle, cursor_proportional","(0.3357252675101969, 0.38071203233918327)"
+12.723238,6.815719,input,joystick,y,-0.019547
+12.72353,6.815719,performance,track,cursor_in_target,0
+12.723562,6.815719,performance,track,center_deviation,197.353098
+12.723681,6.815719,state,track,"reticle, cursor_relative","(130.9307802922649, 148.3601707670707)"
+12.72371,6.815719,state,track,"reticle, cursor_proportional","(0.33675612215088707, 0.38158480135563455)"
+12.739857,6.832342,input,joystick,y,-0.007828
+12.756557,6.848871,performance,track,cursor_in_target,0
+12.756619,6.848871,performance,track,center_deviation,197.87271
+12.756756,6.848871,state,track,"reticle, cursor_relative","(131.32826358747798, 148.68251903947558)"
+12.756793,6.848871,state,track,"reticle, cursor_proportional","(0.33777845572911, 0.38241388641840424)"
+12.790004,6.882209,performance,track,cursor_in_target,0
+12.790097,6.882209,performance,track,center_deviation,198.377429
+12.790305,6.882209,state,track,"reticle, cursor_relative","(131.72242376084552, 148.99959059680543)"
+12.790354,6.882209,state,track,"reticle, cursor_proportional","(0.3387922421832446, 0.3832293996831415)"
+12.806292,6.898795,input,joystick,y,-0.013687
+12.822948,6.915449,input,joystick,y,-0.007828
+12.82317,6.915449,performance,track,cursor_in_target,0
+12.823206,6.915449,performance,track,center_deviation,198.876029
+12.823333,6.915449,state,track,"reticle, cursor_relative","(132.11325076268724, 149.31137430632123)"
+12.823366,6.915449,state,track,"reticle, cursor_proportional","(0.33979745566534786, 0.38403131251625827)"
+12.840327,6.932608,seed_value,sysmon,,
+12.840404,6.932608,seed_output,sysmon,,-1
+12.840557,6.932608,seed_value,sysmon,,
+12.840648,6.932608,seed_output,sysmon,,1
+12.840782,6.932608,seed_value,sysmon,,
+12.840806,6.932608,seed_output,sysmon,,1
+12.840854,6.932608,seed_value,sysmon,,
+12.840869,6.932608,seed_output,sysmon,,1
+12.840982,6.932608,state,sysmon,"scale1, arrow",5
+12.841014,6.932608,state,sysmon,"scale2, arrow",5
+12.84104,6.932608,state,sysmon,"scale3, arrow",5
+12.841064,6.932608,state,sysmon,"scale4, arrow",7
+12.856908,6.949181,performance,track,cursor_in_target,0
+12.856973,6.949181,performance,track,center_deviation,199.368497
+12.857098,6.949181,state,track,"reticle, cursor_relative","(132.5007346266519, 149.61785922564593)"
+12.85713,6.949181,state,track,"reticle, cursor_proportional","(0.34079407054180016, 0.3848195967737807)"
+12.889648,6.982034,performance,track,cursor_in_target,0
+12.889694,6.982034,performance,track,center_deviation,199.854818
+12.889786,6.982034,state,track,"reticle, cursor_relative","(132.88486546996648, 149.91903460315828)"
+12.88981,6.982034,state,track,"reticle, cursor_proportional","(0.34178206139394673, 0.38559422480236183)"
+12.924176,7.016273,performance,track,cursor_in_target,0
+12.924321,7.016273,performance,track,center_deviation,200.33498
+12.924544,7.016273,state,track,"reticle, cursor_relative","(133.2656334936834, 150.21488987838)"
+12.924597,7.016273,state,track,"reticle, cursor_proportional","(0.342761403018733, 0.38635516944027776)"
+12.926174,7.016273,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:07
+12.956504,7.048791,performance,track,cursor_in_target,0
+12.956572,7.048791,performance,track,center_deviation,200.808969
+12.956719,7.048791,state,track,"reticle, cursor_relative","(133.64302898292533, 150.50541468235585)"
+12.956759,7.048791,state,track,"reticle, cursor_proportional","(0.3437320704293347, 0.38710240401840496)"
+12.98978,7.082114,performance,track,cursor_in_target,0
+12.989834,7.082114,performance,track,center_deviation,201.276772
+12.989955,7.082114,state,track,"reticle, cursor_relative","(134.01704230712812, 150.7905988380271)"
+12.989986,7.082114,state,track,"reticle, cursor_proportional","(0.3446940388557822, 0.3878359023611808)"
+13.02302,7.115433,performance,track,cursor_in_target,0
+13.023053,7.115433,performance,track,center_deviation,201.738376
+13.023115,7.115433,state,track,"reticle, cursor_relative","(134.38766392028162, 151.07043236059775)"
+13.02313,7.115433,state,track,"reticle, cursor_proportional","(0.3456472837455803, 0.3885556387875456)"
+13.056521,7.148954,seed_value,sysmon,,
+13.056556,7.148954,seed_output,sysmon,,-1
+13.056581,7.148954,seed_value,sysmon,,
+13.056589,7.148954,seed_output,sysmon,,1
+13.056609,7.148954,seed_value,sysmon,,
+13.056615,7.148954,seed_output,sysmon,,1
+13.056633,7.148954,seed_value,sysmon,,
+13.056639,7.148954,seed_output,sysmon,,1
+13.056683,7.148954,state,sysmon,"scale1, arrow",4
+13.056696,7.148954,state,sysmon,"scale2, arrow",6
+13.056708,7.148954,state,sysmon,"scale3, arrow",6
+13.056719,7.148954,state,sysmon,"scale4, arrow",6
+13.05676,7.148954,performance,track,cursor_in_target,0
+13.056771,7.148954,performance,track,center_deviation,202.193768
+13.05685,7.148954,state,track,"reticle, cursor_relative","(134.7548843611683, 151.34490545789387)"
+13.056867,7.148954,state,track,"reticle, cursor_proportional","(0.3465917807643218, 0.38926158811186695)"
+13.089516,7.182028,input,joystick,y,-0.025406
+13.089685,7.182028,performance,track,cursor_in_target,0
+13.089718,7.182028,performance,track,center_deviation,202.642935
+13.08981,7.182028,state,track,"reticle, cursor_relative","(135.11869425359967, 151.63158692394143)"
+13.089838,7.182028,state,track,"reticle, cursor_proportional","(0.34752750579629543, 0.3899989375615777)"
+13.106373,7.198885,input,joystick,y,-0.007828
+13.122872,7.215274,performance,track,cursor_in_target,0
+13.122905,7.215274,performance,track,center_deviation,203.09899
+13.122974,7.215274,state,track,"reticle, cursor_relative","(135.47908430665083, 151.89531056641164)"
+13.12299,7.215274,state,track,"reticle, cursor_proportional","(0.3484544349450896, 0.39067723911114105)"
+13.156323,7.24869,performance,track,cursor_in_target,0
+13.156364,7.24869,performance,track,center_deviation,203.535667
+13.156442,7.24869,state,track,"reticle, cursor_relative","(135.8360453148927, 152.15364556630962)"
+13.156462,7.24869,state,track,"reticle, cursor_proportional","(0.349372544534189, 0.39134168098330663)"
+13.190079,7.282231,performance,track,cursor_in_target,0
+13.190138,7.282231,performance,track,center_deviation,203.966083
+13.190256,7.282231,state,track,"reticle, cursor_relative","(136.18956815862202, 152.40658290540605)"
+13.190288,7.282231,state,track,"reticle, cursor_proportional","(0.3502818111075669, 0.3919922399830402)"
+13.22335,7.315529,performance,track,cursor_in_target,0
+13.223455,7.315529,performance,track,center_deviation,204.390227
+13.223667,7.315529,state,track,"reticle, cursor_relative","(136.5396438040897, 152.65411375978678)"
+13.223831,7.315529,state,track,"reticle, cursor_proportional","(0.3511822114302719, 0.39262889341508944)"
+13.256595,7.348841,performance,track,cursor_in_target,0
+13.256677,7.348841,performance,track,center_deviation,204.808088
+13.256851,7.348841,state,track,"reticle, cursor_relative","(136.8862633037262, 152.89622950017062)"
+13.256897,7.348841,state,track,"reticle, cursor_proportional","(0.3520737224890077, 0.39325161908480094)"
+13.273396,7.365644,seed_value,sysmon,,
+13.273485,7.365644,seed_output,sysmon,,-1
+13.273577,7.365644,seed_value,sysmon,,
+13.273606,7.365644,seed_output,sysmon,,1
+13.273671,7.365644,seed_value,sysmon,,
+13.273696,7.365644,seed_output,sysmon,,-1
+13.273755,7.365644,seed_value,sysmon,,
+13.273778,7.365644,seed_output,sysmon,,-1
+13.273893,7.365644,state,sysmon,"scale1, arrow",3
+13.273942,7.365644,state,sysmon,"scale2, arrow",7
+13.273979,7.365644,state,sysmon,"scale3, arrow",5
+13.274013,7.365644,state,sysmon,"scale4, arrow",5
+13.289707,7.382208,input,joystick,y,-0.013687
+13.289921,7.382208,performance,track,cursor_in_target,0
+13.289956,7.382208,performance,track,center_deviation,205.219653
+13.290185,7.382208,state,track,"reticle, cursor_relative","(137.2294177963655, 153.13878115662817)"
+13.290218,7.382208,state,track,"reticle, cursor_proportional","(0.3529563214927096, 0.3938754659378296)"
+13.306519,7.399003,input,joystick,y,-0.007828
+13.323182,7.415448,performance,track,cursor_in_target,0
+13.323258,7.415448,performance,track,center_deviation,205.629277
+13.323434,7.415448,state,track,"reticle, cursor_relative","(137.56909850746672, 153.37004156125207)"
+13.323479,7.415448,state,track,"reticle, cursor_proportional","(0.353829985873114, 0.3944702715052779)"
+13.356449,7.44881,performance,track,cursor_in_target,0
+13.356504,7.44881,performance,track,center_deviation,206.028218
+13.35662,7.44881,state,track,"reticle, cursor_relative","(137.9052967493332, 153.59586213490397)"
+13.35665,7.44881,state,track,"reticle, cursor_proportional","(0.354694693285322, 0.3950510857379217)"
+13.390066,7.482201,performance,track,cursor_in_target,0
+13.390125,7.482201,performance,track,center_deviation,206.420832
+13.390243,7.482201,state,track,"reticle, cursor_relative","(138.23800392132978, 153.81623502987028)"
+13.390271,7.482201,state,track,"reticle, cursor_proportional","(0.3555504216083585, 0.39561788845131246)"
+13.423134,7.515512,performance,track,cursor_in_target,0
+13.42318,7.515512,performance,track,center_deviation,206.807108
+13.423273,7.515512,state,track,"reticle, cursor_relative","(138.567211510098, 154.0311525945534)"
+13.423296,7.515512,state,track,"reticle, cursor_proportional","(0.3563971489457253, 0.39617065996541506)"
+13.457102,7.549252,performance,track,cursor_in_target,0
+13.457205,7.549252,performance,track,center_deviation,207.187036
+13.457404,7.549252,state,track,"reticle, cursor_relative","(138.89291108976872, 154.24060737374697)"
+13.457457,7.549252,state,track,"reticle, cursor_proportional","(0.3572348536259483, 0.3967093811053163)"
+13.473443,7.565772,seed_value,sysmon,,
+13.473506,7.565772,seed_output,sysmon,,-1
+13.473558,7.565772,seed_value,sysmon,,
+13.473574,7.565772,seed_output,sysmon,,1
+13.473613,7.565772,seed_value,sysmon,,
+13.473626,7.565772,seed_output,sysmon,,-1
+13.473662,7.565772,seed_value,sysmon,,
+13.473677,7.565772,seed_output,sysmon,,-1
+13.473771,7.565772,state,sysmon,"scale1, arrow",4
+13.473799,7.565772,state,sysmon,"scale2, arrow",6
+13.473821,7.565772,state,sysmon,"scale3, arrow",4
+13.473842,7.565772,state,sysmon,"scale4, arrow",4
+13.490123,7.58243,performance,track,cursor_in_target,0
+13.49018,7.58243,performance,track,center_deviation,207.560607
+13.49029,7.58243,state,track,"reticle, cursor_relative","(139.21509432217283, 154.44459210890435)"
+13.490317,7.58243,state,track,"reticle, cursor_proportional","(0.35806351420311944, 0.39723403320191447)"
+13.523874,7.616019,performance,track,cursor_in_target,0
+13.523969,7.616019,performance,track,center_deviation,207.927811
+13.524724,7.616019,state,track,"reticle, cursor_relative","(139.53375295704984, 154.64309973839985)"
+13.524856,7.616019,state,track,"reticle, cursor_proportional","(0.35888310945743274, 0.3977445980925922)"
+13.55697,7.649077,performance,track,cursor_in_target,0
+13.557054,7.649077,performance,track,center_deviation,208.288637
+13.557296,7.649077,state,track,"reticle, cursor_relative","(139.84887883225383, 154.83612339778304)"
+13.55741,7.649077,state,track,"reticle, cursor_proportional","(0.35969361839571456, 0.39824105812186994)"
+13.590315,7.682471,performance,track,cursor_in_target,0
+13.590413,7.682471,performance,track,center_deviation,208.643078
+13.590601,7.682471,state,track,"reticle, cursor_relative","(140.16046387395787, 155.0236564200258)"
+13.590644,7.682471,state,track,"reticle, cursor_proportional","(0.36049502025194924, 0.3987233961420416)"
+13.623833,7.71596,performance,track,cursor_in_target,0
+13.62394,7.71596,performance,track,center_deviation,208.991123
+13.624155,7.71596,state,track,"reticle, cursor_relative","(140.46850009685556, 155.2056923357623)"
+13.624212,7.71596,state,track,"reticle, cursor_proportional","(0.36128729448779723, 0.3991915955137919)"
+13.656783,7.748913,performance,track,cursor_in_target,0
+13.656887,7.748913,performance,track,center_deviation,209.332765
+13.656988,7.748913,state,track,"reticle, cursor_relative","(140.7729796043608, 155.3822248735221)"
+13.657014,7.748913,state,track,"reticle, cursor_proportional","(0.3620704207931091, 0.3996456401067955)"
+13.689653,7.782043,seed_value,sysmon,,
+13.689702,7.782043,seed_output,sysmon,,-1
+13.689752,7.782043,seed_value,sysmon,,
+13.689768,7.782043,seed_output,sysmon,,-1
+13.689805,7.782043,seed_value,sysmon,,
+13.689819,7.782043,seed_output,sysmon,,-1
+13.689853,7.782043,seed_value,sysmon,,
+13.689865,7.782043,seed_output,sysmon,,1
+13.689929,7.782043,state,sysmon,"scale1, arrow",3
+13.689956,7.782043,state,sysmon,"scale2, arrow",5
+13.689977,7.782043,state,sysmon,"scale3, arrow",3
+13.689996,7.782043,state,sysmon,"scale4, arrow",5
+13.690059,7.782043,performance,track,cursor_in_target,0
+13.690082,7.782043,performance,track,center_deviation,209.667994
+13.690187,7.782043,state,track,"reticle, cursor_relative","(141.07389458880527, 155.55324795995557)"
+13.690214,7.782043,state,track,"reticle, cursor_proportional","(0.3628443790864333, 0.40008551430029726)"
+13.723342,7.815526,performance,track,cursor_in_target,0
+13.723446,7.815526,performance,track,center_deviation,209.996802
+13.72365,7.815526,state,track,"reticle, cursor_relative","(141.3712373316334, 155.71875572005294)"
+13.723705,7.815526,state,track,"reticle, cursor_proportional","(0.36360914951551804, 0.40051120298367526)"
+13.739828,7.832313,input,joystick,y,-0.025406
+13.756344,7.848838,input,joystick,y,-0.013687
+13.756619,7.848838,performance,track,cursor_in_target,0
+13.756664,7.848838,performance,track,center_deviation,210.31918
+13.757142,7.848838,state,track,"reticle, cursor_relative","(141.66500020359567, 155.88460194176375)"
+13.757221,7.848838,state,track,"reticle, cursor_proportional","(0.36436471245780777, 0.4009377621958944)"
+13.773704,7.86618,input,joystick,y,-0.007828
+13.790094,7.882247,performance,track,cursor_in_target,0
+13.79019,7.882247,performance,track,center_deviation,210.639458
+13.790415,7.882247,state,track,"reticle, cursor_relative","(141.9551756649389, 156.03906221856815)"
+13.790476,7.882247,state,track,"reticle, cursor_proportional","(0.3651110485209334, 0.4013350365703913)"
+13.823322,7.9155,performance,track,cursor_in_target,0
+13.823422,7.9155,performance,track,center_deviation,210.948953
+13.82359,7.9155,state,track,"reticle, cursor_relative","(142.24175626559526, 156.187990736124)"
+13.823624,7.9155,state,track,"reticle, cursor_proportional","(0.36584813854319764, 0.40171808316904317)"
+13.840369,7.932874,input,joystick,y,-0.019547
+13.857097,7.949601,input,joystick,y,-0.013687
+13.857264,7.949601,performance,track,cursor_in_target,0
+13.857283,7.949601,performance,track,center_deviation,211.251996
+13.857362,7.949601,state,track,"reticle, cursor_relative","(142.52473464536797, 156.33724187923178)"
+13.857396,7.949601,state,track,"reticle, cursor_proportional","(0.3665759635940534, 0.40210195956592537)"
+13.873061,7.965558,input,joystick,y,-0.007828
+13.889693,7.982193,input,joystick,y,-0.019547
+13.889877,7.982193,seed_value,sysmon,,
+13.889905,7.982193,seed_output,sysmon,,1
+13.889954,7.982193,seed_value,sysmon,,
+13.88997,7.982193,seed_output,sysmon,,1
+13.922118,7.982193,seed_value,sysmon,,
+13.922202,7.982193,seed_output,sysmon,,1
+13.922292,7.982193,seed_value,sysmon,,
+13.922321,7.982193,seed_output,sysmon,,1
+13.92248,7.982193,state,sysmon,"scale1, arrow",4
+13.922533,7.982193,state,sysmon,"scale2, arrow",6
+13.922574,7.982193,state,sysmon,"scale3, arrow",4
+13.92274,7.982193,state,sysmon,"scale4, arrow",6
+13.923053,7.982193,performance,track,cursor_in_target,0
+13.923169,7.982193,performance,track,center_deviation,211.552909
+13.92343,7.982193,state,track,"reticle, cursor_relative","(142.80410353411582, 156.48681076760937)"
+13.923493,7.982193,state,track,"reticle, cursor_proportional","(0.3672945049745777, 0.40248665320887184)"
+13.932136,8.024644,input,joystick,y,-0.007828
+13.932271,8.024644,performance,track,cursor_in_target,0
+13.932291,8.024644,performance,track,center_deviation,211.851679
+13.932363,8.024644,state,track,"reticle, cursor_relative","(143.0798557519346, 156.61911432725083)"
+13.932381,8.024644,state,track,"reticle, cursor_proportional","(0.36800374421793874, 0.402826940142106)"
+13.932904,8.024644,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:08
+13.95688,8.049171,performance,track,cursor_in_target,0
+13.95694,8.049171,performance,track,center_deviation,212.135316
+13.957056,8.049171,state,track,"reticle, cursor_relative","(143.35198420933662, 156.7458670058618)"
+13.957085,8.049171,state,track,"reticle, cursor_proportional","(0.3687036630898576, 0.4031529501179573)"
+13.973135,8.06563,input,joystick,y,-0.013687
+13.990094,8.082574,input,joystick,y,-0.007828
+13.990448,8.082574,performance,track,cursor_in_target,0
+13.990493,8.082574,performance,track,center_deviation,212.412472
+13.990671,8.082574,state,track,"reticle, cursor_relative","(143.62048190742814, 156.8670645221623)"
+13.990714,8.082574,state,track,"reticle, cursor_proportional","(0.36939424358906414, 0.40346467212490306)"
+14.023519,8.115661,performance,track,cursor_in_target,0
+14.0236,8.115661,performance,track,center_deviation,212.683142
+14.024025,8.115661,state,track,"reticle, cursor_relative","(143.88534193808408, 156.98270279485757)"
+14.024071,8.115661,state,track,"reticle, cursor_proportional","(0.3700754679477471, 0.4037620956657859)"
+14.056541,8.14882,performance,track,cursor_in_target,0
+14.056615,8.14882,performance,track,center_deviation,212.947319
+14.056771,8.14882,state,track,"reticle, cursor_relative","(144.1465574841209, 157.0927779427851)"
+14.056813,8.14882,state,track,"reticle, cursor_proportional","(0.3707473186319982, 0.4040452107581921)"
+14.073155,8.165645,input,joystick,y,-0.013687
+14.089773,8.182267,input,joystick,y,-0.007828
+14.089995,8.182267,seed_value,sysmon,,
+14.090028,8.182267,seed_output,sysmon,,1
+14.090089,8.182267,seed_value,sysmon,,
+14.090109,8.182267,seed_output,sysmon,,-1
+14.09016,8.182267,seed_value,sysmon,,
+14.090178,8.182267,seed_output,sysmon,,-1
+14.090224,8.182267,seed_value,sysmon,,
+14.090241,8.182267,seed_output,sysmon,,-1
+14.09033,8.182267,state,sysmon,"scale1, arrow",5
+14.090364,8.182267,state,sysmon,"scale2, arrow",5
+14.090393,8.182267,state,sysmon,"scale3, arrow",3
+14.090421,8.182267,state,sysmon,"scale4, arrow",5
+14.090505,8.182267,performance,track,cursor_in_target,0
+14.090532,8.182267,performance,track,center_deviation,213.204997
+14.090676,8.182267,state,track,"reticle, cursor_relative","(144.4041218194671, 157.1972862850542)"
+14.090713,8.182267,state,track,"reticle, cursor_proportional","(0.37140977834225075, 0.40431400793481015)"
+14.123202,8.215473,performance,track,cursor_in_target,0
+14.123275,8.215473,performance,track,center_deviation,213.456172
+14.123432,8.215473,state,track,"reticle, cursor_relative","(144.6580283093311, 157.29622434117857)"
+14.123474,8.215473,state,track,"reticle, cursor_proportional","(0.37206283001371165, 0.404568478243772)"
+14.141656,8.232264,performance,resman,a_in_tolerance,1
+14.141747,8.232264,performance,resman,a_deviation,-104
+14.141795,8.232264,performance,resman,b_in_tolerance,1
+14.141831,8.232264,performance,resman,b_deviation,-104
+14.142085,8.232264,state,resman,"tank_a, fluid_level",2396
+14.142762,8.232264,state,resman,"tank_a, fluid_label",2396
+14.142852,8.232264,state,resman,"tank_b, fluid_level",2396
+14.143226,8.232264,state,resman,"tank_b, fluid_label",2396
+14.156995,8.249243,performance,track,cursor_in_target,0
+14.157062,8.249243,performance,track,center_deviation,213.700836
+14.157305,8.249243,state,track,"reticle, cursor_relative","(144.90827041036735, 157.38958883120168)"
+14.157391,8.249243,state,track,"reticle, cursor_proportional","(0.37270645681678843, 0.4048086132489755)"
+14.172952,8.265454,input,joystick,y,-0.019547
+14.189772,8.282262,input,joystick,y,-0.007828
+14.190067,8.282262,performance,track,cursor_in_target,0
+14.190118,8.282262,performance,track,center_deviation,213.938985
+14.190237,8.282262,state,track,"reticle, cursor_relative","(145.15484167083977, 157.47737667581472)"
+14.190267,8.282262,state,track,"reticle, cursor_proportional","(0.3733406421575097, 0.4050344050303877)"
+14.223396,8.315534,performance,track,cursor_in_target,0
+14.223465,8.315534,performance,track,center_deviation,214.170615
+14.223588,8.315534,state,track,"reticle, cursor_relative","(145.39773573078324, 157.5595849964676)"
+14.22362,8.315534,state,track,"reticle, cursor_proportional","(0.3739653696779404, 0.40524584618433024)"
+14.256543,8.348781,performance,track,cursor_in_target,0
+14.256631,8.348781,performance,track,center_deviation,214.395719
+14.256829,8.348781,state,track,"reticle, cursor_relative","(145.63694632216226, 157.63621111547235)"
+14.256881,8.348781,state,track,"reticle, cursor_proportional","(0.37458062325659014, 0.40544292982374575)"
+14.290019,8.382196,performance,track,cursor_in_target,0
+14.290124,8.382196,performance,track,center_deviation,214.614294
+14.290319,8.382196,state,track,"reticle, cursor_relative","(145.872467269028, 157.70725255609977)"
+14.290366,8.382196,state,track,"reticle, cursor_proportional","(0.37518638700881685, 0.40562564957844593)"
+14.306596,8.398863,seed_value,sysmon,,
+14.306679,8.398863,seed_output,sysmon,,-1
+14.306765,8.398863,seed_value,sysmon,,
+14.306793,8.398863,seed_output,sysmon,,-1
+14.306862,8.398863,seed_value,sysmon,,
+14.306887,8.398863,seed_output,sysmon,,-1
+14.306942,8.398863,seed_value,sysmon,,
+14.306963,8.398863,seed_output,sysmon,,1
+14.307067,8.398863,state,sysmon,"scale1, arrow",4
+14.307112,8.398863,state,sysmon,"scale2, arrow",4
+14.307144,8.398863,state,sysmon,"scale3, arrow",4
+14.307177,8.398863,state,sysmon,"scale4, arrow",6
+14.323224,8.415704,input,joystick,y,-0.019547
+14.323608,8.415704,performance,track,cursor_in_target,0
+14.323669,8.415704,performance,track,center_deviation,214.826335
+14.323885,8.415704,state,track,"reticle, cursor_relative","(146.1042924876725, 157.78442597148512)"
+14.323941,8.415704,state,track,"reticle, cursor_proportional","(0.3757826452872235, 0.4058241408731613)"
+14.339753,8.432248,input,joystick,y,-0.007828
+14.356541,8.448854,performance,track,cursor_in_target,0
+14.356606,8.448854,performance,track,center_deviation,215.040437
+14.356754,8.448854,state,track,"reticle, cursor_relative","(146.3324159867808, 157.8442914294434)"
+14.356794,8.448854,state,track,"reticle, cursor_proportional","(0.3763693826820494, 0.4059781158164696)"
+14.389906,8.482118,performance,track,cursor_in_target,0
+14.390022,8.482118,performance,track,center_deviation,215.239393
+14.390331,8.482118,state,track,"reticle, cursor_relative","(146.55683186758077, 157.89856598544395)"
+14.390415,8.482118,state,track,"reticle, cursor_proportional","(0.37694658402155545, 0.4061177108679114)"
+14.423506,8.515675,performance,track,cursor_in_target,0
+14.423583,8.515675,performance,track,center_deviation,215.431804
+14.423773,8.515675,state,track,"reticle, cursor_relative","(146.77753432399058, 157.94724796741144)"
+14.423817,8.515675,state,track,"reticle, cursor_proportional","(0.3775142343724037, 0.40624292172688126)"
+14.45708,8.549398,performance,track,cursor_in_target,0
+14.457144,8.549398,performance,track,center_deviation,215.617666
+14.457278,8.549398,state,track,"reticle, cursor_relative","(146.9945176427637, 157.99033590460257)"
+14.45745,8.549398,state,track,"reticle, cursor_proportional","(0.3780723190400301, 0.4063537446106033)"
+14.489846,8.582323,input,joystick,y,-0.013687
+14.490151,8.582323,performance,track,cursor_in_target,0
+14.490182,8.582323,performance,track,center_deviation,215.796975
+14.490297,8.582323,state,track,"reticle, cursor_relative","(147.20777620363197, 158.0336879920673)"
+14.490324,8.582323,state,track,"reticle, cursor_proportional","(0.3786208235690122, 0.40646524689317726)"
+14.506594,8.599071,input,joystick,y,-0.031266
+14.50687,8.599071,seed_value,sysmon,,
+14.506896,8.599071,seed_output,sysmon,,-1
+14.506946,8.599071,seed_value,sysmon,,
+14.506963,8.599071,seed_output,sysmon,,1
+14.507004,8.599071,seed_value,sysmon,,
+14.507017,8.599071,seed_output,sysmon,,-1
+14.507055,8.599071,seed_value,sysmon,,
+14.507069,8.599071,seed_output,sysmon,,1
+14.507146,8.599071,state,sysmon,"scale1, arrow",3
+14.507178,8.599071,state,sysmon,"scale2, arrow",5
+14.507201,8.599071,state,sysmon,"scale3, arrow",3
+14.507222,8.599071,state,sysmon,"scale4, arrow",7
+14.523153,8.615644,input,joystick,y,-0.019547
+14.523463,8.615644,performance,track,cursor_in_target,0
+14.523506,8.615644,performance,track,center_deviation,215.974017
+14.523661,8.615644,state,track,"reticle, cursor_relative","(147.41730447944585, 158.0773031618781)"
+14.5237,8.615644,state,track,"reticle, cursor_proportional","(0.37915973374343065, 0.40657742582787576)"
+14.539794,8.632286,input,joystick,y,-0.007828
+14.556596,8.648845,performance,track,cursor_in_target,0
+14.556671,8.648845,performance,track,center_deviation,216.148781
+14.556839,8.648845,state,track,"reticle, cursor_relative","(147.62309703631288, 158.1036021543514)"
+14.556882,8.648845,state,track,"reticle, cursor_proportional","(0.3796890355872245, 0.4066450672694223)"
+14.590117,8.682267,performance,track,cursor_in_target,0
+14.59016,8.682267,performance,track,center_deviation,216.308409
+14.590245,8.682267,state,track,"reticle, cursor_relative","(147.82514853373328, 158.12430323334584)"
+14.590266,8.682267,state,track,"reticle, cursor_proportional","(0.3802087153645403, 0.4066983107853545)"
+14.623057,8.715381,performance,track,cursor_in_target,0
+14.623118,8.715381,performance,track,center_deviation,216.461474
+14.623244,8.715381,state,track,"reticle, cursor_relative","(148.0234537247336, 158.13940593542762)"
+14.623277,8.715381,state,track,"reticle, cursor_proportional","(0.3807187595800761, 0.406737155183713)"
+14.656362,8.748681,performance,track,cursor_in_target,0
+14.656427,8.748681,performance,track,center_deviation,216.607974
+14.656513,8.748681,state,track,"reticle, cursor_relative","(148.2180074559978, 158.14890999870374)"
+14.656532,8.748681,state,track,"reticle, cursor_proportional","(0.38121915497941816, 0.4067615997909047)"
+14.689586,8.782089,input,joystick,y,-0.013687
+14.689758,8.782089,performance,track,cursor_in_target,0
+14.689788,8.782089,performance,track,center_deviation,216.747908
+14.689876,8.782089,state,track,"reticle, cursor_relative","(148.40880466799624, 158.1586748272401)"
+14.689894,8.782089,state,track,"reticle, cursor_proportional","(0.38170988854937304, 0.40678671509063813)"
+14.706701,8.799111,seed_value,sysmon,,
+14.706743,8.799111,seed_output,sysmon,,1
+14.706773,8.799111,seed_value,sysmon,,
+14.706782,8.799111,seed_output,sysmon,,-1
+14.706804,8.799111,seed_value,sysmon,,
+14.706812,8.799111,seed_output,sysmon,,1
+14.706831,8.799111,seed_value,sysmon,,
+14.706839,8.799111,seed_output,sysmon,,-1
+14.706895,8.799111,state,sysmon,"scale1, arrow",4
+14.706912,8.799111,state,sysmon,"scale2, arrow",4
+14.706925,8.799111,state,sysmon,"scale3, arrow",4
+14.706937,8.799111,state,sysmon,"scale4, arrow",6
+14.723171,8.815673,input,joystick,y,-0.007828
+14.723346,8.815673,performance,track,cursor_in_target,0
+14.723368,8.815673,performance,track,center_deviation,216.885545
+14.723448,8.815673,state,track,"reticle, cursor_relative","(148.59584039511202, 158.15698163343015)"
+14.723467,8.815673,state,track,"reticle, cursor_proportional","(0.38219094751829225, 0.4067823601682874)"
+14.756266,8.848652,performance,track,cursor_in_target,0
+14.756304,8.848652,performance,track,center_deviation,217.012337
+14.756376,8.848652,state,track,"reticle, cursor_relative","(148.7791097657651, 158.14969022443978)"
+14.756393,8.848652,state,track,"reticle, cursor_proportional","(0.3826623193563917, 0.40676360654434096)"
+14.789758,8.882167,performance,track,cursor_in_target,0
+14.789794,8.882167,performance,track,center_deviation,217.132559
+14.789865,8.882167,state,track,"reticle, cursor_relative","(148.95860800253425, 158.13680114456167)"
+14.789882,8.882167,state,track,"reticle, cursor_proportional","(0.38312399177606543, 0.40673045561872856)"
+14.823988,8.916165,performance,track,cursor_in_target,0
+14.824052,8.916165,performance,track,center_deviation,217.246208
+14.824181,8.916165,state,track,"reticle, cursor_relative","(149.13433042227632, 158.1183151396041)"
+14.824212,8.916165,state,track,"reticle, cursor_proportional","(0.3835759527321922, 0.4066829093096813)"
+14.856976,8.948765,performance,track,cursor_in_target,0
+14.857025,8.948765,performance,track,center_deviation,217.353284
+14.857118,8.948765,state,track,"reticle, cursor_relative","(149.30627243624346, 158.09423315686402)"
+14.857139,8.948765,state,track,"reticle, cursor_proportional","(0.3840181904224369, 0.4066209700536626)"
+14.890005,8.982346,performance,track,cursor_in_target,0
+14.890063,8.982346,performance,track,center_deviation,217.453787
+14.890183,8.982346,state,track,"reticle, cursor_relative","(149.47442955019767, 158.064556345093)"
+14.890216,8.982346,state,track,"reticle, cursor_proportional","(0.38445069328754544, 0.4065446408052803)"
+14.923155,9.01558,seed_value,sysmon,,
+14.923192,9.01558,seed_output,sysmon,,1
+14.923217,9.01558,seed_value,sysmon,,
+14.923225,9.01558,seed_output,sysmon,,1
+14.923244,9.01558,seed_value,sysmon,,
+14.923251,9.01558,seed_output,sysmon,,-1
+14.923269,9.01558,seed_value,sysmon,,
+14.923275,9.01558,seed_output,sysmon,,1
+14.923326,9.01558,state,sysmon,"scale1, arrow",5
+14.923342,9.01558,state,sysmon,"scale2, arrow",5
+14.923355,9.01558,state,sysmon,"scale3, arrow",3
+14.923366,9.01558,state,sysmon,"scale4, arrow",7
+14.923413,9.01558,performance,track,cursor_in_target,0
+14.923425,9.01558,performance,track,center_deviation,217.547717
+14.923493,9.01558,state,track,"reticle, cursor_relative","(149.63879736452338, 158.02928605445578)"
+14.923508,9.01558,state,track,"reticle, cursor_proportional","(0.3848734500116342, 0.4064539250371805)"
+14.923949,9.01558,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:09
+14.956905,9.049296,performance,track,cursor_in_target,0
+14.956945,9.049296,performance,track,center_deviation,217.635073
+14.957021,9.049296,state,track,"reticle, cursor_relative","(149.79937157433721, 157.98842383648181)"
+14.957039,9.049296,state,track,"reticle, cursor_proportional","(0.38528644952247226, 0.40634882673992234)"
+14.98989,9.082291,performance,track,cursor_in_target,0
+14.989927,9.082291,performance,track,center_deviation,217.715856
+14.989998,9.082291,state,track,"reticle, cursor_relative","(149.95614796959572, 157.94197144400928)"
+14.990014,9.082291,state,track,"reticle, cursor_proportional","(0.38568968099175854, 0.40622935042183456)"
+15.023345,9.115681,performance,track,cursor_in_target,0
+15.023405,9.115681,performance,track,center_deviation,217.790066
+15.023526,9.115681,state,track,"reticle, cursor_relative","(150.10912243520067, 157.88993083112211)"
+15.023555,9.115681,state,track,"reticle, cursor_proportional","(0.38608313383539267, 0.4060955011088532)"
+15.059739,9.152141,performance,track,cursor_in_target,0
+15.059795,9.152141,performance,track,center_deviation,217.857703
+15.059881,9.152141,state,track,"reticle, cursor_relative","(150.25829095110183, 157.8323041530795)"
+15.059898,9.152141,state,track,"reticle, cursor_proportional","(0.38646679771373926, 0.40594728434434024)"
+15.089859,9.182241,performance,track,cursor_in_target,0
+15.089904,9.182241,performance,track,center_deviation,217.91877
+15.090051,9.182241,state,track,"reticle, cursor_relative","(150.40364959239753, 157.76909376623837)"
+15.090078,9.182241,state,track,"reticle, cursor_proportional","(0.38684066253188665, 0.4057847061888847)"
+15.115695,9.208043,performance,track,cursor_in_target,0
+15.115744,9.208043,performance,track,center_deviation,217.973266
+15.11584,9.208043,state,track,"reticle, cursor_relative","(150.54519452943276, 157.70030222796862)"
+15.11586,9.208043,state,track,"reticle, cursor_proportional","(0.38720471843989906, 0.4056077732200839)"
+15.125361,9.217771,seed_value,sysmon,,
+15.125398,9.217771,seed_output,sysmon,,-1
+15.125425,9.217771,seed_value,sysmon,,
+15.125436,9.217771,seed_output,sysmon,,-1
+15.125454,9.217771,seed_value,sysmon,,
+15.12546,9.217771,seed_output,sysmon,,-1
+15.125477,9.217771,seed_value,sysmon,,
+15.125484,9.217771,seed_output,sysmon,,1
+15.125539,9.217771,state,sysmon,"scale1, arrow",4
+15.125554,9.217771,state,sysmon,"scale2, arrow",4
+15.125566,9.217771,state,sysmon,"scale3, arrow",4
+15.125578,9.217771,state,sysmon,"scale4, arrow",6
+15.140199,9.232417,performance,track,cursor_in_target,0
+15.140247,9.232417,performance,track,center_deviation,218.021194
+15.140317,9.232417,state,track,"reticle, cursor_relative","(150.68292202789485, 157.625932296561)"
+15.140334,9.232417,state,track,"reticle, cursor_proportional","(0.3875589558330629, 0.40541649253230705)"
+15.156487,9.248963,input,joystick,y,-0.013687
+15.173149,9.265634,input,joystick,y,-0.007828
+15.173486,9.265634,performance,track,cursor_in_target,0
+15.173532,9.265634,performance,track,center_deviation,218.062554
+15.173704,9.265634,state,track,"reticle, cursor_relative","(150.81682844890705, 157.54598693112771)"
+15.173785,9.265634,state,track,"reticle, cursor_proportional","(0.38790336535212716, 0.4052108717364396)"
+15.189907,9.282374,input,joystick,y,-0.013687
+15.20855,9.300885,performance,track,cursor_in_target,0
+15.208601,9.300885,performance,track,center_deviation,218.097349
+15.208725,9.300885,state,track,"reticle, cursor_relative","(150.94691024911927, 157.4663287559044)"
+15.208752,9.300885,state,track,"reticle, cursor_proportional","(0.3882379378835372, 0.4050059895985196)"
+15.239664,9.332171,input,joystick,y,-0.007828
+15.239821,9.332171,performance,track,cursor_in_target,0
+15.239842,9.332171,performance,track,center_deviation,218.129811
+15.239919,9.332171,state,track,"reticle, cursor_relative","(151.07316398079666, 157.37524220250305)"
+15.239938,9.332171,state,track,"reticle, cursor_proportional","(0.3885626645596622, 0.40477171348380414)"
+15.273218,9.36569,input,joystick,y,-0.013687
+15.273466,9.36569,performance,track,cursor_in_target,0
+15.273485,9.36569,performance,track,center_deviation,218.151479
+15.273557,9.36569,state,track,"reticle, cursor_relative","(151.195586291906, 157.28444976064904)"
+15.273573,9.36569,state,track,"reticle, cursor_proportional","(0.3888775367590175, 0.40453819382882983)"
+15.28969,9.38219,input,joystick,y,-0.007828
+15.307575,9.399754,performance,track,cursor_in_target,0
+15.307665,9.399754,performance,track,center_deviation,218.170813
+15.30782,9.399754,state,track,"reticle, cursor_relative","(151.31417392619935, 157.18223626278677)"
+15.307856,9.399754,state,track,"reticle, cursor_proportional","(0.3891825461064798, 0.40427529902980136)"
+15.339826,9.432169,seed_value,sysmon,,
+15.339886,9.432169,seed_output,sysmon,,-1
+15.339938,9.432169,seed_value,sysmon,,
+15.339956,9.432169,seed_output,sysmon,,-1
+15.339997,9.432169,seed_value,sysmon,,
+15.340012,9.432169,seed_output,sysmon,,1
+15.340049,9.432169,seed_value,sysmon,,
+15.340063,9.432169,seed_output,sysmon,,-1
+15.340152,9.432169,state,sysmon,"scale1, arrow",3
+15.340179,9.432169,state,sysmon,"scale2, arrow",3
+15.3402,9.432169,state,sysmon,"scale3, arrow",5
+15.340221,9.432169,state,sysmon,"scale4, arrow",5
+15.340295,9.432169,performance,track,cursor_in_target,0
+15.340317,9.432169,performance,track,center_deviation,218.179363
+15.340443,9.432169,state,track,"reticle, cursor_relative","(151.42892372329544, 157.07446513480218)"
+15.340475,9.432169,state,track,"reticle, cursor_proportional","(0.3894776844734965, 0.40399810991461466)"
+15.373274,9.465612,performance,track,cursor_in_target,0
+15.373324,9.465612,performance,track,center_deviation,218.181362
+15.373415,9.465612,state,track,"reticle, cursor_relative","(151.5398326187588, 156.961140538247)"
+15.373436,9.465612,state,track,"reticle, cursor_proportional","(0.3897629439782891, 0.4037066371868493)"
+15.406564,9.498813,performance,track,cursor_in_target,0
+15.406645,9.498813,performance,track,center_deviation,218.17681
+15.406811,9.498813,state,track,"reticle, cursor_relative","(151.64689764417625, 156.84226683459732)"
+15.40686,9.498813,state,track,"reticle, cursor_proportional","(0.39003831698605, 0.4034008920642935)"
+15.439784,9.532113,performance,track,cursor_in_target,0
+15.439845,9.532113,performance,track,center_deviation,218.165713
+15.439965,9.532113,state,track,"reticle, cursor_relative","(151.7501159272312, 156.7178485850963)"
+15.439996,9.532113,state,track,"reticle, cursor_proportional","(0.39030379610913374, 0.4030808862785399)"
+15.473248,9.565458,performance,track,cursor_in_target,0
+15.473336,9.565458,performance,track,center_deviation,218.148073
+15.473525,9.565458,state,track,"reticle, cursor_relative","(151.84948469177542, 156.58789055059032)"
+15.473571,9.565458,state,track,"reticle, cursor_proportional","(0.3905593742072413, 0.40274663207456357)"
+15.506499,9.598765,performance,track,cursor_in_target,0
+15.506567,9.598765,performance,track,center_deviation,218.123895
+15.506707,9.598765,state,track,"reticle, cursor_relative","(151.9450012578984, 156.4523976913573)"
+15.506743,9.598765,state,track,"reticle, cursor_proportional","(0.3908050443875988, 0.40239814221028114)"
+15.540544,9.632577,seed_value,sysmon,,
+15.540664,9.632577,seed_output,sysmon,,1
+15.540709,9.632577,seed_value,sysmon,,
+15.540724,9.632577,seed_output,sysmon,,1
+15.540759,9.632577,seed_value,sysmon,,
+15.540771,9.632577,seed_output,sysmon,,-1
+15.540805,9.632577,seed_value,sysmon,,
+15.540817,9.632577,seed_output,sysmon,,-1
+15.54106,9.632577,state,sysmon,"scale1, arrow",4
+15.541118,9.632577,state,sysmon,"scale2, arrow",4
+15.541143,9.632577,state,sysmon,"scale3, arrow",4
+15.541163,9.632577,state,sysmon,"scale4, arrow",4
+15.541241,9.632577,performance,track,cursor_in_target,0
+15.541265,9.632577,performance,track,center_deviation,218.093182
+15.541373,9.632577,state,track,"reticle, cursor_relative","(152.03666304199442, 156.31137516692834)"
+15.541399,9.632577,state,track,"reticle, cursor_proportional","(0.39104080000512964, 0.40203542995609143)"
+15.573693,9.665908,performance,track,cursor_in_target,0
+15.573773,9.665908,performance,track,center_deviation,218.05594
+15.573931,9.665908,state,track,"reticle, cursor_relative","(152.12446755682708, 156.1648283359019)"
+15.573972,9.665908,state,track,"reticle, cursor_proportional","(0.39126663466262107, 0.4016585090943978)"
+15.606518,9.698845,performance,track,cursor_in_target,0
+15.606579,9.698845,performance,track,center_deviation,218.012172
+15.606711,9.698845,state,track,"reticle, cursor_relative","(152.20841241159158, 156.0127627557508)"
+15.606744,9.698845,state,track,"reticle, cursor_proportional","(0.3914825422108837, 0.40126739391911215)"
+15.640018,9.732178,performance,track,cursor_in_target,0
+15.640081,9.732178,performance,track,center_deviation,217.961884
+15.640197,9.732178,state,track,"reticle, cursor_relative","(152.28849531197434, 155.85518418262228)"
+15.640227,9.732178,state,track,"reticle, cursor_proportional","(0.3916885167489052, 0.4008620992351396)"
+15.673099,9.765446,performance,track,cursor_in_target,0
+15.673153,9.765446,performance,track,center_deviation,217.905081
+15.673267,9.765446,state,track,"reticle, cursor_relative","(152.36471406021047, 155.69209857113074)"
+15.673297,9.765446,state,track,"reticle, cursor_proportional","(0.39188455262399813, 0.40044264035784655)"
+15.706475,9.798792,performance,track,cursor_in_target,0
+15.706537,9.798792,performance,track,center_deviation,217.841767
+15.706747,9.798792,state,track,"reticle, cursor_relative","(152.4370665551387, 155.52351207414333)"
+15.706785,9.798792,state,track,"reticle, cursor_proportional","(0.39207064443194106, 0.4000090331125085)"
+15.740289,9.832508,performance,track,cursor_in_target,0
+15.740423,9.832508,performance,track,center_deviation,217.77195
+15.740579,9.832508,state,track,"reticle, cursor_relative","(152.50555079225387, 155.34943104255848)"
+15.740612,9.832508,state,track,"reticle, cursor_proportional","(0.39224678701711385, 0.39956129383374095)"
+15.757003,9.849351,seed_value,sysmon,,
+15.757062,9.849351,seed_output,sysmon,,1
+15.757118,9.849351,seed_value,sysmon,,
+15.757136,9.849351,seed_output,sysmon,,-1
+15.757179,9.849351,seed_value,sysmon,,
+15.757193,9.849351,seed_output,sysmon,,1
+15.757232,9.849351,seed_value,sysmon,,
+15.757246,9.849351,seed_output,sysmon,,1
+15.75734,9.849351,state,sysmon,"scale1, arrow",5
+15.757374,9.849351,state,sysmon,"scale2, arrow",3
+15.757403,9.849351,state,sysmon,"scale3, arrow",5
+15.757431,9.849351,state,sysmon,"scale4, arrow",5
+15.773202,9.865477,performance,track,cursor_in_target,0
+15.773274,9.865477,performance,track,center_deviation,217.695633
+15.773435,9.865477,state,track,"reticle, cursor_relative","(152.5701648637571, 155.16986202507735)"
+15.773485,9.865477,state,track,"reticle, cursor_proportional","(0.39241297547262627, 0.3990994393649109)"
+15.806475,9.898807,performance,track,cursor_in_target,0
+15.806537,9.898807,performance,track,center_deviation,217.612824
+15.806662,9.898807,state,track,"reticle, cursor_relative","(152.6309069586034, 154.98481176796793)"
+15.806695,9.898807,state,track,"reticle, cursor_proportional","(0.3925692051404408, 0.39862348705753065)"
+15.840431,9.932608,performance,track,cursor_in_target,0
+15.840524,9.932608,performance,track,center_deviation,217.523529
+15.840724,9.932608,state,track,"reticle, cursor_relative","(152.687775362547, 154.79428721482225)"
+15.84077,9.932608,state,track,"reticle, cursor_proportional","(0.3927154716114892, 0.39813345477063333)"
+15.873272,9.965556,performance,track,cursor_in_target,0
+15.873342,9.965556,performance,track,center_deviation,217.427754
+15.873485,9.965556,state,track,"reticle, cursor_relative","(152.74076845818422, 154.5982955063064)"
+15.873523,9.965556,state,track,"reticle, cursor_proportional","(0.3928517707257824, 0.3976293608701297)"
+15.889787,9.982288,input,joystick,y,-0.013687
+15.906448,9.99894,input,joystick,y,-0.007828
+15.906757,9.99894,performance,track,cursor_in_target,0
+15.9068,9.99894,performance,track,center_deviation,217.325505
+15.906953,9.99894,state,track,"reticle, cursor_relative","(152.7898847249939, 154.39684397990357)"
+15.906992,9.99894,state,track,"reticle, cursor_proportional","(0.39297809857251514, 0.39711122422814704)"
+15.924029,10.015374,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:10
+15.926446,10.015374,state,resman,"foreground, visibility",1
+15.926506,10.015374,state,resman,"status_foreground, visibility",1
+15.926524,10.015374,event,resman,self,hide
+15.939798,10.032152,performance,track,cursor_in_target,0
+15.939844,10.032152,performance,track,center_deviation,217.216791
+15.939952,10.032152,state,track,"reticle, cursor_relative","(152.83512273937532, 154.18994016964967)"
+15.93998,10.032152,state,track,"reticle, cursor_proportional","(0.39309445149016287, 0.39657906422234995)"
+15.940698,10.032152,event,resman,self,pause
+15.960283,10.048781,state,track,"foreground, visibility",1
+15.960384,10.048781,event,track,self,hide
+15.973653,10.065949,seed_value,sysmon,,
+15.973762,10.065949,seed_output,sysmon,,-1
+15.973828,10.065949,seed_value,sysmon,,
+15.97385,10.065949,seed_output,sysmon,,1
+15.9739,10.065949,seed_value,sysmon,,
+15.973919,10.065949,seed_output,sysmon,,-1
+15.973965,10.065949,seed_value,sysmon,,
+15.973983,10.065949,seed_output,sysmon,,-1
+15.9741,10.065949,state,sysmon,"scale1, arrow",4
+15.974137,10.065949,state,sysmon,"scale2, arrow",4
+15.974166,10.065949,state,sysmon,"scale3, arrow",4
+15.974192,10.065949,state,sysmon,"scale4, arrow",4
+15.974295,10.065949,performance,track,cursor_in_target,0
+15.974325,10.065949,performance,track,center_deviation,217.101618
+15.975776,10.065949,event,track,self,pause
+15.994598,10.083424,state,scheduling,"foreground, visibility",1
+15.994677,10.083424,event,scheduling,self,hide
+16.031561,10.083424,input,keyboard,ESCAPE,press
+18.857006,10.083424,dialog,,,Exit OpenMATB? end
+18.857662,10.099919,event,scheduling,self,pause
+18.866468,10.099919,state,sysmon,"foreground, visibility",1
+18.866512,10.099919,event,sysmon,self,stop
+18.866532,10.099919,event,track,self,stop
+18.867676,10.099919,state,communications,"foreground, visibility",1
+18.8677,10.099919,event,communications,self,stop
+18.86772,10.099919,event,scheduling,self,stop
+18.867738,10.099919,event,resman,self,stop
+18.867747,10.099919,manual,,,end

@@ -1,0 +1,249 @@
+logtime,scenario_time,type,module,address,value
+0.781772,0,version,,,1.4.1
+0.782215,0,scenario_path,,,includes\scenarios\fatigue.txt
+0.782898,0,seed_value,communications,,
+0.782924,0,seed_output,communications,,MYA347
+0.783021,0,seed_value,communications,,
+0.783033,0,seed_output,communications,,UPW443
+0.783107,0,seed_value,communications,,
+0.783117,0,seed_output,communications,,DXE892
+0.783194,0,seed_value,communications,,
+0.783205,0,seed_output,communications,,RZJ909
+0.783277,0,seed_value,communications,,
+0.783287,0,seed_output,communications,,APD620
+0.783364,0,seed_value,communications,,
+0.783375,0,seed_output,communications,,SFU347
+0.783453,0,seed_value,communications,,
+0.783463,0,seed_output,communications,,RKY252
+0.783534,0,seed_value,communications,,
+0.783544,0,seed_output,communications,,KBA410
+0.783664,0,seed_value,communications,,
+0.783677,0,seed_output,communications,,UNN115
+0.783849,0,seed_value,communications,,
+0.7839,0,seed_output,communications,,GIM033
+0.784082,0,seed_value,communications,,
+0.784105,0,seed_output,communications,,OSQ034
+0.784162,0,seed_value,communications,,
+0.784181,0,seed_output,communications,,134.821092
+0.784221,0,seed_value,communications,,
+0.784238,0,seed_output,communications,,128.657947
+0.784273,0,seed_value,communications,,
+0.784288,0,seed_output,communications,,118.931907
+0.784323,0,seed_value,communications,,
+0.784339,0,seed_output,communications,,129.671447
+5.068107,0,dialog,,,OpenMATB end
+5.06837,0.017843,input,joystick,x,-0.007828
+5.068409,0.017843,input,joystick,y,0.154925
+5.06847,0.017843,event,instructions,filename,en/welcome_screen.txt
+5.084326,0.033609,aoi,instructions,background,"(0, 1080, 1920, 0)"
+5.084745,0.033609,parameter,instructions,title,
+5.08477,0.033609,parameter,instructions,taskplacement,fullscreen
+5.08478,0.033609,parameter,instructions,taskupdatetime,15
+5.084792,0.033609,parameter,instructions,taskfeedback-overdue-active,0
+5.084802,0.033609,parameter,instructions,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+5.084812,0.033609,parameter,instructions,taskfeedback-overdue-delayms,2000
+5.084822,0.033609,parameter,instructions,taskfeedback-overdue-blinkdurationms,1000
+5.08483,0.033609,parameter,instructions,taskfeedback-overdue-_nexttoggletime,0
+5.084837,0.033609,parameter,instructions,taskfeedback-overdue-_is_visible,0
+5.084844,0.033609,parameter,instructions,boldtitle,0
+5.084863,0.033609,parameter,instructions,filename,en/welcome_screen.txt
+5.08487,0.033609,parameter,instructions,pointsize,0
+5.084877,0.033609,parameter,instructions,maxdurationsec,0
+5.084885,0.033609,parameter,instructions,response-text,Press SPACE to continue
+5.084893,0.033609,parameter,instructions,response-key,SPACE
+5.0849,0.033609,parameter,instructions,allowkeypress,1
+5.087081,0.033609,state,instructions,"background, visibility",1
+5.087112,0.033609,event,instructions,self,start
+5.100739,0.050156,state,instructions,"background, visibility",0
+5.10624,0.050156,aoi,instructions,title,"(0, 1080, 1920, 0)"
+5.111576,0.050156,aoi,instructions,press_space,"(0, 1080, 1920, 0)"
+5.120658,0.050156,aoi,instructions,instructions,"(0, 1080, 1920, 0)"
+5.120772,0.050156,state,instructions,"background, visibility",1
+5.601494,0.050156,input,keyboard,SPACE,press
+5.71817,0.050156,input,keyboard,SPACE,release
+5.719296,0.050156,state,instructions,"background, visibility",0
+5.734174,0.065272,event,genericscales,filename,en/vasf_4pp_part1.txt
+5.751864,0.08231,aoi,genericscales,background,"(0, 1080, 1920, 0)"
+5.752861,0.08231,parameter,genericscales,title,
+5.752929,0.08231,parameter,genericscales,taskplacement,fullscreen
+5.752961,0.08231,parameter,genericscales,taskupdatetime,15
+5.752998,0.08231,parameter,genericscales,taskfeedback-overdue-active,0
+5.753027,0.08231,parameter,genericscales,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+5.753057,0.08231,parameter,genericscales,taskfeedback-overdue-delayms,2000
+5.753082,0.08231,parameter,genericscales,taskfeedback-overdue-blinkdurationms,1000
+5.753106,0.08231,parameter,genericscales,taskfeedback-overdue-_nexttoggletime,0
+5.75313,0.08231,parameter,genericscales,taskfeedback-overdue-_is_visible,0
+5.753156,0.08231,parameter,genericscales,boldtitle,0
+5.753179,0.08231,parameter,genericscales,filename,en/vasf_4pp_part1.txt
+5.753204,0.08231,parameter,genericscales,pointsize,0
+5.753229,0.08231,parameter,genericscales,maxdurationsec,0
+5.753254,0.08231,parameter,genericscales,response-text,Press SPACE to validate
+5.753278,0.08231,parameter,genericscales,response-key,SPACE
+5.753301,0.08231,parameter,genericscales,allowkeypress,1
+5.75367,0.08231,state,genericscales,"background, visibility",1
+5.753734,0.08231,event,genericscales,self,start
+5.768171,0.099067,state,genericscales,"background, visibility",0
+5.773006,0.099067,aoi,genericscales,press_space,"(0, 1080, 1920, 0)"
+5.780643,0.099067,aoi,genericscales,label_1,"(0.0, 864.0, 1920.0, 820.8)"
+5.786706,0.099067,aoi,genericscales,slider_1,"(0.0, 820.8, 1920.0, 756.0)"
+5.789494,0.099067,aoi,genericscales,label_2,"(0.0, 729.0, 1920.0, 685.8)"
+5.793377,0.099067,aoi,genericscales,slider_2,"(0.0, 685.8, 1920.0, 621.0)"
+5.794502,0.099067,aoi,genericscales,label_3,"(0.0, 594.0, 1920.0, 550.8)"
+5.797692,0.099067,aoi,genericscales,slider_3,"(0.0, 550.8, 1920.0, 486.0)"
+5.798894,0.099067,aoi,genericscales,label_4,"(0.0, 459.0, 1920.0, 415.8)"
+5.802636,0.099067,aoi,genericscales,slider_4,"(0.0, 415.8, 1920.0, 351.0)"
+5.80273,0.099067,state,genericscales,"background, visibility",1
+6.284963,0.099067,input,keyboard,SPACE,press
+6.434812,0.099067,input,keyboard,SPACE,release
+6.43611,0.099067,performance,genericscales,I feel tired,4
+6.436182,0.099067,performance,genericscales,I feel sleepy,4
+6.436214,0.099067,performance,genericscales,I feel drowsy,4
+6.436241,0.099067,performance,genericscales,I feel fatigued,4
+6.43632,0.099067,state,genericscales,"background, visibility",0
+6.451189,0.115109,event,genericscales,filename,en/vasf_4pp_part2.txt
+6.468122,0.131463,aoi,genericscales,background,"(0, 1080, 1920, 0)"
+6.46885,0.131463,parameter,genericscales,title,
+6.468893,0.131463,parameter,genericscales,taskplacement,fullscreen
+6.468914,0.131463,parameter,genericscales,taskupdatetime,15
+6.468937,0.131463,parameter,genericscales,taskfeedback-overdue-active,0
+6.468956,0.131463,parameter,genericscales,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+6.468978,0.131463,parameter,genericscales,taskfeedback-overdue-delayms,2000
+6.468995,0.131463,parameter,genericscales,taskfeedback-overdue-blinkdurationms,1000
+6.469011,0.131463,parameter,genericscales,taskfeedback-overdue-_nexttoggletime,0
+6.469028,0.131463,parameter,genericscales,taskfeedback-overdue-_is_visible,0
+6.469045,0.131463,parameter,genericscales,boldtitle,0
+6.469059,0.131463,parameter,genericscales,filename,en/vasf_4pp_part2.txt
+6.469075,0.131463,parameter,genericscales,pointsize,0
+6.46909,0.131463,parameter,genericscales,maxdurationsec,0
+6.469106,0.131463,parameter,genericscales,response-text,Press SPACE to validate
+6.469123,0.131463,parameter,genericscales,response-key,SPACE
+6.469138,0.131463,parameter,genericscales,allowkeypress,1
+6.469372,0.131463,state,genericscales,"background, visibility",1
+6.474423,0.131463,event,genericscales,self,start
+6.484559,0.148004,state,genericscales,"background, visibility",0
+6.494591,0.148004,aoi,genericscales,press_space,"(0, 1080, 1920, 0)"
+6.496666,0.148004,aoi,genericscales,label_1,"(0.0, 864.0, 1920.0, 820.8)"
+6.499214,0.148004,aoi,genericscales,slider_1,"(0.0, 820.8, 1920.0, 756.0)"
+6.501211,0.148004,aoi,genericscales,label_2,"(0.0, 729.0, 1920.0, 685.8)"
+6.504149,0.148004,aoi,genericscales,slider_2,"(0.0, 685.8, 1920.0, 621.0)"
+6.506066,0.148004,aoi,genericscales,label_3,"(0.0, 594.0, 1920.0, 550.8)"
+6.509427,0.148004,aoi,genericscales,slider_3,"(0.0, 550.8, 1920.0, 486.0)"
+6.510514,0.148004,aoi,genericscales,label_4,"(0.0, 459.0, 1920.0, 415.8)"
+6.513154,0.148004,aoi,genericscales,slider_4,"(0.0, 415.8, 1920.0, 351.0)"
+6.513241,0.148004,state,genericscales,"background, visibility",1
+7.084628,0.148004,input,keyboard,SPACE,press
+7.234786,0.148004,input,keyboard,SPACE,release
+7.236326,0.148004,performance,genericscales,I feel worn out,4
+7.236459,0.148004,performance,genericscales,I feel energetic,4
+7.2365,0.148004,performance,genericscales,I feel active,4
+7.23653,0.148004,performance,genericscales,I feel vigorous,4
+7.236617,0.148004,state,genericscales,"background, visibility",0
+7.250496,0.162991,event,genericscales,filename,en/vasf_4pp_part3.txt
+7.268108,0.18003,aoi,genericscales,background,"(0, 1080, 1920, 0)"
+7.269103,0.18003,parameter,genericscales,title,
+7.269182,0.18003,parameter,genericscales,taskplacement,fullscreen
+7.269216,0.18003,parameter,genericscales,taskupdatetime,15
+7.269255,0.18003,parameter,genericscales,taskfeedback-overdue-active,0
+7.269287,0.18003,parameter,genericscales,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+7.269321,0.18003,parameter,genericscales,taskfeedback-overdue-delayms,2000
+7.26935,0.18003,parameter,genericscales,taskfeedback-overdue-blinkdurationms,1000
+7.269377,0.18003,parameter,genericscales,taskfeedback-overdue-_nexttoggletime,0
+7.269404,0.18003,parameter,genericscales,taskfeedback-overdue-_is_visible,0
+7.269433,0.18003,parameter,genericscales,boldtitle,0
+7.269459,0.18003,parameter,genericscales,filename,en/vasf_4pp_part3.txt
+7.269484,0.18003,parameter,genericscales,pointsize,0
+7.269508,0.18003,parameter,genericscales,maxdurationsec,0
+7.269535,0.18003,parameter,genericscales,response-text,Press SPACE to validate
+7.269562,0.18003,parameter,genericscales,response-key,SPACE
+7.269587,0.18003,parameter,genericscales,allowkeypress,1
+7.269973,0.18003,state,genericscales,"background, visibility",1
+7.275122,0.18003,event,genericscales,self,start
+7.284625,0.19665,state,genericscales,"background, visibility",0
+7.290558,0.19665,aoi,genericscales,press_space,"(0, 1080, 1920, 0)"
+7.291627,0.19665,aoi,genericscales,label_1,"(0.0, 864.0, 1920.0, 820.8)"
+7.294155,0.19665,aoi,genericscales,slider_1,"(0.0, 820.8, 1920.0, 756.0)"
+7.29519,0.19665,aoi,genericscales,label_2,"(0.0, 729.0, 1920.0, 685.8)"
+7.298313,0.19665,aoi,genericscales,slider_2,"(0.0, 685.8, 1920.0, 621.0)"
+7.300305,0.19665,aoi,genericscales,label_3,"(0.0, 594.0, 1920.0, 550.8)"
+7.30459,0.19665,aoi,genericscales,slider_3,"(0.0, 550.8, 1920.0, 486.0)"
+7.305788,0.19665,aoi,genericscales,label_4,"(0.0, 459.0, 1920.0, 415.8)"
+7.308327,0.19665,aoi,genericscales,slider_4,"(0.0, 415.8, 1920.0, 351.0)"
+7.308423,0.19665,state,genericscales,"background, visibility",1
+7.651307,0.19665,input,keyboard,SPACE,press
+7.784708,0.19665,input,keyboard,SPACE,release
+7.78597,0.19665,performance,genericscales,I feel efficient,4
+7.786052,0.19665,performance,genericscales,I feel lively,4
+7.786089,0.19665,performance,genericscales,I feel bushed,4
+7.786114,0.19665,performance,genericscales,I feel exhausted,4
+7.786194,0.19665,state,genericscales,"background, visibility",0
+7.801679,0.213051,event,genericscales,filename,en/vasf_4pp_part4.txt
+7.817832,0.228697,aoi,genericscales,background,"(0, 1080, 1920, 0)"
+7.81877,0.228697,parameter,genericscales,title,
+7.818829,0.228697,parameter,genericscales,taskplacement,fullscreen
+7.818856,0.228697,parameter,genericscales,taskupdatetime,15
+7.818885,0.228697,parameter,genericscales,taskfeedback-overdue-active,0
+7.81891,0.228697,parameter,genericscales,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+7.818937,0.228697,parameter,genericscales,taskfeedback-overdue-delayms,2000
+7.818962,0.228697,parameter,genericscales,taskfeedback-overdue-blinkdurationms,1000
+7.818995,0.228697,parameter,genericscales,taskfeedback-overdue-_nexttoggletime,0
+7.819026,0.228697,parameter,genericscales,taskfeedback-overdue-_is_visible,0
+7.819054,0.228697,parameter,genericscales,boldtitle,0
+7.819078,0.228697,parameter,genericscales,filename,en/vasf_4pp_part4.txt
+7.819101,0.228697,parameter,genericscales,pointsize,0
+7.819126,0.228697,parameter,genericscales,maxdurationsec,0
+7.819151,0.228697,parameter,genericscales,response-text,Press SPACE to validate
+7.819176,0.228697,parameter,genericscales,response-key,SPACE
+7.819199,0.228697,parameter,genericscales,allowkeypress,1
+7.819531,0.228697,state,genericscales,"background, visibility",1
+7.82589,0.228697,event,genericscales,self,start
+7.834916,0.245278,state,genericscales,"background, visibility",0
+7.843015,0.245278,aoi,genericscales,press_space,"(0, 1080, 1920, 0)"
+7.844969,0.245278,aoi,genericscales,label_1,"(0.0, 864.0, 1920.0, 820.8)"
+7.847921,0.245278,aoi,genericscales,slider_1,"(0.0, 820.8, 1920.0, 756.0)"
+7.848965,0.245278,aoi,genericscales,label_2,"(0.0, 729.0, 1920.0, 685.8)"
+7.852615,0.245278,aoi,genericscales,slider_2,"(0.0, 685.8, 1920.0, 621.0)"
+7.853783,0.245278,aoi,genericscales,label_3,"(0.0, 594.0, 1920.0, 550.8)"
+7.856421,0.245278,aoi,genericscales,slider_3,"(0.0, 550.8, 1920.0, 486.0)"
+7.857557,0.245278,aoi,genericscales,label_4,"(0.0, 459.0, 1920.0, 415.8)"
+7.859947,0.245278,aoi,genericscales,slider_4,"(0.0, 415.8, 1920.0, 351.0)"
+7.860038,0.245278,state,genericscales,"background, visibility",1
+8.201496,0.245278,input,keyboard,SPACE,press
+8.300817,0.245278,input,keyboard,SPACE,release
+8.301304,0.245278,performance,genericscales,Keeping my eyes open is...,4
+8.301336,0.245278,performance,genericscales,Moving my body is...,4
+8.301347,0.245278,performance,genericscales,Concentrating is...,4
+8.301356,0.245278,performance,genericscales,Carrying on a conversation is...,4
+8.301388,0.245278,state,genericscales,"background, visibility",0
+8.317351,0.261558,event,genericscales,filename,en/vasf_4pp_part5.txt
+8.334511,0.278214,aoi,genericscales,background,"(0, 1080, 1920, 0)"
+8.335214,0.278214,parameter,genericscales,title,
+8.335261,0.278214,parameter,genericscales,taskplacement,fullscreen
+8.335283,0.278214,parameter,genericscales,taskupdatetime,15
+8.335298,0.278214,parameter,genericscales,taskfeedback-overdue-active,0
+8.33531,0.278214,parameter,genericscales,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+8.335322,0.278214,parameter,genericscales,taskfeedback-overdue-delayms,2000
+8.335333,0.278214,parameter,genericscales,taskfeedback-overdue-blinkdurationms,1000
+8.335343,0.278214,parameter,genericscales,taskfeedback-overdue-_nexttoggletime,0
+8.335354,0.278214,parameter,genericscales,taskfeedback-overdue-_is_visible,0
+8.335366,0.278214,parameter,genericscales,boldtitle,0
+8.335376,0.278214,parameter,genericscales,filename,en/vasf_4pp_part5.txt
+8.335386,0.278214,parameter,genericscales,pointsize,0
+8.335395,0.278214,parameter,genericscales,maxdurationsec,0
+8.335406,0.278214,parameter,genericscales,response-text,Press SPACE to validate
+8.335416,0.278214,parameter,genericscales,response-key,SPACE
+8.335425,0.278214,parameter,genericscales,allowkeypress,1
+8.33558,0.278214,state,genericscales,"background, visibility",1
+8.338915,0.278214,event,genericscales,self,start
+8.350865,0.294754,state,genericscales,"background, visibility",0
+8.358284,0.294754,aoi,genericscales,press_space,"(0, 1080, 1920, 0)"
+8.359843,0.294754,aoi,genericscales,label_1,"(0.0, 702.0, 1920.0, 658.8)"
+8.363097,0.294754,aoi,genericscales,slider_1,"(0.0, 658.8, 1920.0, 594.0)"
+8.364258,0.294754,aoi,genericscales,label_2,"(0.0, 594.0, 1920.0, 550.8)"
+8.367248,0.294754,aoi,genericscales,slider_2,"(0.0, 550.8, 1920.0, 486.0)"
+8.367374,0.294754,state,genericscales,"background, visibility",1
+12.801418,0.294754,input,keyboard,SPACE,press
+12.967923,0.294754,input,keyboard,SPACE,release
+12.969139,0.294754,performance,genericscales,I have a desire to close my eyes,4
+12.969238,0.294754,performance,genericscales,I have a desire to lie down,4
+12.969337,0.294754,state,genericscales,"background, visibility",0
+12.977403,0.294754,manual,,,end

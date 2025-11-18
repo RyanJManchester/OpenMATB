@@ -1,0 +1,2382 @@
+logtime,scenario_time,type,module,address,value
+0.801567,0,version,,,1.4.1
+0.802026,0,scenario_path,,,includes\scenarios\fatigue.txt
+0.802662,0,seed_value,communications,,
+0.802691,0,seed_output,communications,,UDA433
+0.802782,0,seed_value,communications,,
+0.802795,0,seed_output,communications,,BJW275
+0.802881,0,seed_value,communications,,
+0.802892,0,seed_output,communications,,INP414
+0.803005,0,seed_value,communications,,
+0.80302,0,seed_output,communications,,CMB993
+0.803119,0,seed_value,communications,,
+0.803134,0,seed_output,communications,,LCN879
+0.803223,0,seed_value,communications,,
+0.803234,0,seed_output,communications,,CLN158
+0.803326,0,seed_value,communications,,
+0.803337,0,seed_output,communications,,HQR233
+0.803414,0,seed_value,communications,,
+0.803423,0,seed_output,communications,,IBX875
+0.803505,0,seed_value,communications,,
+0.803519,0,seed_output,communications,,EOR477
+0.803608,0,seed_value,communications,,
+0.803623,0,seed_output,communications,,CGE412
+0.803712,0,seed_value,communications,,
+0.803724,0,seed_output,communications,,BLS903
+0.803759,0,seed_value,communications,,
+0.803769,0,seed_output,communications,,121.299595
+0.803795,0,seed_value,communications,,
+0.803804,0,seed_output,communications,,119.0496
+0.803828,0,seed_value,communications,,
+0.803837,0,seed_output,communications,,126.543377
+0.803859,0,seed_value,communications,,
+0.803867,0,seed_output,communications,,109.118003
+4.079531,0,dialog,,,OpenMATB end
+4.079935,0.017514,event,instructions,filename,en/welcome_screen.txt
+4.09902,0.036166,aoi,instructions,background,"(0, 1080, 1920, 0)"
+4.100062,0.036166,parameter,instructions,title,
+4.10012,0.036166,parameter,instructions,taskplacement,fullscreen
+4.100145,0.036166,parameter,instructions,taskupdatetime,15
+4.100176,0.036166,parameter,instructions,taskfeedback-overdue-active,0
+4.100198,0.036166,parameter,instructions,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+4.100222,0.036166,parameter,instructions,taskfeedback-overdue-delayms,2000
+4.100242,0.036166,parameter,instructions,taskfeedback-overdue-blinkdurationms,1000
+4.100262,0.036166,parameter,instructions,taskfeedback-overdue-_nexttoggletime,0
+4.10028,0.036166,parameter,instructions,taskfeedback-overdue-_is_visible,0
+4.1003,0.036166,parameter,instructions,boldtitle,0
+4.100317,0.036166,parameter,instructions,filename,en/welcome_screen.txt
+4.100335,0.036166,parameter,instructions,pointsize,0
+4.100353,0.036166,parameter,instructions,maxdurationsec,0
+4.100386,0.036166,parameter,instructions,response-text,Press SPACE to continue
+4.100406,0.036166,parameter,instructions,response-key,SPACE
+4.100423,0.036166,parameter,instructions,allowkeypress,1
+4.103958,0.036166,state,instructions,"background, visibility",1
+4.103995,0.036166,event,instructions,self,start
+4.112772,0.05024,state,instructions,"background, visibility",0
+4.125757,0.05024,aoi,instructions,title,"(0, 1080, 1920, 0)"
+4.134102,0.05024,aoi,instructions,press_space,"(0, 1080, 1920, 0)"
+4.140481,0.05024,aoi,instructions,instructions,"(0, 1080, 1920, 0)"
+4.140582,0.05024,state,instructions,"background, visibility",1
+4.314117,0.05024,input,keyboard,SPACE,press
+4.463373,0.05024,input,keyboard,SPACE,release
+4.46431,0.05024,state,instructions,"background, visibility",0
+4.479261,0.065386,event,genericscales,filename,en/vasf_4pp_part1.txt
+4.496846,0.082409,aoi,genericscales,background,"(0, 1080, 1920, 0)"
+4.498118,0.082409,parameter,genericscales,title,
+4.498205,0.082409,parameter,genericscales,taskplacement,fullscreen
+4.498242,0.082409,parameter,genericscales,taskupdatetime,15
+4.498286,0.082409,parameter,genericscales,taskfeedback-overdue-active,0
+4.498323,0.082409,parameter,genericscales,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+4.498358,0.082409,parameter,genericscales,taskfeedback-overdue-delayms,2000
+4.498389,0.082409,parameter,genericscales,taskfeedback-overdue-blinkdurationms,1000
+4.498418,0.082409,parameter,genericscales,taskfeedback-overdue-_nexttoggletime,0
+4.498448,0.082409,parameter,genericscales,taskfeedback-overdue-_is_visible,0
+4.498478,0.082409,parameter,genericscales,boldtitle,0
+4.498505,0.082409,parameter,genericscales,filename,en/vasf_4pp_part1.txt
+4.498532,0.082409,parameter,genericscales,pointsize,0
+4.49856,0.082409,parameter,genericscales,maxdurationsec,0
+4.498595,0.082409,parameter,genericscales,response-text,Press SPACE to validate
+4.498625,0.082409,parameter,genericscales,response-key,SPACE
+4.498653,0.082409,parameter,genericscales,allowkeypress,1
+4.49908,0.082409,state,genericscales,"background, visibility",1
+4.499143,0.082409,event,genericscales,self,start
+4.513085,0.099051,state,genericscales,"background, visibility",0
+4.517209,0.099051,aoi,genericscales,press_space,"(0, 1080, 1920, 0)"
+4.531458,0.099051,aoi,genericscales,label_1,"(0.0, 928.8000000000002, 1920.0, 885.6000000000001)"
+4.53829,0.099051,aoi,genericscales,slider_1,"(0.0, 885.6000000000001, 1920.0, 820.8000000000001)"
+4.540465,0.099051,aoi,genericscales,label_2,"(0.0, 761.4000000000001, 1920.0, 718.2)"
+4.543553,0.099051,aoi,genericscales,slider_2,"(0.0, 718.2, 1920.0, 653.4000000000001)"
+4.544715,0.099051,aoi,genericscales,label_3,"(0.0, 594.0, 1920.0, 550.8)"
+4.548192,0.099051,aoi,genericscales,slider_3,"(0.0, 550.8, 1920.0, 486.0)"
+4.549457,0.099051,aoi,genericscales,label_4,"(0.0, 426.6, 1920.0, 383.40000000000003)"
+4.553443,0.099051,aoi,genericscales,slider_4,"(0.0, 383.40000000000003, 1920.0, 318.6)"
+4.553534,0.099051,state,genericscales,"background, visibility",1
+4.996099,0.099051,input,keyboard,SPACE,press
+5.162863,0.099051,input,keyboard,SPACE,release
+5.16428,0.099051,performance,genericscales,I feel tired,4
+5.164374,0.099051,performance,genericscales,I feel sleepy,4
+5.164414,0.099051,performance,genericscales,I feel drowsy,4
+5.164445,0.099051,performance,genericscales,I feel fatigued,4
+5.164532,0.099051,state,genericscales,"background, visibility",0
+5.178969,0.114704,event,genericscales,filename,en/vasf_4pp_part2.txt
+5.196293,0.131458,aoi,genericscales,background,"(0, 1080, 1920, 0)"
+5.197201,0.131458,parameter,genericscales,title,
+5.19726,0.131458,parameter,genericscales,taskplacement,fullscreen
+5.197286,0.131458,parameter,genericscales,taskupdatetime,15
+5.197316,0.131458,parameter,genericscales,taskfeedback-overdue-active,0
+5.19734,0.131458,parameter,genericscales,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+5.197366,0.131458,parameter,genericscales,taskfeedback-overdue-delayms,2000
+5.197387,0.131458,parameter,genericscales,taskfeedback-overdue-blinkdurationms,1000
+5.197411,0.131458,parameter,genericscales,taskfeedback-overdue-_nexttoggletime,0
+5.197432,0.131458,parameter,genericscales,taskfeedback-overdue-_is_visible,0
+5.197454,0.131458,parameter,genericscales,boldtitle,0
+5.197473,0.131458,parameter,genericscales,filename,en/vasf_4pp_part2.txt
+5.197492,0.131458,parameter,genericscales,pointsize,0
+5.19751,0.131458,parameter,genericscales,maxdurationsec,0
+5.197531,0.131458,parameter,genericscales,response-text,Press SPACE to validate
+5.197552,0.131458,parameter,genericscales,response-key,SPACE
+5.197571,0.131458,parameter,genericscales,allowkeypress,1
+5.197855,0.131458,state,genericscales,"background, visibility",1
+5.203415,0.131458,event,genericscales,self,start
+5.212745,0.148049,state,genericscales,"background, visibility",0
+5.224071,0.148049,aoi,genericscales,press_space,"(0, 1080, 1920, 0)"
+5.225338,0.148049,aoi,genericscales,label_1,"(0.0, 928.8000000000002, 1920.0, 885.6000000000001)"
+5.227619,0.148049,aoi,genericscales,slider_1,"(0.0, 885.6000000000001, 1920.0, 820.8000000000001)"
+5.230164,0.148049,aoi,genericscales,label_2,"(0.0, 761.4000000000001, 1920.0, 718.2)"
+5.232947,0.148049,aoi,genericscales,slider_2,"(0.0, 718.2, 1920.0, 653.4000000000001)"
+5.23608,0.148049,aoi,genericscales,label_3,"(0.0, 594.0, 1920.0, 550.8)"
+5.23943,0.148049,aoi,genericscales,slider_3,"(0.0, 550.8, 1920.0, 486.0)"
+5.240544,0.148049,aoi,genericscales,label_4,"(0.0, 426.6, 1920.0, 383.40000000000003)"
+5.243159,0.148049,aoi,genericscales,slider_4,"(0.0, 383.40000000000003, 1920.0, 318.6)"
+5.243244,0.148049,state,genericscales,"background, visibility",1
+5.495794,0.148049,input,keyboard,SPACE,press
+5.663011,0.148049,input,keyboard,SPACE,release
+5.664138,0.148049,performance,genericscales,I feel worn out,4
+5.664233,0.148049,performance,genericscales,I feel energetic,4
+5.664272,0.148049,performance,genericscales,I feel active,4
+5.664305,0.148049,performance,genericscales,I feel vigorous,4
+5.664389,0.148049,state,genericscales,"background, visibility",0
+5.680002,0.164737,event,genericscales,filename,en/vasf_4pp_part3.txt
+5.696419,0.180594,aoi,genericscales,background,"(0, 1080, 1920, 0)"
+5.697502,0.180594,parameter,genericscales,title,
+5.697577,0.180594,parameter,genericscales,taskplacement,fullscreen
+5.69761,0.180594,parameter,genericscales,taskupdatetime,15
+5.697648,0.180594,parameter,genericscales,taskfeedback-overdue-active,0
+5.697681,0.180594,parameter,genericscales,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+5.697715,0.180594,parameter,genericscales,taskfeedback-overdue-delayms,2000
+5.697742,0.180594,parameter,genericscales,taskfeedback-overdue-blinkdurationms,1000
+5.697771,0.180594,parameter,genericscales,taskfeedback-overdue-_nexttoggletime,0
+5.697799,0.180594,parameter,genericscales,taskfeedback-overdue-_is_visible,0
+5.697828,0.180594,parameter,genericscales,boldtitle,0
+5.697856,0.180594,parameter,genericscales,filename,en/vasf_4pp_part3.txt
+5.697881,0.180594,parameter,genericscales,pointsize,0
+5.697906,0.180594,parameter,genericscales,maxdurationsec,0
+5.697934,0.180594,parameter,genericscales,response-text,Press SPACE to validate
+5.69796,0.180594,parameter,genericscales,response-key,SPACE
+5.697987,0.180594,parameter,genericscales,allowkeypress,1
+5.698347,0.180594,state,genericscales,"background, visibility",1
+5.703613,0.180594,event,genericscales,self,start
+5.712748,0.197056,state,genericscales,"background, visibility",0
+5.721854,0.197056,aoi,genericscales,press_space,"(0, 1080, 1920, 0)"
+5.722861,0.197056,aoi,genericscales,label_1,"(0.0, 928.8000000000002, 1920.0, 885.6000000000001)"
+5.725206,0.197056,aoi,genericscales,slider_1,"(0.0, 885.6000000000001, 1920.0, 820.8000000000001)"
+5.726178,0.197056,aoi,genericscales,label_2,"(0.0, 761.4000000000001, 1920.0, 718.2)"
+5.728324,0.197056,aoi,genericscales,slider_2,"(0.0, 718.2, 1920.0, 653.4000000000001)"
+5.730757,0.197056,aoi,genericscales,label_3,"(0.0, 594.0, 1920.0, 550.8)"
+5.734059,0.197056,aoi,genericscales,slider_3,"(0.0, 550.8, 1920.0, 486.0)"
+5.735006,0.197056,aoi,genericscales,label_4,"(0.0, 426.6, 1920.0, 383.40000000000003)"
+5.737267,0.197056,aoi,genericscales,slider_4,"(0.0, 383.40000000000003, 1920.0, 318.6)"
+5.737352,0.197056,state,genericscales,"background, visibility",1
+6.03099,0.197056,input,keyboard,SPACE,press
+6.179501,0.197056,input,keyboard,SPACE,release
+6.180641,0.197056,performance,genericscales,I feel efficient,4
+6.180726,0.197056,performance,genericscales,I feel lively,4
+6.180763,0.197056,performance,genericscales,I feel bushed,4
+6.180791,0.197056,performance,genericscales,I feel exhausted,4
+6.180867,0.197056,state,genericscales,"background, visibility",0
+6.195612,0.212733,event,genericscales,filename,en/vasf_4pp_part4.txt
+6.213011,0.229583,aoi,genericscales,background,"(0, 1080, 1920, 0)"
+6.213813,0.229583,parameter,genericscales,title,
+6.213863,0.229583,parameter,genericscales,taskplacement,fullscreen
+6.213887,0.229583,parameter,genericscales,taskupdatetime,15
+6.213912,0.229583,parameter,genericscales,taskfeedback-overdue-active,0
+6.213933,0.229583,parameter,genericscales,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+6.213955,0.229583,parameter,genericscales,taskfeedback-overdue-delayms,2000
+6.213975,0.229583,parameter,genericscales,taskfeedback-overdue-blinkdurationms,1000
+6.213993,0.229583,parameter,genericscales,taskfeedback-overdue-_nexttoggletime,0
+6.214011,0.229583,parameter,genericscales,taskfeedback-overdue-_is_visible,0
+6.21403,0.229583,parameter,genericscales,boldtitle,0
+6.214048,0.229583,parameter,genericscales,filename,en/vasf_4pp_part4.txt
+6.214066,0.229583,parameter,genericscales,pointsize,0
+6.214083,0.229583,parameter,genericscales,maxdurationsec,0
+6.214101,0.229583,parameter,genericscales,response-text,Press SPACE to validate
+6.21412,0.229583,parameter,genericscales,response-key,SPACE
+6.214136,0.229583,parameter,genericscales,allowkeypress,1
+6.214389,0.229583,state,genericscales,"background, visibility",1
+6.219548,0.229583,event,genericscales,self,start
+6.229266,0.245991,state,genericscales,"background, visibility",0
+6.236261,0.245991,aoi,genericscales,press_space,"(0, 1080, 1920, 0)"
+6.238196,0.245991,aoi,genericscales,label_1,"(0.0, 928.8000000000002, 1920.0, 885.6000000000001)"
+6.241997,0.245991,aoi,genericscales,slider_1,"(0.0, 885.6000000000001, 1920.0, 820.8000000000001)"
+6.243126,0.245991,aoi,genericscales,label_2,"(0.0, 761.4000000000001, 1920.0, 718.2)"
+6.245428,0.245991,aoi,genericscales,slider_2,"(0.0, 718.2, 1920.0, 653.4000000000001)"
+6.246719,0.245991,aoi,genericscales,label_3,"(0.0, 594.0, 1920.0, 550.8)"
+6.24959,0.245991,aoi,genericscales,slider_3,"(0.0, 550.8, 1920.0, 486.0)"
+6.250667,0.245991,aoi,genericscales,label_4,"(0.0, 426.6, 1920.0, 383.40000000000003)"
+6.252925,0.245991,aoi,genericscales,slider_4,"(0.0, 383.40000000000003, 1920.0, 318.6)"
+6.253009,0.245991,state,genericscales,"background, visibility",1
+6.579695,0.245991,input,keyboard,SPACE,press
+6.745607,0.245991,input,keyboard,SPACE,release
+6.746545,0.245991,performance,genericscales,Keeping my eyes open is...,4
+6.746587,0.245991,performance,genericscales,Moving my body is...,4
+6.746598,0.245991,performance,genericscales,Concentrating is...,4
+6.746607,0.245991,performance,genericscales,Carrying on a conversation is...,4
+6.746639,0.245991,state,genericscales,"background, visibility",0
+6.762607,0.26229,event,genericscales,filename,en/vasf_4pp_part5.txt
+6.779159,0.278599,aoi,genericscales,background,"(0, 1080, 1920, 0)"
+6.779793,0.278599,parameter,genericscales,title,
+6.779834,0.278599,parameter,genericscales,taskplacement,fullscreen
+6.779853,0.278599,parameter,genericscales,taskupdatetime,15
+6.779873,0.278599,parameter,genericscales,taskfeedback-overdue-active,0
+6.779889,0.278599,parameter,genericscales,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+6.779907,0.278599,parameter,genericscales,taskfeedback-overdue-delayms,2000
+6.779922,0.278599,parameter,genericscales,taskfeedback-overdue-blinkdurationms,1000
+6.779939,0.278599,parameter,genericscales,taskfeedback-overdue-_nexttoggletime,0
+6.779954,0.278599,parameter,genericscales,taskfeedback-overdue-_is_visible,0
+6.779969,0.278599,parameter,genericscales,boldtitle,0
+6.779982,0.278599,parameter,genericscales,filename,en/vasf_4pp_part5.txt
+6.779995,0.278599,parameter,genericscales,pointsize,0
+6.780008,0.278599,parameter,genericscales,maxdurationsec,0
+6.780023,0.278599,parameter,genericscales,response-text,Press SPACE to validate
+6.780038,0.278599,parameter,genericscales,response-key,SPACE
+6.780052,0.278599,parameter,genericscales,allowkeypress,1
+6.780252,0.278599,state,genericscales,"background, visibility",1
+6.785404,0.278599,event,genericscales,self,start
+6.796013,0.295393,state,genericscales,"background, visibility",0
+6.803849,0.295393,aoi,genericscales,press_space,"(0, 1080, 1920, 0)"
+6.804914,0.295393,aoi,genericscales,label_1,"(0.0, 734.4000000000001, 1920.0, 691.2)"
+6.807409,0.295393,aoi,genericscales,slider_1,"(0.0, 691.2, 1920.0, 626.4000000000001)"
+6.808409,0.295393,aoi,genericscales,label_2,"(0.0, 594.0, 1920.0, 550.8)"
+6.810771,0.295393,aoi,genericscales,slider_2,"(0.0, 550.8, 1920.0, 486.0)"
+6.810861,0.295393,state,genericscales,"background, visibility",1
+8.446137,0.295393,input,keyboard,SPACE,press
+8.646136,0.295393,input,keyboard,SPACE,release
+8.646873,0.295393,performance,genericscales,I have a desire to close my eyes,4
+8.646936,0.295393,performance,genericscales,I have a desire to lie down,4
+8.64702,0.295393,state,genericscales,"background, visibility",0
+8.662389,0.311326,event,genericscales,filename,en/vasf_4pp_part6.txt
+8.679505,0.328011,aoi,genericscales,background,"(0, 1080, 1920, 0)"
+8.680609,0.328011,parameter,genericscales,title,
+8.68067,0.328011,parameter,genericscales,taskplacement,fullscreen
+8.680695,0.328011,parameter,genericscales,taskupdatetime,15
+8.680723,0.328011,parameter,genericscales,taskfeedback-overdue-active,0
+8.680745,0.328011,parameter,genericscales,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+8.680767,0.328011,parameter,genericscales,taskfeedback-overdue-delayms,2000
+8.680786,0.328011,parameter,genericscales,taskfeedback-overdue-blinkdurationms,1000
+8.680805,0.328011,parameter,genericscales,taskfeedback-overdue-_nexttoggletime,0
+8.680823,0.328011,parameter,genericscales,taskfeedback-overdue-_is_visible,0
+8.680841,0.328011,parameter,genericscales,boldtitle,0
+8.680857,0.328011,parameter,genericscales,filename,en/vasf_4pp_part6.txt
+8.680873,0.328011,parameter,genericscales,pointsize,0
+8.680889,0.328011,parameter,genericscales,maxdurationsec,0
+8.680907,0.328011,parameter,genericscales,response-text,Press SPACE to validate
+8.680927,0.328011,parameter,genericscales,response-key,SPACE
+8.680944,0.328011,parameter,genericscales,allowkeypress,1
+8.681198,0.328011,state,genericscales,"background, visibility",1
+8.687115,0.328011,event,genericscales,self,start
+8.695827,0.34451,state,genericscales,"background, visibility",0
+8.703991,0.34451,aoi,genericscales,press_space,"(0, 1080, 1920, 0)"
+8.705326,0.34451,aoi,genericscales,label_1,"(0.0, 734.4000000000001, 1920.0, 691.2)"
+8.707705,0.34451,aoi,genericscales,slider_1,"(0.0, 691.2, 1920.0, 626.4000000000001)"
+8.708618,0.34451,aoi,genericscales,label_2,"(0.0, 594.0, 1920.0, 550.8)"
+8.710805,0.34451,aoi,genericscales,slider_2,"(0.0, 550.8, 1920.0, 486.0)"
+8.710883,0.34451,state,genericscales,"background, visibility",1
+9.112588,0.34451,input,keyboard,SPACE,press
+9.313123,0.34451,input,keyboard,SPACE,release
+9.313981,0.34451,performance,genericscales,I have a desire to close my eyes,4
+9.314061,0.34451,performance,genericscales,I have a desire to lie down,4
+9.31417,0.34451,state,genericscales,"background, visibility",0
+9.329232,0.360142,aoi,sysmon,foreground,"(0, 1026.0, 672, 540.0)"
+9.329288,0.360142,aoi,sysmon,overdue,"(0, 1026.0, 672, 540.0)"
+9.333544,0.360142,aoi,sysmon,task_title,"(0, 1080.0, 672, 1026.0)"
+9.33375,0.360142,aoi,sysmon,automode,"(285.6, 592.65, 386.40000000000003, 565.65)"
+9.335605,0.360142,aoi,sysmon,scale1,"(50.4, 855.9, 117.6, 612.9)"
+9.336609,0.360142,aoi,sysmon,scale2,"(218.4, 855.9, 285.6, 612.9)"
+9.337493,0.360142,aoi,sysmon,scale3,"(386.4, 855.9, 453.59999999999997, 612.9)"
+9.338027,0.360142,aoi,sysmon,scale4,"(554.4, 855.9, 621.6, 612.9)"
+9.339046,0.360142,aoi,sysmon,light1,"(33.599999999999994, 977.4, 302.4, 904.5)"
+9.34045,0.360142,aoi,sysmon,light2,"(369.6, 977.4, 638.4000000000001, 904.5)"
+9.340474,0.360142,parameter,sysmon,title,System monitoring
+9.340483,0.360142,parameter,sysmon,taskplacement,topleft
+9.340489,0.360142,parameter,sysmon,taskupdatetime,200
+9.340498,0.360142,parameter,sysmon,taskfeedback-overdue-active,0
+9.340504,0.360142,parameter,sysmon,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+9.340511,0.360142,parameter,sysmon,taskfeedback-overdue-delayms,2000
+9.340517,0.360142,parameter,sysmon,taskfeedback-overdue-blinkdurationms,1000
+9.340523,0.360142,parameter,sysmon,taskfeedback-overdue-_nexttoggletime,0
+9.340529,0.360142,parameter,sysmon,taskfeedback-overdue-_is_visible,0
+9.340535,0.360142,parameter,sysmon,taskfeedback-overdue-widget,<core.widgets.frame.Frame object at 0x0000022A73F45310>
+9.340543,0.360142,parameter,sysmon,alerttimeout,10000
+9.340549,0.360142,parameter,sysmon,automaticsolver,0
+9.340555,0.360142,parameter,sysmon,automaticsolverdelay,1000
+9.34056,0.360142,parameter,sysmon,displayautomationstate,1
+9.340566,0.360142,parameter,sysmon,allowanykey,0
+9.340571,0.360142,parameter,sysmon,feedbackduration,1500
+9.340578,0.360142,parameter,sysmon,feedbacks-positive-active,1
+9.340584,0.360142,parameter,sysmon,feedbacks-positive-color,"(142, 219, 176, 255)"
+9.34059,0.360142,parameter,sysmon,feedbacks-negative-active,1
+9.340596,0.360142,parameter,sysmon,feedbacks-negative-color,"(241, 100, 100, 255)"
+9.340603,0.360142,parameter,sysmon,lights-1-name,F5
+9.340609,0.360142,parameter,sysmon,lights-1-failure,0
+9.340615,0.360142,parameter,sysmon,lights-1-default,on
+9.34062,0.360142,parameter,sysmon,lights-1-oncolor,"(142, 219, 176, 255)"
+9.340626,0.360142,parameter,sysmon,lights-1-key,F5
+9.340632,0.360142,parameter,sysmon,lights-1-on,1
+9.340637,0.360142,parameter,sysmon,lights-1-_failuretimer,
+9.340643,0.360142,parameter,sysmon,lights-1-_onfailure,0
+9.340648,0.360142,parameter,sysmon,lights-1-_milliresponsetime,0
+9.340654,0.360142,parameter,sysmon,lights-1-_freezetimer,
+9.34066,0.360142,parameter,sysmon,lights-1-widget,<core.widgets.light.Light object at 0x0000022A74102070>
+9.340667,0.360142,parameter,sysmon,lights-2-name,F6
+9.340673,0.360142,parameter,sysmon,lights-2-failure,0
+9.340678,0.360142,parameter,sysmon,lights-2-default,off
+9.340683,0.360142,parameter,sysmon,lights-2-oncolor,"(241, 100, 100, 255)"
+9.340689,0.360142,parameter,sysmon,lights-2-key,F6
+9.340695,0.360142,parameter,sysmon,lights-2-on,0
+9.3407,0.360142,parameter,sysmon,lights-2-_failuretimer,
+9.340706,0.360142,parameter,sysmon,lights-2-_onfailure,0
+9.340711,0.360142,parameter,sysmon,lights-2-_milliresponsetime,0
+9.340717,0.360142,parameter,sysmon,lights-2-_freezetimer,
+9.340723,0.360142,parameter,sysmon,lights-2-widget,<core.widgets.light.Light object at 0x0000022A7437D940>
+9.34073,0.360142,parameter,sysmon,scales-1-name,F1
+9.340735,0.360142,parameter,sysmon,scales-1-failure,0
+9.340741,0.360142,parameter,sysmon,scales-1-side,0
+9.340746,0.360142,parameter,sysmon,scales-1-key,F1
+9.340751,0.360142,parameter,sysmon,scales-1-_failuretimer,
+9.340757,0.360142,parameter,sysmon,scales-1-_onfailure,0
+9.340763,0.360142,parameter,sysmon,scales-1-_milliresponsetime,0
+9.340769,0.360142,parameter,sysmon,scales-1-_freezetimer,
+9.340775,0.360142,parameter,sysmon,scales-1-_pos,5
+9.34078,0.360142,parameter,sysmon,scales-1-_zone,0
+9.340786,0.360142,parameter,sysmon,scales-1-_feedbacktimer,
+9.340792,0.360142,parameter,sysmon,scales-1-_feedbacktype,
+9.340797,0.360142,parameter,sysmon,scales-1-widget,<core.widgets.scale.Scale object at 0x0000022A74111280>
+9.340804,0.360142,parameter,sysmon,scales-2-name,F2
+9.34081,0.360142,parameter,sysmon,scales-2-failure,0
+9.340815,0.360142,parameter,sysmon,scales-2-side,0
+9.340821,0.360142,parameter,sysmon,scales-2-key,F2
+9.340826,0.360142,parameter,sysmon,scales-2-_failuretimer,
+9.340831,0.360142,parameter,sysmon,scales-2-_onfailure,0
+9.340837,0.360142,parameter,sysmon,scales-2-_milliresponsetime,0
+9.340842,0.360142,parameter,sysmon,scales-2-_freezetimer,
+9.340847,0.360142,parameter,sysmon,scales-2-_pos,5
+9.340853,0.360142,parameter,sysmon,scales-2-_zone,0
+9.340858,0.360142,parameter,sysmon,scales-2-_feedbacktimer,
+9.340864,0.360142,parameter,sysmon,scales-2-_feedbacktype,
+9.340869,0.360142,parameter,sysmon,scales-2-widget,<core.widgets.scale.Scale object at 0x0000022A740D2AC0>
+9.340877,0.360142,parameter,sysmon,scales-3-name,F3
+9.340882,0.360142,parameter,sysmon,scales-3-failure,0
+9.340888,0.360142,parameter,sysmon,scales-3-side,0
+9.340894,0.360142,parameter,sysmon,scales-3-key,F3
+9.340899,0.360142,parameter,sysmon,scales-3-_failuretimer,
+9.340904,0.360142,parameter,sysmon,scales-3-_onfailure,0
+9.34091,0.360142,parameter,sysmon,scales-3-_milliresponsetime,0
+9.340915,0.360142,parameter,sysmon,scales-3-_freezetimer,
+9.340921,0.360142,parameter,sysmon,scales-3-_pos,5
+9.340926,0.360142,parameter,sysmon,scales-3-_zone,0
+9.340931,0.360142,parameter,sysmon,scales-3-_feedbacktimer,
+9.340937,0.360142,parameter,sysmon,scales-3-_feedbacktype,
+9.340942,0.360142,parameter,sysmon,scales-3-widget,<core.widgets.scale.Scale object at 0x0000022A740BA340>
+9.340949,0.360142,parameter,sysmon,scales-4-name,F4
+9.340955,0.360142,parameter,sysmon,scales-4-failure,0
+9.34096,0.360142,parameter,sysmon,scales-4-side,0
+9.340965,0.360142,parameter,sysmon,scales-4-key,F4
+9.340971,0.360142,parameter,sysmon,scales-4-_failuretimer,
+9.341044,0.360142,parameter,sysmon,scales-4-_onfailure,0
+9.341051,0.360142,parameter,sysmon,scales-4-_milliresponsetime,0
+9.341057,0.360142,parameter,sysmon,scales-4-_freezetimer,
+9.341062,0.360142,parameter,sysmon,scales-4-_pos,5
+9.341067,0.360142,parameter,sysmon,scales-4-_zone,0
+9.341073,0.360142,parameter,sysmon,scales-4-_feedbacktimer,
+9.341079,0.360142,parameter,sysmon,scales-4-_feedbacktype,
+9.341084,0.360142,parameter,sysmon,scales-4-widget,<core.widgets.scale.Scale object at 0x0000022A740F0520>
+9.341245,0.360142,state,sysmon,"foreground, visibility",1
+9.341323,0.360142,state,sysmon,"overdue, visibility",1
+9.345963,0.360142,event,sysmon,self,start
+9.34805,0.379056,seed_value,sysmon,,
+9.348073,0.379056,seed_output,sysmon,,-1
+9.3481,0.379056,seed_value,sysmon,,
+9.348109,0.379056,seed_output,sysmon,,1
+9.34813,0.379056,seed_value,sysmon,,
+9.348137,0.379056,seed_output,sysmon,,1
+9.348156,0.379056,seed_value,sysmon,,
+9.348164,0.379056,seed_output,sysmon,,-1
+9.348193,0.379056,state,sysmon,"foreground, visibility",0
+9.349062,0.379056,state,sysmon,"automode, text",MANUAL
+9.349094,0.379056,state,sysmon,"overdue, visibility",0
+9.349123,0.379056,state,sysmon,"scale1, arrow",4
+9.349138,0.379056,state,sysmon,"scale2, arrow",6
+9.349151,0.379056,state,sysmon,"scale3, arrow",6
+9.349162,0.379056,state,sysmon,"scale4, arrow",4
+9.34933,0.379056,aoi,track,foreground,"(672, 1026.0, 1632, 540.0)"
+9.349362,0.379056,aoi,track,overdue,"(672, 1026.0, 1632, 540.0)"
+9.351041,0.379056,aoi,track,task_title,"(672, 1080.0, 1632, 1026.0)"
+9.351175,0.379056,aoi,track,automode,"(957.5999999999999, 618.3, 1101.6, 591.3)"
+9.351293,0.379056,aoi,track,reticle,"(957.6, 977.4000000000001, 1346.4, 588.6)"
+9.351314,0.379056,parameter,track,title,Tracking
+9.351322,0.379056,parameter,track,taskplacement,topmid
+9.351328,0.379056,parameter,track,taskupdatetime,20
+9.351336,0.379056,parameter,track,taskfeedback-overdue-active,0
+9.351342,0.379056,parameter,track,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+9.351349,0.379056,parameter,track,taskfeedback-overdue-delayms,2000
+9.351355,0.379056,parameter,track,taskfeedback-overdue-blinkdurationms,1000
+9.35136,0.379056,parameter,track,taskfeedback-overdue-_nexttoggletime,0
+9.351366,0.379056,parameter,track,taskfeedback-overdue-_is_visible,0
+9.351372,0.379056,parameter,track,taskfeedback-overdue-widget,<core.widgets.frame.Frame object at 0x0000022A740D2700>
+9.35138,0.379056,parameter,track,cursorcolor,"(50, 50, 50, 255)"
+9.351386,0.379056,parameter,track,cursorcoloroutside,"(241, 100, 100, 255)"
+9.351392,0.379056,parameter,track,automaticsolver,0
+9.351397,0.379056,parameter,track,displayautomationstate,1
+9.351403,0.379056,parameter,track,targetproportion,0.25
+9.35141,0.379056,parameter,track,joystickforce,1
+9.351416,0.379056,parameter,track,inverseaxis,0
+9.351517,0.379056,state,track,"foreground, visibility",1
+9.351576,0.379056,state,track,"overdue, visibility",1
+9.352137,0.379056,event,track,self,start
+9.362165,0.393221,performance,track,cursor_in_target,1
+9.362209,0.393221,performance,track,center_deviation,0.0
+9.362251,0.393221,state,track,"foreground, visibility",0
+9.363473,0.393221,state,track,"automode, text",MANUAL
+9.36351,0.393221,state,track,"overdue, visibility",0
+9.363579,0.393221,state,track,"reticle, cursor_relative","(1.5551740801295997, 1.8661952105624855)"
+9.363598,0.393221,state,track,"reticle, cursor_proportional","(0.003999933333666666, 0.004799884800829438)"
+9.363807,0.393221,aoi,scheduling,foreground,"(1632, 1026.0, 1920, 540.0)"
+9.363845,0.393221,aoi,scheduling,overdue,"(1632, 1026.0, 1920, 540.0)"
+9.365931,0.393221,aoi,scheduling,task_title,"(1632, 1080.0, 1920, 1026.0)"
+9.383016,0.393221,aoi,scheduling,timeline,"(1660.8, 977.4000000000001, 1709.76, 637.2)"
+9.384365,0.393221,aoi,scheduling,elapsed_time,"(1632, 1026.0, 1920, 540.0)"
+9.38492,0.393221,aoi,scheduling,sysmon,"(1718.4, 977.4000000000001, 1767.3600000000001, 637.2)"
+9.385337,0.393221,aoi,scheduling,track,"(1761.6, 977.4000000000001, 1810.56, 637.2)"
+9.385792,0.393221,aoi,scheduling,communications,"(1804.8, 977.4000000000001, 1853.76, 637.2)"
+9.38624,0.393221,aoi,scheduling,resman,"(1848.0, 977.4000000000001, 1896.96, 637.2)"
+9.386261,0.393221,parameter,scheduling,title,Scheduling
+9.386269,0.393221,parameter,scheduling,taskplacement,topright
+9.386276,0.393221,parameter,scheduling,taskupdatetime,1000
+9.386285,0.393221,parameter,scheduling,taskfeedback-overdue-active,0
+9.386292,0.393221,parameter,scheduling,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+9.386298,0.393221,parameter,scheduling,taskfeedback-overdue-delayms,2000
+9.386304,0.393221,parameter,scheduling,taskfeedback-overdue-blinkdurationms,1000
+9.38631,0.393221,parameter,scheduling,taskfeedback-overdue-_nexttoggletime,0
+9.386316,0.393221,parameter,scheduling,taskfeedback-overdue-_is_visible,0
+9.386323,0.393221,parameter,scheduling,taskfeedback-overdue-widget,<core.widgets.frame.Frame object at 0x0000022A7409A8B0>
+9.386331,0.393221,parameter,scheduling,minduration,8
+9.386337,0.393221,parameter,scheduling,displaychronometer,1
+9.386342,0.393221,parameter,scheduling,reversechronometer,0
+9.386348,0.393221,parameter,scheduling,displayedplugins,"['sysmon', 'track', 'communications', 'resman']"
+9.386356,0.393221,parameter,scheduling,labels,"['S', 'T', 'C', 'R']"
+9.386463,0.393221,state,scheduling,"foreground, visibility",1
+9.386501,0.393221,state,scheduling,"overdue, visibility",1
+9.389544,0.393221,event,scheduling,self,start
+9.391587,0.422658,performance,track,cursor_in_target,1
+9.39161,0.422658,performance,track,center_deviation,2.429249
+9.391678,0.422658,state,track,"reticle, cursor_relative","(2.3327125209841446, 2.7992088370088615)"
+9.391694,0.422658,state,track,"reticle, cursor_proportional","(0.005999775002531236, 0.007199611206298512)"
+9.391723,0.422658,state,scheduling,"foreground, visibility",0
+9.391742,0.422658,state,scheduling,"overdue, visibility",0
+9.39182,0.422658,state,scheduling,"sysmon, top_bound_color","(142, 219, 176, 255)"
+9.391938,0.422658,state,scheduling,"track, top_bound_color","(142, 219, 176, 255)"
+9.392018,0.422658,state,scheduling,"communications, top_bound_color","(142, 219, 176, 255)"
+9.392115,0.422658,state,scheduling,"resman, top_bound_color","(142, 219, 176, 255)"
+9.392308,0.422658,aoi,resman,foreground,"(576, 486.0, 1632, 0.0)"
+9.392338,0.422658,aoi,resman,overdue,"(576, 486.0, 1632, 0.0)"
+9.393352,0.422658,aoi,resman,task_title,"(576, 540.0, 1632, 486.0)"
+9.39346,0.422658,aoi,resman,automode,"(1006.848, 309.15000000000003, 1165.248, 282.15000000000003)"
+9.393557,0.422658,aoi,resman,status_foreground,"(1632, 486.0, 1920, 0.0)"
+9.394839,0.422658,aoi,resman,status_title,"(1632, 540.0, 1920, 486.0)"
+9.395497,0.422658,aoi,resman,pump_1_flow,"(1632, 486.0, 1920, 432.0)"
+9.396194,0.422658,aoi,resman,pump_2_flow,"(1632, 432.00000000000006, 1920, 378.00000000000006)"
+9.396789,0.422658,aoi,resman,pump_3_flow,"(1632, 378.00000000000006, 1920, 324.00000000000006)"
+9.397462,0.422658,aoi,resman,pump_4_flow,"(1632, 324.0, 1920, 270.0)"
+9.398064,0.422658,aoi,resman,pump_5_flow,"(1632, 270.0, 1920, 216.0)"
+9.398612,0.422658,aoi,resman,pump_6_flow,"(1632, 216.00000000000003, 1920, 162.00000000000003)"
+9.399167,0.422658,aoi,resman,pump_7_flow,"(1632, 161.99999999999997, 1920, 107.99999999999997)"
+9.399677,0.422658,aoi,resman,pump_8_flow,"(1632, 107.99999999999999, 1920, 53.999999999999986)"
+9.400467,0.422658,aoi,resman,tank_a,"(723.84, 437.4, 882.24, 267.3)"
+9.401492,0.422658,aoi,resman,tank_b,"(1251.8400000000001, 437.4, 1410.2400000000002, 267.3)"
+9.402311,0.422658,aoi,resman,tank_c,"(628.8, 243.0, 734.4, 72.89999999999999)"
+9.403339,0.422658,aoi,resman,tank_d,"(1156.8000000000002, 243.0, 1262.4, 72.89999999999999)"
+9.403775,0.422658,aoi,resman,tank_e,"(892.8, 243.0, 1019.52, 72.89999999999999)"
+9.404184,0.422658,aoi,resman,tank_f,"(1420.8000000000002, 243.0, 1547.5200000000002, 72.89999999999999)"
+9.407371,0.422658,parameter,resman,title,Resources management
+9.407387,0.422658,parameter,resman,taskplacement,bottommid
+9.407427,0.422658,parameter,resman,taskupdatetime,2000
+9.407437,0.422658,parameter,resman,taskfeedback-overdue-active,0
+9.407443,0.422658,parameter,resman,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+9.407451,0.422658,parameter,resman,taskfeedback-overdue-delayms,2000
+9.407457,0.422658,parameter,resman,taskfeedback-overdue-blinkdurationms,1000
+9.407463,0.422658,parameter,resman,taskfeedback-overdue-_nexttoggletime,0
+9.407469,0.422658,parameter,resman,taskfeedback-overdue-_is_visible,0
+9.407475,0.422658,parameter,resman,taskfeedback-overdue-widget,<core.widgets.frame.Frame object at 0x0000022A740C49A0>
+9.407483,0.422658,parameter,resman,automaticsolver,0
+9.407488,0.422658,parameter,resman,displayautomationstate,1
+9.407494,0.422658,parameter,resman,pumpcoloroff,"(255, 255, 255, 255)"
+9.4075,0.422658,parameter,resman,pumpcoloron,"(142, 219, 176, 255)"
+9.407506,0.422658,parameter,resman,pumpcolorfailure,"(241, 100, 100, 255)"
+9.407512,0.422658,parameter,resman,toleranceradius,250
+9.407517,0.422658,parameter,resman,statuslocation,bottomright
+9.407523,0.422658,parameter,resman,displaystatus,1
+9.407528,0.422658,parameter,resman,tolerancecolor,"(50, 50, 50, 255)"
+9.407534,0.422658,parameter,resman,tolerancecoloroutside,"(50, 50, 50, 255)"
+9.407541,0.422658,parameter,resman,tank-a-level,2500
+9.407547,0.422658,parameter,resman,tank-a-max,4000
+9.407553,0.422658,parameter,resman,tank-a-target,2500
+9.407558,0.422658,parameter,resman,tank-a-depletable,1
+9.407564,0.422658,parameter,resman,tank-a-lossperminute,800
+9.407569,0.422658,parameter,resman,tank-a-_infoside,left
+9.407575,0.422658,parameter,resman,tank-a-_response_time,0
+9.40758,0.422658,parameter,resman,tank-a-_is_in_tolerance,
+9.407586,0.422658,parameter,resman,tank-a-_tolerance_color,"(50, 50, 50, 255)"
+9.407592,0.422658,parameter,resman,tank-a-widget,<core.widgets.tank.Tank object at 0x0000022A742DC4F0>
+9.407599,0.422658,parameter,resman,tank-b-level,2500
+9.407605,0.422658,parameter,resman,tank-b-max,4000
+9.40761,0.422658,parameter,resman,tank-b-target,2500
+9.407616,0.422658,parameter,resman,tank-b-depletable,1
+9.407621,0.422658,parameter,resman,tank-b-lossperminute,800
+9.407627,0.422658,parameter,resman,tank-b-_infoside,right
+9.407632,0.422658,parameter,resman,tank-b-_response_time,0
+9.407637,0.422658,parameter,resman,tank-b-_is_in_tolerance,
+9.407643,0.422658,parameter,resman,tank-b-_tolerance_color,"(50, 50, 50, 255)"
+9.407649,0.422658,parameter,resman,tank-b-widget,<core.widgets.tank.Tank object at 0x0000022A742E7F70>
+9.407656,0.422658,parameter,resman,tank-c-level,1000
+9.407661,0.422658,parameter,resman,tank-c-max,2000
+9.407667,0.422658,parameter,resman,tank-c-target,
+9.407672,0.422658,parameter,resman,tank-c-depletable,1
+9.407677,0.422658,parameter,resman,tank-c-lossperminute,0
+9.407683,0.422658,parameter,resman,tank-c-_infoside,left
+9.407688,0.422658,parameter,resman,tank-c-widget,<core.widgets.tank.Tank object at 0x0000022A742F3CD0>
+9.407694,0.422658,parameter,resman,tank-d-level,1000
+9.4077,0.422658,parameter,resman,tank-d-max,2000
+9.407705,0.422658,parameter,resman,tank-d-target,
+9.407711,0.422658,parameter,resman,tank-d-depletable,1
+9.407716,0.422658,parameter,resman,tank-d-lossperminute,0
+9.407721,0.422658,parameter,resman,tank-d-_infoside,left
+9.407727,0.422658,parameter,resman,tank-d-widget,<core.widgets.tank.Tank object at 0x0000022A742FE880>
+9.407733,0.422658,parameter,resman,tank-e-level,3000
+9.407739,0.422658,parameter,resman,tank-e-max,4000
+9.407744,0.422658,parameter,resman,tank-e-target,
+9.40775,0.422658,parameter,resman,tank-e-depletable,0
+9.407756,0.422658,parameter,resman,tank-e-lossperminute,0
+9.407761,0.422658,parameter,resman,tank-e-_infoside,right
+9.407766,0.422658,parameter,resman,tank-e-widget,<core.widgets.tank.Tank object at 0x0000022A74305E80>
+9.407773,0.422658,parameter,resman,tank-f-level,3000
+9.407779,0.422658,parameter,resman,tank-f-max,4000
+9.407784,0.422658,parameter,resman,tank-f-target,
+9.407789,0.422658,parameter,resman,tank-f-depletable,0
+9.407794,0.422658,parameter,resman,tank-f-lossperminute,0
+9.4078,0.422658,parameter,resman,tank-f-_infoside,right
+9.407805,0.422658,parameter,resman,tank-f-widget,<core.widgets.tank.Tank object at 0x0000022A7430FA00>
+9.407812,0.422658,parameter,resman,pump-1-flow,800
+9.407818,0.422658,parameter,resman,pump-1-state,off
+9.407823,0.422658,parameter,resman,pump-1-key,NUM_1
+9.407829,0.422658,parameter,resman,pump-1-_fromtank,c
+9.407834,0.422658,parameter,resman,pump-1-_totank,a
+9.407839,0.422658,parameter,resman,pump-1-statuswidget,<core.widgets.pumpflow.PumpFlow object at 0x0000022A743C3850>
+9.407846,0.422658,parameter,resman,pump-1-widget,<core.widgets.pump.Pump object at 0x0000022A744E6DF0>
+9.407853,0.422658,parameter,resman,pump-2-flow,600
+9.407858,0.422658,parameter,resman,pump-2-state,off
+9.407863,0.422658,parameter,resman,pump-2-key,NUM_2
+9.407869,0.422658,parameter,resman,pump-2-_fromtank,e
+9.407875,0.422658,parameter,resman,pump-2-_totank,a
+9.40788,0.422658,parameter,resman,pump-2-statuswidget,<core.widgets.pumpflow.PumpFlow object at 0x0000022A743C9D90>
+9.407887,0.422658,parameter,resman,pump-2-widget,<core.widgets.pump.Pump object at 0x0000022A744EADF0>
+9.407893,0.422658,parameter,resman,pump-3-flow,800
+9.407899,0.422658,parameter,resman,pump-3-state,off
+9.407904,0.422658,parameter,resman,pump-3-key,NUM_3
+9.407909,0.422658,parameter,resman,pump-3-_fromtank,d
+9.407914,0.422658,parameter,resman,pump-3-_totank,b
+9.40792,0.422658,parameter,resman,pump-3-statuswidget,<core.widgets.pumpflow.PumpFlow object at 0x0000022A743D97C0>
+9.407926,0.422658,parameter,resman,pump-3-widget,<core.widgets.pump.Pump object at 0x0000022A744F2DF0>
+9.407933,0.422658,parameter,resman,pump-4-flow,600
+9.407938,0.422658,parameter,resman,pump-4-state,off
+9.407943,0.422658,parameter,resman,pump-4-key,NUM_4
+9.407948,0.422658,parameter,resman,pump-4-_fromtank,f
+9.407953,0.422658,parameter,resman,pump-4-_totank,b
+9.407959,0.422658,parameter,resman,pump-4-statuswidget,<core.widgets.pumpflow.PumpFlow object at 0x0000022A743D9EE0>
+9.407966,0.422658,parameter,resman,pump-4-widget,<core.widgets.pump.Pump object at 0x0000022A744F7BE0>
+9.407972,0.422658,parameter,resman,pump-5-flow,600
+9.407978,0.422658,parameter,resman,pump-5-state,off
+9.407983,0.422658,parameter,resman,pump-5-key,NUM_5
+9.407988,0.422658,parameter,resman,pump-5-_fromtank,e
+9.407994,0.422658,parameter,resman,pump-5-_totank,c
+9.407999,0.422658,parameter,resman,pump-5-statuswidget,<core.widgets.pumpflow.PumpFlow object at 0x0000022A743DDEE0>
+9.408005,0.422658,parameter,resman,pump-5-widget,<core.widgets.pump.Pump object at 0x0000022A744FDBE0>
+9.408011,0.422658,parameter,resman,pump-6-flow,600
+9.408016,0.422658,parameter,resman,pump-6-state,off
+9.408022,0.422658,parameter,resman,pump-6-key,NUM_6
+9.408027,0.422658,parameter,resman,pump-6-_fromtank,f
+9.408032,0.422658,parameter,resman,pump-6-_totank,d
+9.408037,0.422658,parameter,resman,pump-6-statuswidget,<core.widgets.pumpflow.PumpFlow object at 0x0000022A742D3BB0>
+9.408043,0.422658,parameter,resman,pump-6-widget,<core.widgets.pump.Pump object at 0x0000022A74502DC0>
+9.40805,0.422658,parameter,resman,pump-7-flow,400
+9.408056,0.422658,parameter,resman,pump-7-state,off
+9.408061,0.422658,parameter,resman,pump-7-key,NUM_7
+9.408066,0.422658,parameter,resman,pump-7-_fromtank,a
+9.408071,0.422658,parameter,resman,pump-7-_totank,b
+9.408076,0.422658,parameter,resman,pump-7-statuswidget,<core.widgets.pumpflow.PumpFlow object at 0x0000022A742D8B50>
+9.408083,0.422658,parameter,resman,pump-7-widget,<core.widgets.pump.Pump object at 0x0000022A74506EB0>
+9.408089,0.422658,parameter,resman,pump-8-flow,400
+9.408094,0.422658,parameter,resman,pump-8-state,off
+9.408099,0.422658,parameter,resman,pump-8-key,NUM_8
+9.408104,0.422658,parameter,resman,pump-8-_fromtank,b
+9.40811,0.422658,parameter,resman,pump-8-_totank,a
+9.408115,0.422658,parameter,resman,pump-8-statuswidget,<core.widgets.pumpflow.PumpFlow object at 0x0000022A742DC8B0>
+9.408121,0.422658,parameter,resman,pump-8-widget,<core.widgets.pump.Pump object at 0x0000022A7450EDC0>
+9.408263,0.422658,state,resman,"foreground, visibility",1
+9.408306,0.422658,state,resman,"overdue, visibility",1
+9.408774,0.422658,state,resman,"status_foreground, visibility",1
+9.415039,0.422658,state,resman,"status_foreground, visibility",0
+9.41506,0.422658,event,resman,self,start
+9.42304,0.454096,performance,track,cursor_in_target,1
+9.423069,0.454096,performance,track,center_deviation,3.643778
+9.423148,0.454096,state,track,"reticle, cursor_relative","(3.110192644147161, 3.7321216922394194)"
+9.423167,0.454096,state,track,"reticle, cursor_proportional","(0.007999466677333233, 0.009599078426541716)"
+9.423481,0.454096,performance,resman,a_in_tolerance,1
+9.423497,0.454096,performance,resman,a_deviation,0
+9.423512,0.454096,performance,resman,b_in_tolerance,1
+9.423521,0.454096,performance,resman,b_deviation,0
+9.423545,0.454096,state,resman,"foreground, visibility",0
+9.423869,0.454096,state,resman,"automode, text",MANUAL
+9.423894,0.454096,state,resman,"overdue, visibility",0
+9.424253,0.454096,aoi,communications,foreground,"(0, 486.0, 576, 0.0)"
+9.424298,0.454096,aoi,communications,overdue,"(0, 486.0, 576, 0.0)"
+9.42519,0.454096,aoi,communications,task_title,"(0, 540.0, 576, 486.0)"
+9.425388,0.454096,aoi,communications,automode,"(244.8, 129.60000000000002, 331.2, 102.60000000000001)"
+9.427344,0.454096,aoi,communications,callsign,"(0, 486.0, 576, 0.0)"
+9.427388,0.454096,seed_value,communications,,
+9.427399,0.454096,seed_output,communications,,3
+9.428717,0.454096,aoi,communications,radio_NAV_1,"(0, 388.8, 576, 340.2)"
+9.429941,0.454096,aoi,communications,radio_NAV_2,"(0, 325.62, 576, 277.02)"
+9.430734,0.454096,aoi,communications,radio_COM_1,"(0, 262.44, 576, 213.83999999999997)"
+9.431546,0.454096,state,communications,"radio_COM_2, selected",1
+9.431566,0.454096,aoi,communications,radio_COM_2,"(0, 199.25999999999996, 576, 150.65999999999997)"
+9.431583,0.454096,parameter,communications,title,Communications
+9.431592,0.454096,parameter,communications,taskplacement,bottomleft
+9.4316,0.454096,parameter,communications,taskupdatetime,80
+9.431609,0.454096,parameter,communications,taskfeedback-overdue-active,0
+9.431618,0.454096,parameter,communications,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+9.431626,0.454096,parameter,communications,taskfeedback-overdue-delayms,2000
+9.431634,0.454096,parameter,communications,taskfeedback-overdue-blinkdurationms,1000
+9.431642,0.454096,parameter,communications,taskfeedback-overdue-_nexttoggletime,0
+9.43165,0.454096,parameter,communications,taskfeedback-overdue-_is_visible,0
+9.431657,0.454096,parameter,communications,taskfeedback-overdue-widget,<core.widgets.frame.Frame object at 0x0000022A7450ECD0>
+9.431667,0.454096,parameter,communications,callsignregex,[A-Z][A-Z][A-Z]\d\d\d
+9.431675,0.454096,parameter,communications,owncallsign,BJW275
+9.431682,0.454096,parameter,communications,othercallsign,"['LCN879', 'CLN158', 'IBX875', 'CGE412', 'BLS903']"
+9.431691,0.454096,parameter,communications,othercallsignnumber,5
+9.431698,0.454096,parameter,communications,airbandminMhz,108.0
+9.431707,0.454096,parameter,communications,airbandmaxMhz,137.0
+9.431714,0.454096,parameter,communications,airbandminvariationMhz,5
+9.431721,0.454096,parameter,communications,airbandmaxvariationMhz,6
+9.431729,0.454096,parameter,communications,voicegender,female
+9.431736,0.454096,parameter,communications,voiceidiom,french
+9.431743,0.454096,parameter,communications,radioprompt,
+9.43175,0.454096,parameter,communications,maxresponsedelay,20000
+9.431757,0.454096,parameter,communications,promptlist,"['NAV_1', 'NAV_2', 'COM_1', 'COM_2']"
+9.431766,0.454096,parameter,communications,automaticsolver,0
+9.431773,0.454096,parameter,communications,displayautomationstate,1
+9.431781,0.454096,parameter,communications,feedbackduration,1500
+9.431789,0.454096,parameter,communications,feedbacks-positive-active,0
+9.431797,0.454096,parameter,communications,feedbacks-positive-color,"(142, 219, 176, 255)"
+9.431806,0.454096,parameter,communications,feedbacks-negative-active,0
+9.431813,0.454096,parameter,communications,feedbacks-negative-color,"(241, 100, 100, 255)"
+9.431822,0.454096,parameter,communications,keys-selectradioup,UP
+9.431829,0.454096,parameter,communications,keys-selectradiodown,DOWN
+9.431836,0.454096,parameter,communications,keys-tunefrequencyup,RIGHT
+9.431844,0.454096,parameter,communications,keys-tunefrequencydown,LEFT
+9.431851,0.454096,parameter,communications,keys-validateresponse,ENTER
+9.431859,0.454096,parameter,communications,radios-0-name,NAV_1
+9.431867,0.454096,parameter,communications,radios-0-currentfreq,121.3
+9.431876,0.454096,parameter,communications,radios-0-targetfreq,
+9.431883,0.454096,parameter,communications,radios-0-pos,0
+9.431891,0.454096,parameter,communications,radios-0-response_time,0
+9.431899,0.454096,parameter,communications,radios-0-is_active,0
+9.431906,0.454096,parameter,communications,radios-0-is_prompting,0
+9.431914,0.454096,parameter,communications,radios-0-_feedbacktimer,
+9.431921,0.454096,parameter,communications,radios-0-_feedbacktype,
+9.431929,0.454096,parameter,communications,radios-0-widget,<core.widgets.radio.Radio object at 0x0000022A74512190>
+9.431939,0.454096,parameter,communications,radios-1-name,NAV_2
+9.431947,0.454096,parameter,communications,radios-1-currentfreq,119.0
+9.431955,0.454096,parameter,communications,radios-1-targetfreq,
+9.431962,0.454096,parameter,communications,radios-1-pos,1
+9.431969,0.454096,parameter,communications,radios-1-response_time,0
+9.431977,0.454096,parameter,communications,radios-1-is_active,0
+9.431984,0.454096,parameter,communications,radios-1-is_prompting,0
+9.431991,0.454096,parameter,communications,radios-1-_feedbacktimer,
+9.431998,0.454096,parameter,communications,radios-1-_feedbacktype,
+9.432005,0.454096,parameter,communications,radios-1-widget,<core.widgets.radio.Radio object at 0x0000022A7453AC40>
+9.432015,0.454096,parameter,communications,radios-2-name,COM_1
+9.432022,0.454096,parameter,communications,radios-2-currentfreq,126.5
+9.43203,0.454096,parameter,communications,radios-2-targetfreq,
+9.432037,0.454096,parameter,communications,radios-2-pos,2
+9.432045,0.454096,parameter,communications,radios-2-response_time,0
+9.432053,0.454096,parameter,communications,radios-2-is_active,0
+9.43206,0.454096,parameter,communications,radios-2-is_prompting,0
+9.432068,0.454096,parameter,communications,radios-2-_feedbacktimer,
+9.432075,0.454096,parameter,communications,radios-2-_feedbacktype,
+9.432082,0.454096,parameter,communications,radios-2-widget,<core.widgets.radio.Radio object at 0x0000022A74540E20>
+9.432091,0.454096,parameter,communications,radios-3-name,COM_2
+9.432098,0.454096,parameter,communications,radios-3-currentfreq,109.1
+9.432106,0.454096,parameter,communications,radios-3-targetfreq,
+9.432113,0.454096,parameter,communications,radios-3-pos,3
+9.432121,0.454096,parameter,communications,radios-3-response_time,0
+9.432128,0.454096,parameter,communications,radios-3-is_active,1
+9.432135,0.454096,parameter,communications,radios-3-is_prompting,0
+9.432142,0.454096,parameter,communications,radios-3-_feedbacktimer,
+9.432149,0.454096,parameter,communications,radios-3-_feedbacktype,
+9.432156,0.454096,parameter,communications,radios-3-widget,<core.widgets.radio.Radio object at 0x0000022A7454AFD0>
+9.432285,0.454096,state,communications,"foreground, visibility",1
+9.432332,0.454096,state,communications,"overdue, visibility",1
+9.43305,0.454096,state,communications,"radio_COM_2, selected",1
+9.433068,0.454096,event,communications,self,start
+9.43678,0.467512,state,communications,"foreground, visibility",0
+9.437182,0.467512,state,communications,"automode, text",MANUAL
+9.437211,0.467512,state,communications,"overdue, visibility",0
+9.43738,0.467512,state,communications,"callsign, text",BJW275
+9.445859,0.476744,performance,track,cursor_in_target,1
+9.445973,0.476744,performance,track,center_deviation,4.858192
+9.446149,0.476744,state,track,"reticle, cursor_relative","(3.887595012656062, 4.6649001914921255)"
+9.446216,0.476744,state,track,"reticle, cursor_proportional","(0.009998958365884934, 0.011998200080998264)"
+9.479087,0.510069,performance,track,cursor_in_target,1
+9.479158,0.510069,performance,track,center_deviation,6.072453
+9.479341,0.510069,state,track,"reticle, cursor_relative","(4.6649001914921255, 5.597510754841746)"
+9.479384,0.510069,state,track,"reticle, cursor_proportional","(0.011998200080998264, 0.014396889801547701)"
+9.512677,0.54356,performance,track,cursor_in_target,1
+9.512783,0.54356,performance,track,center_deviation,7.286523
+9.513028,0.54356,state,track,"reticle, cursor_relative","(5.442088748066365, 6.529919808408723)"
+9.513094,0.54356,state,track,"reticle, cursor_proportional","(0.013997141841734478, 0.016795061235619142)"
+9.546347,0.577318,performance,track,cursor_in_target,1
+9.546419,0.577318,performance,track,center_deviation,8.500364
+9.546579,0.577318,state,track,"reticle, cursor_relative","(6.219141252705345, 7.462093785567828)"
+9.546615,0.577318,state,track,"reticle, cursor_proportional","(0.015995733674653664, 0.01919262804929997)"
+9.564422,0.594109,seed_value,sysmon,,
+9.564481,0.594109,seed_output,sysmon,,1
+9.564538,0.594109,seed_value,sysmon,,
+9.564558,0.594109,seed_output,sysmon,,1
+9.564601,0.594109,seed_value,sysmon,,
+9.564617,0.594109,seed_output,sysmon,,-1
+9.564659,0.594109,seed_value,sysmon,,
+9.564674,0.594109,seed_output,sysmon,,1
+9.564743,0.594109,state,sysmon,"scale1, arrow",5
+9.564771,0.594109,state,sysmon,"scale2, arrow",7
+9.564795,0.594109,state,sysmon,"scale3, arrow",5
+9.56482,0.594109,state,sysmon,"scale4, arrow",5
+9.579281,0.610222,performance,track,cursor_in_target,1
+9.579364,0.610222,performance,track,center_deviation,9.713936
+9.579549,0.610222,state,track,"reticle, cursor_relative","(6.99603827913692, 8.393999128156556)"
+9.579592,0.610222,state,track,"reticle, cursor_proportional","(0.017993925615064094, 0.02158950393044382)"
+9.612449,0.643424,performance,track,cursor_in_target,1
+9.612524,0.643424,performance,track,center_deviation,10.927203
+9.612699,0.643424,state,track,"reticle, cursor_relative","(7.772760404975894, 9.325602287683223)"
+9.612744,0.643424,state,track,"reticle, cursor_proportional","(0.01999166770827133, 0.023985602591777837)"
+9.645579,0.676632,performance,track,cursor_in_target,1
+9.645614,0.676632,performance,track,center_deviation,12.140126
+9.645685,0.676632,state,track,"reticle, cursor_relative","(8.549288212209573, 10.256869726534697)"
+9.645699,0.676632,state,track,"reticle, cursor_proportional","(0.02198891001082709, 0.026380837774008993)"
+9.678767,0.70981,performance,track,cursor_in_target,1
+9.678805,0.70981,performance,track,center_deviation,13.352667
+9.678878,0.70981,state,track,"reticle, cursor_relative","(9.325602287683223, 11.187767919183756)"
+9.678898,0.70981,state,track,"reticle, cursor_proportional","(0.023985602591777837, 0.02877512324892941)"
+9.712396,0.743388,performance,track,cursor_in_target,1
+9.712467,0.743388,performance,track,center_deviation,14.564787
+9.712622,0.743388,state,track,"reticle, cursor_relative","(10.101683223585388, 12.118263353396005)"
+9.712663,0.743388,state,track,"reticle, cursor_proportional","(0.025981695533913034, 0.031168372822520586)"
+9.745712,0.776671,performance,track,cursor_in_target,1
+9.745799,0.776671,performance,track,center_deviation,15.776448
+9.745992,0.776671,state,track,"reticle, cursor_relative","(10.877511617933095, 13.0483225314363)"
+9.746042,0.776671,state,track,"reticle, cursor_proportional","(0.027977138935013104, 0.033560500338056326)"
+9.779092,0.810076,performance,track,cursor_in_target,1
+9.779163,0.810076,performance,track,center_deviation,16.987613
+9.779328,0.810076,state,track,"reticle, cursor_relative","(11.65306807505689, 13.97791197127468)"
+9.779368,0.810076,state,track,"reticle, cursor_proportional","(0.02997188290909694, 0.03595141967920443)"
+9.780298,0.810076,seed_value,sysmon,,
+9.780325,0.810076,seed_output,sysmon,,-1
+9.780369,0.810076,seed_value,sysmon,,
+9.780384,0.810076,seed_output,sysmon,,1
+9.78042,0.810076,seed_value,sysmon,,
+9.780432,0.810076,seed_output,sysmon,,-1
+9.780466,0.810076,seed_value,sysmon,,
+9.780479,0.810076,seed_output,sysmon,,-1
+9.78053,0.810076,state,sysmon,"scale1, arrow",4
+9.780557,0.810076,state,sysmon,"scale2, arrow",6
+9.780578,0.810076,state,sysmon,"scale3, arrow",4
+9.780598,0.810076,state,sysmon,"scale4, arrow",4
+9.813197,0.844124,performance,track,cursor_in_target,1
+9.813289,0.844124,performance,track,center_deviation,18.198242
+9.813494,0.844124,state,track,"reticle, cursor_relative","(12.428333206085739, 14.906998207791709)"
+9.813536,0.844124,state,track,"reticle, cursor_proportional","(0.031965877587669084, 0.038341044773126824)"
+9.845825,0.876796,performance,track,cursor_in_target,1
+9.845895,0.876796,performance,track,center_deviation,19.408299
+9.846054,0.876796,state,track,"reticle, cursor_relative","(13.203287629431742, 15.83554779398321)"
+9.846089,0.876796,state,track,"reticle, cursor_proportional","(0.03395907312096641, 0.040729289593578216)"
+9.879166,0.910135,performance,track,cursor_in_target,1
+9.879247,0.910135,performance,track,center_deviation,20.617744
+9.879424,0.910135,state,track,"reticle, cursor_relative","(13.97791197127468, 16.763527302164366)"
+9.87947,0.910135,state,track,"reticle, cursor_proportional","(0.03595141967920443, 0.043116068164003)"
+9.912592,0.943569,performance,track,cursor_in_target,1
+9.912667,0.943569,performance,track,center_deviation,21.826541
+9.912828,0.943569,state,track,"reticle, cursor_relative","(14.752186866046355, 17.6909033251731)"
+9.912869,0.943569,state,track,"reticle, cursor_proportional","(0.03794286745382293, 0.0455012945606304)"
+9.945522,0.976564,performance,track,cursor_in_target,1
+9.945563,0.976564,performance,track,center_deviation,23.03465
+9.94565,0.976564,state,track,"reticle, cursor_relative","(15.526092956914718, 18.617642477572748)"
+9.945669,0.976564,state,track,"reticle, cursor_proportional","(0.03993336665873127, 0.047884882915567764)"
+9.978927,1.009961,performance,track,cursor_in_target,1
+9.978976,1.009961,performance,track,center_deviation,24.242033
+9.97908,1.009961,state,track,"reticle, cursor_relative","(16.299610896267808, 19.543711396853897)"
+9.979105,1.009961,state,track,"reticle, cursor_proportional","(0.041922867531553006, 0.05026674741989171)"
+9.979704,1.009961,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:01
+9.99595,1.026557,seed_value,sysmon,,
+9.995977,1.026557,seed_output,sysmon,,-1
+9.996002,1.026557,seed_value,sysmon,,
+9.99601,1.026557,seed_output,sysmon,,-1
+9.996028,1.026557,seed_value,sysmon,,
+9.996037,1.026557,seed_output,sysmon,,-1
+9.996054,1.026557,seed_value,sysmon,,
+9.996062,1.026557,seed_output,sysmon,,-1
+9.996092,1.026557,state,sysmon,"scale1, arrow",3
+9.996106,1.026557,state,sysmon,"scale2, arrow",5
+9.996118,1.026557,state,sysmon,"scale3, arrow",3
+9.996128,1.026557,state,sysmon,"scale4, arrow",3
+10.012262,1.043274,performance,track,cursor_in_target,1
+10.012306,1.043274,performance,track,center_deviation,25.448654
+10.012436,1.043274,state,track,"reticle, cursor_relative","(17.072721346197433, 20.469076744635483)"
+10.012456,1.043274,state,track,"reticle, cursor_proportional","(0.04391132033486994, 0.05264680232673735)"
+10.045574,1.0766,performance,track,cursor_in_target,1
+10.045627,1.0766,performance,track,center_deviation,26.654473
+10.045743,1.0766,state,track,"reticle, cursor_relative","(17.845404978982604, 21.393705207864922)"
+10.045773,1.0766,state,track,"reticle, cursor_proportional","(0.04589867535746554, 0.05502496195438509)"
+10.078954,1.109983,performance,track,cursor_in_target,1
+10.07899,1.109983,performance,track,center_deviation,27.859453
+10.079069,1.109983,state,track,"reticle, cursor_relative","(18.617642477572748, 22.317563500017393)"
+10.079086,1.109983,state,track,"reticle, cursor_proportional","(0.047884882915567764, 0.05740114068934515)"
+10.112364,1.143361,performance,track,cursor_in_target,1
+10.112428,1.143361,performance,track,center_deviation,29.063555
+10.11258,1.143361,state,track,"reticle, cursor_relative","(19.389414536070618, 23.24061836229416)"
+10.112672,1.143361,state,track,"reticle, cursor_proportional","(0.049869893354091095, 0.05977525298943971)"
+10.145601,1.176633,performance,track,cursor_in_target,1
+10.145638,1.176633,performance,track,center_deviation,30.266743
+10.145712,1.176633,state,track,"reticle, cursor_relative","(20.16070186021495, 24.162836564819866)"
+10.145729,1.176633,state,track,"reticle, cursor_proportional","(0.051853657047877956, 0.062147213386882366)"
+10.181533,1.212584,performance,track,cursor_in_target,1
+10.181573,1.212584,performance,track,center_deviation,31.468978
+10.181648,1.212584,state,track,"reticle, cursor_relative","(20.931485167862814, 25.08418490783882)"
+10.181664,1.212584,state,track,"reticle, cursor_proportional","(0.053836124402939334, 0.064516936491355)"
+10.196984,1.227564,seed_value,sysmon,,
+10.19701,1.227564,seed_output,sysmon,,1
+10.197029,1.227564,seed_value,sysmon,,
+10.197036,1.227564,seed_output,sysmon,,1
+10.197052,1.227564,seed_value,sysmon,,
+10.197057,1.227564,seed_output,sysmon,,-1
+10.197071,1.227564,seed_value,sysmon,,
+10.197077,1.227564,seed_output,sysmon,,1
+10.197104,1.227564,state,sysmon,"scale1, arrow",4
+10.197117,1.227564,state,sysmon,"scale2, arrow",6
+10.197126,1.227564,state,sysmon,"scale3, arrow",4
+10.197135,1.227564,state,sysmon,"scale4, arrow",4
+10.212777,1.243816,performance,track,cursor_in_target,1
+10.212819,1.243816,performance,track,center_deviation,32.670222
+10.212907,1.243816,state,track,"reticle, cursor_relative","(21.701745189471666, 26.004630222910187)"
+10.212925,1.243816,state,track,"reticle, cursor_proportional","(0.05581724585769461, 0.06688433699308176)"
+10.246193,1.277184,performance,track,cursor_in_target,1
+10.246259,1.277184,performance,track,center_deviation,33.870438
+10.246396,1.277184,state,track,"reticle, cursor_relative","(22.471462668581076, 26.92413937410202)"
+10.246428,1.277184,state,track,"reticle, cursor_proportional","(0.05779697188421058, 0.06924932966590025)"
+10.280065,1.311096,performance,track,cursor_in_target,1
+10.280117,1.311096,performance,track,center_deviation,35.069587
+10.280225,1.311096,state,track,"reticle, cursor_relative","(23.24061836229416, 27.84267925918419)"
+10.280252,1.311096,state,track,"reticle, cursor_proportional","(0.05977525298943971, 0.07161182937032971)"
+10.31232,1.343349,performance,track,cursor_in_target,1
+10.31237,1.343349,performance,track,center_deviation,36.267632
+10.312472,1.343349,state,track,"reticle, cursor_relative","(24.009193041758632, 28.760216810820037)"
+10.312498,1.343349,state,track,"reticle, cursor_proportional","(0.06175203971645739, 0.07397175105663589)"
+10.345774,1.376734,performance,track,cursor_in_target,1
+10.345848,1.376734,performance,track,center_deviation,37.464536
+10.346017,1.376734,state,track,"reticle, cursor_relative","(24.777167492647546, 29.67671899775679)"
+10.346063,1.376734,state,track,"reticle, cursor_proportional","(0.06372728264569842, 0.07632900976789297)"
+10.379079,1.410022,performance,track,cursor_in_target,1
+10.379161,1.410022,performance,track,center_deviation,38.66026
+10.379357,1.410022,state,track,"reticle, cursor_relative","(25.544522515639613, 30.592152826014708)"
+10.379416,1.410022,state,track,"reticle, cursor_proportional","(0.06570093239619242, 0.07868352064304195)"
+10.412291,1.443296,performance,track,cursor_in_target,1
+10.412376,1.443296,performance,track,center_deviation,39.854767
+10.412499,1.443296,state,track,"reticle, cursor_relative","(26.311238926899232, 31.50648534007484)"
+10.412525,1.443296,state,track,"reticle, cursor_proportional","(0.06767293962679843, 0.08103519891994557)"
+10.413221,1.443296,seed_value,sysmon,,
+10.413249,1.443296,seed_output,sysmon,,1
+10.413279,1.443296,seed_value,sysmon,,
+10.41329,1.443296,seed_output,sysmon,,1
+10.413314,1.443296,seed_value,sysmon,,
+10.413323,1.443296,seed_output,sysmon,,-1
+10.413346,1.443296,seed_value,sysmon,,
+10.413355,1.443296,seed_output,sysmon,,-1
+10.413396,1.443296,state,sysmon,"scale1, arrow",5
+10.413419,1.443296,state,sysmon,"scale2, arrow",7
+10.413432,1.443296,state,sysmon,"scale3, arrow",3
+10.413446,1.443296,state,sysmon,"scale4, arrow",3
+10.445698,1.476713,performance,track,cursor_in_target,1
+10.445763,1.476713,performance,track,center_deviation,41.04802
+10.44587,1.476713,state,track,"reticle, cursor_relative","(27.077297558556058, 32.41968362406542)"
+10.445907,1.476713,state,track,"reticle, cursor_proportional","(0.06964325503743841, 0.08338395993843986)"
+10.479058,1.510041,performance,track,cursor_in_target,1
+10.479121,1.510041,performance,track,center_deviation,42.23998
+10.479275,1.510041,state,track,"reticle, cursor_relative","(27.84267925918419, 33.33171480294686)"
+10.479309,1.510041,state,track,"reticle, cursor_proportional","(0.07161182937032971, 0.08572971914338184)"
+10.512324,1.543338,performance,track,cursor_in_target,1
+10.51238,1.543338,performance,track,center_deviation,43.430611
+10.512502,1.543338,state,track,"reticle, cursor_relative","(28.607364894280984, 34.242546043695214)"
+10.512529,1.543338,state,track,"reticle, cursor_proportional","(0.07357861341121652, 0.08807239208769345)"
+10.545697,1.576699,performance,track,cursor_in_target,1
+10.545761,1.576699,performance,track,center_deviation,44.619875
+10.545895,1.576699,state,track,"reticle, cursor_relative","(29.371335346745383, 35.15214455648419)"
+10.545927,1.576699,state,track,"reticle, cursor_proportional","(0.07554355799060027, 0.09041189443540172)"
+10.579114,1.610073,performance,track,cursor_in_target,1
+10.579196,1.610073,performance,track,center_deviation,45.807735
+10.579378,1.610073,state,track,"reticle, cursor_relative","(30.134571517355873, 36.06047759586555)"
+10.579422,1.610073,state,track,"reticle, cursor_proportional","(0.0775066139849688, 0.09274814196467476)"
+10.612371,1.643357,performance,track,cursor_in_target,1
+10.61244,1.643357,performance,track,center_deviation,46.994153
+10.612582,1.643357,state,track,"reticle, cursor_relative","(30.897054325247936, 36.96751246194799)"
+10.612617,1.643357,state,track,"reticle, cursor_proportional","(0.07946773231802452, 0.09508105057085388)"
+10.613829,1.643357,seed_value,sysmon,,
+10.613868,1.643357,seed_output,sysmon,,1
+10.613911,1.643357,seed_value,sysmon,,
+10.613924,1.643357,seed_output,sysmon,,-1
+10.613955,1.643357,seed_value,sysmon,,
+10.613966,1.643357,seed_output,sysmon,,-1
+10.613996,1.643357,seed_value,sysmon,,
+10.614009,1.643357,seed_output,sysmon,,1
+10.614059,1.643357,state,sysmon,"scale1, arrow",6
+10.614082,1.643357,state,sysmon,"scale2, arrow",6
+10.6141,1.643357,state,sysmon,"scale3, arrow",4
+10.61413,1.643357,state,sysmon,"scale4, arrow",4
+10.645823,1.676831,performance,track,cursor_in_target,1
+10.645872,1.676831,performance,track,center_deviation,48.179092
+10.645981,1.676831,state,track,"reticle, cursor_relative","(31.65876470839109, 37.87321650157429)"
+10.646002,1.676831,state,track,"reticle, cursor_proportional","(0.08142686396191123, 0.0974105362694812)"
+10.679141,1.710108,performance,track,cursor_in_target,0
+10.679205,1.710108,performance,track,center_deviation,49.362515
+10.679338,1.710108,state,track,"reticle, cursor_relative","(32.41968362406542, 38.77755710949683)"
+10.67937,1.710108,state,track,"reticle, cursor_proportional","(0.08338395993843986, 0.09973651519932313)"
+10.679459,1.710108,state,track,"reticle, cursor_color","(241, 100, 100, 255)"
+10.712508,1.74347,performance,track,cursor_in_target,0
+10.712591,1.74347,performance,track,center_deviation,50.544385
+10.712787,1.74347,state,track,"reticle, cursor_relative","(33.179792049337685, 39.6805017295514)"
+10.712834,1.74347,state,track,"reticle, cursor_proportional","(0.08533897132031297, 0.1020589036253894)"
+10.745641,1.776647,performance,track,cursor_in_target,0
+10.745701,1.776647,performance,track,center_deviation,51.724664
+10.74583,1.776647,state,track,"reticle, cursor_relative","(33.939070981536815, 40.5820178558292)"
+10.745862,1.776647,state,track,"reticle, cursor_proportional","(0.08729184923234777, 0.10437761794194753)"
+10.77911,1.81008,performance,track,cursor_in_target,0
+10.779271,1.81008,performance,track,center_deviation,52.903315
+10.77945,1.81008,state,track,"reticle, cursor_relative","(34.69750143872907, 41.48207303384704)"
+10.779499,1.81008,state,track,"reticle, cursor_proportional","(0.08924254485269822, 0.1066925746755325)"
+10.812562,1.843465,performance,track,cursor_in_target,0
+10.812672,1.843465,performance,track,center_deviation,54.080301
+10.812928,1.843465,state,track,"reticle, cursor_relative","(35.455064460192524, 42.38063486171572)"
+10.813001,1.843465,state,track,"reticle, cursor_proportional","(0.09119100941407542, 0.10900369048795196)"
+10.81451,1.843465,seed_value,sysmon,,
+10.814578,1.843465,seed_output,sysmon,,-1
+10.814651,1.843465,seed_value,sysmon,,
+10.814673,1.843465,seed_output,sysmon,,1
+10.814729,1.843465,seed_value,sysmon,,
+10.814749,1.843465,seed_output,sysmon,,-1
+10.8148,1.843465,seed_value,sysmon,,
+10.814819,1.843465,seed_output,sysmon,,1
+10.814899,1.843465,state,sysmon,"scale1, arrow",5
+10.814932,1.843465,state,sysmon,"scale2, arrow",7
+10.81496,1.843465,state,sysmon,"scale3, arrow",3
+10.815013,1.843465,state,sysmon,"scale4, arrow",5
+10.846265,1.877085,performance,track,cursor_in_target,0
+10.846386,1.877085,performance,track,center_deviation,55.255586
+10.846621,1.877085,state,track,"reticle, cursor_relative","(36.21174110689108, 43.277670991306486)"
+10.846678,1.877085,state,track,"reticle, cursor_proportional","(0.09313719420496677, 0.11131088217928622)"
+10.892062,1.922828,performance,track,cursor_in_target,0
+10.892168,1.922828,performance,track,center_deviation,56.429133
+10.89244,1.922828,state,track,"reticle, cursor_relative","(36.96751246194799, 44.17314912941554)"
+10.892474,1.922828,state,track,"reticle, cursor_proportional","(0.09508105057085388, 0.11361406669088359)"
+10.926877,1.957841,performance,track,cursor_in_target,0
+10.926954,1.957841,performance,track,center_deviation,57.600903
+10.92714,1.957841,state,track,"reticle, cursor_relative","(37.72235963111875, 45.06703703892663)"
+10.927182,1.957841,state,track,"reticle, cursor_proportional","(0.09702252991542888, 0.11591316110835037)"
+10.962356,1.993315,performance,track,cursor_in_target,0
+10.962434,1.993315,performance,track,center_deviation,58.770862
+10.962629,1.993315,state,track,"reticle, cursor_relative","(38.476263743263424, 45.95930253997155)"
+10.962678,1.993315,state,track,"reticle, cursor_proportional","(0.09896158370180921, 0.11820808266453588)"
+10.979731,2.010036,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:02
+10.995758,2.026689,performance,track,cursor_in_target,0
+10.995819,2.026689,performance,track,center_deviation,59.938972
+10.995958,2.026689,state,track,"reticle, cursor_relative","(39.229205950818496, 46.849913511088644)"
+10.995983,2.026689,state,track,"reticle, cursor_proportional","(0.10089816345375127, 0.12049874874251194)"
+11.029025,2.059988,performance,track,cursor_in_target,0
+11.029089,2.059988,performance,track,center_deviation,61.105196
+11.029218,2.059988,state,track,"reticle, cursor_relative","(39.98116743026798, 47.738837890379116)"
+11.029248,2.059988,state,track,"reticle, cursor_proportional","(0.10283222075686209, 0.1227850768785471)"
+11.030118,2.059988,seed_value,sysmon,,
+11.030154,2.059988,seed_output,sysmon,,1
+11.030191,2.059988,seed_value,sysmon,,
+11.030203,2.059988,seed_output,sysmon,,-1
+11.030231,2.059988,seed_value,sysmon,,
+11.030241,2.059988,seed_output,sysmon,,-1
+11.030269,2.059988,seed_value,sysmon,,
+11.03028,2.059988,seed_output,sysmon,,1
+11.030342,2.059988,state,sysmon,"scale1, arrow",6
+11.030362,2.059988,state,sysmon,"scale2, arrow",6
+11.030377,2.059988,state,sysmon,"scale3, arrow",4
+11.030392,2.059988,state,sysmon,"scale4, arrow",6
+11.062347,2.093315,performance,track,cursor_in_target,0
+11.062421,2.093315,performance,track,center_deviation,62.269498
+11.062575,2.093315,state,track,"reticle, cursor_relative","(40.732129382614055, 48.62604367666132)"
+11.062607,2.093315,state,track,"reticle, cursor_proportional","(0.10476370725980981, 0.1250669847650754)"
+11.095608,2.126602,performance,track,cursor_in_target,0
+11.095677,2.126602,performance,track,center_deviation,63.431841
+11.0958,2.126602,state,track,"reticle, cursor_relative","(41.48207303384704, 49.51149893062277)"
+11.095829,2.126602,state,track,"reticle, cursor_proportional","(0.1066925746755325, 0.1273443902536594)"
+11.129074,2.160041,performance,track,cursor_in_target,0
+11.129141,2.160041,performance,track,center_deviation,64.592189
+11.129274,2.160041,state,track,"reticle, cursor_relative","(42.23097963541469, 50.395171775969956)"
+11.129299,2.160041,state,track,"reticle, cursor_proportional","(0.1086187747824452, 0.1296172113579474)"
+11.162294,2.193287,performance,track,cursor_in_target,0
+11.162352,2.193287,performance,track,center_deviation,65.750506
+11.162479,2.193287,state,track,"reticle, cursor_relative","(42.97883046469099, 51.277030400575875)"
+11.162507,2.193287,state,track,"reticle, cursor_proportional","(0.11054225942564555, 0.1318853662566252)"
+11.195686,2.226707,performance,track,cursor_in_target,0
+11.195747,2.226707,performance,track,center_deviation,66.906754
+11.195886,2.226707,state,track,"reticle, cursor_relative","(43.72560682544415, 52.157043057625295)"
+11.195924,2.226707,state,track,"reticle, cursor_proportional","(0.11246298051811768, 0.13414877329636135)"
+11.229078,2.260049,performance,track,cursor_in_target,0
+11.229125,2.260049,performance,track,center_deviation,68.060898
+11.229249,2.260049,state,track,"reticle, cursor_relative","(44.47129004830405, 53.03517806675758)"
+11.229279,2.260049,state,track,"reticle, cursor_proportional","(0.11438089004193427, 0.13640735099474685)"
+11.229807,2.260049,seed_value,sysmon,,
+11.229826,2.260049,seed_output,sysmon,,1
+11.229852,2.260049,seed_value,sysmon,,
+11.229861,2.260049,seed_output,sysmon,,-1
+11.229883,2.260049,seed_value,sysmon,,
+11.22989,2.260049,seed_output,sysmon,,1
+11.22991,2.260049,seed_value,sysmon,,
+11.229918,2.260049,seed_output,sysmon,,1
+11.229953,2.260049,state,sysmon,"scale1, arrow",7
+11.22997,2.260049,state,sysmon,"scale2, arrow",5
+11.229983,2.260049,state,sysmon,"scale3, arrow",5
+11.229996,2.260049,state,sysmon,"scale4, arrow",7
+11.262685,2.293647,performance,track,cursor_in_target,0
+11.262741,2.293647,performance,track,center_deviation,69.212902
+11.26286,2.293647,state,track,"reticle, cursor_relative","(45.21586149122895, 53.91140381520727)"
+11.262886,2.293647,state,track,"reticle, cursor_proportional","(0.11629594004945717, 0.13866101804322858)"
+11.295758,2.326732,performance,track,cursor_in_target,0
+11.295824,2.326732,performance,track,center_deviation,70.362729
+11.295972,2.326732,state,track,"reticle, cursor_relative","(45.95930253997155, 54.78568875894203)"
+11.296006,2.326732,state,track,"reticle, cursor_proportional","(0.11820808266453588, 0.14090969331003608)"
+11.329059,2.359992,performance,track,cursor_in_target,0
+11.32914,2.359992,performance,track,center_deviation,71.510343
+11.329306,2.359992,state,track,"reticle, cursor_relative","(46.70159460854438, 55.65800142379831)"
+11.329398,2.359992,state,track,"reticle, cursor_proportional","(0.12011727008370468, 0.14315329584310266)"
+11.362403,2.393366,performance,track,cursor_in_target,0
+11.362474,2.393366,performance,track,center_deviation,72.655709
+11.362622,2.393366,state,track,"reticle, cursor_relative","(47.442719139684364, 56.5283104066144)"
+11.36266,2.393366,state,track,"reticle, cursor_proportional","(0.12202345457737748, 0.14539174487297943)"
+11.395748,2.426753,performance,track,cursor_in_target,0
+11.395815,2.426753,performance,track,center_deviation,73.79879
+11.395951,2.426753,state,track,"reticle, cursor_relative","(48.18265760531683, 57.3965843763609)"
+11.395983,2.426753,state,track,"reticle, cursor_proportional","(0.12392658849104121, 0.14762495981574306)"
+11.429178,2.459964,performance,track,cursor_in_target,0
+11.429259,2.459964,performance,track,center_deviation,74.939552
+11.429431,2.459964,state,track,"reticle, cursor_relative","(48.92139150701866, 58.26279207526867)"
+11.429467,2.459964,state,track,"reticle, cursor_proportional","(0.12582662424644717, 0.14985286027589678)"
+11.430819,2.459964,performance,resman,a_in_tolerance,1
+11.430886,2.459964,performance,resman,a_deviation,-26
+11.430914,2.459964,performance,resman,b_in_tolerance,1
+11.430932,2.459964,performance,resman,b_deviation,-26
+11.431074,2.459964,state,resman,"tank_a, fluid_level",2474
+11.431495,2.459964,state,resman,"tank_a, fluid_label",2474
+11.431566,2.459964,state,resman,"tank_b, fluid_level",2474
+11.431777,2.459964,state,resman,"tank_b, fluid_label",2474
+11.447258,2.47687,seed_value,sysmon,,
+11.447295,2.47687,seed_output,sysmon,,-1
+11.447352,2.47687,seed_value,sysmon,,
+11.447364,2.47687,seed_output,sysmon,,-1
+11.447448,2.47687,seed_value,sysmon,,
+11.447463,2.47687,seed_output,sysmon,,-1
+11.447493,2.47687,seed_value,sysmon,,
+11.447504,2.47687,seed_output,sysmon,,1
+11.447555,2.47687,state,sysmon,"scale1, arrow",6
+11.447576,2.47687,state,sysmon,"scale2, arrow",4
+11.447591,2.47687,state,sysmon,"scale3, arrow",4
+11.447606,2.47687,state,sysmon,"scale4, arrow",6
+11.462431,2.493297,performance,track,cursor_in_target,0
+11.462497,2.493297,performance,track,center_deviation,76.077957
+11.462691,2.493297,state,track,"reticle, cursor_relative","(49.65890237648082, 59.126902319954105)"
+11.462758,2.493297,state,track,"reticle, cursor_proportional","(0.12772351434280046, 0.15207536604926467)"
+11.495878,2.526826,performance,track,cursor_in_target,0
+11.495962,2.526826,performance,track,center_deviation,77.21397
+11.496142,2.526826,state,track,"reticle, cursor_relative","(50.395171775969956, 59.98888400254172)"
+11.496185,2.526826,state,track,"reticle, cursor_proportional","(0.1296172113579474, 0.1542923971258789)"
+11.529085,2.560068,performance,track,cursor_in_target,0
+11.529158,2.560068,performance,track,center_deviation,78.347556
+11.529319,2.560068,state,track,"reticle, cursor_relative","(51.13018129878944, 60.84870609178404)"
+11.52936,2.560068,state,track,"reticle, cursor_proportional","(0.1315076679495613, 0.15650387369286017)"
+11.562354,2.593344,performance,track,cursor_in_target,0
+11.562424,2.593344,performance,track,center_deviation,79.478679
+11.562575,2.593344,state,track,"reticle, cursor_relative","(51.86391256973948, 61.706337634178695)"
+11.56261,2.593344,state,track,"reticle, cursor_proportional","(0.13339483685632583, 0.15870971613729087)"
+11.595861,2.626796,performance,track,cursor_in_target,0
+11.595918,2.626796,performance,track,center_deviation,80.607304
+11.596041,2.626796,state,track,"reticle, cursor_relative","(52.59634724557653, 62.561747755082806)"
+11.59607,2.626796,state,track,"reticle, cursor_proportional","(0.13527867089911658, 0.1609098450490813)"
+11.629167,2.660052,performance,track,cursor_in_target,0
+11.629273,2.660052,performance,track,center_deviation,81.733396
+11.629522,2.660052,state,track,"reticle, cursor_relative","(53.32746701547183, 63.4149056598244)"
+11.629586,2.660052,state,track,"reticle, cursor_proportional","(0.13715912298218064, 0.1631041812238282)"
+11.662327,2.693342,performance,track,cursor_in_target,0
+11.662432,2.693342,performance,track,center_deviation,82.856919
+11.66254,2.693342,state,track,"reticle, cursor_relative","(54.057253601469206, 64.26578063481102)"
+11.662565,2.693342,state,track,"reticle, cursor_proportional","(0.1390361460943138, 0.1652926456656662)"
+11.663331,2.693342,seed_value,sysmon,,
+11.663382,2.693342,seed_output,sysmon,,-1
+11.663447,2.693342,seed_value,sysmon,,
+11.663476,2.693342,seed_output,sysmon,,-1
+11.663528,2.693342,seed_value,sysmon,,
+11.663547,2.693342,seed_output,sysmon,,-1
+11.663596,2.693342,seed_value,sysmon,,
+11.66362,2.693342,seed_output,sysmon,,1
+11.663705,2.693342,state,sysmon,"scale1, arrow",5
+11.663727,2.693342,state,sysmon,"scale2, arrow",3
+11.663741,2.693342,state,sysmon,"scale3, arrow",3
+11.663756,2.693342,state,sysmon,"scale4, arrow",7
+11.695745,2.726714,performance,track,cursor_in_target,0
+11.69582,2.726714,performance,track,center_deviation,83.977838
+11.695974,2.726714,state,track,"reticle, cursor_relative","(54.78568875894203, 65.1143420486355)"
+11.69601,2.726714,state,track,"reticle, cursor_proportional","(0.14090969331003608, 0.1674751595901119)"
+11.729634,2.760571,performance,track,cursor_in_target,0
+11.729727,2.760571,performance,track,center_deviation,85.096118
+11.729924,2.760571,state,track,"reticle, cursor_relative","(55.5127542770493, 65.96055935317858)"
+11.729969,2.760571,state,track,"reticle, cursor_proportional","(0.14277971779076465, 0.16965164442689964)"
+11.762649,2.793555,performance,track,cursor_in_target,0
+11.762758,2.793555,performance,track,center_deviation,86.211724
+11.762997,2.793555,state,track,"reticle, cursor_relative","(56.23843197919093, 66.80440208470867)"
+11.763055,2.793555,state,track,"reticle, cursor_proportional","(0.1446461727859849, 0.17182202182281037)"
+11.796187,2.827176,performance,track,cursor_in_target,0
+11.796255,2.827176,performance,track,center_deviation,87.324621
+11.796463,2.827176,state,track,"reticle, cursor_relative","(56.962703723462155, 67.64583986497857)"
+11.796534,2.827176,state,track,"reticle, cursor_proportional","(0.14650901163441912, 0.1739862136444922)"
+11.828836,2.859871,performance,track,cursor_in_target,0
+11.828882,2.859871,performance,track,center_deviation,88.434774
+11.828979,2.859871,state,track,"reticle, cursor_relative","(57.685551403107105, 68.48484240231907)"
+11.829,2.859871,state,track,"reticle, cursor_proportional","(0.14836818776519317, 0.17614414198127334)"
+11.862368,2.893396,performance,track,cursor_in_target,0
+11.862417,2.893396,performance,track,center_deviation,89.542149
+11.862528,2.893396,state,track,"reticle, cursor_relative","(58.40695694697142, 69.32137949272945)"
+11.862552,2.893396,state,track,"reticle, cursor_proportional","(0.15022365469900056, 0.17829572914796668)"
+11.863547,2.893396,seed_value,sysmon,,
+11.863593,2.893396,seed_output,sysmon,,1
+11.863635,2.893396,seed_value,sysmon,,
+11.863645,2.893396,seed_output,sysmon,,-1
+11.863669,2.893396,seed_value,sysmon,,
+11.863677,2.893396,seed_output,sysmon,,-1
+11.863698,2.893396,seed_value,sysmon,,
+11.863706,2.893396,seed_output,sysmon,,1
+11.863748,2.893396,state,sysmon,"scale1, arrow",6
+11.863766,2.893396,state,sysmon,"scale2, arrow",4
+11.86378,2.893396,state,sysmon,"scale3, arrow",4
+11.863793,2.893396,state,sysmon,"scale4, arrow",6
+11.895816,2.926785,performance,track,cursor_in_target,0
+11.895895,2.926785,performance,track,center_deviation,90.646711
+11.896067,2.926785,state,track,"reticle, cursor_relative","(59.126902319954105, 70.1554210209648)"
+11.89611,2.926785,state,track,"reticle, cursor_proportional","(0.15207536604926467, 0.18044089768766663)"
+11.929379,2.960369,performance,track,cursor_in_target,0
+11.929442,2.960369,performance,track,center_deviation,91.748426
+11.92957,2.960369,state,track,"reticle, cursor_relative","(59.8453695234583, 70.98693696162015)"
+11.929598,2.960369,state,track,"reticle, cursor_proportional","(0.1539232755232981, 0.1825795703745374)"
+11.962216,2.993233,performance,track,cursor_in_target,0
+11.962267,2.993233,performance,track,center_deviation,92.847259
+11.962379,2.993233,state,track,"reticle, cursor_relative","(60.56234059584137, 71.81589738021147)"
+11.962404,2.993233,state,track,"reticle, cursor_proportional","(0.15576733692346031, 0.18471167021659327)"
+11.979438,3.009984,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:03
+11.99567,3.026694,performance,track,cursor_in_target,0
+11.995716,3.026694,performance,track,center_deviation,93.943175
+11.995811,3.026694,state,track,"reticle, cursor_relative","(61.277797612863814, 72.6422724342532)"
+11.995831,3.026694,state,track,"reticle, cursor_proportional","(0.1576075041483123, 0.18683712045847017)"
+12.028839,3.059873,performance,track,cursor_in_target,0
+12.028882,3.059873,performance,track,center_deviation,95.036142
+12.028978,3.059873,state,track,"reticle, cursor_relative","(61.991722688137486, 73.46603237433267)"
+12.028998,3.059873,state,track,"reticle, cursor_proportional","(0.15944373119376926, 0.18895584458418896)"
+12.06229,3.093294,performance,track,cursor_in_target,0
+12.062451,3.093294,performance,track,center_deviation,96.126123
+12.062583,3.093294,state,track,"reticle, cursor_relative","(62.7040979735727, 74.28714754518099)"
+12.062607,3.093294,state,track,"reticle, cursor_proportional","(0.16127597215425077, 0.19106776631990993)"
+12.079475,3.10992,seed_value,sysmon,,
+12.079509,3.10992,seed_output,sysmon,,1
+12.079538,3.10992,seed_value,sysmon,,
+12.079548,3.10992,seed_output,sysmon,,1
+12.079567,3.10992,seed_value,sysmon,,
+12.079574,3.10992,seed_output,sysmon,,-1
+12.079592,3.10992,seed_value,sysmon,,
+12.079598,3.10992,seed_output,sysmon,,-1
+12.079636,3.10992,state,sysmon,"scale1, arrow",7
+12.079655,3.10992,state,sysmon,"scale2, arrow",5
+12.079668,3.10992,state,sysmon,"scale3, arrow",3
+12.079681,3.10992,state,sysmon,"scale4, arrow",5
+12.095817,3.126791,performance,track,cursor_in_target,0
+12.095863,3.126791,performance,track,center_deviation,97.213087
+12.095964,3.126791,state,track,"reticle, cursor_relative","(63.4149056598244, 75.10558838674066)"
+12.095985,3.126791,state,track,"reticle, cursor_proportional","(0.1631041812238282, 0.19317280963667866)"
+12.129674,3.160625,performance,track,cursor_in_target,0
+12.129745,3.160625,performance,track,center_deviation,98.296997
+12.129899,3.160625,state,track,"reticle, cursor_relative","(64.12412797673747, 75.92132543522983)"
+12.129934,3.160625,state,track,"reticle, cursor_proportional","(0.16492831269737002, 0.19527089875316314)"
+12.16225,3.19327,performance,track,cursor_in_target,0
+12.162302,3.19327,performance,track,center_deviation,99.377822
+12.162412,3.19327,state,track,"reticle, cursor_relative","(64.8317471937909, 76.7343293242028)"
+12.162437,3.19327,state,track,"reticle, cursor_proportional","(0.1667483209716844, 0.1973619581383817)"
+12.195608,3.226623,performance,track,cursor_in_target,0
+12.19566,3.226623,performance,track,center_deviation,100.455526
+12.195775,3.226623,state,track,"reticle, cursor_relative","(65.53774562054114, 77.5445707856074)"
+12.1958,3.226623,state,track,"reticle, cursor_proportional","(0.16856416054665932, 0.19944591251442234)"
+12.228946,3.259935,performance,track,cursor_in_target,0
+12.229012,3.259935,performance,track,center_deviation,101.530077
+12.22916,3.259935,state,track,"reticle, cursor_relative","(66.2421056070643, 78.35202065083854)"
+12.229196,3.259935,state,track,"reticle, cursor_proportional","(0.17037578602639994, 0.20152268685915262)"
+12.262249,3.293276,performance,track,cursor_in_target,0
+12.262296,3.293276,performance,track,center_deviation,102.601441
+12.262396,3.293276,state,track,"reticle, cursor_relative","(66.94480954439739, 79.15664985178826)"
+12.262417,3.293276,state,track,"reticle, cursor_proportional","(0.17218315212036364, 0.20359220640892042)"
+12.279957,3.31021,seed_value,sysmon,,
+12.279996,3.31021,seed_output,sysmon,,-1
+12.280029,3.31021,seed_value,sysmon,,
+12.280041,3.31021,seed_output,sysmon,,1
+12.280067,3.31021,seed_value,sysmon,,
+12.280077,3.31021,seed_output,sysmon,,-1
+12.280101,3.31021,seed_value,sysmon,,
+12.280112,3.31021,seed_output,sysmon,,1
+12.280163,3.31021,state,sysmon,"scale1, arrow",6
+12.280183,3.31021,state,sysmon,"scale2, arrow",6
+12.280198,3.31021,state,sysmon,"scale3, arrow",4
+12.280212,3.31021,state,sysmon,"scale4, arrow",6
+12.295592,3.326627,performance,track,cursor_in_target,0
+12.295634,3.326627,performance,track,center_deviation,103.669584
+12.295726,3.326627,state,track,"reticle, cursor_relative","(67.64583986497857, 79.9584294218922)"
+12.295746,3.326627,state,track,"reticle, cursor_proportional","(0.1739862136444922, 0.20565439666124538)"
+12.329932,3.360879,performance,track,cursor_in_target,0
+12.330003,3.360879,performance,track,center_deviation,104.734474
+12.330136,3.360879,state,track,"reticle, cursor_relative","(68.34517904308633, 80.75733049717248)"
+12.330162,3.360879,state,track,"reticle, cursor_proportional","(0.17578492552234137, 0.20770918337750122)"
+12.362632,3.393653,performance,track,cursor_in_target,0
+12.362686,3.393653,performance,track,center_deviation,105.796077
+12.362815,3.393653,state,track,"reticle, cursor_relative","(69.04280959527767, 81.5533243172766)"
+12.362865,3.393653,state,track,"reticle, cursor_proportional","(0.177579242786208, 0.20975649258558796)"
+12.397885,3.428766,performance,track,cursor_in_target,0
+12.397955,3.428766,performance,track,center_deviation,106.85436
+12.398097,3.428766,state,track,"reticle, cursor_relative","(69.7387140808251, 82.3463822265131)"
+12.398154,3.428766,state,track,"reticle, cursor_proportional","(0.17936912057825385, 0.2117962505825954)"
+12.430725,3.461737,performance,track,cursor_in_target,0
+12.43078,3.461737,performance,track,center_deviation,107.90929
+12.430883,3.461737,state,track,"reticle, cursor_relative","(70.43287510215275, 83.13647567488279)"
+12.430904,3.461737,state,track,"reticle, cursor_proportional","(0.18115451415162745, 0.21382838393745573)"
+12.46244,3.493439,performance,track,cursor_in_target,0
+12.462495,3.493439,performance,track,center_deviation,108.960835
+12.462608,3.493439,state,track,"reticle, cursor_relative","(71.1252753052712, 83.92357621910695)"
+12.462632,3.493439,state,track,"reticle, cursor_proportional","(0.18293537887158232, 0.2158528194935878)"
+12.495697,3.526708,performance,track,cursor_in_target,0
+12.495753,3.526708,performance,track,center_deviation,110.008961
+12.495882,3.526708,state,track,"reticle, cursor_relative","(71.81589738021147, 84.70765552365096)"
+12.495903,3.526708,state,track,"reticle, cursor_proportional","(0.18471167021659327, 0.21786948437153023)"
+12.496543,3.526708,seed_value,sysmon,,
+12.496566,3.526708,seed_output,sysmon,,1
+12.496594,3.526708,seed_value,sysmon,,
+12.496604,3.526708,seed_output,sysmon,,-1
+12.496627,3.526708,seed_value,sysmon,,
+12.496635,3.526708,seed_output,sysmon,,-1
+12.496657,3.526708,seed_value,sysmon,,
+12.496664,3.526708,seed_output,sysmon,,1
+12.496699,3.526708,state,sysmon,"scale1, arrow",7
+12.496713,3.526708,state,sysmon,"scale2, arrow",5
+12.496725,3.526708,state,sysmon,"scale3, arrow",3
+12.496737,3.526708,state,sysmon,"scale4, arrow",7
+12.528967,3.55999,performance,track,cursor_in_target,0
+12.529014,3.55999,performance,track,center_deviation,111.053636
+12.529108,3.55999,state,track,"reticle, cursor_relative","(72.50472406145764, 85.48868536174452)"
+12.529136,3.55999,state,track,"reticle, cursor_proportional","(0.18648334377946924, 0.2198783059715651)"
+12.562394,3.593367,performance,track,cursor_in_target,0
+12.562466,3.593367,performance,track,center_deviation,112.094827
+12.562605,3.593367,state,track,"reticle, cursor_relative","(73.19173812837855, 86.26663761639782)"
+12.562625,3.593367,state,track,"reticle, cursor_proportional","(0.18825035526846334, 0.2218792119763318)"
+12.595564,3.626588,performance,track,cursor_in_target,0
+12.595607,3.626588,performance,track,center_deviation,113.132503
+12.595694,3.626588,state,track,"reticle, cursor_relative","(73.87692240565832, 87.04148428141373)"
+12.595712,3.626588,state,track,"reticle, cursor_proportional","(0.19001266050838045, 0.22387213035343037)"
+12.628882,3.659879,performance,track,cursor_in_target,0
+12.628929,3.659879,performance,track,center_deviation,114.166631
+12.629027,3.659879,state,track,"reticle, cursor_relative","(74.5602597637257, 87.81319746239596)"
+12.629046,3.659879,state,track,"reticle, cursor_proportional","(0.19177021544168132, 0.2258569893580143)"
+12.662183,3.693219,performance,track,cursor_in_target,0
+12.662228,3.693219,performance,track,center_deviation,115.197179
+12.662321,3.693219,state,track,"reticle, cursor_relative","(75.24173311918233, 88.58174937775337)"
+12.662341,3.693219,state,track,"reticle, cursor_proportional","(0.19352297612958416, 0.22783371753537388)"
+12.69559,3.726622,performance,track,cursor_in_target,0
+12.695634,3.726622,performance,track,center_deviation,116.224114
+12.695725,3.726622,state,track,"reticle, cursor_relative","(75.92132543522983, 89.34711235969999)"
+12.695744,3.726622,state,track,"reticle, cursor_proportional","(0.19527089875316314, 0.22980224372350821)"
+12.712752,3.743258,seed_value,sysmon,,
+12.712821,3.743258,seed_output,sysmon,,1
+12.712851,3.743258,seed_value,sysmon,,
+12.712861,3.743258,seed_output,sysmon,,-1
+12.712881,3.743258,seed_value,sysmon,,
+12.712888,3.743258,seed_output,sysmon,,1
+12.71294,3.743258,seed_value,sysmon,,
+12.712976,3.743258,seed_output,sysmon,,-1
+12.713057,3.743258,state,sysmon,"scale1, arrow",6
+12.713078,3.743258,state,sysmon,"scale2, arrow",4
+12.713092,3.743258,state,sysmon,"scale3, arrow",4
+12.713106,3.743258,state,sysmon,"scale4, arrow",6
+12.729964,3.760883,performance,track,cursor_in_target,0
+12.73007,3.760883,performance,track,center_deviation,117.247406
+12.730424,3.760883,state,track,"reticle, cursor_relative","(76.59901972209566, 90.10925885525114)"
+12.73049,3.760883,state,track,"reticle, cursor_proportional","(0.19701393961444358, 0.23176249705568708)"
+12.762703,3.793633,performance,track,cursor_in_target,0
+12.762776,3.793633,performance,track,center_deviation,118.267021
+12.762966,3.793633,state,track,"reticle, cursor_relative","(77.27479903745798, 90.8681614272153)"
+12.763072,3.793633,state,track,"reticle, cursor_proportional","(0.1987520551374948, 0.2337144069630023)"
+12.795538,3.826573,performance,track,cursor_in_target,0
+12.795582,3.826573,performance,track,center_deviation,119.28293
+12.795668,3.826573,state,track,"reticle, cursor_relative","(77.9486464868691, 91.62379275518181)"
+12.795685,3.826573,state,track,"reticle, cursor_proportional","(0.20048520186951926, 0.23565790317690793)"
+12.828893,3.859931,performance,track,cursor_in_target,0
+12.828935,3.859931,performance,track,center_deviation,120.295099
+12.829025,3.859931,state,track,"reticle, cursor_relative","(78.62054522417786, 92.37612563650451)"
+12.829045,3.859931,state,track,"reticle, cursor_proportional","(0.20221333648193893, 0.2375929157317503)"
+12.862422,3.893434,performance,track,cursor_in_target,0
+12.862476,3.893434,performance,track,center_deviation,121.303498
+12.862588,3.893434,state,track,"reticle, cursor_relative","(79.29047845195082, 93.12513298728089)"
+12.862612,3.893434,state,track,"reticle, cursor_proportional","(0.20393641577147845, 0.23951937496728623)"
+12.895716,3.926724,performance,track,cursor_in_target,0
+12.895774,3.926724,performance,track,center_deviation,122.308096
+12.8959,3.926724,state,track,"reticle, cursor_relative","(79.9584294218922, 93.87078784332724)"
+12.895928,3.926724,state,track,"reticle, cursor_proportional","(0.20565439666124538, 0.24143721153119144)"
+12.913314,3.943316,seed_value,sysmon,,
+12.913377,3.943316,seed_output,sysmon,,-1
+12.913456,3.943316,seed_value,sysmon,,
+12.913481,3.943316,seed_output,sysmon,,1
+12.913542,3.943316,seed_value,sysmon,,
+12.913563,3.943316,seed_output,sysmon,,1
+12.91362,3.943316,seed_value,sysmon,,
+12.913641,3.943316,seed_output,sysmon,,-1
+12.913798,3.943316,state,sysmon,"scale1, arrow",5
+12.913847,3.943316,state,sysmon,"scale2, arrow",5
+12.913881,3.943316,state,sysmon,"scale3, arrow",5
+12.91391,3.943316,state,sysmon,"scale4, arrow",5
+12.929098,3.960103,performance,track,cursor_in_target,0
+12.92915,3.960103,performance,track,center_deviation,123.308861
+12.929265,3.960103,state,track,"reticle, cursor_relative","(80.62438143526253, 94.61306336114926)"
+12.929291,3.960103,state,track,"reticle, cursor_proportional","(0.20736723620180691, 0.24334635638155672)"
+12.962476,3.993483,performance,track,cursor_in_target,0
+12.962532,3.993483,performance,track,center_deviation,124.305763
+12.962643,3.993483,state,track,"reticle, cursor_relative","(81.28831784329616, 95.35193281890848)"
+12.962668,3.993483,state,track,"reticle, cursor_proportional","(0.20907489157226378, 0.24524674078937367)"
+12.980058,4.010208,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:04
+12.995744,4.026751,performance,track,cursor_in_target,0
+12.995799,4.026751,performance,track,center_deviation,125.29877
+12.99593,4.026751,state,track,"reticle, cursor_relative","(81.95022204761749, 96.08736961738423)"
+12.995956,4.026751,state,track,"reticle, cursor_proportional","(0.2107773200813207, 0.2471382963410088)"
+13.029023,4.060039,performance,track,cursor_in_target,0
+13.029076,4.060039,performance,track,center_deviation,126.287852
+13.029189,4.060039,state,track,"reticle, cursor_relative","(82.61007750065585, 96.81934728093115)"
+13.029215,4.060039,state,track,"reticle, cursor_proportional","(0.21247447916835352, 0.24902095494066653)"
+13.062546,4.093532,performance,track,cursor_in_target,0
+13.062605,4.093532,performance,track,center_deviation,127.272978
+13.062734,4.093532,state,track,"reticle, cursor_relative","(83.26786770605929, 97.54783945843245)"
+13.062758,4.093532,state,track,"reticle, cursor_proportional","(0.21416632640447347, 0.2508946488128407)"
+13.095752,4.126759,performance,track,cursor_in_target,0
+13.095808,4.126759,performance,track,center_deviation,128.254118
+13.095926,4.126759,state,track,"reticle, cursor_relative","(83.92357621910695, 98.2728199242484)"
+13.095953,4.126759,state,track,"reticle, cursor_proportional","(0.2158528194935878, 0.2527593105047541)"
+13.113114,4.143363,seed_value,sysmon,,
+13.113155,4.143363,seed_output,sysmon,,1
+13.113193,4.143363,seed_value,sysmon,,
+13.113214,4.143363,seed_output,sysmon,,-1
+13.113251,4.143363,seed_value,sysmon,,
+13.113265,4.143363,seed_output,sysmon,,-1
+13.113294,4.143363,seed_value,sysmon,,
+13.113305,4.143363,seed_output,sysmon,,-1
+13.113373,4.143363,state,sysmon,"scale1, arrow",6
+13.1134,4.143363,state,sysmon,"scale2, arrow",4
+13.11342,4.143363,state,sysmon,"scale3, arrow",4
+13.113442,4.143363,state,sysmon,"scale4, arrow",4
+13.129083,4.160081,performance,track,cursor_in_target,0
+13.129136,4.160081,performance,track,center_deviation,129.231242
+13.129252,4.160081,state,track,"reticle, cursor_relative","(84.57718664712016, 98.99426257916052)"
+13.129277,4.160081,state,track,"reticle, cursor_proportional","(0.2175339162734572, 0.2546148728887873)"
+13.162373,4.193379,performance,track,cursor_in_target,0
+13.162428,4.193379,performance,track,center_deviation,130.204318
+13.162553,4.193379,state,track,"reticle, cursor_relative","(85.22868264987223, 99.71214145131117)"
+13.162579,4.193379,state,track,"reticle, cursor_proportional","(0.21920957471674954, 0.256461269164895)"
+13.19565,4.22667,performance,track,cursor_in_target,0
+13.195704,4.22667,performance,track,center_deviation,131.173319
+13.195811,4.22667,state,track,"reticle, cursor_relative","(85.87804793999705, 100.42643069713846)"
+13.195836,4.22667,state,track,"reticle, cursor_proportional","(0.22087975293209117, 0.2582984328630104)"
+13.228926,4.259944,performance,track,cursor_in_target,0
+13.228976,4.259944,performance,track,center_deviation,132.138212
+13.229082,4.259944,state,track,"reticle, cursor_relative","(86.52526628339619, 101.13710460230669)"
+13.229106,4.259944,state,track,"reticle, cursor_proportional","(0.22254440916511364, 0.260126297845439)"
+13.262173,4.293204,performance,track,cursor_in_target,0
+13.262219,4.293204,performance,track,center_deviation,133.098969
+13.262354,4.293204,state,track,"reticle, cursor_relative","(87.17032149964477, 101.84413758263206)"
+13.262382,4.293204,state,track,"reticle, cursor_proportional","(0.22420350179949786, 0.26194479830923884)"
+13.295584,4.326594,performance,track,cursor_in_target,0
+13.295636,4.326594,performance,track,center_deviation,134.055561
+13.295742,4.326594,state,track,"reticle, cursor_relative","(87.81319746239596, 102.54750418500358)"
+13.295764,4.326594,state,track,"reticle, cursor_proportional","(0.2258569893580143, 0.2637538687885894)"
+13.329066,4.36007,performance,track,cursor_in_target,0
+13.329123,4.36007,performance,track,center_deviation,135.007956
+13.329248,4.36007,state,track,"reticle, cursor_relative","(88.45387809978419, 103.24717908829955)"
+13.329274,4.36007,state,track,"reticle, cursor_proportional","(0.22750483050356016, 0.26555344415714904)"
+13.330012,4.36007,seed_value,sysmon,,
+13.330041,4.36007,seed_output,sysmon,,-1
+13.330073,4.36007,seed_value,sysmon,,
+13.330083,4.36007,seed_output,sysmon,,1
+13.330108,4.36007,seed_value,sysmon,,
+13.330117,4.36007,seed_output,sysmon,,-1
+13.330139,4.36007,seed_value,sysmon,,
+13.330147,4.36007,seed_output,sysmon,,-1
+13.330254,4.36007,state,sysmon,"scale1, arrow",5
+13.330281,4.36007,state,sysmon,"scale2, arrow",5
+13.330297,4.36007,state,sysmon,"scale3, arrow",3
+13.330314,4.36007,state,sysmon,"scale4, arrow",3
+13.362389,4.393415,performance,track,cursor_in_target,0
+13.362435,4.393415,performance,track,center_deviation,135.956127
+13.362534,4.393415,state,track,"reticle, cursor_relative","(89.0923473948269, 103.94313710429905)"
+13.362555,4.393415,state,track,"reticle, cursor_proportional","(0.22914698404019265, 0.2673434596303988)"
+13.395971,4.426862,performance,track,cursor_in_target,0
+13.396146,4.426862,performance,track,center_deviation,136.900044
+13.396385,4.426862,state,track,"reticle, cursor_relative","(89.72858938582496, 104.63535317858862)"
+13.396441,4.426862,state,track,"reticle, cursor_proportional","(0.23078340891415886, 0.26912385076797485)"
+13.429141,4.460106,performance,track,cursor_in_target,0
+13.429222,4.460106,performance,track,center_deviation,137.839678
+13.4294,4.460106,state,track,"reticle, cursor_relative","(90.36258816676174, 105.32380239146438)"
+13.429443,4.460106,state,track,"reticle, cursor_proportional","(0.23241406421492217, 0.2708945534759886)"
+13.430172,4.460106,performance,resman,a_in_tolerance,1
+13.430207,4.460106,performance,resman,a_deviation,-52
+13.430227,4.460106,performance,resman,b_in_tolerance,1
+13.430242,4.460106,performance,resman,b_deviation,-52
+13.430343,4.460106,state,resman,"tank_a, fluid_level",2448
+13.430718,4.460106,state,resman,"tank_a, fluid_label",2448
+13.430776,4.460106,state,resman,"tank_b, fluid_level",2448
+13.43103,4.460106,state,resman,"tank_b, fluid_label",2448
+13.46226,4.493295,performance,track,cursor_in_target,0
+13.462307,4.493295,performance,track,center_deviation,138.775
+13.462411,4.493295,state,track,"reticle, cursor_relative","(90.99432788770073, 106.008459958829)"
+13.462438,4.493295,state,track,"reticle, cursor_proportional","(0.234038909176185, 0.2726555040093338)"
+13.495826,4.526786,performance,track,cursor_in_target,0
+13.495911,4.526786,performance,track,center_deviation,139.705982
+13.49611,4.526786,state,track,"reticle, cursor_relative","(91.62379275518181, 106.68930123308401)"
+13.496167,4.526786,state,track,"reticle, cursor_proportional","(0.23565790317690793, 0.2744066389739815)"
+13.530155,4.561032,performance,track,cursor_in_target,0
+13.53039,4.561032,performance,track,center_deviation,140.632594
+13.530643,4.561032,state,track,"reticle, cursor_relative","(92.25096703261607, 107.36630170401703)"
+13.530696,4.561032,state,track,"reticle, cursor_proportional","(0.2372710057423253, 0.2761478953292619)"
+13.532559,4.561032,seed_value,sysmon,,
+13.532611,4.561032,seed_output,sysmon,,-1
+13.532671,4.561032,seed_value,sysmon,,
+13.532693,4.561032,seed_output,sysmon,,-1
+13.532741,4.561032,seed_value,sysmon,,
+13.532761,4.561032,seed_output,sysmon,,1
+13.532806,4.561032,seed_value,sysmon,,
+13.532823,4.561032,seed_output,sysmon,,1
+13.532892,4.561032,state,sysmon,"scale1, arrow",4
+13.532928,4.561032,state,sysmon,"scale2, arrow",4
+13.532955,4.561032,state,sysmon,"scale3, arrow",4
+13.53298,4.561032,state,sysmon,"scale4, arrow",4
+13.562707,4.593601,performance,track,cursor_in_target,0
+13.562824,4.593601,performance,track,center_deviation,141.554808
+13.563025,4.593601,state,track,"reticle, cursor_relative","(92.87583504067928, 108.03943699968428)"
+13.563076,4.593601,state,track,"reticle, cursor_proportional","(0.238878176544957, 0.27787921039013447)"
+13.595661,4.626666,performance,track,cursor_in_target,0
+13.595715,4.626666,performance,track,center_deviation,142.472596
+13.59583,4.626666,state,track,"reticle, cursor_relative","(93.49838115770373, 108.70868288728778)"
+13.595856,4.626666,state,track,"reticle, cursor_proportional","(0.2404793754056166, 0.2796005218294439)"
+13.642952,4.673852,performance,track,cursor_in_target,0
+13.64304,4.673852,performance,track,center_deviation,143.38593
+13.643234,4.673852,state,track,"reticle, cursor_relative","(94.11858982006895, 109.37401527404786)"
+13.643281,4.673852,state,track,"reticle, cursor_proportional","(0.242074562294416, 0.28131176768016425)"
+13.663371,4.694388,performance,track,cursor_in_target,0
+13.663424,4.694388,performance,track,center_deviation,144.294782
+13.663541,4.694388,state,track,"reticle, cursor_relative","(94.73644552259066, 110.03541020807046)"
+13.66357,4.694388,state,track,"reticle, cursor_proportional","(0.2436636973317661, 0.2830128863376298)"
+13.684635,4.715659,performance,track,cursor_in_target,0
+13.684686,4.715659,performance,track,center_deviation,145.199124
+13.684796,4.715659,state,track,"reticle, cursor_relative","(95.35193281890848, 110.69284387920936)"
+13.68482,4.715659,state,track,"reticle, cursor_proportional","(0.24524674078937367, 0.2847038165617525)"
+13.712193,4.743243,performance,track,cursor_in_target,0
+13.712233,4.743243,performance,track,center_deviation,146.098928
+13.712317,4.743243,state,track,"reticle, cursor_relative","(95.96503632187209, 111.34629261992345)"
+13.712336,4.743243,state,track,"reticle, cursor_proportional","(0.2468236530912348, 0.28638449747922695)"
+13.745879,4.776886,performance,track,cursor_in_target,0
+13.745939,4.776886,performance,track,center_deviation,146.994167
+13.746071,4.776886,state,track,"reticle, cursor_relative","(96.57574070392583, 111.99573290612858)"
+13.746103,4.776886,state,track,"reticle, cursor_proportional","(0.24839439481462405, 0.28805486858572166)"
+13.746888,4.776886,seed_value,sysmon,,
+13.746918,4.776886,seed_output,sysmon,,1
+13.746956,4.776886,seed_value,sysmon,,
+13.746969,4.776886,seed_output,sysmon,,1
+13.747,4.776886,seed_value,sysmon,,
+13.747013,4.776886,seed_output,sysmon,,1
+13.747041,4.776886,seed_value,sysmon,,
+13.747051,4.776886,seed_output,sysmon,,1
+13.747096,4.776886,state,sysmon,"scale1, arrow",5
+13.747117,4.776886,state,sysmon,"scale2, arrow",5
+13.747134,4.776886,state,sysmon,"scale3, arrow",5
+13.74715,4.776886,state,sysmon,"scale4, arrow",5
+13.779227,4.810006,performance,track,cursor_in_target,0
+13.7793,4.810006,performance,track,center_deviation,147.884813
+13.779439,4.810006,state,track,"reticle, cursor_relative","(97.18403069749195, 112.64114135804464)"
+13.779471,4.810006,state,track,"reticle, cursor_proportional","(0.2499589266910801, 0.28971486974805716)"
+13.812487,4.84347,performance,track,cursor_in_target,0
+13.81255,4.84347,performance,track,center_deviation,148.770839
+13.812687,4.84347,state,track,"reticle, cursor_relative","(97.78989109535229, 113.28249474103701)"
+13.812721,4.84347,state,track,"reticle, cursor_proportional","(0.25151720960738755, 0.2913644412063709)"
+13.846092,4.876974,performance,track,cursor_in_target,0
+13.846202,4.876974,performance,track,center_deviation,149.652218
+13.846471,4.876974,state,track,"reticle, cursor_relative","(98.39330675102848, 113.91976996645322)"
+13.846539,4.876974,state,track,"reticle, cursor_proportional","(0.2530692046065547, 0.2930035235762686)"
+13.878944,4.909975,performance,track,cursor_in_target,0
+13.878995,4.909975,performance,track,center_deviation,150.528923
+13.879103,4.909975,state,track,"reticle, cursor_relative","(98.99426257916052, 114.55294409245396)"
+13.879129,4.909975,state,track,"reticle, cursor_proportional","(0.2546148728887873, 0.2946320578509618)"
+13.91358,4.944429,performance,track,cursor_in_target,0
+13.913683,4.944429,performance,track,center_deviation,151.400928
+13.913907,4.944429,state,track,"reticle, cursor_relative","(99.59274355588404, 115.18199432483907)"
+13.913961,4.944429,state,track,"reticle, cursor_proportional","(0.256154175812459, 0.29624998540339265)"
+13.945634,4.976668,performance,track,cursor_in_target,0
+13.945681,4.976668,performance,track,center_deviation,152.268205
+13.945784,4.976668,state,track,"reticle, cursor_relative","(100.18873471920578, 115.80689801786812)"
+13.94581,4.976668,state,track,"reticle, cursor_proportional","(0.2576870748950766, 0.2978572479883439)"
+13.96437,4.994045,seed_value,sysmon,,
+13.964427,4.994045,seed_output,sysmon,,1
+13.964481,4.994045,seed_value,sysmon,,
+13.964498,4.994045,seed_output,sysmon,,1
+13.964538,4.994045,seed_value,sysmon,,
+13.964629,4.994045,seed_output,sysmon,,-1
+13.964671,4.994045,seed_value,sysmon,,
+13.964686,4.994045,seed_output,sysmon,,-1
+13.964754,4.994045,state,sysmon,"scale1, arrow",6
+13.964785,4.994045,state,sysmon,"scale2, arrow",6
+13.964808,4.994045,state,sysmon,"scale3, arrow",4
+13.964831,4.994045,state,sysmon,"scale4, arrow",4
+13.979183,5.010235,performance,track,cursor_in_target,0
+13.979218,5.010235,performance,track,center_deviation,153.130729
+13.979297,5.010235,state,track,"reticle, cursor_relative","(100.7822211693777, 116.42763267507564)"
+13.979315,5.010235,state,track,"reticle, cursor_proportional","(0.25921353181424306, 0.2994537877445361)"
+13.979864,5.010235,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:05
+14.012261,5.043293,performance,track,cursor_in_target,0
+14.012302,5.043293,performance,track,center_deviation,153.988473
+14.012384,5.043293,state,track,"reticle, cursor_relative","(101.37318806926945, 117.04417595008107)"
+14.012403,5.043293,state,track,"reticle, cursor_proportional","(0.2607335084086148, 0.30103954719671056)"
+14.045658,5.076709,performance,track,cursor_in_target,0
+14.045698,5.076709,performance,track,center_deviation,154.84141
+14.045777,5.076709,state,track,"reticle, cursor_relative","(101.96162064473933, 117.65650564739302)"
+14.045798,5.076709,state,track,"reticle, cursor_proportional","(0.2622469666788563, 0.3026144692576981)"
+14.079179,5.110207,performance,track,cursor_in_target,0
+14.07923,5.110207,performance,track,center_deviation,155.689516
+14.079334,5.110207,state,track,"reticle, cursor_relative","(102.54750418500358, 118.26459972320856)"
+14.07936,5.110207,state,track,"reticle, cursor_proportional","(0.2637538687885894, 0.3041784972304747)"
+14.112291,5.143315,performance,track,cursor_in_target,0
+14.112337,5.143315,performance,track,center_deviation,156.532764
+14.112421,5.143315,state,track,"reticle, cursor_relative","(103.13082404300421, 118.86843628620663)"
+14.112442,5.143315,state,track,"reticle, cursor_proportional","(0.26525417706534005, 0.30573157481020224)"
+14.145817,5.176826,performance,track,cursor_in_target,0
+14.145878,5.176826,performance,track,center_deviation,157.371128
+14.146009,5.176826,state,track,"reticle, cursor_relative","(103.71156563577516, 119.46799359833616)"
+14.146043,5.176826,state,track,"reticle, cursor_proportional","(0.2667478540014793, 0.30727364608625557)"
+14.180093,5.210997,performance,track,cursor_in_target,0
+14.180179,5.210997,performance,track,center_deviation,158.204584
+14.180362,5.210997,state,track,"reticle, cursor_relative","(104.28971444480686, 120.06325007559869)"
+14.180405,5.210997,state,track,"reticle, cursor_proportional","(0.2682348622551617, 0.3088046555442353)"
+14.181471,5.210997,seed_value,sysmon,,
+14.181505,5.210997,seed_output,sysmon,,-1
+14.181551,5.210997,seed_value,sysmon,,
+14.181565,5.210997,seed_output,sysmon,,-1
+14.181604,5.210997,seed_value,sysmon,,
+14.181618,5.210997,seed_output,sysmon,,1
+14.181672,5.210997,seed_value,sysmon,,
+14.181689,5.210997,seed_output,sysmon,,-1
+14.181747,5.210997,state,sysmon,"scale1, arrow",5
+14.181855,5.210997,state,sysmon,"scale2, arrow",5
+14.181878,5.210997,state,sysmon,"scale3, arrow",5
+14.181898,5.210997,state,sysmon,"scale4, arrow",3
+14.21271,5.24363,performance,track,cursor_in_target,0
+14.213123,5.24363,performance,track,center_deviation,159.033105
+14.213391,5.24363,state,track,"reticle, cursor_relative","(104.86525601640919, 120.6541842888253)"
+14.213449,5.24363,state,track,"reticle, cursor_proportional","(0.2697151646512582, 0.31032454806796633)"
+14.245902,5.276863,performance,track,cursor_in_target,0
+14.245985,5.276863,performance,track,center_deviation,159.856667
+14.246204,5.276863,state,track,"reticle, cursor_relative","(105.43817596207283, 121.24077496444818)"
+14.246278,5.276863,state,track,"reticle, cursor_proportional","(0.27118872418228607, 0.31183326894148194)"
+14.279109,5.310112,performance,track,cursor_in_target,0
+14.279169,5.310112,performance,track,center_deviation,160.675245
+14.2793,5.310112,state,track,"reticle, cursor_relative","(106.008459958829, 121.8230009852663)"
+14.279329,5.310112,state,track,"reticle, cursor_proportional","(0.2726555040093338, 0.31333076385099357)"
+14.312742,5.343729,performance,track,cursor_in_target,0
+14.312804,5.343729,performance,track,center_deviation,161.488814
+14.31294,5.343729,state,track,"reticle, cursor_relative","(106.57609374960745, 122.40084139120583)"
+14.312971,5.343729,state,track,"reticle, cursor_proportional","(0.2741154674629821, 0.3148169788868463)"
+14.346635,5.377477,performance,track,cursor_in_target,0
+14.346766,5.377477,performance,track,center_deviation,162.29735
+14.347082,5.377477,state,track,"reticle, cursor_relative","(107.14106314359302, 122.97427538007453)"
+14.347138,5.377477,state,track,"reticle, cursor_proportional","(0.2755685780442207, 0.31629186054545916)"
+14.379488,5.410429,performance,track,cursor_in_target,0
+14.379573,5.410429,performance,track,center_deviation,163.100827
+14.379762,5.410429,state,track,"reticle, cursor_relative","(107.70335401658023, 123.54328230831078)"
+14.379805,5.410429,state,track,"reticle, cursor_proportional","(0.27701479942536067, 0.317755355731252)"
+14.398946,5.427294,seed_value,sysmon,,
+14.399001,5.427294,seed_output,sysmon,,1
+14.399051,5.427294,seed_value,sysmon,,
+14.399069,5.427294,seed_output,sysmon,,1
+14.399107,5.427294,seed_value,sysmon,,
+14.399152,5.427294,seed_output,sysmon,,-1
+14.399202,5.427294,seed_value,sysmon,,
+14.399259,5.427294,seed_output,sysmon,,-1
+14.399348,5.427294,state,sysmon,"scale1, arrow",6
+14.399413,5.427294,state,sysmon,"scale2, arrow",6
+14.399512,5.427294,state,sysmon,"scale3, arrow",4
+14.399639,5.427294,state,sysmon,"scale4, arrow",4
+14.412317,5.443323,performance,track,cursor_in_target,0
+14.412372,5.443323,performance,track,center_deviation,163.899222
+14.412489,5.443323,state,track,"reticle, cursor_relative","(108.26295231132659, 124.10784169172658)"
+14.412515,5.443323,state,track,"reticle, cursor_proportional","(0.27845409545094285, 0.319207411758556)"
+14.44568,5.47669,performance,track,cursor_in_target,0
+14.445736,5.47669,performance,track,center_deviation,164.692511
+14.445857,5.47669,state,track,"reticle, cursor_relative","(108.81984403790385, 124.6679332062451)"
+14.445885,5.47669,state,track,"reticle, cursor_proportional","(0.27988643013864156, 0.32064797635351105)"
+14.479288,5.510277,performance,track,cursor_in_target,0
+14.479351,5.510277,performance,track,center_deviation,165.48067
+14.479486,5.510277,state,track,"reticle, cursor_relative","(109.37401527404786, 125.22353668863232)"
+14.479516,5.510277,state,track,"reticle, cursor_proportional","(0.28131176768016425, 0.32207699765594733)"
+14.512497,5.543412,performance,track,cursor_in_target,0
+14.512603,5.543412,performance,track,center_deviation,166.263674
+14.51282,5.543412,state,track,"reticle, cursor_relative","(109.92545216550657, 125.77463213722288)"
+14.51287,5.543412,state,track,"reticle, cursor_proportional","(0.28273007244214654, 0.32349442422125224)"
+14.545876,5.576774,performance,track,cursor_in_target,0
+14.545984,5.576774,performance,track,center_deviation,167.041501
+14.546215,5.576774,state,track,"reticle, cursor_relative","(110.47414092638644, 126.32119971264015)"
+14.546263,5.576774,state,track,"reticle, cursor_proportional","(0.2841413089670433, 0.3249002050222226)"
+14.579202,5.610146,performance,track,cursor_in_target,0
+14.579297,5.610146,performance,track,center_deviation,167.814127
+14.579518,5.610146,state,track,"reticle, cursor_relative","(111.02006783949699, 126.86321973851041)"
+14.579576,5.610146,state,track,"reticle, cursor_proportional","(0.2855454419740149, 0.3262942894509013)"
+14.598152,5.627475,seed_value,sysmon,,
+14.598221,5.627475,seed_output,sysmon,,1
+14.598285,5.627475,seed_value,sysmon,,
+14.598304,5.627475,seed_output,sysmon,,-1
+14.59835,5.627475,seed_value,sysmon,,
+14.598368,5.627475,seed_output,sysmon,,1
+14.598412,5.627475,seed_value,sysmon,,
+14.598428,5.627475,seed_output,sysmon,,1
+14.5985,5.627475,state,sysmon,"scale1, arrow",7
+14.598535,5.627475,state,sysmon,"scale2, arrow",5
+14.598647,5.627475,state,sysmon,"scale3, arrow",5
+14.598676,5.627475,state,sysmon,"scale4, arrow",5
+14.612377,5.643397,performance,track,cursor_in_target,0
+14.612427,5.643397,performance,track,center_deviation,168.581529
+14.612548,5.643397,state,track,"reticle, cursor_relative","(111.56321925669384, 127.40067270217132)"
+14.61258,5.643397,state,track,"reticle, cursor_proportional","(0.28694243635980926, 0.3276766273203995)"
+14.645844,5.6768,performance,track,cursor_in_target,0
+14.645926,5.6768,performance,track,center_deviation,169.343684
+14.646118,5.6768,state,track,"reticle, cursor_relative","(112.10358159921988, 127.93353925537421)"
+14.646166,5.6768,state,track,"reticle, cursor_proportional","(0.2883322571996396, 0.3290471688667032)"
+14.680284,5.711219,performance,track,cursor_in_target,0
+14.680369,5.711219,performance,track,center_deviation,170.100569
+14.680557,5.711219,state,track,"reticle, cursor_relative","(112.64114135804464, 128.4618002149807)"
+14.680602,5.711219,state,track,"reticle, cursor_proportional","(0.28971486974805716, 0.3304058647504648)"
+14.712306,5.743303,performance,track,cursor_in_target,0
+14.712369,5.743303,performance,track,center_deviation,170.852161
+14.712516,5.743303,state,track,"reticle, cursor_relative","(113.17588509420216, 128.9854365636533)"
+14.712553,5.743303,state,track,"reticle, cursor_proportional","(0.2910902394398204, 0.33175266605877907)"
+14.745777,5.776789,performance,track,cursor_in_target,0
+14.745833,5.776789,performance,track,center_deviation,171.598438
+14.745956,5.776789,state,track,"reticle, cursor_relative","(113.70779943912692, 129.50442945054004)"
+14.745986,5.776789,state,track,"reticle, cursor_proportional","(0.29245833189075854, 0.33308752430694455)"
+14.77906,5.810037,performance,track,cursor_in_target,0
+14.779133,5.810037,performance,track,center_deviation,172.339377
+14.779305,5.810037,state,track,"reticle, cursor_relative","(114.23687109498798, 130.01876019195302)"
+14.779348,5.810037,state,track,"reticle, cursor_proportional","(0.2938191128986316, 0.3344103914402084)"
+14.812501,5.843449,performance,track,cursor_in_target,0
+14.812591,5.843449,performance,track,center_deviation,173.074957
+14.812791,5.843449,state,track,"reticle, cursor_relative","(114.76308683502148, 130.5284102720411)"
+14.812844,5.843449,state,track,"reticle, cursor_proportional","(0.29517254844398527, 0.33572121983549663)"
+14.8141,5.843449,seed_value,sysmon,,
+14.814169,5.843449,seed_output,sysmon,,1
+14.814232,5.843449,seed_value,sysmon,,
+14.814253,5.843449,seed_output,sysmon,,1
+14.8143,5.843449,seed_value,sysmon,,
+14.814317,5.843449,seed_output,sysmon,,-1
+14.814361,5.843449,seed_value,sysmon,,
+14.814378,5.843449,seed_output,sysmon,,1
+14.814456,5.843449,state,sysmon,"scale1, arrow",6
+14.81449,5.843449,state,sysmon,"scale2, arrow",6
+14.814517,5.843449,state,sysmon,"scale3, arrow",4
+14.814543,5.843449,state,sysmon,"scale4, arrow",6
+14.845926,5.876786,performance,track,cursor_in_target,0
+14.846041,5.876786,performance,track,center_deviation,173.805155
+14.846255,5.876786,state,track,"reticle, cursor_relative","(115.28643350386135, 131.03336134345642)"
+14.846301,5.876786,state,track,"reticle, cursor_proportional","(0.2965186046910014, 0.33701996230312864)"
+14.879294,5.910274,performance,track,cursor_in_target,0
+14.879366,5.910274,performance,track,center_deviation,174.52995
+14.879529,5.910274,state,track,"reticle, cursor_relative","(115.80689801786812, 131.53359522801497)"
+14.879569,5.910274,state,track,"reticle, cursor_proportional","(0.2978572479883439, 0.3383065720885159)"
+14.912714,5.943602,performance,track,cursor_in_target,0
+14.912828,5.943602,performance,track,center_deviation,175.24932
+14.912963,5.943602,state,track,"reticle, cursor_relative","(116.32446736545604, 132.02909391735093)"
+14.912995,5.943602,state,track,"reticle, cursor_proportional","(0.2991884448700001, 0.33958100287384496)"
+14.94593,5.976983,performance,track,cursor_in_target,0
+14.945965,5.976983,performance,track,center_deviation,175.963244
+14.94604,5.976983,state,track,"reticle, cursor_relative","(116.8391286074184, 132.51983957356498)"
+14.946055,5.976983,state,track,"reticle, cursor_proportional","(0.3005121620561173, 0.34084320877974533)"
+14.979209,6.01014,performance,track,cursor_in_target,0
+14.979294,6.01014,performance,track,center_deviation,176.671701
+14.979504,6.01014,state,track,"reticle, cursor_relative","(117.35086887725093, 133.0058145298665)"
+14.979548,6.01014,state,track,"reticle, cursor_proportional","(0.3018283664538347, 0.3420931443669406)"
+14.980484,6.01014,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:06
+15.012863,6.043743,performance,track,cursor_in_target,0
+15.012981,6.043743,performance,track,center_deviation,177.374669
+15.013083,6.043743,state,track,"reticle, cursor_relative","(117.85967538147355, 133.48700129120957)"
+15.013098,6.043743,state,track,"reticle, cursor_proportional","(0.303137025158111, 0.3433307646378847)"
+15.013561,6.043743,seed_value,sysmon,,
+15.013582,6.043743,seed_output,sysmon,,1
+15.013611,6.043743,seed_value,sysmon,,
+15.01362,6.043743,seed_output,sysmon,,-1
+15.013642,6.043743,seed_value,sysmon,,
+15.013651,6.043743,seed_output,sysmon,,1
+15.01367,6.043743,seed_value,sysmon,,
+15.013677,6.043743,seed_output,sysmon,,-1
+15.013712,6.043743,state,sysmon,"scale1, arrow",7
+15.013726,6.043743,state,sysmon,"scale2, arrow",5
+15.013737,6.043743,state,sysmon,"scale3, arrow",5
+15.013747,6.043743,state,sysmon,"scale4, arrow",5
+15.045631,6.076649,performance,track,cursor_in_target,0
+15.045687,6.076649,performance,track,center_deviation,178.072128
+15.045811,6.076649,state,track,"reticle, cursor_relative","(118.36553539995016, 133.96338253492274)"
+15.045841,6.076649,state,track,"reticle, cursor_proportional","(0.3044381054525467, 0.3445560250383815)"
+15.079259,6.110223,performance,track,cursor_in_target,0
+15.079334,6.110223,performance,track,center_deviation,178.764056
+15.0795,6.110223,state,track,"reticle, cursor_relative","(118.86843628620663, 134.4349411113327)"
+15.079538,6.110223,state,track,"reticle, cursor_proportional","(0.30573157481020224, 0.34576888145918905)"
+15.112654,6.143536,performance,track,cursor_in_target,0
+15.112772,6.143536,performance,track,center_deviation,179.450435
+15.11294,6.143536,state,track,"reticle, cursor_relative","(119.36836546774701, 134.90166004438157)"
+15.112982,6.143536,state,track,"reticle, cursor_proportional","(0.30701740089441104, 0.3469692902376069)"
+15.145709,6.176717,performance,track,cursor_in_target,0
+15.14577,6.176717,performance,track,center_deviation,180.131243
+15.145894,6.176717,state,track,"reticle, cursor_relative","(119.86531044636779, 135.36352253223822)"
+15.145927,6.176717,state,track,"reticle, cursor_proportional","(0.30829555155958793, 0.34815720815904894)"
+15.179355,6.210235,performance,track,cursor_in_target,0
+15.179471,6.210235,performance,track,center_deviation,180.80646
+15.179655,6.210235,state,track,"reticle, cursor_relative","(120.35925879847038, 135.82051194790296)"
+15.179701,6.210235,state,track,"reticle, cursor_proportional","(0.30956599485203284, 0.34933259245859816)"
+15.212757,6.243651,performance,track,cursor_in_target,0
+15.212874,6.243651,performance,track,center_deviation,181.476066
+15.213036,6.243651,state,track,"reticle, cursor_relative","(120.85019817537172, 136.27261183980616)"
+15.213065,6.243651,state,track,"reticle, cursor_proportional","(0.31082869901072974, 0.3504954008225467)"
+15.229911,6.260076,seed_value,sysmon,,
+15.229946,6.260076,seed_output,sysmon,,-1
+15.229976,6.260076,seed_value,sysmon,,
+15.229986,6.260076,seed_output,sysmon,,-1
+15.230009,6.260076,seed_value,sysmon,,
+15.23002,6.260076,seed_output,sysmon,,1
+15.230041,6.260076,seed_value,sysmon,,
+15.23005,6.260076,seed_output,sysmon,,-1
+15.230091,6.260076,state,sysmon,"scale1, arrow",6
+15.230107,6.260076,state,sysmon,"scale2, arrow",4
+15.230121,6.260076,state,sysmon,"scale3, arrow",6
+15.230135,6.260076,state,sysmon,"scale4, arrow",4
+15.245689,6.276725,performance,track,cursor_in_target,0
+15.24573,6.276725,performance,track,center_deviation,182.140043
+15.245878,6.276725,state,track,"reticle, cursor_relative","(121.33811630361296, 136.71980593240053)"
+15.245898,6.276725,state,track,"reticle, cursor_proportional","(0.3120836324681403, 0.3516455913899191)"
+15.279114,6.31014,performance,track,cursor_in_target,0
+15.279159,6.31014,performance,track,center_deviation,182.798369
+15.279261,6.31014,state,track,"reticle, cursor_relative","(121.8230009852663, 137.1620781267471)"
+15.279281,6.31014,state,track,"reticle, cursor_proportional","(0.31333076385099357, 0.35278312275397916)"
+15.312225,6.343272,performance,track,cursor_in_target,0
+15.312265,6.343272,performance,track,center_deviation,183.451027
+15.312347,6.343272,state,track,"reticle, cursor_relative","(122.30484009823994, 137.59941250109458)"
+15.312366,6.343272,state,track,"reticle, cursor_proportional","(0.3145700619810698, 0.3539079539637206)"
+15.345914,6.376823,performance,track,cursor_in_target,0
+15.346024,6.376823,performance,track,center_deviation,184.097996
+15.346283,6.376823,state,track,"reticle, cursor_relative","(122.78362159658116, 138.03179331145273)"
+15.346346,6.376823,state,track,"reticle, cursor_proportional","(0.31580149587598033, 0.35502004452534136)"
+15.379058,6.410067,performance,track,cursor_in_target,0
+15.379119,6.410067,performance,track,center_deviation,184.739259
+15.379255,6.410067,state,track,"reticle, cursor_relative","(123.25933351077745, 138.45920499215907)"
+15.379289,6.410067,state,track,"reticle, cursor_proportional","(0.317025034749942, 0.3561193544037013)"
+15.412552,6.443527,performance,track,cursor_in_target,0
+15.412641,6.443527,performance,track,center_deviation,185.374795
+15.412816,6.443527,state,track,"reticle, cursor_relative","(123.73196394805572, 138.88163215643928)"
+15.41286,6.443527,state,track,"reticle, cursor_proportional","(0.3182406480145466, 0.3572058440237636)"
+15.429679,6.460186,performance,resman,a_in_tolerance,1
+15.429721,6.460186,performance,resman,a_deviation,-78
+15.429732,6.460186,performance,resman,b_in_tolerance,1
+15.429739,6.460186,performance,resman,b_deviation,-78
+15.429803,6.460186,state,resman,"tank_a, fluid_level",2422
+15.430175,6.460186,state,resman,"tank_a, fluid_label",2422
+15.430208,6.460186,state,resman,"tank_b, fluid_level",2422
+15.430336,6.460186,state,resman,"tank_b, fluid_label",2422
+15.430399,6.460186,seed_value,sysmon,,
+15.430407,6.460186,seed_output,sysmon,,-1
+15.430426,6.460186,seed_value,sysmon,,
+15.430432,6.460186,seed_output,sysmon,,-1
+15.430447,6.460186,seed_value,sysmon,,
+15.430453,6.460186,seed_output,sysmon,,-1
+15.430467,6.460186,seed_value,sysmon,,
+15.430473,6.460186,seed_output,sysmon,,-1
+15.430503,6.460186,state,sysmon,"scale1, arrow",5
+15.430515,6.460186,state,sysmon,"scale2, arrow",3
+15.430525,6.460186,state,sysmon,"scale3, arrow",5
+15.430535,6.460186,state,sysmon,"scale4, arrow",3
+15.446154,6.477083,performance,track,cursor_in_target,0
+15.446242,6.477083,performance,track,center_deviation,186.004588
+15.446428,6.477083,state,track,"reticle, cursor_relative","(124.20150109267965, 139.29905959696106)"
+15.446462,6.477083,state,track,"reticle, cursor_proportional","(0.31944830527952583, 0.35827947427201917)"
+15.479044,6.510053,performance,track,cursor_in_target,0
+15.479107,6.510053,performance,track,center_deviation,186.628618
+15.47926,6.510053,state,track,"reticle, cursor_relative","(124.6679332062451, 139.71147228638165)"
+15.479296,6.510053,state,track,"reticle, cursor_proportional","(0.32064797635351105, 0.35934020649789516)"
+15.51243,6.543416,performance,track,cursor_in_target,0
+15.512503,6.543416,performance,track,center_deviation,187.246867
+15.512667,6.543416,state,track,"reticle, cursor_relative","(125.13124862797349, 140.1188553778887)"
+15.513037,6.543416,state,track,"reticle, cursor_proportional","(0.32183963124478776, 0.36038800251514586)"
+15.546481,6.577346,performance,track,cursor_in_target,0
+15.546574,6.577346,performance,track,center_deviation,187.859317
+15.546749,6.577346,state,track,"reticle, cursor_relative","(125.59143577500345, 140.52119420573501)"
+15.546808,6.577346,state,track,"reticle, cursor_proportional","(0.32302324016204587, 0.3614228246032279)"
+15.579602,6.610466,performance,track,cursor_in_target,0
+15.579725,6.610466,performance,track,center_deviation,188.465951
+15.579957,6.610466,state,track,"reticle, cursor_relative","(126.04848314268023, 140.91847428576617)"
+15.579985,6.610466,state,track,"reticle, cursor_proportional","(0.32419877351512405, 0.3624446355086578)"
+15.612335,6.643373,performance,track,cursor_in_target,0
+15.612376,6.643373,performance,track,center_deviation,189.066751
+15.612462,6.643373,state,track,"reticle, cursor_relative","(126.50237930484349, 141.31068131594222)"
+15.61248,6.643373,state,track,"reticle, cursor_proportional","(0.3253662019157497, 0.36345339844635344)"
+15.629791,6.660311,seed_value,sysmon,,
+15.629822,6.660311,seed_output,sysmon,,1
+15.629845,6.660311,seed_value,sysmon,,
+15.629853,6.660311,seed_output,sysmon,,1
+15.629872,6.660311,seed_value,sysmon,,
+15.629879,6.660311,seed_output,sysmon,,1
+15.629896,6.660311,seed_value,sysmon,,
+15.629903,6.660311,seed_output,sysmon,,1
+15.629938,6.660311,state,sysmon,"scale1, arrow",6
+15.629951,6.660311,state,sysmon,"scale2, arrow",4
+15.629962,6.660311,state,sysmon,"scale3, arrow",6
+15.629972,6.660311,state,sysmon,"scale4, arrow",4
+15.645698,6.676712,performance,track,cursor_in_target,0
+15.645747,6.676712,performance,track,center_deviation,189.6617
+15.645861,6.676712,state,track,"reticle, cursor_relative","(126.95311291411276, 141.69780117685244)"
+15.645888,6.676712,state,track,"reticle, cursor_proportional","(0.3265254961782736, 0.3644490771009579)"
+15.678992,6.710015,performance,track,cursor_in_target,0
+15.679035,6.710015,performance,track,center_deviation,190.250781
+15.679124,6.710015,state,track,"reticle, cursor_relative","(127.40067270217132, 142.07981993222361)"
+15.679143,6.710015,state,track,"reticle, cursor_proportional","(0.3276766273203995, 0.3654316356281471)"
+15.712347,6.743329,performance,track,cursor_in_target,0
+15.712421,6.743329,performance,track,center_deviation,190.833977
+15.712591,6.743329,state,track,"reticle, cursor_relative","(127.84504748004778, 142.45672382942186)"
+15.712632,6.743329,state,track,"reticle, cursor_proportional","(0.32881956656390887, 0.36640103865592044)"
+15.747322,6.778243,performance,track,cursor_in_target,0
+15.747417,6.778243,performance,track,center_deviation,191.41127
+15.747622,6.778243,state,track,"reticle, cursor_relative","(128.28622613839582, 142.82849929994754)"
+15.747667,6.778243,state,track,"reticle, cursor_proportional","(0.3299542853353802, 0.36735725128587327)"
+15.779214,6.810153,performance,track,cursor_in_target,0
+15.779307,6.810153,performance,track,center_deviation,191.982645
+15.779519,6.810153,state,track,"reticle, cursor_relative","(128.72419764777197, 143.19513295992388)"
+15.779572,6.810153,state,track,"reticle, cursor_proportional","(0.3310807552669032, 0.3683002390944544)"
+15.812605,6.843488,performance,track,cursor_in_target,0
+15.812723,6.843488,performance,track,center_deviation,192.548085
+15.812852,6.843488,state,track,"reticle, cursor_relative","(129.15895105891133, 143.5566116105787)"
+15.812878,6.843488,state,track,"reticle, cursor_proportional","(0.33219894819678836, 0.36922996813420444)"
+15.845746,6.876716,performance,track,cursor_in_target,0
+15.845947,6.876716,performance,track,center_deviation,193.107575
+15.846134,6.876716,state,track,"reticle, cursor_relative","(129.59047550300122, 143.91292223871966)"
+15.846181,6.876716,state,track,"reticle, cursor_proportional","(0.33330883617027063, 0.3701464049349785)"
+15.847413,6.876716,seed_value,sysmon,,
+15.847469,6.876716,seed_output,sysmon,,1
+15.84753,6.876716,seed_value,sysmon,,
+15.847642,6.876716,seed_output,sysmon,,-1
+15.84777,6.876716,seed_value,sysmon,,
+15.847799,6.876716,seed_output,sysmon,,1
+15.847854,6.876716,seed_value,sysmon,,
+15.847873,6.876716,seed_output,sysmon,,-1
+15.847973,6.876716,state,sysmon,"scale1, arrow",7
+15.848007,6.876716,state,sysmon,"scale2, arrow",3
+15.848116,6.876716,state,sysmon,"scale3, arrow",7
+15.848146,6.876716,state,sysmon,"scale4, arrow",3
+15.880087,6.911057,performance,track,cursor_in_target,0
+15.880159,6.911057,performance,track,center_deviation,193.661097
+15.880408,6.911057,state,track,"reticle, cursor_relative","(130.01876019195302, 144.2640520172026)"
+15.880594,6.911057,state,track,"reticle, cursor_proportional","(0.3344103914402084, 0.3710495165051507)"
+15.912327,6.943344,performance,track,cursor_in_target,0
+15.912379,6.943344,performance,track,center_deviation,194.208637
+15.912501,6.943344,state,track,"reticle, cursor_relative","(130.44379441867184, 144.60998830539341)"
+15.912533,6.943344,state,track,"reticle, cursor_proportional","(0.33550358646777734, 0.371939270332802)"
+15.94568,6.976683,performance,track,cursor_in_target,0
+15.945739,6.976683,performance,track,center_deviation,194.750179
+15.945898,6.976683,state,track,"reticle, cursor_relative","(130.8655675573241, 144.9507186496231)"
+15.945933,6.976683,state,track,"reticle, cursor_proportional","(0.3365883939231587, 0.3728156343868907)"
+15.979005,7.009987,performance,track,cursor_in_target,0
+15.979076,7.009987,performance,track,center_deviation,195.285708
+15.97924,7.009987,state,track,"reticle, cursor_relative","(131.2840690636034, 145.28623078363606)"
+15.979284,7.009987,state,track,"reticle, cursor_proportional","(0.33766478668622274, 0.37367857711840546)"
+15.980215,7.009987,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:07
+16.012348,7.043368,performance,track,cursor_in_target,0
+16.012403,7.043368,performance,track,center_deviation,195.815208
+16.012525,7.043368,state,track,"reticle, cursor_relative","(131.69928847499378, 145.6165126290317)"
+16.012556,7.043368,state,track,"reticle, cursor_proportional","(0.3387327378472062, 0.37452806746150125)"
+16.045821,7.076742,performance,track,cursor_in_target,0
+16.045958,7.076742,performance,track,center_deviation,196.338665
+16.046144,7.076742,state,track,"reticle, cursor_relative","(132.1112154110316, 145.94155229569924)"
+16.046187,7.076742,state,track,"reticle, cursor_proportional","(0.3397922207073858, 0.37536407483461737)"
+16.047364,7.076742,seed_value,sysmon,,
+16.047403,7.076742,seed_output,sysmon,,-1
+16.047449,7.076742,seed_value,sysmon,,
+16.047465,7.076742,seed_output,sysmon,,-1
+16.047501,7.076742,seed_value,sysmon,,
+16.047514,7.076742,seed_output,sysmon,,-1
+16.04755,7.076742,seed_value,sysmon,,
+16.047564,7.076742,seed_output,sysmon,,-1
+16.047621,7.076742,state,sysmon,"scale1, arrow",6
+16.047646,7.076742,state,sysmon,"scale2, arrow",4
+16.047666,7.076742,state,sysmon,"scale3, arrow",6
+16.047685,7.076742,state,sysmon,"scale4, arrow",4
+16.079009,7.110023,performance,track,cursor_in_target,0
+16.079064,7.110023,performance,track,center_deviation,196.856064
+16.079186,7.110023,state,track,"reticle, cursor_relative","(132.51983957356495, 146.26133808224583)"
+16.079216,7.110023,state,track,"reticle, cursor_proportional","(0.3408432087797452, 0.3761865691415788)"
+16.112413,7.143387,performance,track,cursor_in_target,0
+16.112462,7.143387,performance,track,center_deviation,197.367391
+16.11256,7.143387,state,track,"reticle, cursor_relative","(132.92515074701103, 146.57585847641766)"
+16.112584,7.143387,state,track,"reticle, cursor_proportional","(0.3418856757896374, 0.37699552077267917)"
+16.145996,7.176896,performance,track,cursor_in_target,0
+16.146105,7.176896,performance,track,center_deviation,197.872631
+16.1463,7.176896,state,track,"reticle, cursor_relative","(133.3271387986116, 146.88510215551452)"
+16.146334,7.176896,state,track,"reticle, cursor_proportional","(0.34291959567544134, 0.3777909006057472)"
+16.179347,7.210222,performance,track,cursor_in_target,0
+16.179518,7.210222,performance,track,center_deviation,198.37177
+16.179842,7.210222,state,track,"reticle, cursor_relative","(133.72579367868633, 147.1890579867973)"
+16.179894,7.210222,state,track,"reticle, cursor_proportional","(0.3439449425892138, 0.37857268000719474)"
+16.212347,7.243388,performance,track,cursor_in_target,0
+16.212392,7.243388,performance,track,center_deviation,198.864795
+16.212528,7.243388,state,track,"reticle, cursor_relative","(134.121105420884, 147.487715027889)"
+16.212577,7.243388,state,track,"reticle, cursor_proportional","(0.34496169089733536, 0.37934083083304787)"
+16.245649,7.276667,performance,track,cursor_in_target,0
+16.245703,7.276667,performance,track,center_deviation,199.351692
+16.245827,7.276667,state,track,"reticle, cursor_relative","(134.51306414243157, 147.78106252716836)"
+16.245857,7.276667,state,track,"reticle, cursor_proportional","(0.34596981518115116, 0.3800953254299598)"
+16.263013,7.293314,seed_value,sysmon,,
+16.26306,7.293314,seed_output,sysmon,,1
+16.263098,7.293314,seed_value,sysmon,,
+16.263111,7.293314,seed_output,sysmon,,-1
+16.26314,7.293314,seed_value,sysmon,,
+16.263151,7.293314,seed_output,sysmon,,1
+16.263179,7.293314,seed_value,sysmon,,
+16.26319,7.293314,seed_output,sysmon,,-1
+16.263238,7.293314,state,sysmon,"scale1, arrow",7
+16.263257,7.293314,state,sysmon,"scale2, arrow",3
+16.263273,7.293314,state,sysmon,"scale3, arrow",7
+16.263288,7.293314,state,sysmon,"scale4, arrow",3
+16.278929,7.309968,performance,track,cursor_in_target,0
+16.278972,7.309968,performance,track,center_deviation,199.832447
+16.279067,7.309968,state,track,"reticle, cursor_relative","(134.9016600443815, 148.06908992415708)"
+16.27909,7.309968,state,track,"reticle, cursor_proportional","(0.3469692902376067, 0.38083613663620647)"
+16.312287,7.343312,performance,track,cursor_in_target,0
+16.312337,7.343312,performance,track,center_deviation,200.307047
+16.312451,7.343312,state,track,"reticle, cursor_relative","(135.28688341185642, 148.35178684989992)"
+16.312479,7.343312,state,track,"reticle, cursor_proportional","(0.34796009107987763, 0.3815632377826644)"
+16.345918,7.376836,performance,track,cursor_in_target,0
+16.346018,7.376836,performance,track,center_deviation,200.77548
+16.346233,7.376836,state,track,"reticle, cursor_relative","(135.66872461429222, 148.62914312733818)"
+16.34626,7.376836,state,track,"reticle, cursor_proportional","(0.3489421929379944, 0.382276602693771)"
+16.379238,7.410126,performance,track,cursor_in_target,0
+16.379353,7.410126,performance,track,center_deviation,201.237733
+16.379511,7.410126,state,track,"reticle, cursor_relative","(136.04717410567875, 148.9011487716758)"
+16.379546,7.410126,state,track,"reticle, cursor_proportional","(0.34991557125946177, 0.3829762056884665)"
+16.412318,7.443339,performance,track,cursor_in_target,0
+16.412374,7.443339,performance,track,center_deviation,201.693792
+16.412497,7.443339,state,track,"reticle, cursor_relative","(136.42222242479843, 149.16779399073891)"
+16.412531,7.443339,state,track,"reticle, cursor_proportional","(0.3508802017098725, 0.3836620215811186)"
+16.445668,7.476676,performance,track,cursor_in_target,0
+16.445731,7.476676,performance,track,center_deviation,202.143646
+16.445974,7.476676,state,track,"reticle, cursor_relative","(136.7938601954628, 149.42906918532847)"
+16.446044,7.476676,state,track,"reticle, cursor_proportional","(0.35183606017351543, 0.3843340256824292)"
+16.463603,7.493439,seed_value,sysmon,,
+16.463725,7.493439,seed_output,sysmon,,1
+16.463792,7.493439,seed_value,sysmon,,
+16.463806,7.493439,seed_output,sysmon,,1
+16.463836,7.493439,seed_value,sysmon,,
+16.463846,7.493439,seed_output,sysmon,,-1
+16.463874,7.493439,seed_value,sysmon,,
+16.463884,7.493439,seed_output,sysmon,,1
+16.463936,7.493439,state,sysmon,"scale1, arrow",6
+16.463957,7.493439,state,sysmon,"scale2, arrow",4
+16.463973,7.493439,state,sysmon,"scale3, arrow",6
+16.463989,7.493439,state,sysmon,"scale4, arrow",4
+16.478842,7.509878,performance,track,cursor_in_target,0
+16.478886,7.509878,performance,track,center_deviation,202.587282
+16.478976,7.509878,state,track,"reticle, cursor_relative","(137.16207812674696, 149.68496494956568)"
+16.478999,7.509878,state,track,"reticle, cursor_proportional","(0.35278312275397883, 0.38499219380032323)"
+16.512331,7.543355,performance,track,cursor_in_target,0
+16.512374,7.543355,performance,track,center_deviation,203.024689
+16.512505,7.543355,state,track,"reticle, cursor_relative","(137.52686701322182, 149.93547207123066)"
+16.512526,7.543355,state,track,"reticle, cursor_proportional","(0.35372136577474744, 0.3856365022408196)"
+16.545607,7.576642,performance,track,cursor_in_target,0
+16.54565,7.576642,performance,track,center_deviation,203.455855
+16.545742,7.576642,state,track,"reticle, cursor_relative","(137.88821773518416, 150.1805815320941)"
+16.545762,7.576642,state,track,"reticle, cursor_proportional","(0.35465076577979465, 0.386266927808884)"
+16.578899,7.609902,performance,track,cursor_in_target,0
+16.578947,7.609902,performance,track,center_deviation,203.880768
+16.579043,7.609902,state,track,"reticle, cursor_relative","(138.24612125888484, 150.42028450824182)"
+16.579066,7.609902,state,track,"reticle, cursor_proportional","(0.3555712995341688, 0.3868834478092639)"
+16.612252,7.643285,performance,track,cursor_in_target,0
+16.612297,7.643285,performance,track,center_deviation,204.299418
+16.612391,7.643285,state,track,"reticle, cursor_relative","(138.60056863675433, 150.65457237039266)"
+16.612411,7.643285,state,track,"reticle, cursor_proportional","(0.35648294402457387, 0.3874860400473062)"
+16.645686,7.676709,performance,track,cursor_in_target,0
+16.645738,7.676709,performance,track,center_deviation,204.711792
+16.645895,7.676709,state,track,"reticle, cursor_relative","(138.95155100762668, 150.88343668420885)"
+16.645946,7.676709,state,track,"reticle, cursor_proportional","(0.3573856764599451, 0.38807468282975527)"
+16.67946,7.71038,performance,track,cursor_in_target,0
+16.679555,7.71038,performance,track,center_deviation,205.117881
+16.679766,7.71038,state,track,"reticle, cursor_relative","(139.2990595969609, 151.10686921059974)"
+16.679812,7.71038,state,track,"reticle, cursor_proportional","(0.3582794742720187, 0.3886493549655343)"
+16.681004,7.71038,seed_value,sysmon,,
+16.681054,7.71038,seed_output,sysmon,,-1
+16.681112,7.71038,seed_value,sysmon,,
+16.681131,7.71038,seed_output,sysmon,,-1
+16.681175,7.71038,seed_value,sysmon,,
+16.681191,7.71038,seed_output,sysmon,,1
+16.681232,7.71038,seed_value,sysmon,,
+16.681248,7.71038,seed_output,sysmon,,1
+16.681308,7.71038,state,sysmon,"scale1, arrow",5
+16.681338,7.71038,state,sysmon,"scale2, arrow",3
+16.681362,7.71038,state,sysmon,"scale3, arrow",7
+16.681383,7.71038,state,sysmon,"scale4, arrow",5
+16.712429,7.743411,performance,track,cursor_in_target,0
+16.7125,7.743411,performance,track,center_deviation,205.517673
+16.712658,7.743411,state,track,"reticle, cursor_relative","(139.64308571706036, 151.32486190601864)"
+16.712695,7.743411,state,track,"reticle, cursor_proportional","(0.35916431511589597, 0.3892100357665088)"
+16.745987,7.776868,performance,track,cursor_in_target,0
+16.746071,7.776868,performance,track,center_deviation,205.911159
+16.746155,7.776868,state,track,"reticle, cursor_relative","(139.98362076728995, 151.53740692275196)"
+16.746173,7.776868,state,track,"reticle, cursor_proportional","(0.3600401768706017, 0.38975670504823035)"
+16.778913,7.809959,performance,track,cursor_in_target,0
+16.778952,7.809959,performance,track,center_deviation,206.298327
+16.779033,7.809959,state,track,"reticle, cursor_relative","(140.32065623429116, 151.74449660920206)"
+16.77905,7.809959,state,track,"reticle, cursor_proportional","(0.3609070376396378, 0.3902893431306637)"
+16.812351,7.843301,performance,track,cursor_in_target,0
+16.812412,7.843301,performance,track,center_deviation,206.679169
+16.812545,7.843301,state,track,"reticle, cursor_relative","(140.6541836921949, 151.94612351016264)"
+16.812578,7.843301,state,track,"reticle, cursor_proportional","(0.36176487575153005, 0.39080793083889565)"
+16.845905,7.876862,performance,track,cursor_in_target,0
+16.845992,7.876862,performance,track,center_deviation,207.053674
+16.846211,7.876862,state,track,"reticle, cursor_relative","(140.984194802832, 152.142280367087)"
+16.846276,7.876862,state,track,"reticle, cursor_proportional","(0.3626136697603704, 0.3913124495038246)"
+16.879531,7.910417,performance,track,cursor_in_target,0
+16.879637,7.910417,performance,track,center_deviation,207.421833
+16.879815,7.910417,state,track,"reticle, cursor_relative","(141.31068131594202, 152.33296011834952)"
+16.879852,7.910417,state,track,"reticle, cursor_proportional","(0.36345339844635294, 0.3918028809628331)"
+16.880719,7.910417,seed_value,sysmon,,
+16.880758,7.910417,seed_output,sysmon,,-1
+16.880796,7.910417,seed_value,sysmon,,
+16.880809,7.910417,seed_output,sysmon,,1
+16.880839,7.910417,seed_value,sysmon,,
+16.88085,7.910417,seed_output,sysmon,,-1
+16.880879,7.910417,seed_value,sysmon,,
+16.88089,7.910417,seed_output,sysmon,,-1
+16.880938,7.910417,state,sysmon,"scale1, arrow",4
+16.88096,7.910417,state,sysmon,"scale2, arrow",4
+16.880976,7.910417,state,sysmon,"scale3, arrow",6
+16.880993,7.910417,state,sysmon,"scale4, arrow",4
+16.912421,7.943432,performance,track,cursor_in_target,0
+16.912477,7.943432,performance,track,center_deviation,207.783636
+16.912606,7.943432,state,track,"reticle, cursor_relative","(141.63363506937904, 152.51815589949967)"
+16.912638,7.943432,state,track,"reticle, cursor_proportional","(0.3642840408163041, 0.39227920756044155)"
+16.948163,7.979005,performance,track,cursor_in_target,0
+16.94824,7.979005,performance,track,center_deviation,208.139075
+16.948424,7.979005,state,track,"reticle, cursor_relative","(141.95304798931608, 152.69786104350942)"
+16.948462,7.979005,state,track,"reticle, cursor_proportional","(0.365105576104208, 0.392741412148944)"
+16.976455,8.007468,performance,track,cursor_in_target,0
+16.976504,8.007468,performance,track,center_deviation,208.48814
+16.976604,8.007468,state,track,"reticle, cursor_relative","(142.26891209044678, 152.87206908101294)"
+16.976626,8.007468,state,track,"reticle, cursor_proportional","(0.36591798377172524, 0.39318947808902505)"
+16.977229,8.007468,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:08
+16.999155,8.030071,performance,track,cursor_in_target,0
+16.999246,8.030071,performance,track,center_deviation,208.830824
+16.999453,8.030071,state,track,"reticle, cursor_relative","(142.58121947618503, 153.04077374053972)"
+16.999502,8.030071,state,track,"reticle, cursor_proportional","(0.36672124350870633, 0.39362338925035933)"
+17.027979,8.058975,performance,track,cursor_in_target,0
+17.028029,8.058975,performance,track,center_deviation,209.167116
+17.028136,8.058975,state,track,"reticle, cursor_relative","(142.8899623388625, 153.2039689487402)"
+17.028158,8.058975,state,track,"reticle, cursor_proportional","(0.3675153352336998, 0.3940431300121919)"
+17.058922,8.089864,performance,track,cursor_in_target,0
+17.059007,8.089864,performance,track,center_deviation,209.497011
+17.059196,8.089864,state,track,"reticle, cursor_relative","(143.19513295992363, 153.36164883060457)"
+17.059244,8.089864,state,track,"reticle, cursor_proportional","(0.36830023909445375, 0.39444868526390064)"
+17.088762,8.119762,performance,track,cursor_in_target,0
+17.088857,8.119762,performance,track,center_deviation,209.820498
+17.088994,8.119762,state,track,"reticle, cursor_relative","(143.49672371011889, 153.51380770967404)"
+17.089023,8.119762,state,track,"reticle, cursor_proportional","(0.3690759354684128, 0.3948400404055402)"
+17.089717,8.119762,seed_value,sysmon,,
+17.089741,8.119762,seed_output,sysmon,,1
+17.089777,8.119762,seed_value,sysmon,,
+17.08979,8.119762,seed_output,sysmon,,-1
+17.08982,8.119762,seed_value,sysmon,,
+17.089831,8.119762,seed_output,sysmon,,-1
+17.089859,8.119762,seed_value,sysmon,,
+17.089869,8.119762,seed_output,sysmon,,1
+17.089918,8.119762,state,sysmon,"scale1, arrow",5
+17.089942,8.119762,state,sysmon,"scale2, arrow",3
+17.089961,8.119762,state,sysmon,"scale3, arrow",5
+17.089978,8.119762,state,sysmon,"scale4, arrow",5
+17.112467,8.143456,performance,track,cursor_in_target,0
+17.112529,8.143456,performance,track,center_deviation,210.137571
+17.112807,8.143456,state,track,"reticle, cursor_relative","(143.79472704969513, 153.66044010824544)"
+17.112861,8.143456,state,track,"reticle, cursor_proportional","(0.36984240496320764, 0.39521718134836786)"
+17.145822,8.176739,performance,track,cursor_in_target,0
+17.145936,8.176739,performance,track,center_deviation,210.448223
+17.14612,8.176739,state,track,"reticle, cursor_relative","(144.08913552858448, 153.80154074756825)"
+17.146171,8.176739,state,track,"reticle, cursor_proportional","(0.3705996284171411, 0.3955800945153504)"
+17.179322,8.210246,performance,track,cursor_in_target,0
+17.179402,8.210246,performance,track,center_deviation,210.752445
+17.179611,8.210246,state,track,"reticle, cursor_relative","(144.37994178659022, 153.9371045480347)"
+17.17966,8.210246,state,track,"reticle, cursor_proportional","(0.3713475868996662, 0.39592876684165307)"
+17.212673,8.243601,performance,track,cursor_in_target,0
+17.212759,8.243601,performance,track,center_deviation,211.05023
+17.213172,8.243601,state,track,"reticle, cursor_relative","(144.66713855357108, 154.06712662936263)"
+17.213327,8.243601,state,track,"reticle, cursor_proportional","(0.37208626171185977, 0.39626318577510966)"
+17.245762,8.276764,performance,track,cursor_in_target,0
+17.245821,8.276764,performance,track,center_deviation,211.341573
+17.246061,8.276764,state,track,"reticle, cursor_relative","(144.95071864962284, 154.1916023107711)"
+17.246315,8.276764,state,track,"reticle, cursor_proportional","(0.37281563438689, 0.3965833392766746)"
+17.278833,8.309887,performance,track,cursor_in_target,0
+17.278871,8.309887,performance,track,center_deviation,211.626466
+17.27897,8.309887,state,track,"reticle, cursor_relative","(145.23067498525788, 154.31052711114907)"
+17.279021,8.309887,state,track,"reticle, cursor_proportional","(0.37353568669047804, 0.3968892158208567)"
+17.296371,8.326664,seed_value,sysmon,,
+17.296411,8.326664,seed_output,sysmon,,-1
+17.296444,8.326664,seed_value,sysmon,,
+17.296454,8.326664,seed_output,sysmon,,1
+17.296476,8.326664,seed_value,sysmon,,
+17.296484,8.326664,seed_output,sysmon,,1
+17.296505,8.326664,seed_value,sysmon,,
+17.296512,8.326664,seed_output,sysmon,,-1
+17.296555,8.326664,state,sysmon,"scale1, arrow",4
+17.296573,8.326664,state,sysmon,"scale2, arrow",4
+17.296587,8.326664,state,sysmon,"scale3, arrow",6
+17.296599,8.326664,state,sysmon,"scale4, arrow",4
+17.313118,8.344028,performance,track,cursor_in_target,0
+17.313229,8.344028,performance,track,center_deviation,211.904903
+17.313723,8.344028,state,track,"reticle, cursor_relative","(145.5070005615824, 154.42389674921657)"
+17.313818,8.344028,state,track,"reticle, cursor_proportional","(0.3742464006213539, 0.3971808043961331)"
+17.345798,8.376747,performance,track,cursor_in_target,0
+17.345872,8.376747,performance,track,center_deviation,212.176877
+17.346043,8.376747,state,track,"reticle, cursor_relative","(145.77968847047134, 154.53170714367883)"
+17.346086,8.376747,state,track,"reticle, cursor_proportional","(0.37494775841170613, 0.39745809450534675)"
+17.379515,8.410519,performance,track,cursor_in_target,0
+17.379572,8.410519,performance,track,center_deviation,212.442383
+17.379806,8.410519,state,track,"reticle, cursor_relative","(146.04873189474117, 154.63395441337335)"
+17.379874,8.410519,state,track,"reticle, cursor_proportional","(0.37563974252762644, 0.3977210761660837)"
+17.412254,8.44329,performance,track,cursor_in_target,0
+17.412297,8.44329,performance,track,center_deviation,212.701415
+17.412423,8.44329,state,track,"reticle, cursor_relative","(146.31412410832039, 154.73063487740941)"
+17.412447,8.44329,state,track,"reticle, cursor_proportional","(0.3763223356695483, 0.39796973991103246)"
+17.44611,8.476832,performance,track,cursor_in_target,0
+17.446199,8.476832,performance,track,center_deviation,212.953968
+17.446419,8.476832,state,track,"reticle, cursor_relative","(146.57585847641738, 154.8217450553008)"
+17.446486,8.476832,state,track,"reticle, cursor_proportional","(0.37699552077267845, 0.3982040767883251)"
+17.4471,8.476832,performance,resman,a_in_tolerance,1
+17.447131,8.476832,performance,resman,a_deviation,-104
+17.447149,8.476832,performance,resman,b_in_tolerance,1
+17.447163,8.476832,performance,resman,b_deviation,-104
+17.447302,8.476832,state,resman,"tank_a, fluid_level",2396
+17.448201,8.476832,state,resman,"tank_a, fluid_label",2396
+17.448295,8.476832,state,resman,"tank_b, fluid_level",2396
+17.448622,8.476832,state,resman,"tank_b, fluid_label",2396
+17.479398,8.510327,performance,track,cursor_in_target,0
+17.479487,8.510327,performance,track,center_deviation,213.200035
+17.479691,8.510327,state,track,"reticle, cursor_relative","(146.83392845568665, 154.9072816670909)"
+17.479741,8.510327,state,track,"reticle, cursor_proportional","(0.37765928100742446, 0.3984240783618593)"
+17.497238,8.526766,seed_value,sysmon,,
+17.497338,8.526766,seed_output,sysmon,,-1
+17.497426,8.526766,seed_value,sysmon,,
+17.497455,8.526766,seed_output,sysmon,,1
+17.497504,8.526766,seed_value,sysmon,,
+17.497528,8.526766,seed_output,sysmon,,-1
+17.497573,8.526766,seed_value,sysmon,,
+17.497594,8.526766,seed_output,sysmon,,1
+17.49768,8.526766,state,sysmon,"scale1, arrow",3
+17.497724,8.526766,state,sysmon,"scale2, arrow",5
+17.497759,8.526766,state,sysmon,"scale3, arrow",5
+17.497804,8.526766,state,sysmon,"scale4, arrow",5
+17.512428,8.543388,performance,track,cursor_in_target,0
+17.512492,8.543388,performance,track,center_deviation,213.439613
+17.512652,8.543388,state,track,"reticle, cursor_relative","(147.08832759439207, 154.98724163347094)"
+17.512694,8.543388,state,track,"reticle, cursor_proportional","(0.378313599779815, 0.39862973671160223)"
+17.545765,8.576781,performance,track,cursor_in_target,0
+17.545824,8.576781,performance,track,center_deviation,213.672696
+17.545934,8.576781,state,track,"reticle, cursor_relative","(147.33904953256854, 155.06162207589082)"
+17.545964,8.576781,state,track,"reticle, cursor_proportional","(0.37895846073191497, 0.39882104443387556)"
+17.57897,8.609995,performance,track,cursor_in_target,0
+17.579016,8.609995,performance,track,center_deviation,213.89928
+17.579117,8.609995,state,track,"reticle, cursor_relative","(147.58608800218056, 155.13042031666257)"
+17.579139,8.609995,state,track,"reticle, cursor_proportional","(0.3795938477422339, 0.39899799464162183)"
+17.612267,8.643296,performance,track,cursor_in_target,0
+17.612312,8.643296,performance,track,center_deviation,214.119361
+17.61241,8.643296,state,track,"reticle, cursor_relative","(147.8294368272793, 155.193633879057)"
+17.612432,8.643296,state,track,"reticle, cursor_proportional","(0.38021974492612987, 0.39916058096465273)"
+17.646175,8.67709,performance,track,cursor_in_target,0
+17.646244,8.67709,performance,track,center_deviation,214.332934
+17.646365,8.67709,state,track,"reticle, cursor_relative","(148.0690899241568, 155.25126048739267)"
+17.646391,8.67709,state,track,"reticle, cursor_proportional","(0.38083613663620575, 0.39930879754987825)"
+17.679255,8.710307,performance,track,cursor_in_target,0
+17.679294,8.710307,performance,track,center_deviation,214.539995
+17.679369,8.710307,state,track,"reticle, cursor_relative","(148.3050413014981, 155.3032980671179)"
+17.679388,8.710307,state,track,"reticle, cursor_proportional","(0.3814430074627009, 0.3994426390615172)"
+17.712331,8.743325,performance,track,cursor_in_target,0
+17.712398,8.743325,performance,track,center_deviation,214.74054
+17.712545,8.743325,state,track,"reticle, cursor_relative","(148.5372850605311, 155.34974474488547)"
+17.712582,8.743325,state,track,"reticle, cursor_proportional","(0.3820403422338763, 0.3995621006812898)"
+17.713553,8.743325,seed_value,sysmon,,
+17.713588,8.743325,seed_output,sysmon,,1
+17.713636,8.743325,seed_value,sysmon,,
+17.713652,8.743325,seed_output,sysmon,,1
+17.713693,8.743325,seed_value,sysmon,,
+17.713708,8.743325,seed_output,sysmon,,-1
+17.713747,8.743325,seed_value,sysmon,,
+17.713762,8.743325,seed_output,sysmon,,1
+17.713822,8.743325,state,sysmon,"scale1, arrow",4
+17.713848,8.743325,state,sysmon,"scale2, arrow",6
+17.713871,8.743325,state,sysmon,"scale3, arrow",4
+17.713912,8.743325,state,sysmon,"scale4, arrow",6
+17.74593,8.776844,performance,track,cursor_in_target,0
+17.746034,8.776844,performance,track,center_deviation,214.934567
+17.746399,8.776844,state,track,"reticle, cursor_relative","(148.76581539517392, 155.39059884861996)"
+17.74646,8.776844,state,track,"reticle, cursor_proportional","(0.3826281260163938, 0.3996671781085904)"
+17.779868,8.81074,performance,track,cursor_in_target,0
+17.779984,8.81074,performance,track,center_deviation,215.122072
+17.780268,8.81074,state,track,"reticle, cursor_relative","(148.99062659218004, 155.4258589075781)"
+17.780338,8.81074,state,track,"reticle, cursor_proportional","(0.3832063441156894, 0.39975786756064324)"
+17.818125,8.849094,performance,track,cursor_in_target,0
+17.818223,8.849094,performance,track,center_deviation,215.303053
+17.818572,8.849094,state,track,"reticle, cursor_relative","(149.2117130312813, 155.4555236524015)"
+17.818624,8.849094,state,track,"reticle, cursor_proportional","(0.3837749820763408, 0.3998341657726376)"
+17.846708,8.877677,performance,track,cursor_in_target,0
+17.846781,8.877677,performance,track,center_deviation,215.477505
+17.846964,8.877677,state,track,"reticle, cursor_relative","(149.4290691853282, 155.4795920151626)"
+17.847013,8.877677,state,track,"reticle, cursor_proportional","(0.38433402568242847, 0.3998960699978462)"
+17.878991,8.909982,performance,track,cursor_in_target,0
+17.879049,8.909982,performance,track,center_deviation,215.645427
+17.879171,8.909982,state,track,"reticle, cursor_relative","(149.64268962042823, 155.4980631294029)"
+17.879198,8.909982,state,track,"reticle, cursor_proportional","(0.3848834609578915, 0.3999435780077235)"
+17.912496,8.943396,performance,track,cursor_in_target,0
+17.912561,8.943396,performance,track,center_deviation,215.806817
+17.91288,8.943396,state,track,"reticle, cursor_relative","(149.85256899608163, 155.51093633016436)"
+17.912979,8.943396,state,track,"reticle, cursor_proportional","(0.3854232741668766, 0.3999766880919865)"
+17.914552,8.943396,seed_value,sysmon,,
+17.91459,8.943396,seed_output,sysmon,,-1
+17.914638,8.943396,seed_value,sysmon,,
+17.91466,8.943396,seed_output,sysmon,,-1
+17.914701,8.943396,seed_value,sysmon,,
+17.914721,8.943396,seed_output,sysmon,,1
+17.91476,8.943396,seed_value,sysmon,,
+17.914779,8.943396,seed_output,sysmon,,1
+17.914849,8.943396,state,sysmon,"scale1, arrow",3
+17.914884,8.943396,state,sysmon,"scale2, arrow",5
+17.914914,8.943396,state,sysmon,"scale3, arrow",5
+17.914943,8.943396,state,sysmon,"scale4, arrow",7
+17.945683,8.976683,performance,track,cursor_in_target,0
+17.945742,8.976683,performance,track,center_deviation,215.961672
+17.945912,8.976683,state,track,"reticle, cursor_relative","(150.05870206531495, 155.5182111540131)"
+17.945973,8.976683,state,track,"reticle, cursor_proportional","(0.38595345181408164, 0.39999539905867565)"
+17.979045,9.010003,performance,track,cursor_in_target,0
+17.979121,9.010003,performance,track,center_deviation,216.109991
+17.979303,9.010003,state,track,"reticle, cursor_relative","(150.26108367481217, 155.51988733905623)"
+17.979352,9.010003,state,track,"reticle, cursor_proportional","(0.38647398064509303, 0.3999997102341981)"
+17.980116,9.010003,state,scheduling,"elapsed_time, text",Elapsed time 	 00:00:09
+18.012434,9.043371,performance,track,cursor_in_target,0
+18.012516,9.043371,performance,track,center_deviation,216.251771
+18.012708,9.043371,state,track,"reticle, cursor_relative","(150.45970876504362, 155.51596482495125)"
+18.01277,9.043371,state,track,"reticle, cursor_proportional","(0.3869848476467171, 0.399989621463352)"
+18.045707,9.076679,performance,track,cursor_in_target,0
+18.045779,9.076679,performance,track,center_deviation,216.387013
+18.045953,9.076679,state,track,"reticle, cursor_relative","(150.6545723703924, 155.5064437529083)"
+18.045996,9.076679,state,track,"reticle, cursor_proportional","(0.3874860400473055, 0.399965133109332)"
+18.079205,9.11007,performance,track,cursor_in_target,0
+18.079361,9.11007,performance,track,center_deviation,216.515714
+18.079535,9.11007,state,track,"reticle, cursor_relative","(150.84566961927848, 155.49132446568493)"
+18.079566,9.11007,state,track,"reticle, cursor_proportional","(0.3879775453170743, 0.39992624605371635)"
+18.112428,9.143372,performance,track,cursor_in_target,0
+18.112499,9.143372,performance,track,center_deviation,216.637873
+18.112661,9.143372,state,track,"reticle, cursor_relative","(151.03299573428063, 155.47060750757382)"
+18.112719,9.143372,state,track,"reticle, cursor_proportional","(0.38845935116841723, 0.3998729616964347)"
+18.129787,9.160254,seed_value,sysmon,,
+18.129819,9.160254,seed_output,sysmon,,-1
+18.129842,9.160254,seed_value,sysmon,,
+18.129851,9.160254,seed_output,sysmon,,-1
+18.129869,9.160254,seed_value,sysmon,,
+18.129877,9.160254,seed_output,sysmon,,-1
+18.129895,9.160254,seed_value,sysmon,,
+18.129902,9.160254,seed_output,sysmon,,1
+18.129934,9.160254,state,sysmon,"scale1, arrow",4
+18.129948,9.160254,state,sysmon,"scale2, arrow",4
+18.129962,9.160254,state,sysmon,"scale3, arrow",4
+18.129977,9.160254,state,sysmon,"scale4, arrow",6
+18.145787,9.176728,performance,track,cursor_in_target,0
+18.145866,9.176728,performance,track,center_deviation,216.75349
+18.146047,9.176728,state,track,"reticle, cursor_relative","(151.2165460322557, 155.44429362438325)"
+18.14609,9.176728,state,track,"reticle, cursor_proportional","(0.38893144555621323, 0.39980528195571824)"
+18.179044,9.210093,performance,track,cursor_in_target,0
+18.179087,9.210093,performance,track,center_deviation,216.862565
+18.179171,9.210093,state,track,"reticle, cursor_relative","(151.39631592445585, 155.41238376341016)"
+18.179191,9.210093,state,track,"reticle, cursor_proportional","(0.38939381667812717, 0.39972320926803023)"
+18.212737,9.243692,performance,track,cursor_in_target,0
+18.212816,9.243692,performance,track,center_deviation,216.965097
+18.212989,9.243692,state,track,"reticle, cursor_relative","(151.5723009166431, 155.3748790734061)"
+18.213052,9.243692,state,track,"reticle, cursor_proportional","(0.38984645297490506, 0.39962674658797864)"
+18.246263,9.277294,performance,track,cursor_in_target,0
+18.246308,9.277294,performance,track,center_deviation,217.061087
+18.246401,9.277294,state,track,"reticle, cursor_relative","(151.7444966092018, 155.3317809045359)"
+18.246422,9.277294,state,track,"reticle, cursor_proportional","(0.39028934313066305, 0.3995158973882096)"
+18.278862,9.309901,performance,track,cursor_in_target,0
+18.278905,9.309901,performance,track,center_deviation,217.150534
+18.27899,9.309901,state,track,"reticle, cursor_relative","(151.91289869724864, 155.28309080832892)"
+18.279009,9.309901,state,track,"reticle, cursor_proportional","(0.39072247607317034, 0.3993906656592822)"
+18.312934,9.343984,performance,track,cursor_in_target,0
+18.312973,9.343984,performance,track,center_deviation,217.233439
+18.313054,9.343984,state,track,"reticle, cursor_relative","(152.07750297074014, 155.2288105376234)"
+18.313069,9.343984,state,track,"reticle, cursor_proportional","(0.39114584097412586, 0.39925105590952514)"
+18.34589,9.376784,performance,track,cursor_in_target,0
+18.345953,9.376784,performance,track,center_deviation,217.309803
+18.346042,9.376784,state,track,"reticle, cursor_relative","(152.2383053145781, 155.16894204650322)"
+18.346062,9.376784,state,track,"reticle, cursor_proportional","(0.39155942724942927, 0.3990970731648745)"
+18.346518,9.376784,seed_value,sysmon,,
+18.346535,9.376784,seed_output,sysmon,,-1
+18.346558,9.376784,seed_value,sysmon,,
+18.346565,9.376784,seed_output,sysmon,,-1
+18.346583,9.376784,seed_value,sysmon,,
+18.34659,9.376784,seed_output,sysmon,,1
+18.346606,9.376784,seed_value,sysmon,,
+18.346612,9.376784,seed_output,sysmon,,1
+18.346648,9.376784,state,sysmon,"scale1, arrow",3
+18.346663,9.376784,state,sysmon,"scale2, arrow",3
+18.346674,9.376784,state,sysmon,"scale3, arrow",5
+18.346685,9.376784,state,sysmon,"scale4, arrow",7
+18.379098,9.410122,performance,track,cursor_in_target,0
+18.379146,9.410122,performance,track,center_deviation,217.379627
+18.379244,9.410122,state,track,"reticle, cursor_relative","(152.39530170871225, 155.1034874902276)"
+18.379266,9.410122,state,track,"reticle, cursor_proportional","(0.3919632245594451, 0.39892872296869236)"
+18.412278,9.443315,performance,track,cursor_in_target,0
+18.412318,9.443315,performance,track,center_deviation,217.442912
+18.412405,9.443315,state,track,"reticle, cursor_relative","(152.54848822824096, 155.03244922515347)"
+18.412424,9.443315,state,track,"reticle, cursor_proportional","(0.3923572228092617, 0.39874601138156757)"
+18.445726,9.476748,performance,track,cursor_in_target,0
+18.445779,9.476748,performance,track,center_deviation,217.499659
+18.445896,9.476748,state,track,"reticle, cursor_relative","(152.6978610435092, 154.95582980865072)"
+18.445925,9.476748,state,track,"reticle, cursor_proportional","(0.39274141214894337, 0.3985489449810975)"
+18.479108,9.510043,performance,track,cursor_in_target,0
+18.479155,9.510043,performance,track,center_deviation,217.54987
+18.479256,9.510043,state,track,"reticle, cursor_relative","(152.8434164202043, 154.87363199901006)"
+18.479279,9.510043,state,track,"reticle, cursor_proportional","(0.3931157829737765, 0.39833753086165136)"
+18.512237,9.543286,performance,track,cursor_in_target,0
+18.512276,9.543286,performance,track,center_deviation,217.593547
+18.512357,9.543286,state,track,"reticle, cursor_relative","(152.9851507194495, 154.78585875534378)"
+18.512375,9.543286,state,track,"reticle, cursor_proportional","(0.39348032592451004, 0.3981117766341147)"
+18.545545,9.576608,performance,track,cursor_in_target,0
+18.545581,9.576608,performance,track,center_deviation,217.630693
+18.545651,9.576608,state,track,"reticle, cursor_relative","(153.12306039789473, 154.69251323747915)"
+18.545668,9.576608,state,track,"reticle, cursor_proportional","(0.39383503188758934, 0.3978716904256151)"
