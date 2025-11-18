@@ -1,0 +1,58 @@
+logtime,scenario_time,type,module,address,value
+0.729595,0,version,,,1.4.1
+0.73005,0,scenario_path,,,includes\scenarios\fatigue.txt
+0.730919,0,seed_value,communications,,
+0.730953,0,seed_output,communications,,IJV232
+0.731049,0,seed_value,communications,,
+0.731064,0,seed_output,communications,,DTW834
+0.731158,0,seed_value,communications,,
+0.731172,0,seed_output,communications,,LPP463
+0.731332,0,seed_value,communications,,
+0.731349,0,seed_output,communications,,QNZ454
+0.731437,0,seed_value,communications,,
+0.731451,0,seed_output,communications,,FDV753
+0.73154,0,seed_value,communications,,
+0.731554,0,seed_output,communications,,XVZ241
+0.731643,0,seed_value,communications,,
+0.731657,0,seed_output,communications,,EHA972
+0.731746,0,seed_value,communications,,
+0.731759,0,seed_output,communications,,WMS232
+0.731839,0,seed_value,communications,,
+0.731852,0,seed_output,communications,,MYA347
+0.731938,0,seed_value,communications,,
+0.731951,0,seed_output,communications,,UPW443
+0.732031,0,seed_value,communications,,
+0.732043,0,seed_output,communications,,DXE892
+0.732083,0,seed_value,communications,,
+0.732098,0,seed_output,communications,,121.119007
+0.732123,0,seed_value,communications,,
+0.732135,0,seed_output,communications,,121.76255
+0.732157,0,seed_value,communications,,
+0.732168,0,seed_output,communications,,115.511246
+0.73219,0,seed_value,communications,,
+0.7322,0,seed_output,communications,,111.098028
+4.667027,0,dialog,,,OpenMATB end
+4.676718,0.017552,event,instructions,filename,en/welcome_screen.txt
+5.765841,0.017552,dialog,,,Warning end
+5.766553,0.034545,aoi,instructions,background,"(0, 1080, 1920, 0)"
+5.76734,0.034545,parameter,instructions,title,
+5.767388,0.034545,parameter,instructions,taskplacement,fullscreen
+5.767409,0.034545,parameter,instructions,taskupdatetime,15
+5.767434,0.034545,parameter,instructions,taskfeedback-overdue-active,0
+5.767454,0.034545,parameter,instructions,taskfeedback-overdue-color,"(241, 100, 100, 255)"
+5.767473,0.034545,parameter,instructions,taskfeedback-overdue-delayms,2000
+5.767489,0.034545,parameter,instructions,taskfeedback-overdue-blinkdurationms,1000
+5.767506,0.034545,parameter,instructions,taskfeedback-overdue-_nexttoggletime,0
+5.767521,0.034545,parameter,instructions,taskfeedback-overdue-_is_visible,0
+5.767539,0.034545,parameter,instructions,boldtitle,0
+5.767554,0.034545,parameter,instructions,filename,en/welcome_screen.txt
+5.767569,0.034545,parameter,instructions,pointsize,0
+5.767584,0.034545,parameter,instructions,maxdurationsec,0
+5.7676,0.034545,parameter,instructions,response-text,Press SPACE to continue
+5.767617,0.034545,parameter,instructions,response-key,SPACE
+5.767632,0.034545,parameter,instructions,allowkeypress,1
+5.771921,0.034545,state,instructions,"background, visibility",1
+5.771959,0.034545,event,instructions,self,start
+5.772012,0.034545,state,instructions,"background, visibility",0
+5.772026,0.034545,event,instructions,self,stop
+5.772036,0.034545,manual,,,end

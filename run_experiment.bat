@@ -1,37 +1,43 @@
 @echo off
 setlocal
 
-REM Make everything relative to the folder this .bat file is in
-cd /d "%~dp0"
+REM Make everything relative to this .bat
+@REM cd /d "%~dp0"
 
-set "HTML=pvtb_touch_autosave.html"+
-@REM "C:\Program Files\Mozilla Firefox\firefox.exe" "%CD%\%HTML%"
+set "HTML=pvtb_touch_autosave.html"
+set "FIREFOX=C:\Program Files\Mozilla Firefox\firefox.exe"
 
-@REM DEMO
 
+REM 3) Now run Python
 cd start
 py -3.9 main.py
-
-
-
-@REM record 5 minute rest 
-@REM record subjective measures
-
-REM 4) Open PVT
 cd ..
-"C:\Program Files\Mozilla Firefox\firefox.exe" "%CD%\%HTML%"
 
 
-@REM Fatigue induction
+REM 1) Open Firefox with your HTML
+"%FIREFOX%" "%CD%\%HTML%"
+
+REM 2) Wait for all Firefox processes to exit
+echo Waiting for Firefox to close...
+:wait_for_firefox1
+timeout /t 1 /nobreak >nul
+tasklist /FI "IMAGENAME eq firefox.exe" | find /I "firefox.exe" >nul
+if not errorlevel 1 goto wait_for_firefox1
+
+REM 3) Now run Python
 cd end
 py -3.9 main.py
-
-
-@REM record 5 minute rest 
-@REM record subjective measures
-
-REM 4) Open PVT
 cd ..
-"C:\Program Files\Mozilla Firefox\firefox.exe" "%CD%\%HTML%"
+
+
+REM 1) Open Firefox with your HTML
+"%FIREFOX%" "%CD%\%HTML%"
+
+REM 2) Wait for all Firefox processes to exit
+echo Waiting for Firefox to close...
+:wait_for_firefox2
+timeout /t 1 /nobreak >nul
+tasklist /FI "IMAGENAME eq firefox.exe" | find /I "firefox.exe" >nul
+if not errorlevel 1 goto wait_for_firefox2
 
 endlocal

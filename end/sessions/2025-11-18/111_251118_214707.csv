@@ -1,0 +1,30 @@
+logtime,scenario_time,type,module,address,value
+1.908408,0,version,,,1.4.1
+1.908773,0,scenario_path,,,includes\scenarios\fatigue_2.txt
+1.909301,0,seed_value,communications,,
+1.909321,0,seed_output,communications,,AUZ407
+1.909388,0,seed_value,communications,,
+1.909397,0,seed_output,communications,,JGY181
+1.909447,0,seed_value,communications,,
+1.909453,0,seed_output,communications,,XTR401
+1.909506,0,seed_value,communications,,
+1.909514,0,seed_output,communications,,WUF415
+1.909568,0,seed_value,communications,,
+1.909575,0,seed_output,communications,,QHG971
+1.909626,0,seed_value,communications,,
+1.909633,0,seed_output,communications,,QGT415
+1.909685,0,seed_value,communications,,
+1.909692,0,seed_output,communications,,IRA206
+1.909714,0,seed_value,communications,,
+1.909719,0,seed_output,communications,,131.987946
+1.909735,0,seed_value,communications,,
+1.909741,0,seed_output,communications,,121.956152
+1.909755,0,seed_value,communications,,
+1.909761,0,seed_output,communications,,108.886104
+1.909776,0,seed_value,communications,,
+1.909781,0,seed_output,communications,,114.98713
+11.516601,0,dialog,,,OpenMATB end
+11.527201,0.018011,event,communications,voicegender,male
+11.983384,0.018011,dialog,,,Warning end
+11.983725,0.036598,event,communications,voiceidiom,english
+11.983776,0.036598,manual,,,end
