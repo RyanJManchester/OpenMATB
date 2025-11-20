@@ -1,0 +1,36 @@
+logtime,scenario_time,type,module,address,value
+0.838455,0,version,,,1.4.1
+0.838857,0,scenario_path,,,includes\scenarios\fatigue_2.txt
+0.839724,0,seed_value,communications,,
+0.839752,0,seed_output,communications,,PLP595
+0.839852,0,seed_value,communications,,
+0.839863,0,seed_output,communications,,PQG820
+0.83995,0,seed_value,communications,,
+0.839962,0,seed_output,communications,,SNQ067
+0.840064,0,seed_value,communications,,
+0.840075,0,seed_output,communications,,GMO438
+0.840165,0,seed_value,communications,,
+0.840176,0,seed_output,communications,,YDA408
+0.840257,0,seed_value,communications,,
+0.840268,0,seed_output,communications,,SWV727
+0.840349,0,seed_value,communications,,
+0.84036,0,seed_output,communications,,FBA323
+0.840496,0,seed_value,communications,,
+0.840508,0,seed_output,communications,,OBO126
+0.840584,0,seed_value,communications,,
+0.840595,0,seed_output,communications,,YZN807
+0.840673,0,seed_value,communications,,
+0.840683,0,seed_output,communications,,TUE679
+0.840715,0,seed_value,communications,,
+0.840725,0,seed_output,communications,,117.14762
+0.840752,0,seed_value,communications,,
+0.840761,0,seed_output,communications,,119.960436
+0.840785,0,seed_value,communications,,
+0.840793,0,seed_output,communications,,122.321147
+0.840815,0,seed_value,communications,,
+0.840824,0,seed_output,communications,,122.039444
+4.955248,0,dialog,,,OpenMATB end
+4.963246,0.017516,event,communications,voicegender,male
+7.321213,0.017516,dialog,,,Error(s) end
+7.321481,0.03443,event,communications,voiceidiom,english
+7.321522,0.03443,manual,,,end
